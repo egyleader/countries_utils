@@ -1,4 +1,4 @@
-[
+const List<Map<String,dynamic>> countriesData = [
     {
         "name": {
             "common": "Aruba",
@@ -505,7 +505,7 @@
         "currencies": {
             "XCD": {
                 "name": "Eastern Caribbean dollar",
-                "symbol": "$"
+                "symbol": "\$"
             }
         },
         "idd": {
@@ -1279,7 +1279,7 @@
         "currencies": {
             "ARS": {
                 "name": "Argentine peso",
-                "symbol": "$"
+                "symbol": "\$"
             }
         },
         "idd": {
@@ -1604,7 +1604,7 @@
         "currencies": {
             "USD": {
                 "name": "United States dollar",
-                "symbol": "$"
+                "symbol": "\$"
             }
         },
         "idd": {
@@ -2041,7 +2041,7 @@
         "currencies": {
             "XCD": {
                 "name": "Eastern Caribbean dollar",
-                "symbol": "$"
+                "symbol": "\$"
             }
         },
         "idd": {
@@ -2193,7 +2193,7 @@
         "currencies": {
             "AUD": {
                 "name": "Australian dollar",
-                "symbol": "$"
+                "symbol": "\$"
             }
         },
         "idd": {
@@ -3801,11 +3801,11 @@
         "currencies": {
             "BSD": {
                 "name": "Bahamian dollar",
-                "symbol": "$"
+                "symbol": "\$"
             },
             "USD": {
                 "name": "United States dollar",
-                "symbol": "$"
+                "symbol": "\$"
             }
         },
         "idd": {
@@ -4608,7 +4608,7 @@
         "currencies": {
             "BZD": {
                 "name": "Belize dollar",
-                "symbol": "$"
+                "symbol": "\$"
             }
         },
         "idd": {
@@ -4765,7 +4765,7 @@
         "currencies": {
             "BMD": {
                 "name": "Bermudian dollar",
-                "symbol": "$"
+                "symbol": "\$"
             }
         },
         "idd": {
@@ -5106,7 +5106,7 @@
         "currencies": {
             "USD": {
                 "name": "United States dollar",
-                "symbol": "$"
+                "symbol": "\$"
             }
         },
         "idd": {
@@ -5254,7 +5254,7 @@
         "currencies": {
             "BRL": {
                 "name": "Brazilian real",
-                "symbol": "R$"
+                "symbol": "R\$"
             }
         },
         "idd": {
@@ -5420,7 +5420,7 @@
         "currencies": {
             "BBD": {
                 "name": "Barbadian dollar",
-                "symbol": "$"
+                "symbol": "\$"
             }
         },
         "idd": {
@@ -5572,11 +5572,11 @@
         "currencies": {
             "BND": {
                 "name": "Brunei dollar",
-                "symbol": "$"
+                "symbol": "\$"
             },
             "SGD": {
                 "name": "Singapore dollar",
-                "symbol": "$"
+                "symbol": "\$"
             }
         },
         "idd": {
@@ -6368,7 +6368,7 @@
         "currencies": {
             "CAD": {
                 "name": "Canadian dollar",
-                "symbol": "$"
+                "symbol": "\$"
             }
         },
         "idd": {
@@ -6523,7 +6523,7 @@
         "currencies": {
             "AUD": {
                 "name": "Australian dollar",
-                "symbol": "$"
+                "symbol": "\$"
             }
         },
         "idd": {
@@ -6851,7 +6851,7 @@
         "currencies": {
             "CLP": {
                 "name": "Chilean peso",
-                "symbol": "$"
+                "symbol": "\$"
             }
         },
         "idd": {
@@ -7868,11 +7868,11 @@
         "currencies": {
             "CKD": {
                 "name": "Cook Islands dollar",
-                "symbol": "$"
+                "symbol": "\$"
             },
             "NZD": {
                 "name": "New Zealand dollar",
-                "symbol": "$"
+                "symbol": "\$"
             }
         },
         "idd": {
@@ -8026,7 +8026,7 @@
         "currencies": {
             "COP": {
                 "name": "Colombian peso",
-                "symbol": "$"
+                "symbol": "\$"
             }
         },
         "idd": {
@@ -8663,11 +8663,11 @@
         "currencies": {
             "CUC": {
                 "name": "Cuban convertible peso",
-                "symbol": "$"
+                "symbol": "\$"
             },
             "CUP": {
                 "name": "Cuban peso",
-                "symbol": "$"
+                "symbol": "\$"
             }
         },
         "idd": {
@@ -8976,7 +8976,7 @@
         "currencies": {
             "AUD": {
                 "name": "Australian dollar",
-                "symbol": "$"
+                "symbol": "\$"
             }
         },
         "idd": {
@@ -9129,7 +9129,7 @@
         "currencies": {
             "KYD": {
                 "name": "Cayman Islands dollar",
-                "symbol": "$"
+                "symbol": "\$"
             }
         },
         "idd": {
@@ -9934,7 +9934,7 @@
         "currencies": {
             "XCD": {
                 "name": "Eastern Caribbean dollar",
-                "symbol": "$"
+                "symbol": "\$"
             }
         },
         "idd": {
@@ -10246,7 +10246,7 @@
         "currencies": {
             "DOP": {
                 "name": "Dominican peso",
-                "symbol": "$"
+                "symbol": "\$"
             }
         },
         "idd": {
@@ -10567,7 +10567,7 @@
         "currencies": {
             "USD": {
                 "name": "United States dollar",
-                "symbol": "$"
+                "symbol": "\$"
             }
         },
         "idd": {
@@ -11872,7 +11872,7 @@
         "currencies": {
             "FJD": {
                 "name": "Fijian dollar",
-                "symbol": "$"
+                "symbol": "\$"
             }
         },
         "idd": {
@@ -14505,7 +14505,7 @@
         "currencies": {
             "XCD": {
                 "name": "Eastern Caribbean dollar",
-                "symbol": "$"
+                "symbol": "\$"
             }
         },
         "idd": {
@@ -15116,7 +15116,7 @@
         "currencies": {
             "USD": {
                 "name": "United States dollar",
-                "symbol": "$"
+                "symbol": "\$"
             }
         },
         "idd": {
@@ -15267,7 +15267,7 @@
         "currencies": {
             "GYD": {
                 "name": "Guyanese dollar",
-                "symbol": "$"
+                "symbol": "\$"
             }
         },
         "idd": {
@@ -15425,7 +15425,7 @@
         "currencies": {
             "HKD": {
                 "name": "Hong Kong dollar",
-                "symbol": "$"
+                "symbol": "\$"
             }
         },
         "idd": {
@@ -16829,7 +16829,7 @@
         "currencies": {
             "USD": {
                 "name": "United States dollar",
-                "symbol": "$"
+                "symbol": "\$"
             }
         },
         "idd": {
@@ -17935,7 +17935,7 @@
         "currencies": {
             "JMD": {
                 "name": "Jamaican dollar",
-                "symbol": "$"
+                "symbol": "\$"
             }
         },
         "idd": {
@@ -19053,7 +19053,7 @@
             },
             "USD": {
                 "name": "United States dollar",
-                "symbol": "$"
+                "symbol": "\$"
             }
         },
         "idd": {
@@ -19214,11 +19214,11 @@
         "currencies": {
             "AUD": {
                 "name": "Australian dollar",
-                "symbol": "$"
+                "symbol": "\$"
             },
             "KID": {
                 "name": "Kiribati dollar",
-                "symbol": "$"
+                "symbol": "\$"
             }
         },
         "idd": {
@@ -19369,7 +19369,7 @@
         "currencies": {
             "XCD": {
                 "name": "Eastern Caribbean dollar",
-                "symbol": "$"
+                "symbol": "\$"
             }
         },
         "idd": {
@@ -20294,7 +20294,7 @@
         "currencies": {
             "LRD": {
                 "name": "Liberian dollar",
-                "symbol": "$"
+                "symbol": "\$"
             }
         },
         "idd": {
@@ -20604,7 +20604,7 @@
         "currencies": {
             "XCD": {
                 "name": "Eastern Caribbean dollar",
-                "symbol": "$"
+                "symbol": "\$"
             }
         },
         "idd": {
@@ -22784,7 +22784,7 @@
         "currencies": {
             "MXN": {
                 "name": "Mexican peso",
-                "symbol": "$"
+                "symbol": "\$"
             }
         },
         "idd": {
@@ -22943,7 +22943,7 @@
         "currencies": {
             "USD": {
                 "name": "United States dollar",
-                "symbol": "$"
+                "symbol": "\$"
             }
         },
         "idd": {
@@ -24036,7 +24036,7 @@
         "currencies": {
             "USD": {
                 "name": "United States dollar",
-                "symbol": "$"
+                "symbol": "\$"
             }
         },
         "idd": {
@@ -24500,7 +24500,7 @@
         "currencies": {
             "XCD": {
                 "name": "Eastern Caribbean dollar",
-                "symbol": "$"
+                "symbol": "\$"
             }
         },
         "idd": {
@@ -25453,7 +25453,7 @@
         "currencies": {
             "NAD": {
                 "name": "Namibian dollar",
-                "symbol": "$"
+                "symbol": "\$"
             },
             "ZAR": {
                 "name": "South African rand",
@@ -25929,7 +25929,7 @@
         "currencies": {
             "AUD": {
                 "name": "Australian dollar",
-                "symbol": "$"
+                "symbol": "\$"
             }
         },
         "idd": {
@@ -26236,7 +26236,7 @@
         "currencies": {
             "NIO": {
                 "name": "Nicaraguan c\u00f3rdoba",
-                "symbol": "C$"
+                "symbol": "C\$"
             }
         },
         "idd": {
@@ -26393,7 +26393,7 @@
         "currencies": {
             "NZD": {
                 "name": "New Zealand dollar",
-                "symbol": "$"
+                "symbol": "\$"
             }
         },
         "idd": {
@@ -27020,7 +27020,7 @@
         "currencies": {
             "AUD": {
                 "name": "Australian dollar",
-                "symbol": "$"
+                "symbol": "\$"
             }
         },
         "idd": {
@@ -27181,7 +27181,7 @@
         "currencies": {
             "NZD": {
                 "name": "New Zealand dollar",
-                "symbol": "$"
+                "symbol": "\$"
             }
         },
         "idd": {
@@ -27651,7 +27651,7 @@
             },
             "USD": {
                 "name": "United States dollar",
-                "symbol": "$"
+                "symbol": "\$"
             }
         },
         "idd": {
@@ -27804,7 +27804,7 @@
         "currencies": {
             "NZD": {
                 "name": "New Zealand dollar",
-                "symbol": "$"
+                "symbol": "\$"
             }
         },
         "idd": {
@@ -28279,7 +28279,7 @@
         "currencies": {
             "USD": {
                 "name": "United States dollar",
-                "symbol": "$"
+                "symbol": "\$"
             }
         },
         "idd": {
@@ -28754,7 +28754,7 @@
         "currencies": {
             "USD": {
                 "name": "United States dollar",
-                "symbol": "$"
+                "symbol": "\$"
             }
         },
         "idd": {
@@ -30987,7 +30987,7 @@
         "currencies": {
             "SGD": {
                 "name": "Singapore dollar",
-                "symbol": "$"
+                "symbol": "\$"
             }
         },
         "idd": {
@@ -31435,7 +31435,7 @@
         "currencies": {
             "SBD": {
                 "name": "Solomon Islands dollar",
-                "symbol": "$"
+                "symbol": "\$"
             }
         },
         "idd": {
@@ -31735,7 +31735,7 @@
         "currencies": {
             "USD": {
                 "name": "United States dollar",
-                "symbol": "$"
+                "symbol": "\$"
             }
         },
         "idd": {
@@ -32822,7 +32822,7 @@
         "currencies": {
             "SRD": {
                 "name": "Surinamese dollar",
-                "symbol": "$"
+                "symbol": "\$"
             }
         },
         "idd": {
@@ -34087,7 +34087,7 @@
         "currencies": {
             "USD": {
                 "name": "United States dollar",
-                "symbol": "$"
+                "symbol": "\$"
             }
         },
         "idd": {
@@ -34886,7 +34886,7 @@
         "currencies": {
             "NZD": {
                 "name": "New Zealand dollar",
-                "symbol": "$"
+                "symbol": "\$"
             }
         },
         "idd": {
@@ -35198,7 +35198,7 @@
         "currencies": {
             "USD": {
                 "name": "United States dollar",
-                "symbol": "$"
+                "symbol": "\$"
             }
         },
         "idd": {
@@ -35359,7 +35359,7 @@
         "currencies": {
             "TOP": {
                 "name": "Tongan pa\u02bbanga",
-                "symbol": "T$"
+                "symbol": "T\$"
             }
         },
         "idd": {
@@ -35508,7 +35508,7 @@
         "currencies": {
             "TTD": {
                 "name": "Trinidad and Tobago dollar",
-                "symbol": "$"
+                "symbol": "\$"
             }
         },
         "idd": {
@@ -35974,11 +35974,11 @@
         "currencies": {
             "AUD": {
                 "name": "Australian dollar",
-                "symbol": "$"
+                "symbol": "\$"
             },
             "TVD": {
                 "name": "Tuvaluan dollar",
-                "symbol": "$"
+                "symbol": "\$"
             }
         },
         "idd": {
@@ -36129,7 +36129,7 @@
         "currencies": {
             "TWD": {
                 "name": "New Taiwan dollar",
-                "symbol": "$"
+                "symbol": "\$"
             }
         },
         "idd": {
@@ -36762,7 +36762,7 @@
         "currencies": {
             "USD": {
                 "name": "United States dollar",
-                "symbol": "$"
+                "symbol": "\$"
             }
         },
         "idd": {
@@ -36910,7 +36910,7 @@
         "currencies": {
             "UYU": {
                 "name": "Uruguayan peso",
-                "symbol": "$"
+                "symbol": "\$"
             }
         },
         "idd": {
@@ -37063,7 +37063,7 @@
         "currencies": {
             "USD": {
                 "name": "United States dollar",
-                "symbol": "$"
+                "symbol": "\$"
             }
         },
         "idd": {
@@ -38170,7 +38170,7 @@
         "currencies": {
             "XCD": {
                 "name": "Eastern Caribbean dollar",
-                "symbol": "$"
+                "symbol": "\$"
             }
         },
         "idd": {
@@ -38473,7 +38473,7 @@
         "currencies": {
             "USD": {
                 "name": "United States dollar",
-                "symbol": "$"
+                "symbol": "\$"
             }
         },
         "idd": {
@@ -38622,7 +38622,7 @@
         "currencies": {
             "USD": {
                 "name": "United States dollar",
-                "symbol": "$"
+                "symbol": "\$"
             }
         },
         "idd": {
@@ -39993,7 +39993,7 @@
             },
             "USD": {
                 "name": "United States dollar",
-                "symbol": "$"
+                "symbol": "\$"
             },
             "ZAR": {
                 "name": "South African rand",
@@ -40001,7 +40001,7 @@
             },
             "ZWB": {
                 "name": "Zimbabwean bonds",
-                "symbol": "$"
+                "symbol": "\$"
             }
         },
         "idd": {
@@ -40145,4 +40145,4 @@
             "+263"
         ]
     }
-]
+];
