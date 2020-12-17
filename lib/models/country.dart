@@ -10,7 +10,6 @@ class Country {
  final  bool unMember;
  final  List<String> topLevelDomain;
  final  Map<String, dynamic> languages;
- final  String phoneCode;
  final  String currency;
  final  String capital;
  final  String region;
@@ -19,8 +18,7 @@ class Country {
  final  double area;
  final  String flag;
  final  String olympicCode;
- final  String phoneSuffixCode;
- final  List<String> callingCodes;
+ final  List<String> phoneCode;
  final  List<double> coordinates;
 
   Country(
@@ -43,8 +41,6 @@ class Country {
       this.area,
       this.flag,
       this.olympicCode,
-      this.phoneSuffixCode,
-      this.callingCodes,
       this.coordinates,
       });
 
@@ -61,8 +57,6 @@ class Country {
     independent: json['independent'] as bool,
     unMember: json['unMember'] as bool,
     currency: json['currencies'].toString(), // check this
-    phoneCode: json['idd']['root'] as String,
-    phoneSuffixCode: json['idd']['suffixes'].toString(),
     capital: json['capital'].toString(), //chosen only one capital
     //? alternative spelling is not added yet
     region: json['region'] as String,
@@ -77,7 +71,7 @@ class Country {
     //? population  is not added yet
     area: (json['area'] as num)?.toDouble(), // area in km²
     flag: json['flag'] as String,
-    callingCodes: json['callingCodes'].cast<String>() as List<String>,
+    phoneCode: json['callingCodes'].cast<String>() as List<String>,
   );
 
   
