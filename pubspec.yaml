@@ -1,5 +1,5 @@
 name: flutter_country
-description: A new Flutter package project.
+description:  A lite flutter package for providing Country Data offline
 version: 0.0.1
 author: egyleader
 homepage: https://github.com/egyleader/flutter_country.git

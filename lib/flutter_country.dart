@@ -3,6 +3,8 @@ import 'package:flutter_country/models/country.dart';
 import 'package:flutter_country/assets/countries_data.dart';
 import 'package:flutter_country/models/country_list.dart';
 
+export  'models/country.dart';
+
 class Countries {
   // This class is not meant to be instantiated or extended; this constructor
   // prevents instantiation and extension.

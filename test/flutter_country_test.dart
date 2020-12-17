@@ -4,11 +4,11 @@ import 'package:flutter_test/flutter_test.dart';
 void main() {
   test('get all countries data', () => Countries.all());
 
-  test('get country by name', () => Countries.byName('Aruba'));
+  test('get country by name', () => Countries.byName('Egypt'));
 
   test('get country by alpha2Code', () => Countries.byCode('EG'));
 
-  test('get country by alpha3Code', () => Countries.byAlpha3Code('AGO'));
+  test('get country by alpha3Code', () => Countries.byAlpha3Code('EGY'));
 
   test('get country by byNumericCode', () => Countries.byNumericCode('818'));
 

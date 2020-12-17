@@ -1,14 +1,73 @@
+
 # flutter_country
+A lite flutter package for providing World Country Data without internet connection
 
-A new Flutter package project.
+### Installation
 
-## Getting Started
+depend on the package in your pubspec.yaml : 
+```sh
+dependencies:
+  flutter_country: ^0.0.1
+```
 
-This project is a starting point for a Dart
-[package](https://flutter.dev/developing-packages/),
-a library module containing code that can be shared easily across
-multiple Flutter or Dart projects.
+get the packages :
 
-For help getting started with Flutter, view our 
-[online documentation](https://flutter.dev/docs), which offers tutorials, 
-samples, guidance on mobile development, and a full API reference.
+```sh
+flutter pub get
+```
+
+
+### parameters
+This is a list of the properties that can be provided for each country 
+
+| Parameter  | Example |
+| ------ | ------ |
+| name | Egypt |
+| officialName | Arab Republic of Egypt |
+| nativeName | جمهوريةمصرالعربية |
+| alpha2Code | EG |
+| alpha3Code | EGY |
+| numericCode | 818 |
+| olympicCode | EGY |
+| independent | true |
+| unMember | true |
+| topLevelDomain | .eg |
+| phoneCode | +20 |
+| capital | Cairo |
+| regions | [Africa] |
+| subRegion | Northern Africa |
+| area [in km] | 1002450 |
+| flag | 🇪🇬 |
+| coordinates | [27,30] [latitiude,longitude] |
+
+
+
+### Metods
+This is a list of the methods you can get country data by :
+
+| Method  | Example |
+| ------ |  ------ |
+| all() | Countries.all() |
+| byName() | Countries.byName('Egypt') |
+| byCode() | Countries.byCode('EG') |
+| byAlph3Code()| Countries.byAlpha3Code('EGY') |
+| byNumericCode() | Countries.byNumericCode('818') |
+| byPhoneCode() | Countries.byPhoneCode('+20') |
+| byCapital() | Countries.byCapital('Cairo')|
+| byFlag() |Countries.byFlag('🇪🇬')|
+| byLanguageCode() | Countries.byLanguageCode('ara')|
+| byLanguageName() | Countries.byLanguageName('Arabic')|
+| unMembers() | Countries.unMembers()|
+| independent() | Countries.independent()|
+| byRegion() | Countries.byRegion('Africa')|
+| bySubRegion() | Countries.bySubRegion('Southern Europe')|
+| byArea() | Countries.byArea(1002450)|
+| areaBiggerThan() | Countries.areaBiggerThan(1002450)|
+| areaSmallerThan() |Countries.areaSmallerThan(1002450)|
+
+
+
+
+### Development
+
+Want to contribute? Great 😄! all good contributions are welcome 
