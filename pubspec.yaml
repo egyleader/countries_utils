@@ -1,8 +1,8 @@
 name: flutter_country
 description: A new Flutter package project.
 version: 0.0.1
-author: null
-homepage: null
+author: egyleader
+homepage: https://github.com/egyleader/flutter_country.git
 
 environment:
   sdk: ">=2.7.0 <3.0.0"
