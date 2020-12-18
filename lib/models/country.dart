@@ -24,6 +24,7 @@ class Country {
   final List<double> coordinates;
   final double latitude;
   final double longitude;
+  final TranslationList translations;
 
   Country(
       {this.name,
@@ -47,7 +48,8 @@ class Country {
       this.olympicCode,
       this.coordinates,
       this.latitude,
-      this.longitude});
+      this.longitude,
+      this.translations});
 
   factory Country.fromJosn(Map<String, dynamic> json) => Country(
         name: json['name']['common'] as String,
@@ -55,6 +57,9 @@ class Country {
         nativeName: json['name']['native'].toString() == '{}'
             ? null
             : TranslationList.fromJson(json['name']['native']),
+        translations: json['translations'].toString() == '{}'
+            ? null
+            : TranslationList.fromJson(json['translations']),
         topLevelDomain: json['tld'].cast<String>(),
         alpha2Code: json['cca2'] as String,
         numericCode: json['ccn3'] as String,
@@ -71,7 +76,7 @@ class Country {
         coordinates: json['latlng'].cast<double>(),
         latitude: double.parse(json['latlng'][0].toString()),
         longitude: double.parse(json['latlng'][1].toString()),
-        //? translations is not added yet
+
         //? demonyms  is not added yet
         //? landlocked   is not added yet
         //? land borders  is not added yet
@@ -103,4 +108,7 @@ class Country {
         'area': instance.area,
         'flag': instance.flag,
       };
+
+  String traslatedOfficialName(String code) => this.translations.translate(code).official;
+  String traslatedCommonName(String code) => this.translations.translate(code).common ?? this.translations.translate(code).official;
 }

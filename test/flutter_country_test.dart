@@ -10,6 +10,11 @@ void main() {
 
   test('get country Native name translations',  () =>  Countries.byName('Egypt').nativeName.translate('ara'));
 
+  test('get country all  name translations',  () =>  Countries.byName('Egypt').translations);
+
+
+  test('get country name translated to one language ',  () =>  Countries.byName('Egypt').traslatedOfficialName('fra'));
+
   test('get country by alpha2Code', () => Countries.byCode('EG'));
 
   test('get country by alpha3Code', () => Countries.byAlpha3Code('EGY'));
