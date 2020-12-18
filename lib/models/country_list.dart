@@ -1,5 +1,4 @@
 import 'package:flutter_country/models/country.dart';
-import 'package:json_annotation/json_annotation.dart';
 
 class CountryList {
   final List<Country> countries;

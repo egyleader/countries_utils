@@ -6,6 +6,10 @@ void main() {
 
   test('get country by name', () => Countries.byName('Egypt'));
 
+  test('get country all  Native name translations', () => Countries.byName('Egypt').nativeName);
+
+  test('get country Native name translations',  () =>  Countries.byName('Egypt').nativeName.translate('ara'));
+
   test('get country by alpha2Code', () => Countries.byCode('EG'));
 
   test('get country by alpha3Code', () => Countries.byAlpha3Code('EGY'));
@@ -35,8 +39,10 @@ void main() {
   test('get countries by sub region ',
       () => Countries.bySubRegion('Southern Europe'));
 
-  test( 'get countries by area  ', () => Countries.byArea(1002450));
-  test( 'get countries Bigger than given area  ', () => Countries.areaBiggerThan(1002450));
+  test('get countries by area  ', () => Countries.byArea(1002450));
+  test('get countries Bigger than given area  ',
+      () => Countries.areaBiggerThan(1002450));
 
-  test( 'get countries Smaller than given area  ', () => Countries.areaSmallerThan(1002450));
+  test('get countries Smaller than given area  ',
+      () => Countries.areaSmallerThan(1002450));
 }
