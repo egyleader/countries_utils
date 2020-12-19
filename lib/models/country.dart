@@ -1,3 +1,5 @@
+import 'package:flutter_country/flutter_country.dart';
+import 'package:flutter_country/models/country_list.dart';
 import 'package:flutter_country/models/currency_list.dart';
 import 'package:flutter_country/models/translation.dart';
 import 'package:flutter_country/models/translation_list.dart';
@@ -26,31 +28,36 @@ class Country {
   final double latitude;
   final double longitude;
   final TranslationList translations;
+  final List<String> borders;
+  final bool landLocked;
 
-  Country(
-      {this.name,
-      this.officialName,
-      this.nativeName,
-      this.alpha2Code,
-      this.alpha3Code,
-      this.numericCode,
-      this.independent,
-      this.unMember,
-      this.topLevelDomain,
-      this.phoneCode,
-      this.languages,
-      this.currnecies,
-      this.capital,
-      this.region,
-      this.subRegion,
-      this.population,
-      this.area,
-      this.flag,
-      this.olympicCode,
-      this.coordinates,
-      this.latitude,
-      this.longitude,
-      this.translations});
+  Country({
+    this.name,
+    this.officialName,
+    this.nativeName,
+    this.alpha2Code,
+    this.alpha3Code,
+    this.numericCode,
+    this.independent,
+    this.unMember,
+    this.topLevelDomain,
+    this.phoneCode,
+    this.languages,
+    this.currnecies,
+    this.capital,
+    this.region,
+    this.subRegion,
+    this.population,
+    this.area,
+    this.flag,
+    this.olympicCode,
+    this.coordinates,
+    this.latitude,
+    this.longitude,
+    this.translations,
+    this.landLocked,
+    this.borders,
+  });
 
   factory Country.fromJosn(Map<String, dynamic> json) => Country(
         name: json['name']['common'] as String,
@@ -68,22 +75,25 @@ class Country {
         olympicCode: json['cioc'] as String,
         independent: json['independent'] as bool,
         unMember: json['unMember'] as bool,
-        currnecies:json['currencies'].toString() == '[]' ? null : CurrencyList.fromJson(json['currencies']), // check this
-        capital: json['capital'].toString(), //chosen only one capital
-        //? alternative spelling is not added yet
+        currnecies: json['currencies'].toString() == '[]'
+            ? null
+            : CurrencyList.fromJson(json['currencies']),
+        capital: json['capital'].toString(),
         region: json['region'] as String,
         subRegion: json['subregion'] as String,
         languages: json['languages'].cast<String, dynamic>(),
         coordinates: json['latlng'].cast<double>(),
         latitude: double.parse(json['latlng'][0].toString()),
         longitude: double.parse(json['latlng'][1].toString()),
-        //? demonyms  is not added yet
-        //? landlocked   is not added yet
-        //? land borders  is not added yet
-        //? timestaps is not added yet
+        landLocked: json['landlocked'] as bool,
         area: (json['area'] as num)?.toDouble(), // area in km²
         flag: json['flag'] as String,
         phoneCode: json['callingCodes'].cast<String>() as List<String>,
+        borders: json['borders'].cast<String>() as List<String> //countries that share borders with this country
+        //? alternative spelling is not added yet
+        //? demonyms  is not added yet
+        //? land borders  is not added yet
+        //? timestaps is not added yet
       );
 
   Map<String, dynamic> _$CountryToJson(Country instance) => <String, dynamic>{

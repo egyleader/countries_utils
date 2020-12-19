@@ -1,6 +1,6 @@
 name: flutter_country
 description:  A lite flutter package for providing Country Data offline
-version: 0.0.1
+version: 0.0.2
 author: egyleader
 homepage: https://github.com/egyleader/flutter_country.git
 
@@ -15,8 +15,6 @@ dependencies:
 dev_dependencies:
   flutter_test:
     sdk: flutter
-  build_runner: ^1.10.9
-  json_serializable: ^3.5.1
 
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec

@@ -51,4 +51,10 @@ void main() {
 
   test('get countries Smaller than given area  ',
       () => Countries.areaSmallerThan(1002450));
+
+  test('test country is landlocked',
+      () => Countries.byName('Egypt').landLocked);
+  test('test country border countries',
+      () => Countries.byName('Egypt').borders);
 }
+
