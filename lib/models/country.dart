@@ -1,38 +1,35 @@
 import 'package:flutter_country/flutter_country.dart';
-import 'package:flutter_country/models/country_list.dart';
 import 'package:flutter_country/models/currency_list.dart';
 import 'package:flutter_country/models/demonym_list.dart';
-import 'package:flutter_country/models/translation.dart';
 import 'package:flutter_country/models/translation_list.dart';
 
 class Country {
   final String name;
   final String officialName;
   final TranslationList nativeName;
+  final TranslationList translations;
+  final DemonymList demonyms;
+  final List<String> altSpellings;
   final String alpha2Code;
   final String alpha3Code;
   final String numericCode;
+  final String olympicCode;
   final bool independent;
   final bool unMember;
+  final bool landLocked;
   final List<String> topLevelDomain;
-  final Map<String, dynamic> languages;
-  final CurrencyList currnecies;
   final String capital;
   final String region;
   final String subRegion;
-  final int population;
+  final CurrencyList currnecies;
+  final Map<String, dynamic> languages;
+  final List<String> borders;
   final double area;
   final String flag;
-  final String olympicCode;
   final List<String> phoneCode;
   final List<double> coordinates;
   final double latitude;
   final double longitude;
-  final TranslationList translations;
-  final List<String> altSpellings;
-  final List<String> borders;
-  final bool landLocked;
-  final DemonymList demonyms;
   Country(
       {this.name,
       this.officialName,
@@ -49,14 +46,13 @@ class Country {
       this.capital,
       this.region,
       this.subRegion,
-      this.population,
       this.area,
       this.flag,
       this.olympicCode,
       this.coordinates,
+      this.translations,
       this.latitude,
       this.longitude,
-      this.translations,
       this.altSpellings,
       this.landLocked,
       this.borders,
@@ -98,31 +94,8 @@ class Country {
       phoneCode: json['callingCodes'].cast<String>() as List<String>,
       borders: json['borders'].cast<String>()
           as List<String> //countries that share borders with this country
-      //? demonyms  is not added yet
       //? timestaps is not added yet
       );
-
-  Map<String, dynamic> _$CountryToJson(Country instance) => <String, dynamic>{
-        'name': instance.name,
-        'officialName': instance.officialName,
-        'nativeName': instance.nativeName,
-        'topLevelDomain': instance.topLevelDomain,
-        'alpha2Code': instance.alpha2Code,
-        'numericCode': instance.numericCode,
-        'alpha3Code': instance.alpha3Code,
-        'independent': instance.independent,
-        'unMember': instance.unMember,
-        'languages': instance.languages,
-        'phoneCode': instance.phoneCode,
-        'currnecies': instance.currnecies,
-        'capital': instance.capital,
-        'region': instance.region,
-        'subRegion': instance.subRegion,
-        'population': instance.population,
-        'coordinates': instance.coordinates,
-        'area': instance.area,
-        'flag': instance.flag,
-      };
 
   String traslatedOfficialName(String code) =>
       this.translations.translate(code).official;

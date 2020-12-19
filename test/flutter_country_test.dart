@@ -24,25 +24,25 @@ void main() {
 
   test('get country by alpha3Code', () => Countries.byAlpha3Code('EGY'));
 
-  test('get country by byNumericCode', () => Countries.byNumericCode('818'));
+  test('get country by numeric code', () => Countries.byNumericCode('818'));
 
-  test('get country by byOlympicCode', () => Countries.byOlympicCode('EGY'));
+  test('get country by olympic code', () => Countries.byOlympicCode('EGY'));
 
-  test('get country by byPhoneCode', () => Countries.byPhoneCode('+20'));
+  test('get country by  phone code', () => Countries.byPhoneCode('+20'));
 
   test('get country by capital', () => Countries.byCapital('Cairo'));
 
   test('get country by flag emoji ',
       () => Countries.byFlag('\ud83c\uddea\ud83c\uddec'));
 
-  test('get country by language  code', () => Countries.byLanguageCode('ara'));
+  test('get country by language code', () => Countries.byLanguageCode('ara'));
 
   test(
       'get country by language name', () => Countries.byLanguageName('Arabic'));
 
   test('get UN Members countries', () => Countries.unMembers());
 
-  test('get UN Members countries', () => Countries.independent());
+  test('get all independent countries', () => Countries.independent());
 
   test('get countries by region ', () => Countries.byRegion('Africa'));
 
