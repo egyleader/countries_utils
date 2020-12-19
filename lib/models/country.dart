@@ -1,3 +1,4 @@
+import 'package:flutter_country/models/currency_list.dart';
 import 'package:flutter_country/models/translation.dart';
 import 'package:flutter_country/models/translation_list.dart';
 
@@ -12,7 +13,7 @@ class Country {
   final bool unMember;
   final List<String> topLevelDomain;
   final Map<String, dynamic> languages;
-  final String currency;
+  final CurrencyList currnecies;
   final String capital;
   final String region;
   final String subRegion;
@@ -38,7 +39,7 @@ class Country {
       this.topLevelDomain,
       this.phoneCode,
       this.languages,
-      this.currency,
+      this.currnecies,
       this.capital,
       this.region,
       this.subRegion,
@@ -67,7 +68,7 @@ class Country {
         olympicCode: json['cioc'] as String,
         independent: json['independent'] as bool,
         unMember: json['unMember'] as bool,
-        currency: json['currencies'].toString(), // check this
+        currnecies:json['currencies'].toString() == '[]' ? null : CurrencyList.fromJson(json['currencies']), // check this
         capital: json['capital'].toString(), //chosen only one capital
         //? alternative spelling is not added yet
         region: json['region'] as String,
@@ -76,12 +77,10 @@ class Country {
         coordinates: json['latlng'].cast<double>(),
         latitude: double.parse(json['latlng'][0].toString()),
         longitude: double.parse(json['latlng'][1].toString()),
-
         //? demonyms  is not added yet
         //? landlocked   is not added yet
         //? land borders  is not added yet
         //? timestaps is not added yet
-        //? population  is not added yet
         area: (json['area'] as num)?.toDouble(), // area in km²
         flag: json['flag'] as String,
         phoneCode: json['callingCodes'].cast<String>() as List<String>,
@@ -99,7 +98,7 @@ class Country {
         'unMember': instance.unMember,
         'languages': instance.languages,
         'phoneCode': instance.phoneCode,
-        'currency': instance.currency,
+        'currnecies': instance.currnecies,
         'capital': instance.capital,
         'region': instance.region,
         'subRegion': instance.subRegion,
@@ -109,6 +108,9 @@ class Country {
         'flag': instance.flag,
       };
 
-  String traslatedOfficialName(String code) => this.translations.translate(code).official;
-  String traslatedCommonName(String code) => this.translations.translate(code).common ?? this.translations.translate(code).official;
+  String traslatedOfficialName(String code) =>
+      this.translations.translate(code).official;
+  String traslatedCommonName(String code) =>
+      this.translations.translate(code).common ??
+      this.translations.translate(code).official;
 }

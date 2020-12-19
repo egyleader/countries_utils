@@ -12,6 +12,7 @@ void main() {
 
   test('get country all  name translations',  () =>  Countries.byName('Egypt').translations);
 
+  test('get country all currnecies',  () =>  Countries.byName('Egypt').currnecies);
 
   test('get country name translated to one language ',  () =>  Countries.byName('Egypt').traslatedOfficialName('fra'));
 
