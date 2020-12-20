@@ -1,3 +1,9 @@
+## [0.0.3] - 20 December 2020.
+
+* removed flutter dependency , package now supports plain dart 
+* fixed bug with  native name translation not found , now it returns default.
+* fixed typos .
+
 ## [0.0.2] - 19 December 2020.
 
 * increased the Country properties to 26 

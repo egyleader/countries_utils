@@ -1,25 +1,22 @@
 name: flutter_country
 description:  'A lite flutter package for providing world Country Data without internet connection ,, useful for country or language selector '
-version: 0.0.2
+version: 0.0.3
 author: egyleader
 homepage: https://github.com/egyleader/flutter_country.git
 
 environment:
   sdk: ">=2.7.0 <3.0.0"
-  flutter: ">=1.17.0"
 
 dependencies:
-  flutter:
-    sdk: flutter
+
 
 dev_dependencies:
-  flutter_test:
-    sdk: flutter
+
 
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec
 # The following section is specific to Flutter.
-flutter: 
+
 
 # To add assets to your package, add an assets section, like this:
 # assets:

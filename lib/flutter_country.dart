@@ -15,13 +15,11 @@ export 'models/translation_list.dart';
 export 'models/country.dart';
 
 class Countries {
-  
   // This class is not meant to be instantiated or extended; this constructor
   // prevents instantiation and extension.
   Countries._();
 
   static CountryList _countryData = loadCountries();
-
 
   static CountryList loadCountries() {
     CountryList countriesList = CountryList.fromJson(countriesData);

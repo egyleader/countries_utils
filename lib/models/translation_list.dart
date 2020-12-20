@@ -15,5 +15,8 @@ class TranslationList {
     );
   }
 
-  Translation translate(String code) => this.translations.where((t) => t.languageCode == code).first;
+  Translation translate(String code) =>
+      this.translations.where((t) => t.languageCode == code).isNotEmpty 
+          ? this.translations.where((t) => t.languageCode == code).first
+          : this.translations.first;
 }
