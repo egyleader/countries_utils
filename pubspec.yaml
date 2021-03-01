@@ -1,6 +1,6 @@
 name: flutter_country
 description:  'A lite flutter package for providing world Country Data without internet connection ,, useful for country or language selector '
-version: 0.0.3
+version: 0.0.4
 author: egyleader
 homepage: https://github.com/egyleader/flutter_country.git
 

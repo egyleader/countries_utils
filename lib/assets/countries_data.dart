@@ -12074,7 +12074,7 @@ const List<Map<String, dynamic>> countriesData = [
     },
     "idd": {
       "root": "+7",
-      "suffixes": ["6XX", "7XX"]
+      "suffixes": ["6", "7"]
     },
     "capital": ["Nur-Sultan"],
     "altSpellings": [
@@ -12160,7 +12160,7 @@ const List<Map<String, dynamic>> countriesData = [
       "eng": {"f": "Kazakhstani", "m": "Kazakhstani"},
       "fra": {"f": "Kazakhstanaise", "m": "Kazakhstanais"}
     },
-    "callingCodes": ["+76XX", "+77XX"]
+    "callingCodes": ["+76", "+77"]
   },
   {
     "name": {
@@ -19739,7 +19739,7 @@ const List<Map<String, dynamic>> countriesData = [
     },
     "idd": {
       "root": "+7",
-      "suffixes": ["3XX", "4XX", "5XX", "8XX", "9XX"]
+      "suffixes": ["3", "4", "5", "8", "9"]
     },
     "capital": ["Moscow"],
     "altSpellings": [
@@ -19822,7 +19822,7 @@ const List<Map<String, dynamic>> countriesData = [
       "eng": {"f": "Russian", "m": "Russian"},
       "fra": {"f": "Russe", "m": "Russe"}
     },
-    "callingCodes": ["+73XX", "+74XX", "+75XX", "+78XX", "+79XX"]
+    "callingCodes": ["+73", "+74", "+75", "+78", "+79"]
   },
   {
     "name": {

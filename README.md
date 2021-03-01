@@ -63,7 +63,7 @@ This is a list of the properties that can be provided for each country
 
 
 
-##  Metods
+##  Methods
 
 This is a list of the methods you can get country data by :
 
