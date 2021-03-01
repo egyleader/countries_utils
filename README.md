@@ -15,7 +15,7 @@ depend on the package in your pubspec.yaml :
 ```yaml
  dependencies:
 
-flutter_country: ^0.0.3
+flutter_country: ^0.0.4
 ```
 
 get the packages :
