@@ -7,13 +7,13 @@ void main() {
 
   test('get country all  Native name translations', () => Countries.byName('Egypt').nativeName);
 
-  test('get country Native name translations',  () =>  Countries.byName('Egypt').nativeName.translate('ara'));
+  test('get country Native name translations',  () =>  Countries.byName('Egypt').nativeName);
 
   test('get country all  name translations',  () =>  Countries.byName('Egypt').translations);
 
   test('get country all  name altSpellings',  () =>  Countries.byName('Egypt').altSpellings);
 
-  test('get country all  name demonyms',  () =>  Countries.byName('Egypt').demonyms);
+  test('get country all  name demonym',  () =>  Countries.byName('Egypt').demonym);
   
   test('get country all currnecies',  () =>  Countries.byName('Egypt').currnecies);
 
@@ -25,28 +25,23 @@ void main() {
 
   test('get country by byNumericCode', () => Countries.byNumericCode('818'));
 
-  test('get country by byOlympicCode', () => Countries.byOlympicCode('EGY'));
-
-  test('get country by byPhoneCode', () => Countries.byPhoneCode('+20'));
+  test('get country by byPhoneCode', () => Countries.byPhoneCode('20'));
 
   test('get country by capital', () => Countries.byCapital('Cairo'));
 
   test('get country by flag emoji ',
       () => Countries.byFlag('\ud83c\uddea\ud83c\uddec'));
 
-  test('get country by language  code', () => Countries.byLanguageCode('ara'));
+  // test('get country by language  code', () => Countries.byLanguageCode('ara'));
 
-  test(
-      'get country by language name', () => Countries.byLanguageName('Arabic'));
+  // test(
+  //     'get country by language name', () => Countries.byLanguageName('Arabic'));
 
   test('get UN Members countries', () => Countries.unMembers());
 
   test('get UN Members countries', () => Countries.independent());
 
   test('get countries by region ', () => Countries.byRegion('Africa'));
-
-  test('get countries by sub region ',
-      () => Countries.bySubRegion('Southern Europe'));
 
   test('get countries by area  ', () => Countries.byArea(1002450));
   test('get countries Bigger than given area  ',

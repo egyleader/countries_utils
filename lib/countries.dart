@@ -42,15 +42,10 @@ class Countries {
     return country;
   }
 
-  static Country byOlympicCode(String code) {
-    Country country =
-        _countryData.countries.where((c) => c.olympicCode == code).first;
-    return country;
-  }
-
   static Country byPhoneCode(String code) {
-    Country country =
-        _countryData.countries.where((c) => c.phoneCode.contains(code)).first;
+    Country country = _countryData.countries
+        .where((c) => c.callingCodes.contains(code))
+        .first;
     return country;
   }
 
@@ -61,23 +56,24 @@ class Countries {
   }
 
   static Country byFlag(String flag) {
-    Country country = _countryData.countries.where((c) => c.flag == flag).first;
+    Country country =
+        _countryData.countries.where((c) => c.flagIcon == flag).first;
     return country;
   }
 
-  static List<Country> byLanguageCode(String language) {
-    List<Country> countries = _countryData.countries
-        .where((c) => c.languages.containsKey(language))
-        .toList();
-    return countries;
-  }
+  // static List<Country> byLanguageCode(String language) {
+  //   List<Country> countries = _countryData.countries
+  //       .where((c) => c.languages.containsKey(language))
+  //       .toList();
+  //   return countries;
+  // }
 
-  static List<Country> byLanguageName(String language) {
-    List<Country> countries = _countryData.countries
-        .where((c) => c.languages.containsValue(language))
-        .toList();
-    return countries;
-  }
+  // static List<Country> byLanguageName(String language) {
+  //   List<Country> countries = _countryData.countries
+  //       .where((c) => c.languages.containsValue(language))
+  //       .toList();
+  //   return countries;
+  // }
 
   static List<Country> unMembers() {
     List<Country> countries =
@@ -97,13 +93,6 @@ class Countries {
     return countries;
   }
 
-  static List<Country> bySubRegion(String region) {
-    List<Country> countries = _countryData.countries
-        .where((c) => c.subRegion.contains(region))
-        .toList();
-    return countries;
-  }
-
   static Country byArea(double area) {
     Country countries =
         _countryData.countries.where((c) => c.area == area).first;
@@ -111,14 +100,16 @@ class Countries {
   }
 
   static List<Country> areaBiggerThan(double area) {
-    List<Country> countries =
-        _countryData.countries.where((c) => c.area > area).toList();
+    List<Country> countries = _countryData.countries
+        .where((c) => c.area != null && c.area > area)
+        .toList();
     return countries;
   }
 
-  static List<Country> areaSmallerThan(double area) {
-    List<Country> countries =
-        _countryData.countries.where((c) => c.area < area).toList();
-    return countries;
+  static CountryList areaSmallerThan(double area) {
+    List<Country> countries = _countryData.countries
+        .where((c) => c.area != null && c.area < area)
+        .toList();
+    return CountryList(countries: countries);
   }
 }

@@ -6,7 +6,7 @@ class Currency {
   Currency({this.code, this.name, this.symbol});
 
   factory Currency.fromJson(Map<String, dynamic> json) => Currency(
-      code: json.keys.first,
-      name: json.values.first['name'],
-      symbol: json.values.first['symbol']);
+      code: json['code'],
+      name: json['name'],
+      symbol: json['symbol']);
 }

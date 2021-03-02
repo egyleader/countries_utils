@@ -5,10 +5,10 @@ class CurrencyList {
 
   CurrencyList({this.currencies});
 
-  factory CurrencyList.fromJson(Map<String, dynamic> parsedJson) {
+  factory CurrencyList.fromJson(List<Map<String, dynamic>> parsedJson) {
     List<Currency> currencies = List<Currency>();
-    parsedJson.forEach((key, value) {
-      currencies.add(Currency.fromJson({key: value}));
+    parsedJson.forEach((currency) {
+      currencies.add(Currency.fromJson(currency));
     });
     return CurrencyList(
       currencies: currencies,

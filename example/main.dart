@@ -24,8 +24,8 @@ class HomePage extends StatelessWidget {
                     padding: const EdgeInsets.all(8.0),
                     child: Text(
                       Localizations.localeOf(context).languageCode == "en"
-                          ? '${country.name} ${country.flag}'
-                          : '${country.nativeName.translate('ara')}  ${country.flag}',
+                          ? '${country.name} ${country.flagIcon}'
+                          : '${country.nativeName}  ${country.flagIcon}',
                       style: Theme.of(context).textTheme.bodyText1,
                     ),
                   ))
