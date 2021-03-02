@@ -1,23 +1,31 @@
 import 'package:flutter_country/flutter_country.dart';
 import 'package:test/test.dart';
+
 void main() {
   test('get all countries data', () => Countries.all());
 
   test('get country by name', () => Countries.byName('Egypt'));
 
-  test('get country all  Native name translations', () => Countries.byName('Egypt').nativeName);
+  test('get country all  Native name translations',
+      () => Countries.byName('Egypt').nativeName);
 
-  test('get country Native name translations',  () =>  Countries.byName('Egypt').nativeName);
+  test('get country Native name translations',
+      () => Countries.byName('Egypt').nativeName);
 
-  test('get country all  name translations',  () =>  Countries.byName('Egypt').translations);
+  test('get country all  name translations',
+      () => Countries.byName('Egypt').translations);
 
-  test('get country all  name altSpellings',  () =>  Countries.byName('Egypt').altSpellings);
+  test('get country all  name altSpellings',
+      () => Countries.byName('Egypt').altSpellings);
 
-  test('get country all  name demonym',  () =>  Countries.byName('Egypt').demonym);
-  
-  test('get country all currnecies',  () =>  Countries.byName('Egypt').currnecies);
+  test(
+      'get country all  name demonym', () => Countries.byName('Egypt').demonym);
 
-  test('get country name translated to one language ',  () =>  Countries.byName('Egypt').traslatedOfficialName('fra'));
+  test(
+      'get country all currnecies', () => Countries.byName('Egypt').currnecies);
+
+  test('get country name translated to one language ',
+      () => Countries.byName('Egypt').traslatedOfficialName('fra'));
 
   test('get country by alpha2Code', () => Countries.byCode('EG'));
 
@@ -25,7 +33,7 @@ void main() {
 
   test('get country by byNumericCode', () => Countries.byNumericCode('818'));
 
-  test('get country by byPhoneCode', () => Countries.byPhoneCode('20'));
+  test('get country by byCallingCode', () => Countries.byCallingCode('20'));
 
   test('get country by capital', () => Countries.byCapital('Cairo'));
 
@@ -50,9 +58,12 @@ void main() {
   test('get countries Smaller than given area  ',
       () => Countries.areaSmallerThan(1002450));
 
-  test('test country is landlocked',
-      () => Countries.byName('Egypt').landLocked);
-  test('test country border countries',
-      () => Countries.byName('Egypt').borders);
-}
+  test(
+      'get countries by timeZone',
+      () => Countries.byTimeZone('+02:00'));
 
+  test(
+      'test country is landlocked', () => Countries.byName('Egypt').landLocked);
+  test(
+      'test country border countries', () => Countries.byName('Egypt').borders);
+}

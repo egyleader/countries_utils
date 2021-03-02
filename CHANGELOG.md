@@ -1,3 +1,18 @@
+## [0.1.1] - 2 March 2021.
+* added timeStamp to country object
+* added byTimeStamp method and test
+
+## [0.1.0] - 2 March 2021.
+* chganged countries data to use restcountries data
+* refactored methods to work with new sets
+* removed unused methods and models 
+* added linter rules for codes
+* added test cases for all functions
+
+
+## [0.0.4] - 28 February  2021.
+* fixed calling codes double xx in some countires .
+
 ## [0.0.3] - 20 December 2020.
 
 * removed flutter dependency , package now supports plain dart 

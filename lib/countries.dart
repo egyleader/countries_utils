@@ -42,7 +42,7 @@ class Countries {
     return country;
   }
 
-  static Country byPhoneCode(String code) {
+  static Country byCallingCode(String code) {
     Country country = _countryData.countries
         .where((c) => c.callingCodes.contains(code))
         .first;
@@ -109,6 +109,13 @@ class Countries {
   static CountryList areaSmallerThan(double area) {
     List<Country> countries = _countryData.countries
         .where((c) => c.area != null && c.area < area)
+        .toList();
+    return CountryList(countries: countries);
+  }
+
+  static CountryList byTimeZone(String timeZone) {
+    List<Country> countries = _countryData.countries
+        .where((c) => c.timeZones.contains(timeZone))
         .toList();
     return CountryList(countries: countries);
   }

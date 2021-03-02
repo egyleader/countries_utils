@@ -74,7 +74,7 @@ const List<Map<String, dynamic>> countriesData = [
         ],
         "region":"Southern Asia",
         "timezones":[
-            "UTC+04:30"
+            "+04:30"
         ],
         "topLevelDomain":[
             ".af"
@@ -158,7 +158,7 @@ const List<Map<String, dynamic>> countriesData = [
         ],
         "region":"Southern Europe",
         "timezones":[
-            "UTC+01:00"
+            "+01:00"
         ],
         "topLevelDomain":[
             ".al"
@@ -260,7 +260,7 @@ const List<Map<String, dynamic>> countriesData = [
         ],
         "region":"Northern Africa",
         "timezones":[
-            "UTC+01:00"
+            "+01:00"
         ],
         "topLevelDomain":[
             ".dz"
@@ -343,7 +343,7 @@ const List<Map<String, dynamic>> countriesData = [
         ],
         "region":"Polynesia",
         "timezones":[
-            "UTC-11:00"
+            "-11:00"
         ],
         "topLevelDomain":[
             ".as"
@@ -420,7 +420,7 @@ const List<Map<String, dynamic>> countriesData = [
         ],
         "region":"Southern Europe",
         "timezones":[
-            "UTC+01:00"
+            "+01:00"
         ],
         "topLevelDomain":[
             ".ad"
@@ -510,7 +510,7 @@ const List<Map<String, dynamic>> countriesData = [
         ],
         "region":"Middle Africa",
         "timezones":[
-            "UTC+01:00"
+            "+01:00"
         ],
         "topLevelDomain":[
             ".ao"
@@ -583,7 +583,7 @@ const List<Map<String, dynamic>> countriesData = [
         ],
         "region":"Caribbean",
         "timezones":[
-            "UTC-04:00"
+            "-04:00"
         ],
         "topLevelDomain":[
             ".ai"
@@ -658,14 +658,14 @@ const List<Map<String, dynamic>> countriesData = [
         ],
         "region":"",
         "timezones":[
-            "UTC-03:00",
-            "UTC+03:00",
-            "UTC+05:00",
-            "UTC+06:00",
-            "UTC+07:00",
-            "UTC+08:00",
-            "UTC+10:00",
-            "UTC+12:00"
+            "-03:00",
+            "+03:00",
+            "+05:00",
+            "+06:00",
+            "+07:00",
+            "+08:00",
+            "+10:00",
+            "+12:00"
         ],
         "topLevelDomain":[
             ".aq"
@@ -746,7 +746,7 @@ const List<Map<String, dynamic>> countriesData = [
         ],
         "region":"Caribbean",
         "timezones":[
-            "UTC-04:00"
+            "-04:00"
         ],
         "topLevelDomain":[
             ".ag"
@@ -846,7 +846,7 @@ const List<Map<String, dynamic>> countriesData = [
         ],
         "region":"South America",
         "timezones":[
-            "UTC-03:00"
+            "-03:00"
         ],
         "topLevelDomain":[
             ".ar"
@@ -932,7 +932,7 @@ const List<Map<String, dynamic>> countriesData = [
         ],
         "region":"Western Asia",
         "timezones":[
-            "UTC+04:00"
+            "+04:00"
         ],
         "topLevelDomain":[
             ".am"
@@ -983,7 +983,7 @@ const List<Map<String, dynamic>> countriesData = [
             {
                 "iso639_1":"nl",
                 "iso639_2":"nld",
-                "name":"Dutch",
+                "name":"Dh",
                 "nativeName":"Nederlands"
             },
             {
@@ -1011,7 +1011,7 @@ const List<Map<String, dynamic>> countriesData = [
         ],
         "region":"Caribbean",
         "timezones":[
-            "UTC-04:00"
+            "-04:00"
         ],
         "topLevelDomain":[
             ".aw"
@@ -1085,14 +1085,14 @@ const List<Map<String, dynamic>> countriesData = [
         ],
         "region":"Australia and New Zealand",
         "timezones":[
-            "UTC+05:00",
-            "UTC+06:30",
-            "UTC+07:00",
-            "UTC+08:00",
-            "UTC+09:30",
-            "UTC+10:00",
-            "UTC+10:30",
-            "UTC+11:30"
+            "+05:00",
+            "+06:30",
+            "+07:00",
+            "+08:00",
+            "+09:30",
+            "+10:00",
+            "+10:30",
+            "+11:30"
         ],
         "topLevelDomain":[
             ".au"
@@ -1179,7 +1179,7 @@ const List<Map<String, dynamic>> countriesData = [
         ],
         "region":"Central Europe",
         "timezones":[
-            "UTC+01:00"
+            "+01:00"
         ],
         "topLevelDomain":[
             ".at"
@@ -1256,7 +1256,7 @@ const List<Map<String, dynamic>> countriesData = [
         ],
         "region":"Western Asia",
         "timezones":[
-            "UTC+04:00"
+            "+04:00"
         ],
         "topLevelDomain":[
             ".az"
@@ -1338,7 +1338,7 @@ const List<Map<String, dynamic>> countriesData = [
         ],
         "region":"Caribbean",
         "timezones":[
-            "UTC-05:00"
+            "-05:00"
         ],
         "topLevelDomain":[
             ".bs"
@@ -1422,7 +1422,7 @@ const List<Map<String, dynamic>> countriesData = [
         ],
         "region":"Western Asia",
         "timezones":[
-            "UTC+03:00"
+            "+03:00"
         ],
         "topLevelDomain":[
             ".bh"
@@ -1502,7 +1502,7 @@ const List<Map<String, dynamic>> countriesData = [
         ],
         "region":"Southern Asia",
         "timezones":[
-            "UTC+06:00"
+            "+06:00"
         ],
         "topLevelDomain":[
             ".bd"
@@ -1583,7 +1583,7 @@ const List<Map<String, dynamic>> countriesData = [
         ],
         "region":"Caribbean",
         "timezones":[
-            "UTC-04:00"
+            "-04:00"
         ],
         "topLevelDomain":[
             ".bb"
@@ -1684,7 +1684,7 @@ const List<Map<String, dynamic>> countriesData = [
         ],
         "region":"Eastern Europe",
         "timezones":[
-            "UTC+03:00"
+            "+03:00"
         ],
         "topLevelDomain":[
             ".by"
@@ -1747,7 +1747,7 @@ const List<Map<String, dynamic>> countriesData = [
             {
                 "iso639_1":"nl",
                 "iso639_2":"nld",
-                "name":"Dutch",
+                "name":"Dh",
                 "nativeName":"Nederlands"
             },
             {
@@ -1784,7 +1784,7 @@ const List<Map<String, dynamic>> countriesData = [
         ],
         "region":"Western Europe",
         "timezones":[
-            "UTC+01:00"
+            "+01:00"
         ],
         "topLevelDomain":[
             ".be"
@@ -1883,7 +1883,7 @@ const List<Map<String, dynamic>> countriesData = [
         ],
         "region":"Central America",
         "timezones":[
-            "UTC-06:00"
+            "-06:00"
         ],
         "topLevelDomain":[
             ".bz"
@@ -1972,7 +1972,7 @@ const List<Map<String, dynamic>> countriesData = [
         ],
         "region":"Western Africa",
         "timezones":[
-            "UTC+01:00"
+            "+01:00"
         ],
         "topLevelDomain":[
             ".bj"
@@ -2047,7 +2047,7 @@ const List<Map<String, dynamic>> countriesData = [
         ],
         "region":"Northern America",
         "timezones":[
-            "UTC-04:00"
+            "-04:00"
         ],
         "topLevelDomain":[
             ".bm"
@@ -2131,7 +2131,7 @@ const List<Map<String, dynamic>> countriesData = [
         ],
         "region":"Southern Asia",
         "timezones":[
-            "UTC+06:00"
+            "+06:00"
         ],
         "topLevelDomain":[
             ".bt"
@@ -2242,7 +2242,7 @@ const List<Map<String, dynamic>> countriesData = [
         ],
         "region":"South America",
         "timezones":[
-            "UTC-04:00"
+            "-04:00"
         ],
         "topLevelDomain":[
             ".bo"
@@ -2284,7 +2284,7 @@ const List<Map<String, dynamic>> countriesData = [
                 "symbol":"\$"
             }
         ],
-        "demonym":"Dutch",
+        "demonym":"Dh",
         "independent":true,
         "flags":[
             "https://restcountries.com/data/bes.svg",
@@ -2294,7 +2294,7 @@ const List<Map<String, dynamic>> countriesData = [
             {
                 "iso639_1":"nl",
                 "iso639_2":"nld",
-                "name":"Dutch",
+                "name":"Dh",
                 "nativeName":"Nederlands"
             }
         ],
@@ -2312,7 +2312,7 @@ const List<Map<String, dynamic>> countriesData = [
         ],
         "region":"Caribbean",
         "timezones":[
-            "UTC-04:00"
+            "-04:00"
         ],
         "topLevelDomain":[
             ".an",
@@ -2398,7 +2398,7 @@ const List<Map<String, dynamic>> countriesData = [
         ],
         "region":"Southern Europe",
         "timezones":[
-            "UTC+01:00"
+            "+01:00"
         ],
         "topLevelDomain":[
             ".ba"
@@ -2489,7 +2489,7 @@ const List<Map<String, dynamic>> countriesData = [
         ],
         "region":"Southern Africa",
         "timezones":[
-            "UTC+02:00"
+            "+02:00"
         ],
         "topLevelDomain":[
             ".bw"
@@ -2572,7 +2572,7 @@ const List<Map<String, dynamic>> countriesData = [
         ],
         "region":"South Antarctic Ocean",
         "timezones":[
-            "UTC+01:00"
+            "+01:00"
         ],
         "topLevelDomain":[
             ".bv"
@@ -2669,10 +2669,10 @@ const List<Map<String, dynamic>> countriesData = [
         ],
         "region":"South America",
         "timezones":[
-            "UTC-05:00",
-            "UTC-04:00",
-            "UTC-03:00",
-            "UTC-02:00"
+            "-05:00",
+            "-04:00",
+            "-03:00",
+            "-02:00"
         ],
         "topLevelDomain":[
             ".br"
@@ -2751,7 +2751,7 @@ const List<Map<String, dynamic>> countriesData = [
         ],
         "region":"Eastern Africa",
         "timezones":[
-            "UTC+06:00"
+            "+06:00"
         ],
         "topLevelDomain":[
             ".io"
@@ -2818,9 +2818,9 @@ const List<Map<String, dynamic>> countriesData = [
         ],
         "region":"Northern America",
         "timezones":[
-            "UTC-11:00",
-            "UTC-10:00",
-            "UTC+12:00"
+            "-11:00",
+            "-10:00",
+            "+12:00"
         ],
         "topLevelDomain":[
             ".us"
@@ -2889,7 +2889,7 @@ const List<Map<String, dynamic>> countriesData = [
         ],
         "region":"Caribbean",
         "timezones":[
-            "UTC-04:00"
+            "-04:00"
         ],
         "topLevelDomain":[
             ".vg"
@@ -2961,7 +2961,7 @@ const List<Map<String, dynamic>> countriesData = [
         ],
         "region":"Caribbean",
         "timezones":[
-            "UTC-04:00"
+            "-04:00"
         ],
         "topLevelDomain":[
             ".vi"
@@ -3039,7 +3039,7 @@ const List<Map<String, dynamic>> countriesData = [
         ],
         "region":"South-Eastern Asia",
         "timezones":[
-            "UTC+08:00"
+            "+08:00"
         ],
         "topLevelDomain":[
             ".bn"
@@ -3118,7 +3118,7 @@ const List<Map<String, dynamic>> countriesData = [
         ],
         "region":"Eastern Europe",
         "timezones":[
-            "UTC+02:00"
+            "+02:00"
         ],
         "topLevelDomain":[
             ".bg"
@@ -3209,7 +3209,7 @@ const List<Map<String, dynamic>> countriesData = [
         ],
         "region":"Western Africa",
         "timezones":[
-            "UTC"
+            ""
         ],
         "topLevelDomain":[
             ".bf"
@@ -3300,7 +3300,7 @@ const List<Map<String, dynamic>> countriesData = [
         ],
         "region":"Eastern Africa",
         "timezones":[
-            "UTC+02:00"
+            "+02:00"
         ],
         "topLevelDomain":[
             ".bi"
@@ -3381,7 +3381,7 @@ const List<Map<String, dynamic>> countriesData = [
         ],
         "region":"South-Eastern Asia",
         "timezones":[
-            "UTC+07:00"
+            "+07:00"
         ],
         "topLevelDomain":[
             ".kh"
@@ -3474,7 +3474,7 @@ const List<Map<String, dynamic>> countriesData = [
         ],
         "region":"Middle Africa",
         "timezones":[
-            "UTC+01:00"
+            "+01:00"
         ],
         "topLevelDomain":[
             ".cm"
@@ -3557,12 +3557,12 @@ const List<Map<String, dynamic>> countriesData = [
         ],
         "region":"Northern America",
         "timezones":[
-            "UTC-08:00",
-            "UTC-07:00",
-            "UTC-06:00",
-            "UTC-05:00",
-            "UTC-04:00",
-            "UTC-03:30"
+            "-08:00",
+            "-07:00",
+            "-06:00",
+            "-05:00",
+            "-04:00",
+            "-03:30"
         ],
         "topLevelDomain":[
             ".ca"
@@ -3644,7 +3644,7 @@ const List<Map<String, dynamic>> countriesData = [
         ],
         "region":"Western Africa",
         "timezones":[
-            "UTC-01:00"
+            "-01:00"
         ],
         "topLevelDomain":[
             ".cv"
@@ -3713,7 +3713,7 @@ const List<Map<String, dynamic>> countriesData = [
         ],
         "region":"Caribbean",
         "timezones":[
-            "UTC-05:00"
+            "-05:00"
         ],
         "topLevelDomain":[
             ".ky"
@@ -3807,7 +3807,7 @@ const List<Map<String, dynamic>> countriesData = [
         ],
         "region":"Middle Africa",
         "timezones":[
-            "UTC+01:00"
+            "+01:00"
         ],
         "topLevelDomain":[
             ".cf"
@@ -3901,7 +3901,7 @@ const List<Map<String, dynamic>> countriesData = [
         ],
         "region":"Middle Africa",
         "timezones":[
-            "UTC+01:00"
+            "+01:00"
         ],
         "topLevelDomain":[
             ".td"
@@ -3996,8 +3996,8 @@ const List<Map<String, dynamic>> countriesData = [
         ],
         "region":"South America",
         "timezones":[
-            "UTC-06:00",
-            "UTC-04:00"
+            "-06:00",
+            "-04:00"
         ],
         "topLevelDomain":[
             ".cl"
@@ -4087,7 +4087,7 @@ const List<Map<String, dynamic>> countriesData = [
         ],
         "region":"Eastern Asia",
         "timezones":[
-            "UTC+08:00"
+            "+08:00"
         ],
         "topLevelDomain":[
             ".cn"
@@ -4157,7 +4157,7 @@ const List<Map<String, dynamic>> countriesData = [
         ],
         "region":"Australia and New Zealand",
         "timezones":[
-            "UTC+07:00"
+            "+07:00"
         ],
         "topLevelDomain":[
             ".cx"
@@ -4228,7 +4228,7 @@ const List<Map<String, dynamic>> countriesData = [
         ],
         "region":"Australia and New Zealand",
         "timezones":[
-            "UTC+06:30"
+            "+06:30"
         ],
         "topLevelDomain":[
             ".cc"
@@ -4325,7 +4325,7 @@ const List<Map<String, dynamic>> countriesData = [
         ],
         "region":"South America",
         "timezones":[
-            "UTC-05:00"
+            "-05:00"
         ],
         "topLevelDomain":[
             ".co"
@@ -4424,7 +4424,7 @@ const List<Map<String, dynamic>> countriesData = [
         ],
         "region":"Eastern Africa",
         "timezones":[
-            "UTC+03:00"
+            "+03:00"
         ],
         "topLevelDomain":[
             ".km"
@@ -4515,7 +4515,7 @@ const List<Map<String, dynamic>> countriesData = [
         ],
         "region":"Middle Africa",
         "timezones":[
-            "UTC+01:00"
+            "+01:00"
         ],
         "topLevelDomain":[
             ".cg"
@@ -4629,8 +4629,8 @@ const List<Map<String, dynamic>> countriesData = [
         ],
         "region":"Middle Africa",
         "timezones":[
-            "UTC+01:00",
-            "UTC+02:00"
+            "+01:00",
+            "+02:00"
         ],
         "topLevelDomain":[
             ".cd"
@@ -4711,7 +4711,7 @@ const List<Map<String, dynamic>> countriesData = [
         ],
         "region":"Polynesia",
         "timezones":[
-            "UTC-10:00"
+            "-10:00"
         ],
         "topLevelDomain":[
             ".ck"
@@ -4793,7 +4793,7 @@ const List<Map<String, dynamic>> countriesData = [
         ],
         "region":"Central America",
         "timezones":[
-            "UTC-06:00"
+            "-06:00"
         ],
         "topLevelDomain":[
             ".cr"
@@ -4873,7 +4873,7 @@ const List<Map<String, dynamic>> countriesData = [
         ],
         "region":"Southern Europe",
         "timezones":[
-            "UTC+01:00"
+            "+01:00"
         ],
         "topLevelDomain":[
             ".hr"
@@ -4950,7 +4950,7 @@ const List<Map<String, dynamic>> countriesData = [
         ],
         "region":"Caribbean",
         "timezones":[
-            "UTC-05:00"
+            "-05:00"
         ],
         "topLevelDomain":[
             ".cu"
@@ -4996,7 +4996,7 @@ const List<Map<String, dynamic>> countriesData = [
                 "symbol":"\u0192"
             }
         ],
-        "demonym":"Dutch",
+        "demonym":"Dh",
         "independent":false,
         "flags":[
             "https://restcountries.com/data/cuw.svg",
@@ -5006,7 +5006,7 @@ const List<Map<String, dynamic>> countriesData = [
             {
                 "iso639_1":"nl",
                 "iso639_2":"nld",
-                "name":"Dutch",
+                "name":"Dh",
                 "nativeName":"Nederlands"
             },
             {
@@ -5036,7 +5036,7 @@ const List<Map<String, dynamic>> countriesData = [
         ],
         "region":"Caribbean",
         "timezones":[
-            "UTC-04:00"
+            "-04:00"
         ],
         "topLevelDomain":[
             ".cw"
@@ -5124,7 +5124,7 @@ const List<Map<String, dynamic>> countriesData = [
         ],
         "region":"Southern Europe",
         "timezones":[
-            "UTC+02:00"
+            "+02:00"
         ],
         "topLevelDomain":[
             ".cy"
@@ -5205,7 +5205,7 @@ const List<Map<String, dynamic>> countriesData = [
         ],
         "region":"Central Europe",
         "timezones":[
-            "UTC+01:00"
+            "+01:00"
         ],
         "topLevelDomain":[
             ".cz"
@@ -5281,11 +5281,11 @@ const List<Map<String, dynamic>> countriesData = [
         ],
         "region":"Northern Europe",
         "timezones":[
-            "UTC-04:00",
-            "UTC-03:00",
-            "UTC-01:00",
-            "UTC",
-            "UTC+01:00"
+            "-04:00",
+            "-03:00",
+            "-01:00",
+            "",
+            "+01:00"
         ],
         "topLevelDomain":[
             ".dk"
@@ -5388,7 +5388,7 @@ const List<Map<String, dynamic>> countriesData = [
         ],
         "region":"Eastern Africa",
         "timezones":[
-            "UTC+03:00"
+            "+03:00"
         ],
         "topLevelDomain":[
             ".dj"
@@ -5460,7 +5460,7 @@ const List<Map<String, dynamic>> countriesData = [
         ],
         "region":"Caribbean",
         "timezones":[
-            "UTC-04:00"
+            "-04:00"
         ],
         "topLevelDomain":[
             ".dm"
@@ -5548,7 +5548,7 @@ const List<Map<String, dynamic>> countriesData = [
         ],
         "region":"Caribbean",
         "timezones":[
-            "UTC-04:00"
+            "-04:00"
         ],
         "topLevelDomain":[
             ".do"
@@ -5635,8 +5635,8 @@ const List<Map<String, dynamic>> countriesData = [
         ],
         "region":"South America",
         "timezones":[
-            "UTC-06:00",
-            "UTC-05:00"
+            "-06:00",
+            "-05:00"
         ],
         "topLevelDomain":[
             ".ec"
@@ -5728,7 +5728,7 @@ const List<Map<String, dynamic>> countriesData = [
         ],
         "region":"Northern Africa",
         "timezones":[
-            "UTC+02:00"
+            "+02:00"
         ],
         "topLevelDomain":[
             ".eg"
@@ -5810,7 +5810,7 @@ const List<Map<String, dynamic>> countriesData = [
         ],
         "region":"Central America",
         "timezones":[
-            "UTC-06:00"
+            "-06:00"
         ],
         "topLevelDomain":[
             ".sv"
@@ -5913,7 +5913,7 @@ const List<Map<String, dynamic>> countriesData = [
         ],
         "region":"Middle Africa",
         "timezones":[
-            "UTC+01:00"
+            "+01:00"
         ],
         "topLevelDomain":[
             ".gq"
@@ -6048,7 +6048,7 @@ const List<Map<String, dynamic>> countriesData = [
         ],
         "region":"Eastern Africa",
         "timezones":[
-            "UTC+03:00"
+            "+03:00"
         ],
         "topLevelDomain":[
             ".er"
@@ -6125,7 +6125,7 @@ const List<Map<String, dynamic>> countriesData = [
         ],
         "region":"Northern Europe",
         "timezones":[
-            "UTC+02:00"
+            "+02:00"
         ],
         "topLevelDomain":[
             ".ee"
@@ -6213,7 +6213,7 @@ const List<Map<String, dynamic>> countriesData = [
         ],
         "region":"Eastern Africa",
         "timezones":[
-            "UTC+03:00"
+            "+03:00"
         ],
         "topLevelDomain":[
             ".et"
@@ -6297,7 +6297,7 @@ const List<Map<String, dynamic>> countriesData = [
         ],
         "region":"South America",
         "timezones":[
-            "UTC-04:00"
+            "-04:00"
         ],
         "topLevelDomain":[
             ".fk"
@@ -6373,7 +6373,7 @@ const List<Map<String, dynamic>> countriesData = [
         ],
         "region":"Northern Europe",
         "timezones":[
-            "UTC+00:00"
+            "+00:00"
         ],
         "topLevelDomain":[
             ".fo"
@@ -6465,7 +6465,7 @@ const List<Map<String, dynamic>> countriesData = [
         ],
         "region":"Melanesia",
         "timezones":[
-            "UTC+12:00"
+            "+12:00"
         ],
         "topLevelDomain":[
             ".fj"
@@ -6550,7 +6550,7 @@ const List<Map<String, dynamic>> countriesData = [
         ],
         "region":"Northern Europe",
         "timezones":[
-            "UTC+02:00"
+            "+02:00"
         ],
         "topLevelDomain":[
             ".fi"
@@ -6632,20 +6632,20 @@ const List<Map<String, dynamic>> countriesData = [
         ],
         "region":"Western Europe",
         "timezones":[
-            "UTC-10:00",
-            "UTC-09:30",
-            "UTC-09:00",
-            "UTC-08:00",
-            "UTC-04:00",
-            "UTC-03:00",
-            "UTC+01:00",
-            "UTC+02:00",
-            "UTC+03:00",
-            "UTC+04:00",
-            "UTC+05:00",
-            "UTC+10:00",
-            "UTC+11:00",
-            "UTC+12:00"
+            "-10:00",
+            "-09:30",
+            "-09:00",
+            "-08:00",
+            "-04:00",
+            "-03:00",
+            "+01:00",
+            "+02:00",
+            "+03:00",
+            "+04:00",
+            "+05:00",
+            "+10:00",
+            "+11:00",
+            "+12:00"
         ],
         "topLevelDomain":[
             ".fr"
@@ -6734,7 +6734,7 @@ const List<Map<String, dynamic>> countriesData = [
         ],
         "region":"South America",
         "timezones":[
-            "UTC-03:00"
+            "-03:00"
         ],
         "topLevelDomain":[
             ".gf"
@@ -6806,9 +6806,9 @@ const List<Map<String, dynamic>> countriesData = [
         ],
         "region":"Polynesia",
         "timezones":[
-            "UTC-10:00",
-            "UTC-09:30",
-            "UTC-09:00"
+            "-10:00",
+            "-09:30",
+            "-09:00"
         ],
         "topLevelDomain":[
             ".pf"
@@ -6887,7 +6887,7 @@ const List<Map<String, dynamic>> countriesData = [
         ],
         "region":"Southern Africa",
         "timezones":[
-            "UTC+05:00"
+            "+05:00"
         ],
         "topLevelDomain":[
             ".tf"
@@ -6971,7 +6971,7 @@ const List<Map<String, dynamic>> countriesData = [
         ],
         "region":"Middle Africa",
         "timezones":[
-            "UTC+01:00"
+            "+01:00"
         ],
         "topLevelDomain":[
             ".ga"
@@ -7051,7 +7051,7 @@ const List<Map<String, dynamic>> countriesData = [
         ],
         "region":"Western Africa",
         "timezones":[
-            "UTC+00:00"
+            "+00:00"
         ],
         "topLevelDomain":[
             ".gm"
@@ -7125,7 +7125,7 @@ const List<Map<String, dynamic>> countriesData = [
         ],
         "region":"Western Asia",
         "timezones":[
-            "UTC-04:00"
+            "-04:00"
         ],
         "topLevelDomain":[
             ".ge"
@@ -7208,7 +7208,7 @@ const List<Map<String, dynamic>> countriesData = [
         ],
         "region":"Central Europe",
         "timezones":[
-            "UTC+01:00"
+            "+01:00"
         ],
         "topLevelDomain":[
             ".de"
@@ -7290,7 +7290,7 @@ const List<Map<String, dynamic>> countriesData = [
         ],
         "region":"Western Africa",
         "timezones":[
-            "UTC"
+            ""
         ],
         "topLevelDomain":[
             ".gh"
@@ -7362,7 +7362,7 @@ const List<Map<String, dynamic>> countriesData = [
         ],
         "region":"Southern Europe",
         "timezones":[
-            "UTC+01:00"
+            "+01:00"
         ],
         "topLevelDomain":[
             ".gi"
@@ -7441,7 +7441,7 @@ const List<Map<String, dynamic>> countriesData = [
         ],
         "region":"Southern Europe",
         "timezones":[
-            "UTC+02:00"
+            "+02:00"
         ],
         "topLevelDomain":[
             ".gr"
@@ -7511,10 +7511,10 @@ const List<Map<String, dynamic>> countriesData = [
         ],
         "region":"Northern America",
         "timezones":[
-            "UTC-04:00",
-            "UTC-03:00",
-            "UTC-01:00",
-            "UTC+00:00"
+            "-04:00",
+            "-03:00",
+            "-01:00",
+            "+00:00"
         ],
         "topLevelDomain":[
             ".gl"
@@ -7591,7 +7591,7 @@ const List<Map<String, dynamic>> countriesData = [
         ],
         "region":"Caribbean",
         "timezones":[
-            "UTC-04:00"
+            "-04:00"
         ],
         "topLevelDomain":[
             ".gd"
@@ -7660,7 +7660,7 @@ const List<Map<String, dynamic>> countriesData = [
         ],
         "region":"Caribbean",
         "timezones":[
-            "UTC-04:00"
+            "-04:00"
         ],
         "topLevelDomain":[
             ".gp"
@@ -7742,7 +7742,7 @@ const List<Map<String, dynamic>> countriesData = [
         ],
         "region":"Micronesia",
         "timezones":[
-            "UTC+10:00"
+            "+10:00"
         ],
         "topLevelDomain":[
             ".gu"
@@ -7824,7 +7824,7 @@ const List<Map<String, dynamic>> countriesData = [
         ],
         "region":"Central America",
         "timezones":[
-            "UTC-06:00"
+            "-06:00"
         ],
         "topLevelDomain":[
             ".gt"
@@ -7906,7 +7906,7 @@ const List<Map<String, dynamic>> countriesData = [
         ],
         "region":"Northern Europe",
         "timezones":[
-            "UTC+00:00"
+            "+00:00"
         ],
         "topLevelDomain":[
             ".gg"
@@ -7999,7 +7999,7 @@ const List<Map<String, dynamic>> countriesData = [
         ],
         "region":"Western Africa",
         "timezones":[
-            "UTC"
+            ""
         ],
         "topLevelDomain":[
             ".gn"
@@ -8082,7 +8082,7 @@ const List<Map<String, dynamic>> countriesData = [
         ],
         "region":"Western Africa",
         "timezones":[
-            "UTC"
+            ""
         ],
         "topLevelDomain":[
             ".gw"
@@ -8178,7 +8178,7 @@ const List<Map<String, dynamic>> countriesData = [
         ],
         "region":"South America",
         "timezones":[
-            "UTC-04:00"
+            "-04:00"
         ],
         "topLevelDomain":[
             ".gy"
@@ -8265,7 +8265,7 @@ const List<Map<String, dynamic>> countriesData = [
         ],
         "region":"Caribbean",
         "timezones":[
-            "UTC-05:00"
+            "-05:00"
         ],
         "topLevelDomain":[
             ".ht"
@@ -8334,7 +8334,7 @@ const List<Map<String, dynamic>> countriesData = [
         ],
         "region":"",
         "timezones":[
-            "UTC+05:00"
+            "+05:00"
         ],
         "topLevelDomain":[
             ".hm",
@@ -8424,7 +8424,7 @@ const List<Map<String, dynamic>> countriesData = [
         ],
         "region":"Southern Europe",
         "timezones":[
-            "UTC+01:00"
+            "+01:00"
         ],
         "topLevelDomain":[
             ".va"
@@ -8507,7 +8507,7 @@ const List<Map<String, dynamic>> countriesData = [
         ],
         "region":"Central America",
         "timezones":[
-            "UTC-06:00"
+            "-06:00"
         ],
         "topLevelDomain":[
             ".hn"
@@ -8586,7 +8586,7 @@ const List<Map<String, dynamic>> countriesData = [
         ],
         "region":"Central Europe",
         "timezones":[
-            "UTC+01:00"
+            "+01:00"
         ],
         "topLevelDomain":[
             ".hu"
@@ -8662,7 +8662,7 @@ const List<Map<String, dynamic>> countriesData = [
         ],
         "region":"Northern Europe",
         "timezones":[
-            "UTC"
+            ""
         ],
         "topLevelDomain":[
             ".is"
@@ -8751,7 +8751,7 @@ const List<Map<String, dynamic>> countriesData = [
         ],
         "region":"Southern Asia",
         "timezones":[
-            "UTC+05:30"
+            "+05:30"
         ],
         "topLevelDomain":[
             ".in"
@@ -8828,9 +8828,9 @@ const List<Map<String, dynamic>> countriesData = [
         ],
         "region":"South-Eastern Asia",
         "timezones":[
-            "UTC+07:00",
-            "UTC+08:00",
-            "UTC+09:00"
+            "+07:00",
+            "+08:00",
+            "+09:00"
         ],
         "topLevelDomain":[
             ".id"
@@ -8917,7 +8917,7 @@ const List<Map<String, dynamic>> countriesData = [
         ],
         "region":"Western Africa",
         "timezones":[
-            "UTC"
+            ""
         ],
         "topLevelDomain":[
             ".ci"
@@ -8995,7 +8995,7 @@ const List<Map<String, dynamic>> countriesData = [
         ],
         "region":"Southern Asia",
         "timezones":[
-            "UTC+03:30"
+            "+03:30"
         ],
         "topLevelDomain":[
             ".ir"
@@ -9085,7 +9085,7 @@ const List<Map<String, dynamic>> countriesData = [
         ],
         "region":"Western Asia",
         "timezones":[
-            "UTC+03:00"
+            "+03:00"
         ],
         "topLevelDomain":[
             ".iq"
@@ -9167,7 +9167,7 @@ const List<Map<String, dynamic>> countriesData = [
         ],
         "region":"Northern Europe",
         "timezones":[
-            "UTC"
+            ""
         ],
         "topLevelDomain":[
             ".ie"
@@ -9253,7 +9253,7 @@ const List<Map<String, dynamic>> countriesData = [
         ],
         "region":"Northern Europe",
         "timezones":[
-            "UTC+00:00"
+            "+00:00"
         ],
         "topLevelDomain":[
             ".im"
@@ -9334,7 +9334,7 @@ const List<Map<String, dynamic>> countriesData = [
         ],
         "region":"Western Asia",
         "timezones":[
-            "UTC+02:00"
+            "+02:00"
         ],
         "topLevelDomain":[
             ".il"
@@ -9414,7 +9414,7 @@ const List<Map<String, dynamic>> countriesData = [
         ],
         "region":"Southern Europe",
         "timezones":[
-            "UTC+01:00"
+            "+01:00"
         ],
         "topLevelDomain":[
             ".it"
@@ -9492,7 +9492,7 @@ const List<Map<String, dynamic>> countriesData = [
         ],
         "region":"Caribbean",
         "timezones":[
-            "UTC-05:00"
+            "-05:00"
         ],
         "topLevelDomain":[
             ".jm"
@@ -9564,7 +9564,7 @@ const List<Map<String, dynamic>> countriesData = [
         ],
         "region":"Eastern Asia",
         "timezones":[
-            "UTC+09:00"
+            "+09:00"
         ],
         "topLevelDomain":[
             ".jp"
@@ -9647,7 +9647,7 @@ const List<Map<String, dynamic>> countriesData = [
         ],
         "region":"Northern Europe",
         "timezones":[
-            "UTC+01:00"
+            "+01:00"
         ],
         "topLevelDomain":[
             ".je"
@@ -9730,7 +9730,7 @@ const List<Map<String, dynamic>> countriesData = [
         ],
         "region":"Western Asia",
         "timezones":[
-            "UTC+03:00"
+            "+03:00"
         ],
         "topLevelDomain":[
             ".jo"
@@ -9823,8 +9823,8 @@ const List<Map<String, dynamic>> countriesData = [
         ],
         "region":"Central Asia",
         "timezones":[
-            "UTC+05:00",
-            "UTC+06:00"
+            "+05:00",
+            "+06:00"
         ],
         "topLevelDomain":[
             ".kz",
@@ -9917,7 +9917,7 @@ const List<Map<String, dynamic>> countriesData = [
         ],
         "region":"Eastern Africa",
         "timezones":[
-            "UTC+03:00"
+            "+03:00"
         ],
         "topLevelDomain":[
             ".ke"
@@ -9993,9 +9993,9 @@ const List<Map<String, dynamic>> countriesData = [
         ],
         "region":"Micronesia",
         "timezones":[
-            "UTC+12:00",
-            "UTC+13:00",
-            "UTC+14:00"
+            "+12:00",
+            "+13:00",
+            "+14:00"
         ],
         "topLevelDomain":[
             ".ki"
@@ -10076,7 +10076,7 @@ const List<Map<String, dynamic>> countriesData = [
         ],
         "region":"Western Asia",
         "timezones":[
-            "UTC+03:00"
+            "+03:00"
         ],
         "topLevelDomain":[
             ".kw"
@@ -10165,7 +10165,7 @@ const List<Map<String, dynamic>> countriesData = [
         ],
         "region":"Central Asia",
         "timezones":[
-            "UTC+06:00"
+            "+06:00"
         ],
         "topLevelDomain":[
             ".kg"
@@ -10246,7 +10246,7 @@ const List<Map<String, dynamic>> countriesData = [
         ],
         "region":"South-Eastern Asia",
         "timezones":[
-            "UTC+07:00"
+            "+07:00"
         ],
         "topLevelDomain":[
             ".la"
@@ -10324,7 +10324,7 @@ const List<Map<String, dynamic>> countriesData = [
         ],
         "region":"Northern Europe",
         "timezones":[
-            "UTC+02:00"
+            "+02:00"
         ],
         "topLevelDomain":[
             ".lv"
@@ -10411,7 +10411,7 @@ const List<Map<String, dynamic>> countriesData = [
         ],
         "region":"Western Asia",
         "timezones":[
-            "UTC+02:00"
+            "+02:00"
         ],
         "topLevelDomain":[
             ".lb"
@@ -10504,7 +10504,7 @@ const List<Map<String, dynamic>> countriesData = [
         ],
         "region":"Southern Africa",
         "timezones":[
-            "UTC+02:00"
+            "+02:00"
         ],
         "topLevelDomain":[
             ".ls"
@@ -10587,7 +10587,7 @@ const List<Map<String, dynamic>> countriesData = [
         ],
         "region":"Western Africa",
         "timezones":[
-            "UTC"
+            ""
         ],
         "topLevelDomain":[
             ".lr"
@@ -10683,7 +10683,7 @@ const List<Map<String, dynamic>> countriesData = [
         ],
         "region":"Northern Africa",
         "timezones":[
-            "UTC+01:00"
+            "+01:00"
         ],
         "topLevelDomain":[
             ".ly"
@@ -10758,7 +10758,7 @@ const List<Map<String, dynamic>> countriesData = [
         ],
         "region":"Central Europe",
         "timezones":[
-            "UTC+01:00"
+            "+01:00"
         ],
         "topLevelDomain":[
             ".li"
@@ -10836,7 +10836,7 @@ const List<Map<String, dynamic>> countriesData = [
         ],
         "region":"Northern Europe",
         "timezones":[
-            "UTC+02:00"
+            "+02:00"
         ],
         "topLevelDomain":[
             ".lt"
@@ -10927,7 +10927,7 @@ const List<Map<String, dynamic>> countriesData = [
         ],
         "region":"Western Europe",
         "timezones":[
-            "UTC+01:00"
+            "+01:00"
         ],
         "topLevelDomain":[
             ".lu"
@@ -11006,7 +11006,7 @@ const List<Map<String, dynamic>> countriesData = [
         ],
         "region":"Eastern Asia",
         "timezones":[
-            "UTC+08:00"
+            "+08:00"
         ],
         "topLevelDomain":[
             ".mo"
@@ -11085,7 +11085,7 @@ const List<Map<String, dynamic>> countriesData = [
         ],
         "region":"Southern Europe",
         "timezones":[
-            "UTC+01:00"
+            "+01:00"
         ],
         "topLevelDomain":[
             ".mk"
@@ -11174,7 +11174,7 @@ const List<Map<String, dynamic>> countriesData = [
         ],
         "region":"Eastern Africa",
         "timezones":[
-            "UTC+03:00"
+            "+03:00"
         ],
         "topLevelDomain":[
             ".mg"
@@ -11263,7 +11263,7 @@ const List<Map<String, dynamic>> countriesData = [
         ],
         "region":"Eastern Africa",
         "timezones":[
-            "UTC+02:00"
+            "+02:00"
         ],
         "topLevelDomain":[
             ".mw"
@@ -11338,7 +11338,7 @@ const List<Map<String, dynamic>> countriesData = [
         ],
         "region":"South-Eastern Asia",
         "timezones":[
-            "UTC+08:00"
+            "+08:00"
         ],
         "topLevelDomain":[
             ".my"
@@ -11414,7 +11414,7 @@ const List<Map<String, dynamic>> countriesData = [
         ],
         "region":"Southern Asia",
         "timezones":[
-            "UTC+05:00"
+            "+05:00"
         ],
         "topLevelDomain":[
             ".mv"
@@ -11502,7 +11502,7 @@ const List<Map<String, dynamic>> countriesData = [
         ],
         "region":"Western Africa",
         "timezones":[
-            "UTC"
+            ""
         ],
         "topLevelDomain":[
             ".ml"
@@ -11583,7 +11583,7 @@ const List<Map<String, dynamic>> countriesData = [
         ],
         "region":"Southern Europe",
         "timezones":[
-            "UTC+01:00"
+            "+01:00"
         ],
         "topLevelDomain":[
             ".mt"
@@ -11660,7 +11660,7 @@ const List<Map<String, dynamic>> countriesData = [
         ],
         "region":"Micronesia",
         "timezones":[
-            "UTC+12:00"
+            "+12:00"
         ],
         "topLevelDomain":[
             ".mh"
@@ -11728,7 +11728,7 @@ const List<Map<String, dynamic>> countriesData = [
         ],
         "region":"Caribbean",
         "timezones":[
-            "UTC-04:00"
+            "-04:00"
         ],
         "topLevelDomain":[
             ".mq"
@@ -11822,7 +11822,7 @@ const List<Map<String, dynamic>> countriesData = [
         ],
         "region":"Western Africa",
         "timezones":[
-            "UTC"
+            ""
         ],
         "topLevelDomain":[
             ".mr"
@@ -11904,7 +11904,7 @@ const List<Map<String, dynamic>> countriesData = [
         ],
         "region":"Eastern Africa",
         "timezones":[
-            "UTC+04:00"
+            "+04:00"
         ],
         "topLevelDomain":[
             ".mu"
@@ -11984,7 +11984,7 @@ const List<Map<String, dynamic>> countriesData = [
         ],
         "region":"Eastern Africa",
         "timezones":[
-            "UTC+03:00"
+            "+03:00"
         ],
         "topLevelDomain":[
             ".yt"
@@ -12073,9 +12073,9 @@ const List<Map<String, dynamic>> countriesData = [
         ],
         "region":"North America",
         "timezones":[
-            "UTC-08:00",
-            "UTC-07:00",
-            "UTC-06:00"
+            "-08:00",
+            "-07:00",
+            "-06:00"
         ],
         "topLevelDomain":[
             ".mx"
@@ -12145,8 +12145,8 @@ const List<Map<String, dynamic>> countriesData = [
         ],
         "region":"Micronesia",
         "timezones":[
-            "UTC+10:00",
-            "UTC+11"
+            "+10:00",
+            "+11"
         ],
         "topLevelDomain":[
             ".fm"
@@ -12222,7 +12222,7 @@ const List<Map<String, dynamic>> countriesData = [
         ],
         "region":"Eastern Europe",
         "timezones":[
-            "UTC+02:00"
+            "+02:00"
         ],
         "topLevelDomain":[
             ".md"
@@ -12293,7 +12293,7 @@ const List<Map<String, dynamic>> countriesData = [
         ],
         "region":"Western Europe",
         "timezones":[
-            "UTC+01:00"
+            "+01:00"
         ],
         "topLevelDomain":[
             ".mc"
@@ -12364,8 +12364,8 @@ const List<Map<String, dynamic>> countriesData = [
         ],
         "region":"Eastern Asia",
         "timezones":[
-            "UTC+07:00",
-            "UTC+08:00"
+            "+07:00",
+            "+08:00"
         ],
         "topLevelDomain":[
             ".mn"
@@ -12461,7 +12461,7 @@ const List<Map<String, dynamic>> countriesData = [
         ],
         "region":"Southern Europe",
         "timezones":[
-            "UTC+01:00"
+            "+01:00"
         ],
         "topLevelDomain":[
             ".me"
@@ -12538,7 +12538,7 @@ const List<Map<String, dynamic>> countriesData = [
         ],
         "region":"Caribbean",
         "timezones":[
-            "UTC-04:00"
+            "-04:00"
         ],
         "topLevelDomain":[
             ".ms"
@@ -12631,7 +12631,7 @@ const List<Map<String, dynamic>> countriesData = [
         ],
         "region":"Northern Africa",
         "timezones":[
-            "UTC"
+            ""
         ],
         "topLevelDomain":[
             ".ma"
@@ -12718,7 +12718,7 @@ const List<Map<String, dynamic>> countriesData = [
         ],
         "region":"Eastern Africa",
         "timezones":[
-            "UTC+02:00"
+            "+02:00"
         ],
         "topLevelDomain":[
             ".mz"
@@ -12798,7 +12798,7 @@ const List<Map<String, dynamic>> countriesData = [
         ],
         "region":"South-Eastern Asia",
         "timezones":[
-            "UTC+06:30"
+            "+06:30"
         ],
         "topLevelDomain":[
             ".mm"
@@ -12894,7 +12894,7 @@ const List<Map<String, dynamic>> countriesData = [
         ],
         "region":"Southern Africa",
         "timezones":[
-            "UTC+01:00"
+            "+01:00"
         ],
         "topLevelDomain":[
             ".na"
@@ -12973,7 +12973,7 @@ const List<Map<String, dynamic>> countriesData = [
         ],
         "region":"Micronesia",
         "timezones":[
-            "UTC+12:00"
+            "+12:00"
         ],
         "topLevelDomain":[
             ".nr"
@@ -13049,7 +13049,7 @@ const List<Map<String, dynamic>> countriesData = [
         ],
         "region":"Southern Asia",
         "timezones":[
-            "UTC+05:45"
+            "+05:45"
         ],
         "topLevelDomain":[
             ".np"
@@ -13093,7 +13093,7 @@ const List<Map<String, dynamic>> countriesData = [
                 "symbol":"\u20ac"
             }
         ],
-        "demonym":"Dutch",
+        "demonym":"Dh",
         "independent":true,
         "flags":[
             "https://restcountries.com/data/nld.svg",
@@ -13104,7 +13104,7 @@ const List<Map<String, dynamic>> countriesData = [
             {
                 "iso639_1":"nl",
                 "iso639_2":"nld",
-                "name":"Dutch",
+                "name":"Dh",
                 "nativeName":"Nederlands"
             }
         ],
@@ -13125,8 +13125,8 @@ const List<Map<String, dynamic>> countriesData = [
         ],
         "region":"Western Europe",
         "timezones":[
-            "UTC-04:00",
-            "UTC+01:00"
+            "-04:00",
+            "+01:00"
         ],
         "topLevelDomain":[
             ".nl"
@@ -13195,7 +13195,7 @@ const List<Map<String, dynamic>> countriesData = [
         ],
         "region":"Melanesia",
         "timezones":[
-            "UTC+11:00"
+            "+11:00"
         ],
         "topLevelDomain":[
             ".nc"
@@ -13272,11 +13272,11 @@ const List<Map<String, dynamic>> countriesData = [
         ],
         "region":"Australia and New Zealand",
         "timezones":[
-            "UTC-11:00",
-            "UTC-10:00",
-            "UTC+12:00",
-            "UTC+12:45",
-            "UTC+13:00"
+            "-11:00",
+            "-10:00",
+            "+12:00",
+            "+12:45",
+            "+13:00"
         ],
         "topLevelDomain":[
             ".nz"
@@ -13358,7 +13358,7 @@ const List<Map<String, dynamic>> countriesData = [
         ],
         "region":"Central America",
         "timezones":[
-            "UTC-06:00"
+            "-06:00"
         ],
         "topLevelDomain":[
             ".ni"
@@ -13447,7 +13447,7 @@ const List<Map<String, dynamic>> countriesData = [
         ],
         "region":"Western Africa",
         "timezones":[
-            "UTC+01:00"
+            "+01:00"
         ],
         "topLevelDomain":[
             ".ne"
@@ -13533,7 +13533,7 @@ const List<Map<String, dynamic>> countriesData = [
         ],
         "region":"Western Africa",
         "timezones":[
-            "UTC+01:00"
+            "+01:00"
         ],
         "topLevelDomain":[
             ".ng"
@@ -13607,7 +13607,7 @@ const List<Map<String, dynamic>> countriesData = [
         ],
         "region":"Polynesia",
         "timezones":[
-            "UTC-11:00"
+            "-11:00"
         ],
         "topLevelDomain":[
             ".nu"
@@ -13678,7 +13678,7 @@ const List<Map<String, dynamic>> countriesData = [
         ],
         "region":"Australia and New Zealand",
         "timezones":[
-            "UTC+11:30"
+            "+11:30"
         ],
         "topLevelDomain":[
             ".nf"
@@ -13753,7 +13753,7 @@ const List<Map<String, dynamic>> countriesData = [
         ],
         "region":"Eastern Asia",
         "timezones":[
-            "UTC+09:00"
+            "+09:00"
         ],
         "topLevelDomain":[
             ".kp"
@@ -13830,7 +13830,7 @@ const List<Map<String, dynamic>> countriesData = [
         ],
         "region":"Micronesia",
         "timezones":[
-            "UTC+10:00"
+            "+10:00"
         ],
         "topLevelDomain":[
             ".mp"
@@ -13922,7 +13922,7 @@ const List<Map<String, dynamic>> countriesData = [
         ],
         "region":"Northern Europe",
         "timezones":[
-            "UTC+01:00"
+            "+01:00"
         ],
         "topLevelDomain":[
             ".no"
@@ -14004,7 +14004,7 @@ const List<Map<String, dynamic>> countriesData = [
         ],
         "region":"Western Asia",
         "timezones":[
-            "UTC+04:00"
+            "+04:00"
         ],
         "topLevelDomain":[
             ".om"
@@ -14089,7 +14089,7 @@ const List<Map<String, dynamic>> countriesData = [
         ],
         "region":"Southern Asia",
         "timezones":[
-            "UTC+05:00"
+            "+05:00"
         ],
         "topLevelDomain":[
             ".pk"
@@ -14160,7 +14160,7 @@ const List<Map<String, dynamic>> countriesData = [
         ],
         "region":"Micronesia",
         "timezones":[
-            "UTC+09:00"
+            "+09:00"
         ],
         "topLevelDomain":[
             ".pw"
@@ -14241,7 +14241,7 @@ const List<Map<String, dynamic>> countriesData = [
         ],
         "region":"Western Asia",
         "timezones":[
-            "UTC+02:00"
+            "+02:00"
         ],
         "topLevelDomain":[
             ".ps"
@@ -14328,7 +14328,7 @@ const List<Map<String, dynamic>> countriesData = [
         ],
         "region":"Central America",
         "timezones":[
-            "UTC-05:00"
+            "-05:00"
         ],
         "topLevelDomain":[
             ".pa"
@@ -14400,7 +14400,7 @@ const List<Map<String, dynamic>> countriesData = [
         ],
         "region":"Melanesia",
         "timezones":[
-            "UTC+10:00"
+            "+10:00"
         ],
         "topLevelDomain":[
             ".pg"
@@ -14495,7 +14495,7 @@ const List<Map<String, dynamic>> countriesData = [
         ],
         "region":"South America",
         "timezones":[
-            "UTC-04:00"
+            "-04:00"
         ],
         "topLevelDomain":[
             ".py"
@@ -14592,7 +14592,7 @@ const List<Map<String, dynamic>> countriesData = [
         ],
         "region":"South America",
         "timezones":[
-            "UTC-05:00"
+            "-05:00"
         ],
         "topLevelDomain":[
             ".pe"
@@ -14667,7 +14667,7 @@ const List<Map<String, dynamic>> countriesData = [
         ],
         "region":"South-Eastern Asia",
         "timezones":[
-            "UTC+08:00"
+            "+08:00"
         ],
         "topLevelDomain":[
             ".ph"
@@ -14742,7 +14742,7 @@ const List<Map<String, dynamic>> countriesData = [
         ],
         "region":"Polynesia",
         "timezones":[
-            "UTC-08:00"
+            "-08:00"
         ],
         "topLevelDomain":[
             ".pn"
@@ -14823,7 +14823,7 @@ const List<Map<String, dynamic>> countriesData = [
         ],
         "region":"Central Europe",
         "timezones":[
-            "UTC+01:00"
+            "+01:00"
         ],
         "topLevelDomain":[
             ".pl"
@@ -14899,8 +14899,8 @@ const List<Map<String, dynamic>> countriesData = [
         ],
         "region":"Southern Europe",
         "timezones":[
-            "UTC-01:00",
-            "UTC"
+            "-01:00",
+            ""
         ],
         "topLevelDomain":[
             ".pt"
@@ -14977,7 +14977,7 @@ const List<Map<String, dynamic>> countriesData = [
         ],
         "region":"Caribbean",
         "timezones":[
-            "UTC-04:00"
+            "-04:00"
         ],
         "topLevelDomain":[
             ".pr"
@@ -15057,7 +15057,7 @@ const List<Map<String, dynamic>> countriesData = [
         ],
         "region":"Western Asia",
         "timezones":[
-            "UTC+03:00"
+            "+03:00"
         ],
         "topLevelDomain":[
             ".qa"
@@ -15138,7 +15138,7 @@ const List<Map<String, dynamic>> countriesData = [
         ],
         "region":"Eastern Europe",
         "timezones":[
-            "UTC+01:00"
+            "+01:00"
         ],
         "topLevelDomain":[
             ""
@@ -15211,7 +15211,7 @@ const List<Map<String, dynamic>> countriesData = [
         ],
         "region":"Eastern Africa",
         "timezones":[
-            "UTC+04:00"
+            "+04:00"
         ],
         "topLevelDomain":[
             ".re"
@@ -15291,7 +15291,7 @@ const List<Map<String, dynamic>> countriesData = [
         ],
         "region":"Eastern Europe",
         "timezones":[
-            "UTC+02:00"
+            "+02:00"
         ],
         "topLevelDomain":[
             ".ro"
@@ -15384,15 +15384,15 @@ const List<Map<String, dynamic>> countriesData = [
         ],
         "region":"Eastern Europe",
         "timezones":[
-            "UTC+03:00",
-            "UTC+04:00",
-            "UTC+06:00",
-            "UTC+07:00",
-            "UTC+08:00",
-            "UTC+09:00",
-            "UTC+10:00",
-            "UTC+11:00",
-            "UTC+12:00"
+            "+03:00",
+            "+04:00",
+            "+06:00",
+            "+07:00",
+            "+08:00",
+            "+09:00",
+            "+10:00",
+            "+11:00",
+            "+12:00"
         ],
         "topLevelDomain":[
             ".ru"
@@ -15490,7 +15490,7 @@ const List<Map<String, dynamic>> countriesData = [
         ],
         "region":"Eastern Africa",
         "timezones":[
-            "UTC+02:00"
+            "+02:00"
         ],
         "topLevelDomain":[
             ".rw"
@@ -15562,7 +15562,7 @@ const List<Map<String, dynamic>> countriesData = [
         ],
         "region":"Caribbean",
         "timezones":[
-            "UTC-04:00"
+            "-04:00"
         ],
         "topLevelDomain":[
             ".bl"
@@ -15640,7 +15640,7 @@ const List<Map<String, dynamic>> countriesData = [
         ],
         "region":"Western Africa",
         "timezones":[
-            "UTC+00:00"
+            "+00:00"
         ],
         "topLevelDomain":[
             ".sh"
@@ -15717,7 +15717,7 @@ const List<Map<String, dynamic>> countriesData = [
         ],
         "region":"Caribbean",
         "timezones":[
-            "UTC-04:00"
+            "-04:00"
         ],
         "topLevelDomain":[
             ".kn"
@@ -15795,7 +15795,7 @@ const List<Map<String, dynamic>> countriesData = [
         ],
         "region":"Caribbean",
         "timezones":[
-            "UTC-04:00"
+            "-04:00"
         ],
         "topLevelDomain":[
             ".lc"
@@ -15861,7 +15861,7 @@ const List<Map<String, dynamic>> countriesData = [
             {
                 "iso639_1":"nl",
                 "iso639_2":"nld",
-                "name":"Dutch",
+                "name":"Dh",
                 "nativeName":"Nederlands"
             }
         ],
@@ -15879,7 +15879,7 @@ const List<Map<String, dynamic>> countriesData = [
         ],
         "region":"Caribbean",
         "timezones":[
-            "UTC-04:00"
+            "-04:00"
         ],
         "topLevelDomain":[
             ".mf",
@@ -15952,7 +15952,7 @@ const List<Map<String, dynamic>> countriesData = [
         ],
         "region":"Northern America",
         "timezones":[
-            "UTC-03:00"
+            "-03:00"
         ],
         "topLevelDomain":[
             ".pm"
@@ -16029,7 +16029,7 @@ const List<Map<String, dynamic>> countriesData = [
         ],
         "region":"Caribbean",
         "timezones":[
-            "UTC-04:00"
+            "-04:00"
         ],
         "topLevelDomain":[
             ".vc"
@@ -16106,7 +16106,7 @@ const List<Map<String, dynamic>> countriesData = [
         ],
         "region":"Polynesia",
         "timezones":[
-            "UTC+13:00"
+            "+13:00"
         ],
         "topLevelDomain":[
             ".ws"
@@ -16177,7 +16177,7 @@ const List<Map<String, dynamic>> countriesData = [
         ],
         "region":"Southern Europe",
         "timezones":[
-            "UTC+01:00"
+            "+01:00"
         ],
         "topLevelDomain":[
             ".sm"
@@ -16259,7 +16259,7 @@ const List<Map<String, dynamic>> countriesData = [
         ],
         "region":"Middle Africa",
         "timezones":[
-            "UTC"
+            ""
         ],
         "topLevelDomain":[
             ".st"
@@ -16345,7 +16345,7 @@ const List<Map<String, dynamic>> countriesData = [
         ],
         "region":"Western Asia",
         "timezones":[
-            "UTC+03:00"
+            "+03:00"
         ],
         "topLevelDomain":[
             ".sa"
@@ -16431,7 +16431,7 @@ const List<Map<String, dynamic>> countriesData = [
         ],
         "region":"Western Africa",
         "timezones":[
-            "UTC"
+            ""
         ],
         "topLevelDomain":[
             ".sn"
@@ -16515,7 +16515,7 @@ const List<Map<String, dynamic>> countriesData = [
         ],
         "region":"Southern Europe",
         "timezones":[
-            "UTC+01:00"
+            "+01:00"
         ],
         "topLevelDomain":[
             ".rs"
@@ -16604,7 +16604,7 @@ const List<Map<String, dynamic>> countriesData = [
         ],
         "region":"Eastern Africa",
         "timezones":[
-            "UTC+04:00"
+            "+04:00"
         ],
         "topLevelDomain":[
             ".sc"
@@ -16686,7 +16686,7 @@ const List<Map<String, dynamic>> countriesData = [
         ],
         "region":"Western Africa",
         "timezones":[
-            "UTC"
+            ""
         ],
         "topLevelDomain":[
             ".sl"
@@ -16785,7 +16785,7 @@ const List<Map<String, dynamic>> countriesData = [
         ],
         "region":"South-Eastern Asia",
         "timezones":[
-            "UTC+08:00"
+            "+08:00"
         ],
         "topLevelDomain":[
             ".sg"
@@ -16826,7 +16826,7 @@ const List<Map<String, dynamic>> countriesData = [
                 "symbol":"\u0192"
             }
         ],
-        "demonym":"Dutch",
+        "demonym":"Dh",
         "independent":false,
         "flags":[
             "https://restcountries.com/data/sxm.svg",
@@ -16836,7 +16836,7 @@ const List<Map<String, dynamic>> countriesData = [
             {
                 "iso639_1":"nl",
                 "iso639_2":"nld",
-                "name":"Dutch",
+                "name":"Dh",
                 "nativeName":"Nederlands"
             },
             {
@@ -16850,7 +16850,7 @@ const List<Map<String, dynamic>> countriesData = [
             18.033333,
             -63.05
         ],
-        "name":"Sint Maarten (Dutch part)",
+        "name":"Sint Maarten (Dh part)",
         "nativeName":"Sint Maarten",
         "numericCode":"534",
         "population":38247,
@@ -16860,7 +16860,7 @@ const List<Map<String, dynamic>> countriesData = [
         ],
         "region":"Caribbean",
         "timezones":[
-            "UTC-04:00"
+            "-04:00"
         ],
         "topLevelDomain":[
             ".sx"
@@ -16937,7 +16937,7 @@ const List<Map<String, dynamic>> countriesData = [
         ],
         "region":"Central Europe",
         "timezones":[
-            "UTC+01:00"
+            "+01:00"
         ],
         "topLevelDomain":[
             ".sk"
@@ -17015,7 +17015,7 @@ const List<Map<String, dynamic>> countriesData = [
         ],
         "region":"Southern Europe",
         "timezones":[
-            "UTC+01:00"
+            "+01:00"
         ],
         "topLevelDomain":[
             ".si"
@@ -17084,7 +17084,7 @@ const List<Map<String, dynamic>> countriesData = [
         ],
         "region":"Melanesia",
         "timezones":[
-            "UTC+11:00"
+            "+11:00"
         ],
         "topLevelDomain":[
             ".sb"
@@ -17185,7 +17185,7 @@ const List<Map<String, dynamic>> countriesData = [
         ],
         "region":"Eastern Africa",
         "timezones":[
-            "UTC+03:00"
+            "+03:00"
         ],
         "topLevelDomain":[
             ".so"
@@ -17327,7 +17327,7 @@ const List<Map<String, dynamic>> countriesData = [
         ],
         "region":"Southern Africa",
         "timezones":[
-            "UTC+02:00"
+            "+02:00"
         ],
         "topLevelDomain":[
             ".za"
@@ -17410,7 +17410,7 @@ const List<Map<String, dynamic>> countriesData = [
         ],
         "region":"South America",
         "timezones":[
-            "UTC-02:00"
+            "-02:00"
         ],
         "topLevelDomain":[
             ".gs"
@@ -17482,7 +17482,7 @@ const List<Map<String, dynamic>> countriesData = [
         ],
         "region":"Eastern Asia",
         "timezones":[
-            "UTC+09:00"
+            "+09:00"
         ],
         "topLevelDomain":[
             ".kr"
@@ -17567,7 +17567,7 @@ const List<Map<String, dynamic>> countriesData = [
         ],
         "region":"Middle Africa",
         "timezones":[
-            "UTC+03:00"
+            "+03:00"
         ],
         "topLevelDomain":[
             ".ss"
@@ -17646,8 +17646,8 @@ const List<Map<String, dynamic>> countriesData = [
         ],
         "region":"Southern Europe",
         "timezones":[
-            "UTC",
-            "UTC+01:00"
+            "",
+            "+01:00"
         ],
         "topLevelDomain":[
             ".es"
@@ -17728,7 +17728,7 @@ const List<Map<String, dynamic>> countriesData = [
         ],
         "region":"Southern Asia",
         "timezones":[
-            "UTC+05:30"
+            "+05:30"
         ],
         "topLevelDomain":[
             ".lk"
@@ -17831,7 +17831,7 @@ const List<Map<String, dynamic>> countriesData = [
         ],
         "region":"Northern Africa",
         "timezones":[
-            "UTC+03:00"
+            "+03:00"
         ],
         "topLevelDomain":[
             ".sd"
@@ -17890,7 +17890,7 @@ const List<Map<String, dynamic>> countriesData = [
             {
                 "iso639_1":"nl",
                 "iso639_2":"nld",
-                "name":"Dutch",
+                "name":"Dh",
                 "nativeName":"Nederlands"
             }
         ],
@@ -17931,7 +17931,7 @@ const List<Map<String, dynamic>> countriesData = [
         ],
         "region":"South America",
         "timezones":[
-            "UTC-03:00"
+            "-03:00"
         ],
         "topLevelDomain":[
             ".sr"
@@ -18000,7 +18000,7 @@ const List<Map<String, dynamic>> countriesData = [
         ],
         "region":"Northern Europe",
         "timezones":[
-            "UTC+01:00"
+            "+01:00"
         ],
         "topLevelDomain":[
             ".sj"
@@ -18092,7 +18092,7 @@ const List<Map<String, dynamic>> countriesData = [
         ],
         "region":"Southern Africa",
         "timezones":[
-            "UTC+02:00"
+            "+02:00"
         ],
         "topLevelDomain":[
             ".sz"
@@ -18168,7 +18168,7 @@ const List<Map<String, dynamic>> countriesData = [
         ],
         "region":"Northern Europe",
         "timezones":[
-            "UTC+01:00"
+            "+01:00"
         ],
         "topLevelDomain":[
             ".se"
@@ -18268,7 +18268,7 @@ const List<Map<String, dynamic>> countriesData = [
         ],
         "region":"Central Europe",
         "timezones":[
-            "UTC+01:00"
+            "+01:00"
         ],
         "topLevelDomain":[
             ".ch"
@@ -18352,7 +18352,7 @@ const List<Map<String, dynamic>> countriesData = [
         ],
         "region":"Western Asia",
         "timezones":[
-            "UTC+02:00"
+            "+02:00"
         ],
         "topLevelDomain":[
             ".sy"
@@ -18426,7 +18426,7 @@ const List<Map<String, dynamic>> countriesData = [
         ],
         "region":"Eastern Asia",
         "timezones":[
-            "UTC+08:00"
+            "+08:00"
         ],
         "topLevelDomain":[
             ".tw"
@@ -18509,7 +18509,7 @@ const List<Map<String, dynamic>> countriesData = [
         ],
         "region":"Central Asia",
         "timezones":[
-            "UTC+05:00"
+            "+05:00"
         ],
         "topLevelDomain":[
             ".tj"
@@ -18604,7 +18604,7 @@ const List<Map<String, dynamic>> countriesData = [
         ],
         "region":"Eastern Africa",
         "timezones":[
-            "UTC+03:00"
+            "+03:00"
         ],
         "topLevelDomain":[
             ".tz"
@@ -18685,7 +18685,7 @@ const List<Map<String, dynamic>> countriesData = [
         ],
         "region":"South-Eastern Asia",
         "timezones":[
-            "UTC+07:00"
+            "+07:00"
         ],
         "topLevelDomain":[
             ".th"
@@ -18759,7 +18759,7 @@ const List<Map<String, dynamic>> countriesData = [
         ],
         "region":"South-Eastern Asia",
         "timezones":[
-            "UTC+09:00"
+            "+09:00"
         ],
         "topLevelDomain":[
             ".tl"
@@ -18844,7 +18844,7 @@ const List<Map<String, dynamic>> countriesData = [
         ],
         "region":"Western Africa",
         "timezones":[
-            "UTC"
+            ""
         ],
         "topLevelDomain":[
             ".tg"
@@ -18913,7 +18913,7 @@ const List<Map<String, dynamic>> countriesData = [
         ],
         "region":"Polynesia",
         "timezones":[
-            "UTC+13:00"
+            "+13:00"
         ],
         "topLevelDomain":[
             ".tk"
@@ -18988,7 +18988,7 @@ const List<Map<String, dynamic>> countriesData = [
         ],
         "region":"Polynesia",
         "timezones":[
-            "UTC+13:00"
+            "+13:00"
         ],
         "topLevelDomain":[
             ".to"
@@ -19067,7 +19067,7 @@ const List<Map<String, dynamic>> countriesData = [
         ],
         "region":"Caribbean",
         "timezones":[
-            "UTC-04:00"
+            "-04:00"
         ],
         "topLevelDomain":[
             ".tt"
@@ -19159,7 +19159,7 @@ const List<Map<String, dynamic>> countriesData = [
         ],
         "region":"Northern Africa",
         "timezones":[
-            "UTC+01:00"
+            "+01:00"
         ],
         "topLevelDomain":[
             ".tn"
@@ -19238,7 +19238,7 @@ const List<Map<String, dynamic>> countriesData = [
         ],
         "region":"Western Asia",
         "timezones":[
-            "UTC+03:00"
+            "+03:00"
         ],
         "topLevelDomain":[
             ".tr"
@@ -19317,7 +19317,7 @@ const List<Map<String, dynamic>> countriesData = [
         ],
         "region":"Central Asia",
         "timezones":[
-            "UTC+05:00"
+            "+05:00"
         ],
         "topLevelDomain":[
             ".tm"
@@ -19386,7 +19386,7 @@ const List<Map<String, dynamic>> countriesData = [
         ],
         "region":"Caribbean",
         "timezones":[
-            "UTC-04:00"
+            "-04:00"
         ],
         "topLevelDomain":[
             ".tc"
@@ -19460,7 +19460,7 @@ const List<Map<String, dynamic>> countriesData = [
         ],
         "region":"Polynesia",
         "timezones":[
-            "UTC+12:00"
+            "+12:00"
         ],
         "topLevelDomain":[
             ".tv"
@@ -19552,7 +19552,7 @@ const List<Map<String, dynamic>> countriesData = [
         ],
         "region":"Eastern Africa",
         "timezones":[
-            "UTC+03:00"
+            "+03:00"
         ],
         "topLevelDomain":[
             ".ug"
@@ -19629,7 +19629,7 @@ const List<Map<String, dynamic>> countriesData = [
         ],
         "region":"Eastern Europe",
         "timezones":[
-            "UTC+02:00"
+            "+02:00"
         ],
         "topLevelDomain":[
             ".ua"
@@ -19709,7 +19709,7 @@ const List<Map<String, dynamic>> countriesData = [
         ],
         "region":"Western Asia",
         "timezones":[
-            "UTC+04"
+            "+04"
         ],
         "topLevelDomain":[
             ".ae"
@@ -19778,15 +19778,15 @@ const List<Map<String, dynamic>> countriesData = [
         "continent":"Europe",
         "region":"Northern Europe",
         "timezones":[
-            "UTC-08:00",
-            "UTC-05:00",
-            "UTC-04:00",
-            "UTC-03:00",
-            "UTC-02:00",
-            "UTC",
-            "UTC+01:00",
-            "UTC+02:00",
-            "UTC+06:00"
+            "-08:00",
+            "-05:00",
+            "-04:00",
+            "-03:00",
+            "-02:00",
+            "",
+            "+01:00",
+            "+02:00",
+            "+06:00"
         ],
         "topLevelDomain":[
             ".uk"
@@ -19866,17 +19866,17 @@ const List<Map<String, dynamic>> countriesData = [
         ],
         "region":"Northern America",
         "timezones":[
-            "UTC-12:00",
-            "UTC-11:00",
-            "UTC-10:00",
-            "UTC-09:00",
-            "UTC-08:00",
-            "UTC-07:00",
-            "UTC-06:00",
-            "UTC-05:00",
-            "UTC-04:00",
-            "UTC+10:00",
-            "UTC+12:00"
+            "-12:00",
+            "-11:00",
+            "-10:00",
+            "-09:00",
+            "-08:00",
+            "-07:00",
+            "-06:00",
+            "-05:00",
+            "-04:00",
+            "+10:00",
+            "+12:00"
         ],
         "topLevelDomain":[
             ".us"
@@ -19963,7 +19963,7 @@ const List<Map<String, dynamic>> countriesData = [
         ],
         "region":"South America",
         "timezones":[
-            "UTC-03:00"
+            "-03:00"
         ],
         "topLevelDomain":[
             ".uy"
@@ -20045,7 +20045,7 @@ const List<Map<String, dynamic>> countriesData = [
         ],
         "region":"Central Asia",
         "timezones":[
-            "UTC+05:00"
+            "+05:00"
         ],
         "topLevelDomain":[
             ".uz"
@@ -20129,7 +20129,7 @@ const List<Map<String, dynamic>> countriesData = [
         ],
         "region":"Melanesia",
         "timezones":[
-            "UTC+11:00"
+            "+11:00"
         ],
         "topLevelDomain":[
             ".vu"
@@ -20217,7 +20217,7 @@ const List<Map<String, dynamic>> countriesData = [
         ],
         "region":"South America",
         "timezones":[
-            "UTC-04:00"
+            "-04:00"
         ],
         "topLevelDomain":[
             ".ve"
@@ -20294,7 +20294,7 @@ const List<Map<String, dynamic>> countriesData = [
         ],
         "region":"South-Eastern Asia",
         "timezones":[
-            "UTC+07:00"
+            "+07:00"
         ],
         "topLevelDomain":[
             ".vn"
@@ -20365,7 +20365,7 @@ const List<Map<String, dynamic>> countriesData = [
         ],
         "region":"Polynesia",
         "timezones":[
-            "UTC+12:00"
+            "+12:00"
         ],
         "topLevelDomain":[
             ".wf"
@@ -20452,7 +20452,7 @@ const List<Map<String, dynamic>> countriesData = [
         ],
         "region":"Northern Africa",
         "timezones":[
-            "UTC+00:00"
+            "+00:00"
         ],
         "topLevelDomain":[
             ".eh"
@@ -20533,7 +20533,7 @@ const List<Map<String, dynamic>> countriesData = [
         ],
         "region":"Western Asia",
         "timezones":[
-            "UTC+03:00"
+            "+03:00"
         ],
         "topLevelDomain":[
             ".ye"
@@ -20621,7 +20621,7 @@ const List<Map<String, dynamic>> countriesData = [
         ],
         "region":"Eastern Africa",
         "timezones":[
-            "UTC+02:00"
+            "+02:00"
         ],
         "topLevelDomain":[
             ".zm"
@@ -20717,7 +20717,7 @@ const List<Map<String, dynamic>> countriesData = [
         ],
         "region":"Eastern Africa",
         "timezones":[
-            "UTC+02:00"
+            "+02:00"
         ],
         "topLevelDomain":[
             ".zw"

@@ -31,6 +31,7 @@ class Country {
   final List<double> coordinates;
   final double latitude;
   final double longitude;
+  final List<String> timeZones;
   Country(
       {this.name,
       this.officialName,
@@ -58,7 +59,9 @@ class Country {
       this.altSpellings,
       this.landLocked,
       this.borders,
-      this.demonym});
+      this.demonym,
+      this.timeZones
+      });
 
   factory Country.fromJosn(Map<String, dynamic> json) => Country(
         alpha2Code: json['alpha2Code'],
@@ -85,8 +88,12 @@ class Country {
             : [],
         // gini goes here
         // languages: json['languages'] as List<Map<String, String>>,
-        latitude: json['latlng'].toString() != '[]' ?  double.parse(json['latlng'][0].toString()) : null,
-        longitude:json['latlng'].toString() != '[]' ? double.parse(json['latlng'][1].toString()) : null,
+        latitude: json['latlng'].toString() != '[]'
+            ? double.parse(json['latlng'][0].toString())
+            : null,
+        longitude: json['latlng'].toString() != '[]'
+            ? double.parse(json['latlng'][1].toString())
+            : null,
         // maps goes here
         name: json['name'],
         nativeName: json['nativeName'] ?? '',
@@ -95,7 +102,7 @@ class Country {
         // continent geos here
         // regionalBlocs  geos here
         region: json['region'],
-        // timezones  geos here
+        timeZones: json['timezones'],
         topLevelDomain: json['topLevelDomain'].cast<String>(),
         translations: json['translations'].toString() == '{}'
             ? null
@@ -108,6 +115,5 @@ class Country {
   String traslatedOfficialName(String code) =>
       translations.translate(code).name;
   String traslatedCommonName(String code) =>
-      translations.translate(code).name ??
-      translations.translate(code).name;
+      translations.translate(code).name ?? translations.translate(code).name;
 }
