@@ -106,8 +106,8 @@ class Country {
       );
 
   String traslatedOfficialName(String code) =>
-      this.translations.translate(code).name;
+      translations.translate(code).name;
   String traslatedCommonName(String code) =>
-      this.translations.translate(code).name ??
-      this.translations.translate(code).name;
+      translations.translate(code).name ??
+      translations.translate(code).name;
 }

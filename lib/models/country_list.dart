@@ -6,7 +6,7 @@ class CountryList {
   CountryList({this.countries});
 
   factory CountryList.fromJson(List<dynamic> parsedJson) {
-    List<Country> countries = List<Country>();
+    var countries = <Country>[];
     countries = parsedJson.map((i) => Country.fromJosn(i)).toList();
     return CountryList(
       countries: countries,

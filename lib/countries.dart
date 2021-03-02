@@ -10,7 +10,7 @@ class Countries {
   Countries._();
   static CountryList _countriesList;
 
-  static CountryList _countryData = getCountries();
+  static final CountryList _countryData = getCountries();
 
   static CountryList getCountries() =>
       _countriesList ?? CountryList.fromJson(countriesData);

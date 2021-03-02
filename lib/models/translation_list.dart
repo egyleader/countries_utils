@@ -6,7 +6,7 @@ class TranslationList {
   TranslationList({this.translations});
 
   factory TranslationList.fromJson(Map<String, dynamic> parsedJson) {
-    List<Translation> translations = List<Translation>();
+    var translations = <Translation>[];
     parsedJson.forEach((key, value) {
       translations.add(Translation.fromJson({key: value}));
     });
@@ -16,7 +16,7 @@ class TranslationList {
   }
 
   Translation translate(String code) =>
-      this.translations.where((t) => t.languageCode == code).isNotEmpty
-          ? this.translations.where((t) => t.languageCode == code).first
-          : this.translations.first;
+      translations.where((t) => t.languageCode == code).isNotEmpty
+          ? translations.where((t) => t.languageCode == code).first
+          : translations.first;
 }
