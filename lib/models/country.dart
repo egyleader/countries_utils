@@ -1,6 +1,7 @@
 import 'package:flutter_country/flutter_country.dart';
 import 'package:flutter_country/helpers/flag_string.dart';
 import 'package:flutter_country/models/currency_list.dart';
+import 'package:flutter_country/models/timezone_list.dart';
 
 class Country {
   final String name;
@@ -30,7 +31,7 @@ class Country {
   final List<double> coordinates;
   final double latitude;
   final double longitude;
-  final List<String> timeZones;
+  final TimeZoneList timeZones;
   Country(
       {this.name,
       this.officialName,
@@ -101,14 +102,13 @@ class Country {
         // continent geos here
         // regionalBlocs  geos here
         region: json['region'],
-        timeZones: json['timezones'],
+        timeZones: TimeZoneList.fromJson(json['timezones']),
         topLevelDomain: json['topLevelDomain'].cast<String>(),
         translations: json['translations'].toString() == '{}'
             ? null
             : json['translations'] as Map<String,String>,
         // cioc  geos here
         //countries that share borders with this country
-        //? timestaps is not added yet
       );
 
 

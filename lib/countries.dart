@@ -1,6 +1,7 @@
 import 'package:flutter_country/models/country.dart';
 import 'package:flutter_country/assets/countries_data.dart';
 import 'package:flutter_country/models/country_list.dart';
+import 'package:flutter_country/models/timezone.dart';
 import 'models/country.dart';
 import 'models/country_list.dart';
 
@@ -113,9 +114,11 @@ class Countries {
     return CountryList(countries: countries);
   }
 
-  static CountryList byTimeZone(String timeZone) {
+  static CountryList byTimeZone(TimeZone timeZone) {
     List<Country> countries = _countryData.countries
-        .where((c) => c.timeZones.contains(timeZone))
+        .where((c) => c.timeZones.timeZones == null
+            ? false
+            : c.timeZones.timeZones.contains(timeZone))
         .toList();
     return CountryList(countries: countries);
   }
