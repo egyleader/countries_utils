@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/cupertino.dart';
-import 'package:flutter_country/models/country.dart';
-import 'package:flutter_country/flutter_country.dart';
+import '../lib/models/country.dart';
+import '../lib/flutter_country.dart';
 
 class HomePage extends StatelessWidget {
   @override

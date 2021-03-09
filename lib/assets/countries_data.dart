@@ -1,10 +1,10 @@
-const List<Map<String, dynamic>> countriesData = [
+ List<Map<String, dynamic>> countriesData =[
     {
         "alpha2Code":"AF",
         "alpha3Code":"AFG",
         "altSpellings":[
             "AF",
-            "Af\u0121\u0101nist\u0101n"
+            "Afġānistān"
         ],
         "area":652230,
         "borders":[
@@ -23,7 +23,7 @@ const List<Map<String, dynamic>> countriesData = [
             {
                 "code":"AFN",
                 "name":"Afghan afghani",
-                "symbol":"\u060b"
+                "symbol":"؋"
             }
         ],
         "demonym":"Afghan",
@@ -38,19 +38,19 @@ const List<Map<String, dynamic>> countriesData = [
                 "iso639_1":"ps",
                 "iso639_2":"pus",
                 "name":"Pashto",
-                "nativeName":"\u067e\u069a\u062a\u0648"
+                "nativeName":"پښتو"
             },
             {
                 "iso639_1":"uz",
                 "iso639_2":"uzb",
                 "name":"Uzbek",
-                "nativeName":"O\u02bbzbek"
+                "nativeName":"Oʻzbek"
             },
             {
                 "iso639_1":"tk",
                 "iso639_2":"tuk",
                 "name":"Turkmen",
-                "nativeName":"T\u00fcrkmen"
+                "nativeName":"Türkmen"
             }
         ],
         "latlng":[
@@ -62,7 +62,7 @@ const List<Map<String, dynamic>> countriesData = [
             "openstreetmap":"https://www.openstreetmap.org/relation/303427"
         },
         "name":"Afghanistan",
-        "nativeName":"\u0627\u0641\u063a\u0627\u0646\u0633\u062a\u0627\u0646",
+        "nativeName":"افغانستان",
         "numericCode":"004",
         "population":27657145,
         "continent":"Asia",
@@ -80,18 +80,19 @@ const List<Map<String, dynamic>> countriesData = [
             ".af"
         ],
         "translations":{
-            "br":"Afeganist\u00e3o",
+            "br":"Afeganistão",
             "de":"Afghanistan",
-            "es":"Afganist\u00e1n",
-            "fa":"\u0627\u0641\u063a\u0627\u0646\u0633\u062a\u0627\u0646",
+            "es":"Afganistán",
+            "fa":"افغانستان",
             "fr":"Afghanistan",
             "hr":"Afganistan",
             "it":"Afghanistan",
-            "ja":"\u30a2\u30d5\u30ac\u30cb\u30b9\u30bf\u30f3",
+            "ja":"アフガニスタン",
             "nl":"Afghanistan",
             "pl":"Afganistan",
-            "pt":"Afeganist\u00e3o",
-            "hu":"Afganiszt\u00e1n"
+            "pt":"Afeganistão",
+            "hu":"Afganisztán",
+            "ar":"أفغانستان"
         },
         "cioc":"AFG"
     },
@@ -100,8 +101,8 @@ const List<Map<String, dynamic>> countriesData = [
         "alpha3Code":"ALB",
         "altSpellings":[
             "AL",
-            "Shqip\u00ebri",
-            "Shqip\u00ebria",
+            "Shqipëri",
+            "Shqipëria",
             "Shqipnia"
         ],
         "area":28748,
@@ -146,7 +147,7 @@ const List<Map<String, dynamic>> countriesData = [
             "openstreetmap":"https://www.openstreetmap.org/relation/53292"
         },
         "name":"Albania",
-        "nativeName":"Shqip\u00ebria",
+        "nativeName":"Shqipëria",
         "numericCode":"008",
         "population":2886026,
         "continent":"Europe",
@@ -164,18 +165,19 @@ const List<Map<String, dynamic>> countriesData = [
             ".al"
         ],
         "translations":{
-            "br":"Alb\u00e2nia",
+            "br":"Albânia",
             "de":"Albanien",
             "es":"Albania",
-            "fa":"\u0622\u0644\u0628\u0627\u0646\u06cc",
+            "fa":"آلبانی",
             "fr":"Albanie",
             "hr":"Albanija",
             "it":"Albania",
-            "ja":"\u30a2\u30eb\u30d0\u30cb\u30a2",
-            "nl":"Albani\u00eb",
+            "ja":"アルバニア",
+            "nl":"Albanië",
             "pl":"Albania",
-            "pt":"Alb\u00e2nia",
-            "hu":"Alb\u00e1nia"
+            "pt":"Albânia",
+            "hu":"Albánia",
+            "ar":"ألبانيا"
         },
         "cioc":"ALB"
     },
@@ -185,7 +187,7 @@ const List<Map<String, dynamic>> countriesData = [
         "altSpellings":[
             "DZ",
             "Dzayer",
-            "Alg\u00e9rie"
+            "Algérie"
         ],
         "area":2381741,
         "borders":[
@@ -205,7 +207,7 @@ const List<Map<String, dynamic>> countriesData = [
             {
                 "code":"DZD",
                 "name":"Algerian dinar",
-                "symbol":"\u062f.\u062c"
+                "symbol":"د.ج"
             }
         ],
         "demonym":"Algerian",
@@ -220,7 +222,7 @@ const List<Map<String, dynamic>> countriesData = [
                 "iso639_1":"ar",
                 "iso639_2":"ara",
                 "name":"Arabic",
-                "nativeName":"\u0627\u0644\u0639\u0631\u0628\u064a\u0629"
+                "nativeName":"العربية"
             }
         ],
         "latlng":[
@@ -232,7 +234,7 @@ const List<Map<String, dynamic>> countriesData = [
             "openstreetmap":"https://www.openstreetmap.org/relation/192756"
         },
         "name":"Algeria",
-        "nativeName":"\u0627\u0644\u062c\u0632\u0627\u0626\u0631",
+        "nativeName":"الجزائر",
         "numericCode":"012",
         "population":40400000,
         "continent":"Africa",
@@ -241,10 +243,10 @@ const List<Map<String, dynamic>> countriesData = [
                 "acronym":"AU",
                 "name":"African Union",
                 "otherNames":[
-                    "\u0627\u0644\u0627\u062a\u062d\u0627\u062f \u0627\u0644\u0623\u0641\u0631\u064a\u0642\u064a",
+                    "الاتحاد الأفريقي",
                     "Union africaine",
-                    "Uni\u00e3o Africana",
-                    "Uni\u00f3n Africana",
+                    "União Africana",
+                    "Unión Africana",
                     "Umoja wa Afrika"
                 ]
             },
@@ -252,8 +254,8 @@ const List<Map<String, dynamic>> countriesData = [
                 "acronym":"AL",
                 "name":"Arab League",
                 "otherNames":[
-                    "\u062c\u0627\u0645\u0639\u0629 \u0627\u0644\u062f\u0648\u0644 \u0627\u0644\u0639\u0631\u0628\u064a\u0629",
-                    "J\u0101mi\u02bbat ad-Duwal al-\u02bbArab\u012byah",
+                    "جامعة الدول العربية",
+                    "Jāmiʻat ad-Duwal al-ʻArabīyah",
                     "League of Arab States"
                 ]
             }
@@ -266,18 +268,19 @@ const List<Map<String, dynamic>> countriesData = [
             ".dz"
         ],
         "translations":{
-            "br":"Arg\u00e9lia",
+            "br":"Argélia",
             "de":"Algerien",
             "es":"Argelia",
-            "fa":"\u0627\u0644\u062c\u0632\u0627\u06cc\u0631",
-            "fr":"Alg\u00e9rie",
-            "hr":"Al\u017eir",
+            "fa":"الجزایر",
+            "fr":"Algérie",
+            "hr":"Alžir",
             "it":"Algeria",
-            "ja":"\u30a2\u30eb\u30b8\u30a7\u30ea\u30a2",
+            "ja":"アルジェリア",
             "nl":"Algerije",
             "pl":"Algieria",
-            "pt":"Arg\u00e9lia",
-            "hu":"Alg\u00e9ria"
+            "pt":"Argélia",
+            "hu":"Algéria",
+            "ar":"الجزائر"
         },
         "cioc":"ALG"
     },
@@ -286,9 +289,9 @@ const List<Map<String, dynamic>> countriesData = [
         "alpha3Code":"ASM",
         "altSpellings":[
             "AS",
-            "Amerika S\u0101moa",
-            "Amelika S\u0101moa",
-            "S\u0101moa Amelika"
+            "Amerika Sāmoa",
+            "Amelika Sāmoa",
+            "Sāmoa Amelika"
         ],
         "area":199,
         "borders":[
@@ -352,15 +355,16 @@ const List<Map<String, dynamic>> countriesData = [
             "br":"Samoa Americana",
             "de":"Amerikanisch-Samoa",
             "es":"Samoa Americana",
-            "fa":"\u0633\u0627\u0645\u0648\u0622\u06cc \u0622\u0645\u0631\u06cc\u06a9\u0627",
-            "fr":"Samoa am\u00e9ricaines",
-            "hr":"Ameri\u010dka Samoa",
+            "fa":"ساموآی آمریکا",
+            "fr":"Samoa américaines",
+            "hr":"Američka Samoa",
             "it":"Samoa Americane",
-            "ja":"\u30a2\u30e1\u30ea\u30ab\u9818\u30b5\u30e2\u30a2",
+            "ja":"アメリカ領サモア",
             "nl":"Amerikaans Samoa",
-            "pl":"Samoa Ameryka\u0144skie",
+            "pl":"Samoa Amerykańskie",
             "pt":"Samoa Americana",
-            "hu":"Amerikai Szamoa"
+            "hu":"Amerikai Szamoa",
+            "ar":"ساموا الأمريكية"
         },
         "cioc":"ASA"
     },
@@ -385,7 +389,7 @@ const List<Map<String, dynamic>> countriesData = [
             {
                 "code":"EUR",
                 "name":"Euro",
-                "symbol":"\u20ac"
+                "symbol":"€"
             }
         ],
         "demonym":"Andorran",
@@ -399,7 +403,7 @@ const List<Map<String, dynamic>> countriesData = [
                 "iso639_1":"ca",
                 "iso639_2":"cat",
                 "name":"Catalan",
-                "nativeName":"catal\u00e0"
+                "nativeName":"català"
             }
         ],
         "latlng":[
@@ -429,15 +433,16 @@ const List<Map<String, dynamic>> countriesData = [
             "br":"Andorra",
             "de":"Andorra",
             "es":"Andorra",
-            "fa":"\u0622\u0646\u062f\u0648\u0631\u0627",
+            "fa":"آندورا",
             "fr":"Andorre",
             "hr":"Andora",
             "it":"Andorra",
-            "ja":"\u30a2\u30f3\u30c9\u30e9",
+            "ja":"アンドラ",
             "nl":"Andorra",
             "pl":"Andora",
             "pt":"Andorra",
-            "hu":"Andorra"
+            "hu":"Andorra",
+            "ar":"أندورا"
         },
         "cioc":"AND"
     },
@@ -446,8 +451,8 @@ const List<Map<String, dynamic>> countriesData = [
         "alpha3Code":"AGO",
         "altSpellings":[
             "AO",
-            "Rep\u00fablica de Angola",
-            "\u0281\u025bpublika de an'\u0261\u0254la"
+            "República de Angola",
+            "ʁɛpublika de an'ɡɔla"
         ],
         "area":1246700,
         "borders":[
@@ -479,7 +484,7 @@ const List<Map<String, dynamic>> countriesData = [
                 "iso639_1":"pt",
                 "iso639_2":"por",
                 "name":"Portuguese",
-                "nativeName":"Portugu\u00eas"
+                "nativeName":"Português"
             }
         ],
         "latlng":[
@@ -500,10 +505,10 @@ const List<Map<String, dynamic>> countriesData = [
                 "acronym":"AU",
                 "name":"African Union",
                 "otherNames":[
-                    "\u0627\u0644\u0627\u062a\u062d\u0627\u062f \u0627\u0644\u0623\u0641\u0631\u064a\u0642\u064a",
+                    "الاتحاد الأفريقي",
                     "Union africaine",
-                    "Uni\u00e3o Africana",
-                    "Uni\u00f3n Africana",
+                    "União Africana",
+                    "Unión Africana",
                     "Umoja wa Afrika"
                 ]
             }
@@ -519,14 +524,15 @@ const List<Map<String, dynamic>> countriesData = [
             "br":"Angola",
             "de":"Angola",
             "es":"Angola",
-            "fa":"\u0622\u0646\u06af\u0648\u0644\u0627",
+            "fa":"آنگولا",
             "fr":"Angola",
             "hr":"Angola",
             "it":"Angola",
-            "ja":"\u30a2\u30f3\u30b4\u30e9",
+            "ja":"アンゴラ",
             "nl":"Angola",
             "pt":"Angola",
-            "hu":"Angola"
+            "hu":"Angola",
+            "ar":"أنجولا"
         },
         "cioc":"ANG"
     },
@@ -592,14 +598,15 @@ const List<Map<String, dynamic>> countriesData = [
             "br":"Anguila",
             "de":"Anguilla",
             "es":"Anguilla",
-            "fa":"\u0622\u0646\u06af\u0648\u06cc\u0644\u0627",
+            "fa":"آنگویلا",
             "fr":"Anguilla",
             "hr":"Angvila",
             "it":"Anguilla",
-            "ja":"\u30a2\u30f3\u30ae\u30e9",
+            "ja":"アンギラ",
             "nl":"Anguilla",
             "pt":"Anguila",
-            "hu":"Anguilla"
+            "hu":"Anguilla",
+            "ar":"أنجويلا"
         },
         "cioc":""
     },
@@ -637,7 +644,7 @@ const List<Map<String, dynamic>> countriesData = [
                 "iso639_1":"ru",
                 "iso639_2":"rus",
                 "name":"Russian",
-                "nativeName":"\u0420\u0443\u0441\u0441\u043a\u0438\u0439"
+                "nativeName":"Русский"
             }
         ],
         "latlng":[
@@ -671,17 +678,18 @@ const List<Map<String, dynamic>> countriesData = [
             ".aq"
         ],
         "translations":{
-            "br":"Ant\u00e1rtida",
+            "br":"Antártida",
             "de":"Antarktika",
-            "es":"Ant\u00e1rtida",
-            "fa":"\u062c\u0646\u0648\u0628\u06af\u0627\u0646",
+            "es":"Antártida",
+            "fa":"جنوبگان",
             "fr":"Antarctique",
             "hr":"Antarktika",
             "it":"Antartide",
-            "ja":"\u5357\u6975\u5927\u9678",
+            "ja":"南極大陸",
             "nl":"Antarctica",
-            "pt":"Ant\u00e1rctida",
-            "hu":"Antarktisz"
+            "pt":"Antárctida",
+            "hu":"Antarktisz",
+            "ar":"القطب الجنوبي"
         },
         "cioc":""
     },
@@ -739,7 +747,7 @@ const List<Map<String, dynamic>> countriesData = [
                 "name":"Caribbean Community",
                 "otherNames":[
                     "Comunidad del Caribe",
-                    "Communaut\u00e9 Carib\u00e9enne",
+                    "Communauté Caribéenne",
                     "Caribische Gemeenschap"
                 ]
             }
@@ -752,17 +760,18 @@ const List<Map<String, dynamic>> countriesData = [
             ".ag"
         ],
         "translations":{
-            "br":"Ant\u00edgua e Barbuda",
+            "br":"Antígua e Barbuda",
             "de":"Antigua und Barbuda",
             "es":"Antigua y Barbuda",
-            "fa":"\u0622\u0646\u062a\u06cc\u06af\u0648\u0627 \u0648 \u0628\u0627\u0631\u0628\u0648\u062f\u0627",
+            "fa":"آنتیگوا و باربودا",
             "fr":"Antigua-et-Barbuda",
             "hr":"Antigva i Barbuda",
             "it":"Antigua e Barbuda",
-            "ja":"\u30a2\u30f3\u30c6\u30a3\u30b0\u30a2\u30fb\u30d0\u30fc\u30d6\u30fc\u30c0",
+            "ja":"アンティグア・バーブーダ",
             "nl":"Antigua en Barbuda",
-            "pt":"Ant\u00edgua e Barbuda",
-            "hu":"Antigua \u00e9s Barbuda"
+            "pt":"Antígua e Barbuda",
+            "hu":"Antigua és Barbuda",
+            "ar":"أنتيجوا وبربودا"
         },
         "cioc":"ANT"
     },
@@ -772,7 +781,7 @@ const List<Map<String, dynamic>> countriesData = [
         "altSpellings":[
             "AR",
             "Argentine Republic",
-            "Rep\u00fablica Argentina"
+            "República Argentina"
         ],
         "area":2780400,
         "borders":[
@@ -805,13 +814,13 @@ const List<Map<String, dynamic>> countriesData = [
                 "iso639_1":"es",
                 "iso639_2":"spa",
                 "name":"Spanish",
-                "nativeName":"Espa\u00f1ol"
+                "nativeName":"Español"
             },
             {
                 "iso639_1":"gn",
                 "iso639_2":"grn",
-                "name":"Guaran\u00ed",
-                "nativeName":"Ava\u00f1e'\u1ebd"
+                "name":"Guaraní",
+                "nativeName":"Avañe'ẽ"
             }
         ],
         "latlng":[
@@ -837,8 +846,8 @@ const List<Map<String, dynamic>> countriesData = [
                     "UZAN"
                 ],
                 "otherNames":[
-                    "Uni\u00f3n de Naciones Suramericanas",
-                    "Uni\u00e3o de Na\u00e7\u00f5es Sul-Americanas",
+                    "Unión de Naciones Suramericanas",
+                    "União de Nações Sul-Americanas",
                     "Unie van Zuid-Amerikaanse Naties",
                     "South American Union"
                 ]
@@ -855,14 +864,15 @@ const List<Map<String, dynamic>> countriesData = [
             "br":"Argentina",
             "de":"Argentinien",
             "es":"Argentina",
-            "fa":"\u0622\u0631\u0698\u0627\u0646\u062a\u06cc\u0646",
+            "fa":"آرژانتین",
             "fr":"Argentine",
             "hr":"Argentina",
             "it":"Argentina",
-            "ja":"\u30a2\u30eb\u30bc\u30f3\u30c1\u30f3",
-            "nl":"Argentini\u00eb",
+            "ja":"アルゼンチン",
+            "nl":"Argentinië",
             "pt":"Argentina",
-            "hu":"Argent\u00edna"
+            "hu":"Argentína",
+            "ar":"الأرجنتين"
         },
         "cioc":"ARG"
     },
@@ -873,7 +883,7 @@ const List<Map<String, dynamic>> countriesData = [
             "AM",
             "Hayastan",
             "Republic of Armenia",
-            "\u0540\u0561\u0575\u0561\u057d\u057f\u0561\u0576\u056b \u0540\u0561\u0576\u0580\u0561\u057a\u0565\u057f\u0578\u0582\u0569\u0575\u0578\u0582\u0576"
+            "Հայաստանի Հանրապետություն"
         ],
         "area":29743,
         "borders":[
@@ -890,7 +900,7 @@ const List<Map<String, dynamic>> countriesData = [
             {
                 "code":"AMD",
                 "name":"Armenian dram",
-                "symbol":"\u058f"
+                "symbol":"֏"
             }
         ],
         "demonym":"Armenian",
@@ -905,7 +915,7 @@ const List<Map<String, dynamic>> countriesData = [
                 "iso639_1":"hy",
                 "iso639_2":"hye",
                 "name":"Armenian",
-                "nativeName":"\u0540\u0561\u0575\u0565\u0580\u0565\u0576"
+                "nativeName":"Հայերեն"
             }
         ],
         "latlng":[
@@ -917,7 +927,7 @@ const List<Map<String, dynamic>> countriesData = [
             "openstreetmap":"https://www.openstreetmap.org/relation/364066"
         },
         "name":"Armenia",
-        "nativeName":"\u0540\u0561\u0575\u0561\u057d\u057f\u0561\u0576",
+        "nativeName":"Հայաստան",
         "numericCode":"051",
         "population":2994400,
         "continent":"Asia",
@@ -938,17 +948,18 @@ const List<Map<String, dynamic>> countriesData = [
             ".am"
         ],
         "translations":{
-            "br":"Arm\u00eania",
+            "br":"Armênia",
             "de":"Armenien",
             "es":"Armenia",
-            "fa":"\u0627\u0631\u0645\u0646\u0633\u062a\u0627\u0646",
-            "fr":"Arm\u00e9nie",
+            "fa":"ارمنستان",
+            "fr":"Arménie",
             "hr":"Armenija",
             "it":"Armenia",
-            "ja":"\u30a2\u30eb\u30e1\u30cb\u30a2",
-            "nl":"Armeni\u00eb",
-            "pt":"Arm\u00e9nia",
-            "hu":"\u00d6rm\u00e9nyorsz\u00e1g"
+            "ja":"アルメニア",
+            "nl":"Armenië",
+            "pt":"Arménia",
+            "hu":"Örményország",
+            "ar":"أرمينيا"
         },
         "cioc":"ARM"
     },
@@ -970,7 +981,7 @@ const List<Map<String, dynamic>> countriesData = [
             {
                 "code":"AWG",
                 "name":"Aruban florin",
-                "symbol":"\u0192"
+                "symbol":"ƒ"
             }
         ],
         "demonym":"Aruban",
@@ -990,7 +1001,7 @@ const List<Map<String, dynamic>> countriesData = [
                 "iso639_1":"pa",
                 "iso639_2":"pan",
                 "name":"(Eastern) Punjabi",
-                "nativeName":"\u0a2a\u0a70\u0a1c\u0a3e\u0a2c\u0a40"
+                "nativeName":"ਪੰਜਾਬੀ"
             }
         ],
         "latlng":[
@@ -1020,14 +1031,15 @@ const List<Map<String, dynamic>> countriesData = [
             "br":"Aruba",
             "de":"Aruba",
             "es":"Aruba",
-            "fa":"\u0622\u0631\u0648\u0628\u0627",
+            "fa":"آروبا",
             "fr":"Aruba",
             "hr":"Aruba",
             "it":"Aruba",
-            "ja":"\u30a2\u30eb\u30d0",
+            "ja":"アルバ",
             "nl":"Aruba",
             "pt":"Aruba",
-            "hu":"Aruba"
+            "hu":"Aruba",
+            "ar":"آروبا"
         },
         "cioc":"ARU"
     },
@@ -1098,17 +1110,18 @@ const List<Map<String, dynamic>> countriesData = [
             ".au"
         ],
         "translations":{
-            "br":"Austr\u00e1lia",
+            "br":"Austrália",
             "de":"Australien",
             "es":"Australia",
-            "fa":"\u0627\u0633\u062a\u0631\u0627\u0644\u06cc\u0627",
+            "fa":"استرالیا",
             "fr":"Australie",
             "hr":"Australija",
             "it":"Australia",
-            "ja":"\u30aa\u30fc\u30b9\u30c8\u30e9\u30ea\u30a2",
-            "nl":"Australi\u00eb",
-            "pt":"Austr\u00e1lia",
-            "hu":"Ausztr\u00e1lia"
+            "ja":"オーストラリア",
+            "nl":"Australië",
+            "pt":"Austrália",
+            "hu":"Ausztrália",
+            "ar":"أستراليا"
         },
         "cioc":"AUS"
     },
@@ -1117,7 +1130,7 @@ const List<Map<String, dynamic>> countriesData = [
         "alpha3Code":"AUT",
         "altSpellings":[
             "AT",
-            "\u00d6sterreich",
+            "Österreich",
             "Osterreich",
             "Oesterreich"
         ],
@@ -1140,7 +1153,7 @@ const List<Map<String, dynamic>> countriesData = [
             {
                 "code":"EUR",
                 "name":"Euro",
-                "symbol":"\u20ac"
+                "symbol":"€"
             }
         ],
         "demonym":"Austrian",
@@ -1167,7 +1180,7 @@ const List<Map<String, dynamic>> countriesData = [
             "openstreetmap":"https://www.openstreetmap.org/relation/16239"
         },
         "name":"Austria",
-        "nativeName":"\u00d6sterreich",
+        "nativeName":"Österreich",
         "numericCode":"040",
         "population":8725931,
         "continent":"Europe",
@@ -1185,17 +1198,18 @@ const List<Map<String, dynamic>> countriesData = [
             ".at"
         ],
         "translations":{
-            "br":"\u00c1ustria",
-            "de":"\u00d6sterreich",
+            "br":"Áustria",
+            "de":"Österreich",
             "es":"Austria",
-            "fa":"\u0627\u062a\u0631\u06cc\u0634",
+            "fa":"اتریش",
             "fr":"Autriche",
             "hr":"Austrija",
             "it":"Austria",
-            "ja":"\u30aa\u30fc\u30b9\u30c8\u30ea\u30a2",
+            "ja":"オーストリア",
             "nl":"Oostenrijk",
-            "pt":"\u00c1ustria",
-            "hu":"Ausztria"
+            "pt":"Áustria",
+            "hu":"Ausztria",
+            "ar":"النمسا"
         },
         "cioc":"AUT"
     },
@@ -1205,7 +1219,7 @@ const List<Map<String, dynamic>> countriesData = [
         "altSpellings":[
             "AZ",
             "Republic of Azerbaijan",
-            "Az\u0259rbaycan Respublikas\u0131"
+            "Azərbaycan Respublikası"
         ],
         "area":86600,
         "borders":[
@@ -1223,7 +1237,7 @@ const List<Map<String, dynamic>> countriesData = [
             {
                 "code":"AZN",
                 "name":"Azerbaijani manat",
-                "symbol":"\u20bc"
+                "symbol":"₼"
             }
         ],
         ",demonym":"Azerbaijani",
@@ -1237,7 +1251,7 @@ const List<Map<String, dynamic>> countriesData = [
                 "iso639_1":"az",
                 "iso639_2":"aze",
                 "name":"Azerbaijani",
-                "nativeName":"az\u0259rbaycan dili"
+                "nativeName":"azərbaycan dili"
             }
         ],
         "latlng":[
@@ -1247,7 +1261,7 @@ const List<Map<String, dynamic>> countriesData = [
         "gmaps":"https://www.google.com/maps/place/Azerbaijan/@40.1542219,45.5120008",
         "openstreetmap":"https://www.openstreetmap.org/relation/364110",
         "name":"Azerbaijan",
-        "nativeName":"Az\u0259rbaycan",
+        "nativeName":"Azərbaycan",
         "numericCode":"031",
         "population":9730500,
         "continent":"Asia",
@@ -1262,17 +1276,18 @@ const List<Map<String, dynamic>> countriesData = [
             ".az"
         ],
         "translations":{
-            "br":"Azerbaij\u00e3o",
+            "br":"Azerbaijão",
             "de":"Aserbaidschan",
-            "es":"Azerbaiy\u00e1n",
-            "fa":"\u0622\u0630\u0631\u0628\u0627\u06cc\u062c\u0627\u0646",
-            "fr":"Azerba\u00efdjan",
-            "hr":"Azerbajd\u017ean",
+            "es":"Azerbaiyán",
+            "fa":"آذربایجان",
+            "fr":"Azerbaïdjan",
+            "hr":"Azerbajdžan",
             "it":"Azerbaijan",
-            "ja":"\u30a2\u30bc\u30eb\u30d0\u30a4\u30b8\u30e3\u30f3",
+            "ja":"アゼルバイジャン",
             "nl":"Azerbeidzjan",
-            "pt":"Azerbaij\u00e3o",
-            "hu":"Azerbajdzs\u00e1n"
+            "pt":"Azerbaijão",
+            "hu":"Azerbajdzsán",
+            "ar":"أذربيجان"
         },
         "cioc":"AZE"
     },
@@ -1331,7 +1346,7 @@ const List<Map<String, dynamic>> countriesData = [
                 "name":"Caribbean Community",
                 "otherNames":[
                     "Comunidad del Caribe",
-                    "Communaut\u00e9 Carib\u00e9enne",
+                    "Communauté Caribéenne",
                     "Caribische Gemeenschap"
                 ]
             }
@@ -1347,14 +1362,15 @@ const List<Map<String, dynamic>> countriesData = [
             "br":"Bahamas",
             "de":"Bahamas",
             "es":"Bahamas",
-            "fa":"\u0628\u0627\u0647\u0627\u0645\u0627",
+            "fa":"باهاما",
             "fr":"Bahamas",
             "hr":"Bahami",
             "it":"Bahamas",
-            "ja":"\u30d0\u30cf\u30de",
-            "nl":"Bahama\u2019s",
+            "ja":"バハマ",
+            "nl":"Bahama’s",
             "pt":"Baamas",
-            "hu":"Bahama-szigetek"
+            "hu":"Bahama-szigetek",
+            "ar":"الباهاما"
         },
         "cioc":"BAH"
     },
@@ -1364,7 +1380,7 @@ const List<Map<String, dynamic>> countriesData = [
         "altSpellings":[
             "BH",
             "Kingdom of Bahrain",
-            "Mamlakat al-Ba\u1e25rayn"
+            "Mamlakat al-Baḥrayn"
         ],
         "area":765,
         "borders":[
@@ -1378,7 +1394,7 @@ const List<Map<String, dynamic>> countriesData = [
             {
                 "code":"BHD",
                 "name":"Bahraini dinar",
-                "symbol":".\u062f.\u0628"
+                "symbol":".د.ب"
             }
         ],
         "demonym":"Bahraini",
@@ -1393,7 +1409,7 @@ const List<Map<String, dynamic>> countriesData = [
                 "iso639_1":"ar",
                 "iso639_2":"ara",
                 "name":"Arabic",
-                "nativeName":"\u0627\u0644\u0639\u0631\u0628\u064a\u0629"
+                "nativeName":"العربية"
             }
         ],
         "latlng":[
@@ -1405,7 +1421,7 @@ const List<Map<String, dynamic>> countriesData = [
             "openstreetmap":"https://www.openstreetmap.org/relation/378734"
         },
         "name":"Bahrain",
-        "nativeName":"\u200f\u0627\u0644\u0628\u062d\u0631\u064a\u0646",
+        "nativeName":"‏البحرين",
         "numericCode":"048",
         "population":1404900,
         "continent":"Asia",
@@ -1414,8 +1430,8 @@ const List<Map<String, dynamic>> countriesData = [
                 "acronym":"AL",
                 "name":"Arab League",
                 "otherNames":[
-                    "\u062c\u0627\u0645\u0639\u0629 \u0627\u0644\u062f\u0648\u0644 \u0627\u0644\u0639\u0631\u0628\u064a\u0629",
-                    "J\u0101mi\u02bbat ad-Duwal al-\u02bbArab\u012byah",
+                    "جامعة الدول العربية",
+                    "Jāmiʻat ad-Duwal al-ʻArabīyah",
                     "League of Arab States"
                 ]
             }
@@ -1431,14 +1447,15 @@ const List<Map<String, dynamic>> countriesData = [
             "br":"Bahrein",
             "de":"Bahrain",
             "es":"Bahrein",
-            "fa":"\u0628\u062d\u0631\u06cc\u0646",
-            "fr":"Bahre\u00efn",
+            "fa":"بحرین",
+            "fr":"Bahreïn",
             "hr":"Bahrein",
             "it":"Bahrein",
-            "ja":"\u30d0\u30fc\u30ec\u30fc\u30f3",
+            "ja":"バーレーン",
             "nl":"Bahrein",
-            "pt":"Bar\u00e9m",
-            "hu":"Bahrein"
+            "pt":"Barém",
+            "hu":"Bahrein",
+            "ar":"البحرين"
         },
         "cioc":"BRN"
     },
@@ -1448,7 +1465,7 @@ const List<Map<String, dynamic>> countriesData = [
         "altSpellings":[
             "BD",
             "People's Republic of Bangladesh",
-            "G\u00f4n\u00f4pr\u00f4jat\u00f4ntri Bangladesh"
+            "Gônôprôjatôntri Bangladesh"
         ],
         "area":147570,
         "borders":[
@@ -1463,7 +1480,7 @@ const List<Map<String, dynamic>> countriesData = [
             {
                 "code":"BDT",
                 "name":"Bangladeshi taka",
-                "symbol":"\u09f3"
+                "symbol":"৳"
             }
         ],
         "demonym":"Bangladeshi",
@@ -1478,7 +1495,7 @@ const List<Map<String, dynamic>> countriesData = [
                 "iso639_1":"bn",
                 "iso639_2":"ben",
                 "name":"Bengali",
-                "nativeName":"\u09ac\u09be\u0982\u09b2\u09be"
+                "nativeName":"বাংলা"
             }
         ],
         "latlng":[
@@ -1511,14 +1528,15 @@ const List<Map<String, dynamic>> countriesData = [
             "br":"Bangladesh",
             "de":"Bangladesch",
             "es":"Bangladesh",
-            "fa":"\u0628\u0646\u06af\u0644\u0627\u062f\u0634",
+            "fa":"بنگلادش",
             "fr":"Bangladesh",
-            "hr":"Banglade\u0161",
+            "hr":"Bangladeš",
             "it":"Bangladesh",
-            "ja":"\u30d0\u30f3\u30b0\u30e9\u30c7\u30b7\u30e5",
+            "ja":"バングラデシュ",
             "nl":"Bangladesh",
             "pt":"Bangladeche",
-            "hu":"Banglades"
+            "hu":"Banglades",
+            "ar":"بنجلاديش"
         },
         "cioc":"BAN"
     },
@@ -1576,7 +1594,7 @@ const List<Map<String, dynamic>> countriesData = [
                 "name":"Caribbean Community",
                 "otherNames":[
                     "Comunidad del Caribe",
-                    "Communaut\u00e9 Carib\u00e9enne",
+                    "Communauté Caribéenne",
                     "Caribische Gemeenschap"
                 ]
             }
@@ -1592,14 +1610,15 @@ const List<Map<String, dynamic>> countriesData = [
             "br":"Barbados",
             "de":"Barbados",
             "es":"Barbados",
-            "fa":"\u0628\u0627\u0631\u0628\u0627\u062f\u0648\u0633",
+            "fa":"باربادوس",
             "fr":"Barbade",
             "hr":"Barbados",
             "it":"Barbados",
-            "ja":"\u30d0\u30eb\u30d0\u30c9\u30b9",
+            "ja":"バルバドス",
             "nl":"Barbados",
             "pt":"Barbados",
-            "hu":"Barbados"
+            "hu":"Barbados",
+            "ar":"بربادوس"
         },
         "cioc":"BAR"
     },
@@ -1608,12 +1627,12 @@ const List<Map<String, dynamic>> countriesData = [
         "alpha3Code":"BLR",
         "altSpellings":[
             "BY",
-            "Bielaru\u015b",
+            "Bielaruś",
             "Republic of Belarus",
-            "\u0411\u0435\u043b\u043e\u0440\u0443\u0441\u0441\u0438\u044f",
-            "\u0420\u0435\u0441\u043f\u0443\u0431\u043b\u0438\u043a\u0430 \u0411\u0435\u043b\u0430\u0440\u0443\u0441\u044c",
+            "Белоруссия",
+            "Республика Беларусь",
             "Belorussiya",
-            "Respublika Belarus\u2019"
+            "Respublika Belarus’"
         ],
         "area":207600,
         "borders":[
@@ -1651,13 +1670,13 @@ const List<Map<String, dynamic>> countriesData = [
                 "iso639_1":"be",
                 "iso639_2":"bel",
                 "name":"Belarusian",
-                "nativeName":"\u0431\u0435\u043b\u0430\u0440\u0443\u0441\u043a\u0430\u044f \u043c\u043e\u0432\u0430"
+                "nativeName":"беларуская мова"
             },
             {
                 "iso639_1":"ru",
                 "iso639_2":"rus",
                 "name":"Russian",
-                "nativeName":"\u0420\u0443\u0441\u0441\u043a\u0438\u0439"
+                "nativeName":"Русский"
             }
         ],
         "latlng":[
@@ -1669,7 +1688,7 @@ const List<Map<String, dynamic>> countriesData = [
             "openstreetmap":"https://www.openstreetmap.org/relation/59065"
         },
         "name":"Belarus",
-        "nativeName":"\u0411\u0435\u043b\u0430\u0440\u0443\u0301\u0441\u044c",
+        "nativeName":"Белару́сь",
         "numericCode":"112",
         "population":9498700,
         "continent":"Europe",
@@ -1690,17 +1709,18 @@ const List<Map<String, dynamic>> countriesData = [
             ".by"
         ],
         "translations":{
-            "br":"Bielorr\u00fassia",
-            "de":"Wei\u00dfrussland",
+            "br":"Bielorrússia",
+            "de":"Weißrussland",
             "es":"Bielorrusia",
-            "fa":"\u0628\u0644\u0627\u0631\u0648\u0633",
-            "fr":"Bi\u00e9lorussie",
+            "fa":"بلاروس",
+            "fr":"Biélorussie",
             "hr":"Bjelorusija",
             "it":"Bielorussia",
-            "ja":"\u30d9\u30e9\u30eb\u30fc\u30b7",
+            "ja":"ベラルーシ",
             "nl":"Wit-Rusland",
-            "pt":"Bielorr\u00fassia",
-            "hu":"Feh\u00e9roroszorsz\u00e1g"
+            "pt":"Bielorrússia",
+            "hu":"Fehéroroszország",
+            "ar":"روسيا البيضاء"
         },
         "cioc":"BLR"
     },
@@ -1709,14 +1729,14 @@ const List<Map<String, dynamic>> countriesData = [
         "alpha3Code":"BEL",
         "altSpellings":[
             "BE",
-            "Belgi\u00eb",
+            "België",
             "Belgie",
             "Belgien",
             "Belgique",
             "Kingdom of Belgium",
-            "Koninkrijk Belgi\u00eb",
+            "Koninkrijk België",
             "Royaume de Belgique",
-            "K\u00f6nigreich Belgien"
+            "Königreich Belgien"
         ],
         "area":30528,
         "borders":[
@@ -1733,7 +1753,7 @@ const List<Map<String, dynamic>> countriesData = [
             {
                 "code":"EUR",
                 "name":"Euro",
-                "symbol":"\u20ac"
+                "symbol":"€"
             }
         ],
         "demonym":"Belgian",
@@ -1754,7 +1774,7 @@ const List<Map<String, dynamic>> countriesData = [
                 "iso639_1":"fr",
                 "iso639_2":"fra",
                 "name":"French",
-                "nativeName":"fran\u00e7ais"
+                "nativeName":"français"
             },
             {
                 "iso639_1":"de",
@@ -1772,7 +1792,7 @@ const List<Map<String, dynamic>> countriesData = [
             "openstreetmap":"https://www.openstreetmap.org/relation/52411"
         },
         "name":"Belgium",
-        "nativeName":"Belgi\u00eb",
+        "nativeName":"België",
         "numericCode":"056",
         "population":11319511,
         "continent":"Europe",
@@ -1790,17 +1810,18 @@ const List<Map<String, dynamic>> countriesData = [
             ".be"
         ],
         "translations":{
-            "br":"B\u00e9lgica",
+            "br":"Bélgica",
             "de":"Belgien",
-            "es":"B\u00e9lgica",
-            "fa":"\u0628\u0644\u0698\u06cc\u06a9",
+            "es":"Bélgica",
+            "fa":"بلژیک",
             "fr":"Belgique",
             "hr":"Belgija",
             "it":"Belgio",
-            "ja":"\u30d9\u30eb\u30ae\u30fc",
-            "nl":"Belgi\u00eb",
-            "pt":"B\u00e9lgica",
-            "hu":"Belgium"
+            "ja":"ベルギー",
+            "nl":"België",
+            "pt":"Bélgica",
+            "hu":"Belgium",
+            "ar":"بلجيكا"
         },
         "cioc":"BEL"
     },
@@ -1844,7 +1865,7 @@ const List<Map<String, dynamic>> countriesData = [
                 "iso639_1":"es",
                 "iso639_2":"spa",
                 "name":"Spanish",
-                "nativeName":"Espa\u00f1ol"
+                "nativeName":"Español"
             }
         ],
         "latlng":[
@@ -1866,7 +1887,7 @@ const List<Map<String, dynamic>> countriesData = [
                 "name":"Caribbean Community",
                 "otherNames":[
                     "Comunidad del Caribe",
-                    "Communaut\u00e9 Carib\u00e9enne",
+                    "Communauté Caribéenne",
                     "Caribische Gemeenschap"
                 ]
             },
@@ -1877,7 +1898,7 @@ const List<Map<String, dynamic>> countriesData = [
                     "SICA"
                 ],
                 "otherNames":[
-                    "Sistema de la Integraci\u00f3n Centroamericana,"
+                    "Sistema de la Integración Centroamericana,"
                 ]
             }
         ],
@@ -1892,14 +1913,15 @@ const List<Map<String, dynamic>> countriesData = [
             "br":"Belize",
             "de":"Belize",
             "es":"Belice",
-            "fa":"\u0628\u0644\u06cc\u0632",
+            "fa":"بلیز",
             "fr":"Belize",
             "hr":"Belize",
             "it":"Belize",
-            "ja":"\u30d9\u30ea\u30fc\u30ba",
+            "ja":"ベリーズ",
             "nl":"Belize",
             "pt":"Belize",
-            "hu":"Belize"
+            "hu":"Belize",
+            "ar":"بليز"
         },
         "cioc":"BIZ"
     },
@@ -1909,7 +1931,7 @@ const List<Map<String, dynamic>> countriesData = [
         "altSpellings":[
             "BJ",
             "Republic of Benin",
-            "R\u00e9publique du B\u00e9nin"
+            "République du Bénin"
         ],
         "area":112622,
         "borders":[
@@ -1941,7 +1963,7 @@ const List<Map<String, dynamic>> countriesData = [
                 "iso639_1":"fr",
                 "iso639_2":"fra",
                 "name":"French",
-                "nativeName":"fran\u00e7ais"
+                "nativeName":"français"
             }
         ],
         "latlng":[
@@ -1953,7 +1975,7 @@ const List<Map<String, dynamic>> countriesData = [
             "openstreetmap":"https://www.openstreetmap.org/relation/192784"
         },
         "name":"Benin",
-        "nativeName":"B\u00e9nin",
+        "nativeName":"Bénin",
         "numericCode":"204",
         "population":10653654,
         "continent":"Africa",
@@ -1962,10 +1984,10 @@ const List<Map<String, dynamic>> countriesData = [
                 "acronym":"AU",
                 "name":"African Union",
                 "otherNames":[
-                    "\u0627\u0644\u0627\u062a\u062d\u0627\u062f \u0627\u0644\u0623\u0641\u0631\u064a\u0642\u064a",
+                    "الاتحاد الأفريقي",
                     "Union africaine",
-                    "Uni\u00e3o Africana",
-                    "Uni\u00f3n Africana",
+                    "União Africana",
+                    "Unión Africana",
                     "Umoja wa Afrika"
                 ]
             }
@@ -1980,14 +2002,15 @@ const List<Map<String, dynamic>> countriesData = [
         "translations":{
             "br":"Benin",
             "de":"Benin",
-            "es":"Ben\u00edn",
-            "fa":"\u0628\u0646\u06cc\u0646",
-            "fr":"B\u00e9nin",
+            "es":"Benín",
+            "fa":"بنین",
+            "fr":"Bénin",
             "hr":"Benin",
             "it":"Benin",
-            "ja":"\u30d9\u30ca\u30f3",
+            "ja":"ベナン",
             "nl":"Benin",
-            "pt":"Benim"
+            "pt":"Benim",
+            "ar":"بنين"
         },
         "cioc":"BEN"
     },
@@ -2056,14 +2079,15 @@ const List<Map<String, dynamic>> countriesData = [
             "br":"Bermudas",
             "de":"Bermuda",
             "es":"Bermudas",
-            "fa":"\u0628\u0631\u0645\u0648\u062f\u0627",
+            "fa":"برمودا",
             "fr":"Bermudes",
             "hr":"Bermudi",
             "it":"Bermuda",
-            "ja":"\u30d0\u30df\u30e5\u30fc\u30c0",
+            "ja":"バミューダ",
             "nl":"Bermuda",
             "pt":"Bermudas",
-            "hu":"Bermuda"
+            "hu":"Bermuda",
+            "ar":"برمودا"
         },
         "cioc":"BER"
     },
@@ -2092,7 +2116,7 @@ const List<Map<String, dynamic>> countriesData = [
             {
                 "code":"INR",
                 "name":"Indian rupee",
-                "symbol":"\u20b9"
+                "symbol":"₹"
             }
         ],
         "demonym":"Bhutanese",
@@ -2107,7 +2131,7 @@ const List<Map<String, dynamic>> countriesData = [
                 "iso639_1":"dz",
                 "iso639_2":"dzo",
                 "name":"Dzongkha",
-                "nativeName":"\u0f62\u0fab\u0f7c\u0f44\u0f0b\u0f41"
+                "nativeName":"རྫོང་ཁ"
             }
         ],
         "maps":{
@@ -2119,7 +2143,7 @@ const List<Map<String, dynamic>> countriesData = [
             90.5
         ],
         "name":"Bhutan",
-        "nativeName":"\u02bcbrug-yul",
+        "nativeName":"ʼbrug-yul",
         "numericCode":"064",
         "population":775620,
         "continent":"Asia",
@@ -2137,17 +2161,18 @@ const List<Map<String, dynamic>> countriesData = [
             ".bt"
         ],
         "translations":{
-            "br":"But\u00e3o",
+            "br":"Butão",
             "de":"Bhutan",
-            "es":"But\u00e1n",
-            "fa":"\u0628\u0648\u062a\u0627\u0646",
+            "es":"Bután",
+            "fa":"بوتان",
             "fr":"Bhoutan",
             "hr":"Butan",
             "it":"Bhutan",
-            "ja":"\u30d6\u30fc\u30bf\u30f3",
+            "ja":"ブータン",
             "nl":"Bhutan",
-            "pt":"But\u00e3o",
-            "hu":"Bhut\u00e1n"
+            "pt":"Butão",
+            "hu":"Bhután",
+            "ar":"بوتان"
         },
         "cioc":"BHU"
     },
@@ -2162,7 +2187,7 @@ const List<Map<String, dynamic>> countriesData = [
             "Estado Plurinacional de Bolivia",
             "Buliwya Mamallaqta",
             "Wuliwya Suyu",
-            "Tet\u00e3 Vol\u00edvia"
+            "Tetã Volívia"
         ],
         "area":1098581,
         "borders":[
@@ -2195,7 +2220,7 @@ const List<Map<String, dynamic>> countriesData = [
                 "iso639_1":"es",
                 "iso639_2":"spa",
                 "name":"Spanish",
-                "nativeName":"Espa\u00f1ol"
+                "nativeName":"Español"
             },
             {
                 "iso639_1":"ay",
@@ -2233,8 +2258,8 @@ const List<Map<String, dynamic>> countriesData = [
                     "UZAN"
                 ],
                 "otherNames":[
-                    "Uni\u00f3n de Naciones Suramericanas",
-                    "Uni\u00e3o de Na\u00e7\u00f5es Sul-Americanas",
+                    "Unión de Naciones Suramericanas",
+                    "União de Nações Sul-Americanas",
                     "Unie van Zuid-Amerikaanse Naties",
                     "South American Union"
                 ]
@@ -2248,17 +2273,18 @@ const List<Map<String, dynamic>> countriesData = [
             ".bo"
         ],
         "translations":{
-            "br":"Bol\u00edvia",
+            "br":"Bolívia",
             "de":"Bolivien",
             "es":"Bolivia",
-            "fa":"\u0628\u0648\u0644\u06cc\u0648\u06cc",
+            "fa":"بولیوی",
             "fr":"Bolivie",
             "hr":"Bolivija",
             "it":"Bolivia",
-            "ja":"\u30dc\u30ea\u30d3\u30a2\u591a\u6c11\u65cf\u56fd",
+            "ja":"ボリビア多民族国",
             "nl":"Bolivia",
-            "pt":"Bol\u00edvia",
-            "hu":"Bol\u00edvia"
+            "pt":"Bolívia",
+            "hu":"Bolívia",
+            "ar":"بوليفيا"
         },
         "cioc":"BOL"
     },
@@ -2321,12 +2347,13 @@ const List<Map<String, dynamic>> countriesData = [
         "translations":{
             "br":"Bonaire",
             "de":"Bonaire, Sint Eustatius und Saba",
-            "fa":"\u0628\u0648\u0646\u06cc\u0631",
+            "fa":"بونیر",
             "fr":"Bonaire, Saint-Eustache et Saba",
             "it":"Bonaire, Saint-Eustache e Saba",
             "pt":"Bonaire",
             "hu":"Bonaire",
-            "se":"Karibiska Nederländerna"
+            "se":"Karibiska Nederländerna",
+            "ar":"بونير"
         }
     },
     {
@@ -2335,7 +2362,7 @@ const List<Map<String, dynamic>> countriesData = [
         "altSpellings":[
             "BA",
             "Bosnia-Herzegovina",
-            "\u0411\u043e\u0441\u043d\u0430 \u0438 \u0425\u0435\u0440\u0446\u0435\u0433\u043e\u0432\u0438\u043d\u0430"
+            "Босна и Херцеговина"
         ],
         "area":51209,
         "borders":[
@@ -2378,7 +2405,7 @@ const List<Map<String, dynamic>> countriesData = [
                 "iso639_1":"sr",
                 "iso639_2":"srp",
                 "name":"Serbian",
-                "nativeName":"\u0441\u0440\u043f\u0441\u043a\u0438 \u0458\u0435\u0437\u0438\u043a"
+                "nativeName":"српски језик"
             }
         ],
         "latlng":[
@@ -2404,17 +2431,18 @@ const List<Map<String, dynamic>> countriesData = [
             ".ba"
         ],
         "translations":{
-            "br":"B\u00f3snia e Herzegovina",
+            "br":"Bósnia e Herzegovina",
             "de":"Bosnien und Herzegowina",
             "es":"Bosnia y Herzegovina",
-            "fa":"\u0628\u0648\u0633\u0646\u06cc \u0648 \u0647\u0631\u0632\u06af\u0648\u06cc\u0646",
-            "fr":"Bosnie-Herz\u00e9govine",
+            "fa":"بوسنی و هرزگوین",
+            "fr":"Bosnie-Herzégovine",
             "hr":"Bosna i Hercegovina",
             "it":"Bosnia ed Erzegovina",
-            "ja":"\u30dc\u30b9\u30cb\u30a2\u30fb\u30d8\u30eb\u30c4\u30a7\u30b4\u30d3\u30ca",
-            "nl":"Bosni\u00eb en Herzegovina",
-            "pt":"B\u00f3snia e Herzegovina",
-            "hu":"Bosznia-Hercegovina"
+            "ja":"ボスニア・ヘルツェゴビナ",
+            "nl":"Bosnië en Herzegovina",
+            "pt":"Bósnia e Herzegovina",
+            "hu":"Bosznia-Hercegovina",
+            "ar":"البوسنة والهرسك"
         },
         "cioc":"BIH"
     },
@@ -2479,10 +2507,10 @@ const List<Map<String, dynamic>> countriesData = [
                 "acronym":"AU",
                 "name":"African Union",
                 "otherNames":[
-                    "\u0627\u0644\u0627\u062a\u062d\u0627\u062f \u0627\u0644\u0623\u0641\u0631\u064a\u0642\u064a",
+                    "الاتحاد الأفريقي",
                     "Union africaine",
-                    "Uni\u00e3o Africana",
-                    "Uni\u00f3n Africana",
+                    "União Africana",
+                    "Unión Africana",
                     "Umoja wa Afrika"
                 ]
             }
@@ -2498,14 +2526,15 @@ const List<Map<String, dynamic>> countriesData = [
             "br":"Botsuana",
             "de":"Botswana",
             "es":"Botswana",
-            "fa":"\u0628\u0648\u062a\u0633\u0648\u0627\u0646\u0627",
+            "fa":"بوتسوانا",
             "fr":"Botswana",
             "hr":"Bocvana",
             "it":"Botswana",
-            "ja":"\u30dc\u30c4\u30ef\u30ca",
+            "ja":"ボツワナ",
             "nl":"Botswana",
             "pt":"Botsuana",
-            "hu":"Botswana"
+            "hu":"Botswana",
+            "ar":"بتسوانا"
         },
         "cioc":"BOT"
     },
@@ -2514,8 +2543,8 @@ const List<Map<String, dynamic>> countriesData = [
         "alpha3Code":"BVT",
         "altSpellings":[
             "BV",
-            "Bouvet\u00f8ya",
-            "Bouvet-\u00f8ya"
+            "Bouvetøya",
+            "Bouvet-øya"
         ],
         "area":49,
         "borders":[
@@ -2548,8 +2577,8 @@ const List<Map<String, dynamic>> countriesData = [
             {
                 "iso639_1":"nb",
                 "iso639_2":"nob",
-                "name":"Norwegian Bokm\u00e5l",
-                "nativeName":"Norsk bokm\u00e5l"
+                "name":"Norwegian Bokmål",
+                "nativeName":"Norsk bokmål"
             },
             {
                 "iso639_1":"nn",
@@ -2563,7 +2592,7 @@ const List<Map<String, dynamic>> countriesData = [
             3.4
         ],
         "name":"Bouvet Island",
-        "nativeName":"Bouvet\u00f8ya",
+        "nativeName":"Bouvetøya",
         "numericCode":"074",
         "population":0,
         "continent":"Antarctic Ocean",
@@ -2581,14 +2610,15 @@ const List<Map<String, dynamic>> countriesData = [
             "br":"Ilha Bouvet",
             "de":"Bouvetinsel",
             "es":"Isla Bouvet",
-            "fa":"\u062c\u0632\u06cc\u0631\u0647 \u0628\u0648\u0648\u0647",
-            "fr":"\u00cele Bouvet",
+            "fa":"جزیره بووه",
+            "fr":"Île Bouvet",
             "hr":"Otok Bouvet",
             "it":"Isola Bouvet",
-            "ja":"\u30d6\u30fc\u30d9\u5cf6",
+            "ja":"ブーベ島",
             "nl":"Bouveteiland",
             "pt":"Ilha Bouvet",
-            "hu":"Bouvet-sziget"
+            "hu":"Bouvet-sziget",
+            "ar":"جزيرة بوفيه"
         },
         "cioc":""
     },
@@ -2599,7 +2629,7 @@ const List<Map<String, dynamic>> countriesData = [
             "BR",
             "Brasil",
             "Federative Republic of Brazil",
-            "Rep\u00fablica Federativa do Brasil"
+            "República Federativa do Brasil"
         ],
         "area":8515767,
         "borders":[
@@ -2618,7 +2648,7 @@ const List<Map<String, dynamic>> countriesData = [
         "callingCodes":[
             "55"
         ],
-        "capital":"Bras\u00edlia",
+        "capital":"Brasília",
         "currencies":[
             {
                 "code":"BRL",
@@ -2638,7 +2668,7 @@ const List<Map<String, dynamic>> countriesData = [
                 "iso639_1":"pt",
                 "iso639_2":"por",
                 "name":"Portuguese",
-                "nativeName":"Portugu\u00eas"
+                "nativeName":"Português"
             }
         ],
         "latlng":[
@@ -2660,8 +2690,8 @@ const List<Map<String, dynamic>> countriesData = [
                     "UZAN"
                 ],
                 "otherNames":[
-                    "Uni\u00f3n de Naciones Suramericanas",
-                    "Uni\u00e3o de Na\u00e7\u00f5es Sul-Americanas",
+                    "Unión de Naciones Suramericanas",
+                    "União de Nações Sul-Americanas",
                     "Unie van Zuid-Amerikaanse Naties",
                     "South American Union"
                 ]
@@ -2681,14 +2711,15 @@ const List<Map<String, dynamic>> countriesData = [
             "br":"Brasil",
             "de":"Brasilien",
             "es":"Brasil",
-            "fa":"\u0628\u0631\u0632\u06cc\u0644",
-            "fr":"Br\u00e9sil",
+            "fa":"برزیل",
+            "fr":"Brésil",
             "hr":"Brazil",
             "it":"Brasile",
-            "ja":"\u30d6\u30e9\u30b8\u30eb",
-            "nl":"Brazili\u00eb",
+            "ja":"ブラジル",
+            "nl":"Brazilië",
             "pt":"Brasil",
-            "hu":"Braz\u00edlia"
+            "hu":"Brazília",
+            "ar":"البرازيل"
         },
         "cioc":"BRA"
     },
@@ -2741,10 +2772,10 @@ const List<Map<String, dynamic>> countriesData = [
                 "acronym":"AU",
                 "name":"African Union",
                 "otherNames":[
-                    "\u0627\u0644\u0627\u062a\u062d\u0627\u062f \u0627\u0644\u0623\u0641\u0631\u064a\u0642\u064a",
+                    "الاتحاد الأفريقي",
                     "Union africaine",
-                    "Uni\u00e3o Africana",
-                    "Uni\u00f3n Africana",
+                    "União Africana",
+                    "Unión Africana",
                     "Umoja wa Afrika"
                 ]
             }
@@ -2757,17 +2788,18 @@ const List<Map<String, dynamic>> countriesData = [
             ".io"
         ],
         "translations":{
-            "br":"Territ\u00f3rio Brit\u00e2nico do Oceano \u00ed\u00cddico",
+            "br":"Território Britânico do Oceano íÍdico",
             "de":"Britisches Territorium im Indischen Ozean",
-            "es":"Territorio Brit\u00e1nico del Oc\u00e9ano \u00cdndico",
-            "fa":"\u0642\u0644\u0645\u0631\u0648 \u0628\u0631\u06cc\u062a\u0627\u0646\u06cc\u0627 \u062f\u0631 \u0627\u0642\u06cc\u0627\u0646\u0648\u0633 \u0647\u0646\u062f",
-            "fr":"Territoire britannique de l'oc\u00e9an Indien",
+            "es":"Territorio Británico del Océano Índico",
+            "fa":"قلمرو بریتانیا در اقیانوس هند",
+            "fr":"Territoire britannique de l'océan Indien",
             "hr":"Britanski Indijskooceanski teritorij",
             "it":"Territorio britannico dell'oceano indiano",
-            "ja":"\u30a4\u30ae\u30ea\u30b9\u9818\u30a4\u30f3\u30c9\u6d0b\u5730\u57df",
+            "ja":"イギリス領インド洋地域",
             "nl":"Britse Gebieden in de Indische Oceaan",
-            "pt":"Territ\u00f3rio Brit\u00e2nico do Oceano \u00cdndico",
-            "hu":"Brit Indiai-\u00f3ce\u00e1ni Ter\u00fclet"
+            "pt":"Território Britânico do Oceano Índico",
+            "hu":"Brit Indiai-óceáni Terület",
+            "ar":"المحيط الهندي البريطاني"
         },
         "cioc":""
     },
@@ -2829,14 +2861,15 @@ const List<Map<String, dynamic>> countriesData = [
             "br":"Ilhas Menores Distantes dos Estados Unidos",
             "de":"Kleinere Inselbesitzungen der Vereinigten Staaten",
             "es":"Islas Ultramarinas Menores de Estados Unidos",
-            "fa":"\u062c\u0632\u0627\u06cc\u0631 \u06a9\u0648\u0686\u06a9 \u062d\u0627\u0634\u06cc\u0647\u200c\u0627\u06cc \u0627\u06cc\u0627\u0644\u0627\u062a \u0645\u062a\u062d\u062f\u0647 \u0622\u0645\u0631\u06cc\u06a9\u0627",
-            "fr":"\u00celes mineures \u00e9loign\u00e9es des \u00c9tats-Unis",
+            "fa":"جزایر کوچک حاشیه‌ای ایالات متحده آمریکا",
+            "fr":"Îles mineures éloignées des États-Unis",
             "hr":"Mali udaljeni otoci SAD-a",
             "it":"Isole minori esterne degli Stati Uniti d'America",
-            "ja":"\u5408\u8846\u56fd\u9818\u6709\u5c0f\u96e2\u5cf6",
+            "ja":"合衆国領有小離島",
             "nl":"Kleine afgelegen eilanden van de Verenigde Staten",
             "pt":"Ilhas Menores Distantes dos Estados Unidos",
-            "hu":"Amerikai Egyes\u00fclt \u00c1llamok lakatlan k\u00fclbirtokai"
+            "hu":"Amerikai Egyesült Államok lakatlan külbirtokai",
+            "ar":"جزر الولايات المتحدة البعيدة الصغيرة"
         },
         "cioc":""
     },
@@ -2895,17 +2928,18 @@ const List<Map<String, dynamic>> countriesData = [
             ".vg"
         ],
         "translations":{
-            "br":"Ilhas Virgens Brit\u00e2nicas",
+            "br":"Ilhas Virgens Britânicas",
             "de":"Britische Jungferninseln",
-            "es":"Islas V\u00edrgenes del Reino Unido",
-            "fa":"\u062c\u0632\u0627\u06cc\u0631 \u0648\u06cc\u0631\u062c\u06cc\u0646 \u0628\u0631\u06cc\u062a\u0627\u0646\u06cc\u0627",
-            "fr":"\u00celes Vierges britanniques",
-            "hr":"Britanski Djevi\u010danski Otoci",
+            "es":"Islas Vírgenes del Reino Unido",
+            "fa":"جزایر ویرجین بریتانیا",
+            "fr":"Îles Vierges britanniques",
+            "hr":"Britanski Djevičanski Otoci",
             "it":"Isole Vergini Britanniche",
-            "ja":"\u30a4\u30ae\u30ea\u30b9\u9818\u30f4\u30a1\u30fc\u30b8\u30f3\u8af8\u5cf6",
+            "ja":"イギリス領ヴァージン諸島",
             "nl":"Britse Maagdeneilanden",
-            "pt":"Ilhas Virgens Brit\u00e2nicas",
-            "hu":"Brit Virgin-szigetek"
+            "pt":"Ilhas Virgens Britânicas",
+            "hu":"Brit Virgin-szigetek",
+            "ar":"جزر فرجين البريطانية"
         },
         "cioc":"IVB"
     },
@@ -2969,14 +3003,15 @@ const List<Map<String, dynamic>> countriesData = [
         "translations":{
             "br":"Ilhas Virgens Americanas",
             "de":"Amerikanische Jungferninseln",
-            "es":"Islas V\u00edrgenes de los Estados Unidos",
-            "fa":"\u062c\u0632\u0627\u06cc\u0631 \u0648\u06cc\u0631\u062c\u06cc\u0646 \u0622\u0645\u0631\u06cc\u06a9\u0627",
-            "fr":"\u00celes Vierges des \u00c9tats-Unis",
+            "es":"Islas Vírgenes de los Estados Unidos",
+            "fa":"جزایر ویرجین آمریکا",
+            "fr":"Îles Vierges des États-Unis",
             "it":"Isole Vergini americane",
-            "ja":"\u30a2\u30e1\u30ea\u30ab\u9818\u30f4\u30a1\u30fc\u30b8\u30f3\u8af8\u5cf6",
+            "ja":"アメリカ領ヴァージン諸島",
             "nl":"Verenigde Staten Maagdeneilanden",
             "pt":"Ilhas Virgens Americanas",
-            "hu":"Amerikai Virgin-szigetek"
+            "hu":"Amerikai Virgin-szigetek",
+            "ar":"جزر فرجين الأمريكية"
         },
         "cioc":"ISV"
     },
@@ -3048,14 +3083,15 @@ const List<Map<String, dynamic>> countriesData = [
             "br":"Brunei",
             "de":"Brunei",
             "es":"Brunei",
-            "fa":"\u0628\u0631\u0648\u0646\u0626\u06cc",
+            "fa":"برونئی",
             "fr":"Brunei",
             "hr":"Brunej",
             "it":"Brunei",
-            "ja":"\u30d6\u30eb\u30cd\u30a4\u30fb\u30c0\u30eb\u30b5\u30e9\u30fc\u30e0",
+            "ja":"ブルネイ・ダルサラーム",
             "nl":"Brunei",
             "pt":"Brunei",
-            "hu":"Brunei"
+            "hu":"Brunei",
+            "ar":"بروناي"
         },
         "cioc":"BRU"
     },
@@ -3065,7 +3101,7 @@ const List<Map<String, dynamic>> countriesData = [
         "altSpellings":[
             "BG",
             "Republic of Bulgaria",
-            "\u0420\u0435\u043f\u0443\u0431\u043b\u0438\u043a\u0430 \u0411\u044a\u043b\u0433\u0430\u0440\u0438\u044f"
+            "Република България"
         ],
         "area":110879,
         "borders":[
@@ -3083,7 +3119,7 @@ const List<Map<String, dynamic>> countriesData = [
             {
                 "code":"BGN",
                 "name":"Bulgarian lev",
-                "symbol":"\u043b\u0432"
+                "symbol":"лв"
             }
         ],
         "demonym":"Bulgarian",
@@ -3098,7 +3134,7 @@ const List<Map<String, dynamic>> countriesData = [
                 "iso639_1":"bg",
                 "iso639_2":"bul",
                 "name":"Bulgarian",
-                "nativeName":"\u0431\u044a\u043b\u0433\u0430\u0440\u0441\u043a\u0438 \u0435\u0437\u0438\u043a"
+                "nativeName":"български език"
             }
         ],
         "latlng":[
@@ -3106,7 +3142,7 @@ const List<Map<String, dynamic>> countriesData = [
             25
         ],
         "name":"Bulgaria",
-        "nativeName":"\u0411\u044a\u043b\u0433\u0430\u0440\u0438\u044f",
+        "nativeName":"България",
         "numericCode":"100",
         "population":7153784,
         "continent":"Europe",
@@ -3124,17 +3160,18 @@ const List<Map<String, dynamic>> countriesData = [
             ".bg"
         ],
         "translations":{
-            "br":"Bulg\u00e1ria",
+            "br":"Bulgária",
             "de":"Bulgarien",
             "es":"Bulgaria",
-            "fa":"\u0628\u0644\u063a\u0627\u0631\u0633\u062a\u0627\u0646",
+            "fa":"بلغارستان",
             "fr":"Bulgarie",
             "hr":"Bugarska",
             "it":"Bulgaria",
-            "ja":"\u30d6\u30eb\u30ac\u30ea\u30a2",
+            "ja":"ブルガリア",
             "nl":"Bulgarije",
-            "pt":"Bulg\u00e1ria",
-            "hu":"Bulg\u00e1ria"
+            "pt":"Bulgária",
+            "hu":"Bulgária",
+            "ar":"بلغاريا"
         },
         "cioc":"BUL"
     },
@@ -3176,7 +3213,7 @@ const List<Map<String, dynamic>> countriesData = [
                 "iso639_1":"fr",
                 "iso639_2":"fra",
                 "name":"French",
-                "nativeName":"fran\u00e7ais"
+                "nativeName":"français"
             },
             {
                 "iso639_1":"ff",
@@ -3199,10 +3236,10 @@ const List<Map<String, dynamic>> countriesData = [
                 "acronym":"AU",
                 "name":"African Union",
                 "otherNames":[
-                    "\u0627\u0644\u0627\u062a\u062d\u0627\u062f \u0627\u0644\u0623\u0641\u0631\u064a\u0642\u064a",
+                    "الاتحاد الأفريقي",
                     "Union africaine",
-                    "Uni\u00e3o Africana",
-                    "Uni\u00f3n Africana",
+                    "União Africana",
+                    "Unión Africana",
                     "Umoja wa Afrika"
                 ]
             }
@@ -3218,14 +3255,15 @@ const List<Map<String, dynamic>> countriesData = [
             "br":"Burkina Faso",
             "de":"Burkina Faso",
             "es":"Burkina Faso",
-            "fa":"\u0628\u0648\u0631\u06a9\u06cc\u0646\u0627\u0641\u0627\u0633\u0648",
+            "fa":"بورکینافاسو",
             "fr":"Burkina Faso",
             "hr":"Burkina Faso",
             "it":"Burkina Faso",
-            "ja":"\u30d6\u30eb\u30ad\u30ca\u30d5\u30a1\u30bd",
+            "ja":"ブルキナファソ",
             "nl":"Burkina Faso",
             "pt":"Burquina Faso",
-            "hu":"Burkina Faso"
+            "hu":"Burkina Faso",
+            "ar":"بوركينا فاسو"
         },
         "cioc":"BUR"
     },
@@ -3236,7 +3274,7 @@ const List<Map<String, dynamic>> countriesData = [
             "BI",
             "Republic of Burundi",
             "Republika y'Uburundi",
-            "R\u00e9publique du Burundi"
+            "République du Burundi"
         ],
         "area":27834,
         "borders":[
@@ -3267,7 +3305,7 @@ const List<Map<String, dynamic>> countriesData = [
                 "iso639_1":"fr",
                 "iso639_2":"fra",
                 "name":"French",
-                "nativeName":"fran\u00e7ais"
+                "nativeName":"français"
             },
             {
                 "iso639_1":"rn",
@@ -3290,10 +3328,10 @@ const List<Map<String, dynamic>> countriesData = [
                 "acronym":"AU",
                 "name":"African Union",
                 "otherNames":[
-                    "\u0627\u0644\u0627\u062a\u062d\u0627\u062f \u0627\u0644\u0623\u0641\u0631\u064a\u0642\u064a",
+                    "الاتحاد الأفريقي",
                     "Union africaine",
-                    "Uni\u00e3o Africana",
-                    "Uni\u00f3n Africana",
+                    "União Africana",
+                    "Unión Africana",
                     "Umoja wa Afrika"
                 ]
             }
@@ -3309,14 +3347,15 @@ const List<Map<String, dynamic>> countriesData = [
             "br":"Burundi",
             "de":"Burundi",
             "es":"Burundi",
-            "fa":"\u0628\u0648\u0631\u0648\u0646\u062f\u06cc",
+            "fa":"بوروندی",
             "fr":"Burundi",
             "hr":"Burundi",
             "it":"Burundi",
-            "ja":"\u30d6\u30eb\u30f3\u30b8",
+            "ja":"ブルンジ",
             "nl":"Burundi",
-            "pt":"Bur\u00fandi",
-            "hu":"Burundi"
+            "pt":"Burúndi",
+            "hu":"Burundi",
+            "ar":"بوروندي"
         },
         "cioc":"BDI"
     },
@@ -3341,7 +3380,7 @@ const List<Map<String, dynamic>> countriesData = [
             {
                 "code":"KHR",
                 "name":"Cambodian riel",
-                "symbol":"\u17db"
+                "symbol":"៛"
             },
             {
                 "code":"USD",
@@ -3361,7 +3400,7 @@ const List<Map<String, dynamic>> countriesData = [
                 "iso639_1":"km",
                 "iso639_2":"khm",
                 "name":"Khmer",
-                "nativeName":"\u1781\u17d2\u1798\u17c2\u179a"
+                "nativeName":"ខ្មែរ"
             }
         ],
         "latlng":[
@@ -3369,7 +3408,7 @@ const List<Map<String, dynamic>> countriesData = [
             105
         ],
         "name":"Cambodia",
-        "nativeName":"K\u00e2mp\u016dch\u00e9a",
+        "nativeName":"Kâmpŭchéa",
         "numericCode":"116",
         "population":15626444,
         "continent":"Asia",
@@ -3390,14 +3429,15 @@ const List<Map<String, dynamic>> countriesData = [
             "br":"Camboja",
             "de":"Kambodscha",
             "es":"Camboya",
-            "fa":"\u06a9\u0627\u0645\u0628\u0648\u062c",
+            "fa":"کامبوج",
             "fr":"Cambodge",
-            "hr":"Kambod\u017ea",
+            "hr":"Kambodža",
             "it":"Cambogia",
-            "ja":"\u30ab\u30f3\u30dc\u30b8\u30a2",
+            "ja":"カンボジア",
             "nl":"Cambodja",
             "pt":"Camboja",
-            "hu":"Kambodzsa"
+            "hu":"Kambodzsa",
+            "ar":"كمبوديا"
         },
         "cioc":"CAM"
     },
@@ -3407,7 +3447,7 @@ const List<Map<String, dynamic>> countriesData = [
         "altSpellings":[
             "CM",
             "Republic of Cameroon",
-            "R\u00e9publique du Cameroun"
+            "République du Cameroun"
         ],
         "area":475442,
         "borders":[
@@ -3421,7 +3461,7 @@ const List<Map<String, dynamic>> countriesData = [
         "callingCodes":[
             "237"
         ],
-        "capital":"Yaound\u00e9",
+        "capital":"Yaoundé",
         "currencies":[
             {
                 "code":"XAF",
@@ -3447,7 +3487,7 @@ const List<Map<String, dynamic>> countriesData = [
                 "iso639_1":"fr",
                 "iso639_2":"fra",
                 "name":"French",
-                "nativeName":"fran\u00e7ais"
+                "nativeName":"français"
             }
         ],
         "latlng":[
@@ -3464,10 +3504,10 @@ const List<Map<String, dynamic>> countriesData = [
                 "acronym":"AU",
                 "name":"African Union",
                 "otherNames":[
-                    "\u0627\u0644\u0627\u062a\u062d\u0627\u062f \u0627\u0644\u0623\u0641\u0631\u064a\u0642\u064a",
+                    "الاتحاد الأفريقي",
                     "Union africaine",
-                    "Uni\u00e3o Africana",
-                    "Uni\u00f3n Africana",
+                    "União Africana",
+                    "Unión Africana",
                     "Umoja wa Afrika"
                 ]
             }
@@ -3480,17 +3520,18 @@ const List<Map<String, dynamic>> countriesData = [
             ".cm"
         ],
         "translations":{
-            "br":"Camar\u00f5es",
+            "br":"Camarões",
             "de":"Kamerun",
-            "es":"Camer\u00fan",
-            "fa":"\u06a9\u0627\u0645\u0631\u0648\u0646",
+            "es":"Camerún",
+            "fa":"کامرون",
             "fr":"Cameroun",
             "hr":"Kamerun",
             "it":"Camerun",
-            "ja":"\u30ab\u30e1\u30eb\u30fc\u30f3",
+            "ja":"カメルーン",
             "nl":"Kameroen",
-            "pt":"Camar\u00f5es",
-            "hu":"Kamerun"
+            "pt":"Camarões",
+            "hu":"Kamerun",
+            "ar":"الكاميرون"
         },
         "cioc":"CMR"
     },
@@ -3533,7 +3574,7 @@ const List<Map<String, dynamic>> countriesData = [
                 "iso639_1":"fr",
                 "iso639_2":"fra",
                 "name":"French",
-                "nativeName":"fran\u00e7ais"
+                "nativeName":"français"
             }
         ],
         "latlng":[
@@ -3550,8 +3591,8 @@ const List<Map<String, dynamic>> countriesData = [
                 "acronym":"NAFTA",
                 "name":"North American Free Trade Agreement",
                 "otherNames":[
-                    "Tratado de Libre Comercio de Am\u00e9rica del Norte",
-                    "Accord de Libre-\u00e9change Nord-Am\u00e9ricain"
+                    "Tratado de Libre Comercio de América del Norte",
+                    "Accord de Libre-échange Nord-Américain"
                 ]
             }
         ],
@@ -3568,17 +3609,18 @@ const List<Map<String, dynamic>> countriesData = [
             ".ca"
         ],
         "translations":{
-            "br":"Canad\u00e1",
+            "br":"Canadá",
             "de":"Kanada",
-            "es":"Canad\u00e1",
-            "fa":"\u06a9\u0627\u0646\u0627\u062f\u0627",
+            "es":"Canadá",
+            "fa":"کانادا",
             "fr":"Canada",
             "hr":"Kanada",
             "it":"Canada",
-            "ja":"\u30ab\u30ca\u30c0",
+            "ja":"カナダ",
             "nl":"Canada",
-            "pt":"Canad\u00e1",
-            "hu":"Kanada"
+            "pt":"Canadá",
+            "hu":"Kanada",
+            "ar":"كندا"
         },
         "cioc":"CAN"
     },
@@ -3588,7 +3630,7 @@ const List<Map<String, dynamic>> countriesData = [
         "altSpellings":[
             "CV",
             "Republic of Cabo Verde",
-            "Rep\u00fablica de Cabo Verde"
+            "República de Cabo Verde"
         ],
         "area":4033,
         "borders":[
@@ -3617,7 +3659,7 @@ const List<Map<String, dynamic>> countriesData = [
                 "iso639_1":"pt",
                 "iso639_2":"por",
                 "name":"Portuguese",
-                "nativeName":"Portugu\u00eas"
+                "nativeName":"Português"
             }
         ],
         "latlng":[
@@ -3634,10 +3676,10 @@ const List<Map<String, dynamic>> countriesData = [
                 "acronym":"AU",
                 "name":"African Union",
                 "otherNames":[
-                    "\u0627\u0644\u0627\u062a\u062d\u0627\u062f \u0627\u0644\u0623\u0641\u0631\u064a\u0642\u064a",
+                    "الاتحاد الأفريقي",
                     "Union africaine",
-                    "Uni\u00e3o Africana",
-                    "Uni\u00f3n Africana",
+                    "União Africana",
+                    "Unión Africana",
                     "Umoja wa Afrika"
                 ]
             }
@@ -3653,14 +3695,15 @@ const List<Map<String, dynamic>> countriesData = [
             "br":"Cabo Verde",
             "de":"Kap Verde",
             "es":"Cabo Verde",
-            "fa":"\u06a9\u06cc\u067e \u0648\u0631\u062f",
+            "fa":"کیپ ورد",
             "fr":"Cap Vert",
             "hr":"Zelenortska Republika",
             "it":"Capo Verde",
-            "ja":"\u30ab\u30fc\u30dc\u30d9\u30eb\u30c7",
-            "nl":"Kaapverdi\u00eb",
+            "ja":"カーボベルデ",
+            "nl":"Kaapverdië",
             "pt":"Cabo Verde",
-            "hu":"Z\u00f6ld-foki K\u00f6zt\u00e1rsas\u00e1g"
+            "hu":"Zöld-foki Köztársaság",
+            "ar":"الرأس الأخضر"
         },
         "cioc":"CPV"
     },
@@ -3721,16 +3764,17 @@ const List<Map<String, dynamic>> countriesData = [
         "translations":{
             "br":"Ilhas Cayman",
             "de":"Kaimaninseln",
-            "es":"Islas Caim\u00e1n",
-            "fa":"\u062c\u0632\u0627\u06cc\u0631 \u06a9\u06cc\u0645\u0646",
-            "fr":"\u00celes Ca\u00efmans",
+            "es":"Islas Caimán",
+            "fa":"جزایر کیمن",
+            "fr":"Îles Caïmans",
             "hr":"Kajmanski otoci",
             "it":"Isole Cayman",
-            "ja":"\u30b1\u30a4\u30de\u30f3\u8af8\u5cf6",
+            "ja":"ケイマン諸島",
             "nl":"Caymaneilanden",
-            "pt":"Ilhas Caim\u00e3o",
+            "pt":"Ilhas Caimão",
             "se":"Caymanöarna",
-            "hu":"Kajm\u00e1n-szigetek"
+            "hu":"Kajmán-szigetek",
+            "ar":"جزر الكايمن"
         },
         "cioc":"CAY"
     },
@@ -3740,7 +3784,7 @@ const List<Map<String, dynamic>> countriesData = [
         "altSpellings":[
             "CF",
             "Central African Republic",
-            "R\u00e9publique centrafricaine"
+            "République centrafricaine"
         ],
         "area":622984,
         "borders":[
@@ -3774,13 +3818,13 @@ const List<Map<String, dynamic>> countriesData = [
                 "iso639_1":"fr",
                 "iso639_2":"fra",
                 "name":"French",
-                "nativeName":"fran\u00e7ais"
+                "nativeName":"français"
             },
             {
                 "iso639_1":"sg",
                 "iso639_2":"sag",
                 "name":"Sango",
-                "nativeName":"y\u00e2ng\u00e2 t\u00ee s\u00e4ng\u00f6"
+                "nativeName":"yângâ tî sängö"
             }
         ],
         "latlng":[
@@ -3788,7 +3832,7 @@ const List<Map<String, dynamic>> countriesData = [
             21
         ],
         "name":"Central African Republic",
-        "nativeName":"K\u00f6d\u00f6r\u00f6s\u00ease t\u00ee B\u00eaafr\u00eeka",
+        "nativeName":"Ködörösêse tî Bêafrîka",
         "numericCode":"140",
         "population":4998000,
         "continent":"Africa",
@@ -3797,10 +3841,10 @@ const List<Map<String, dynamic>> countriesData = [
                 "acronym":"AU",
                 "name":"African Union",
                 "otherNames":[
-                    "\u0627\u0644\u0627\u062a\u062d\u0627\u062f \u0627\u0644\u0623\u0641\u0631\u064a\u0642\u064a",
+                    "الاتحاد الأفريقي",
                     "Union africaine",
-                    "Uni\u00e3o Africana",
-                    "Uni\u00f3n Africana",
+                    "União Africana",
+                    "Unión Africana",
                     "Umoja wa Afrika"
                 ]
             }
@@ -3813,17 +3857,18 @@ const List<Map<String, dynamic>> countriesData = [
             ".cf"
         ],
         "translations":{
-            "br":"Rep\u00fablica Centro-Africana",
+            "br":"República Centro-Africana",
             "de":"Zentralafrikanische Republik",
-            "es":"Rep\u00fablica Centroafricana",
-            "fa":"\u062c\u0645\u0647\u0648\u0631\u06cc \u0622\u0641\u0631\u06cc\u0642\u0627\u06cc \u0645\u0631\u06a9\u0632\u06cc",
-            "fr":"R\u00e9publique centrafricaine",
-            "hr":"Srednjoafri\u010dka Republika",
+            "es":"República Centroafricana",
+            "fa":"جمهوری آفریقای مرکزی",
+            "fr":"République centrafricaine",
+            "hr":"Srednjoafrička Republika",
             "it":"Repubblica Centrafricana",
-            "ja":"\u4e2d\u592e\u30a2\u30d5\u30ea\u30ab\u5171\u548c\u56fd",
+            "ja":"中央アフリカ共和国",
             "nl":"Centraal-Afrikaanse Republiek",
-            "pt":"Rep\u00fablica Centro-Africana",
-            "hu":"K\u00f6z\u00e9p-afrikai K\u00f6zt\u00e1rsas\u00e1g"
+            "pt":"República Centro-Africana",
+            "hu":"Közép-afrikai Köztársaság",
+            "ar":"جمهورية افريقيا الوسطى"
         },
         "cioc":"CAF"
     },
@@ -3834,7 +3879,7 @@ const List<Map<String, dynamic>> countriesData = [
             "TD",
             "Tchad",
             "Republic of Chad",
-            "R\u00e9publique du Tchad"
+            "République du Tchad"
         ],
         "area":1284000,
         "borders":[
@@ -3868,13 +3913,13 @@ const List<Map<String, dynamic>> countriesData = [
                 "iso639_1":"fr",
                 "iso639_2":"fra",
                 "name":"French",
-                "nativeName":"fran\u00e7ais"
+                "nativeName":"français"
             },
             {
                 "iso639_1":"ar",
                 "iso639_2":"ara",
                 "name":"Arabic",
-                "nativeName":"\u0627\u0644\u0639\u0631\u0628\u064a\u0629"
+                "nativeName":"العربية"
             }
         ],
         "latlng":[
@@ -3891,10 +3936,10 @@ const List<Map<String, dynamic>> countriesData = [
                 "acronym":"AU",
                 "name":"African Union",
                 "otherNames":[
-                    "\u0627\u0644\u0627\u062a\u062d\u0627\u062f \u0627\u0644\u0623\u0641\u0631\u064a\u0642\u064a",
+                    "الاتحاد الأفريقي",
                     "Union africaine",
-                    "Uni\u00e3o Africana",
-                    "Uni\u00f3n Africana",
+                    "União Africana",
+                    "Unión Africana",
                     "Umoja wa Afrika"
                 ]
             }
@@ -3910,14 +3955,15 @@ const List<Map<String, dynamic>> countriesData = [
             "br":"Chade",
             "de":"Tschad",
             "es":"Chad",
-            "fa":"\u0686\u0627\u062f",
+            "fa":"چاد",
             "fr":"Tchad",
-            "hr":"\u010cad",
+            "hr":"Čad",
             "it":"Ciad",
-            "ja":"\u30c1\u30e3\u30c9",
+            "ja":"チャド",
             "nl":"Tsjaad",
             "pt":"Chade",
-            "hu":"Cs\u00e1d"
+            "hu":"Csád",
+            "ar":"تشاد"
         },
         "cioc":"CHA"
     },
@@ -3927,7 +3973,7 @@ const List<Map<String, dynamic>> countriesData = [
         "altSpellings":[
             "CL",
             "Republic of Chile",
-            "Rep\u00fablica de Chile"
+            "República de Chile"
         ],
         "area":756102,
         "borders":[
@@ -3958,7 +4004,7 @@ const List<Map<String, dynamic>> countriesData = [
                 "iso639_1":"es",
                 "iso639_2":"spa",
                 "name":"Spanish",
-                "nativeName":"Espa\u00f1ol"
+                "nativeName":"Español"
             }
         ],
         "latlng":[
@@ -3975,7 +4021,7 @@ const List<Map<String, dynamic>> countriesData = [
                 "acronym":"PA",
                 "name":"Pacific Alliance",
                 "otherNames":[
-                    "Alianza del Pac\u00edfico"
+                    "Alianza del Pacífico"
                 ]
             },
             {
@@ -3987,8 +4033,8 @@ const List<Map<String, dynamic>> countriesData = [
                     "UZAN"
                 ],
                 "otherNames":[
-                    "Uni\u00f3n de Naciones Suramericanas",
-                    "Uni\u00e3o de Na\u00e7\u00f5es Sul-Americanas",
+                    "Unión de Naciones Suramericanas",
+                    "União de Nações Sul-Americanas",
                     "Unie van Zuid-Amerikaanse Naties",
                     "South American Union"
                 ]
@@ -4006,14 +4052,15 @@ const List<Map<String, dynamic>> countriesData = [
             "br":"Chile",
             "de":"Chile",
             "es":"Chile",
-            "fa":"\u0634\u06cc\u0644\u06cc",
+            "fa":"شیلی",
             "fr":"Chili",
-            "hr":"\u010cile",
+            "hr":"Čile",
             "it":"Cile",
-            "ja":"\u30c1\u30ea",
+            "ja":"チリ",
             "nl":"Chili",
             "pt":"Chile",
-            "hu":"Chile"
+            "hu":"Chile",
+            "ar":"شيلي"
         },
         "cioc":"CHI"
     },
@@ -4022,12 +4069,12 @@ const List<Map<String, dynamic>> countriesData = [
         "alpha3Code":"CHN",
         "altSpellings":[
             "CN",
-            "Zh\u014dnggu\u00f3",
+            "Zhōngguó",
             "Zhongguo",
             "Zhonghua",
             "People's Republic of China",
-            "\u4e2d\u534e\u4eba\u6c11\u5171\u548c\u56fd",
-            "Zh\u014dnghu\u00e1 R\u00e9nm\u00edn G\u00f2ngh\u00e9gu\u00f3"
+            "中华人民共和国",
+            "Zhōnghuá Rénmín Gònghéguó"
         ],
         "area":9640011,
         "borders":[
@@ -4055,7 +4102,7 @@ const List<Map<String, dynamic>> countriesData = [
             {
                 "code":"CNY",
                 "name":"Chinese yuan",
-                "symbol":"\u00a5"
+                "symbol":"¥"
             }
         ],
         "demonym":"Chinese",
@@ -4070,7 +4117,7 @@ const List<Map<String, dynamic>> countriesData = [
                 "iso639_1":"zh",
                 "iso639_2":"zho",
                 "name":"Chinese",
-                "nativeName":"\u4e2d\u6587 (Zh\u014dngw\u00e9n)"
+                "nativeName":"中文 (Zhōngwén)"
             }
         ],
         "latlng":[
@@ -4078,7 +4125,7 @@ const List<Map<String, dynamic>> countriesData = [
             105
         ],
         "name":"China",
-        "nativeName":"\u4e2d\u56fd",
+        "nativeName":"中国",
         "numericCode":"156",
         "population":1377422166,
         "continent":"Asia",
@@ -4096,14 +4143,15 @@ const List<Map<String, dynamic>> countriesData = [
             "br":"China",
             "de":"China",
             "es":"China",
-            "fa":"\u0686\u06cc\u0646",
+            "fa":"چین",
             "fr":"Chine",
             "hr":"Kina",
             "it":"Cina",
-            "ja":"\u4e2d\u56fd",
+            "ja":"中国",
             "nl":"China",
             "pt":"China",
-            "hu":"Kína"
+            "hu":"Kína",
+            "ar":"الصين"
         },
         "cioc":"CHN"
     },
@@ -4166,14 +4214,15 @@ const List<Map<String, dynamic>> countriesData = [
             "br":"Ilha Christmas",
             "de":"Weihnachtsinsel",
             "es":"Isla de Navidad",
-            "fa":"\u062c\u0632\u06cc\u0631\u0647 \u06a9\u0631\u06cc\u0633\u0645\u0633",
-            "fr":"\u00cele Christmas",
-            "hr":"Bo\u017ei\u0107ni otok",
+            "fa":"جزیره کریسمس",
+            "fr":"Île Christmas",
+            "hr":"Božićni otok",
             "it":"Isola di Natale",
-            "ja":"\u30af\u30ea\u30b9\u30de\u30b9\u5cf6",
+            "ja":"クリスマス島",
             "nl":"Christmaseiland",
             "pt":"Ilha do Natal",
-            "hu":"Kar\u00e1csony-sziget"
+            "hu":"Karácsony-sziget",
+            "ar":"جزيرة الكريسماس"
         },
         "cioc":""
     },
@@ -4237,14 +4286,15 @@ const List<Map<String, dynamic>> countriesData = [
             "br":"Ilhas Cocos",
             "de":"Kokosinseln",
             "es":"Islas Cocos o Islas Keeling",
-            "fa":"\u062c\u0632\u0627\u06cc\u0631 \u06a9\u0648\u06a9\u0648\u0633",
-            "fr":"\u00celes Cocos",
+            "fa":"جزایر کوکوس",
+            "fr":"Îles Cocos",
             "hr":"Kokosovi Otoci",
             "it":"Isole Cocos e Keeling",
-            "ja":"\u30b3\u30b3\u30b9\uff08\u30ad\u30fc\u30ea\u30f3\u30b0\uff09\u8af8\u5cf6",
+            "ja":"ココス（キーリング）諸島",
             "nl":"Cocoseilanden",
             "pt":"Ilhas dos Cocos",
-            "hu":"K\u00f3kusz-szigetek"
+            "hu":"Kókusz-szigetek",
+            "ar":"جزر كوكوس"
         },
         "cioc":""
     },
@@ -4254,7 +4304,7 @@ const List<Map<String, dynamic>> countriesData = [
         "altSpellings":[
             "CO",
             "Republic of Colombia",
-            "Rep\u00fablica de Colombia"
+            "República de Colombia"
         ],
         "area":1141748,
         "borders":[
@@ -4267,7 +4317,7 @@ const List<Map<String, dynamic>> countriesData = [
         "callingCodes":[
             "57"
         ],
-        "capital":"Bogot\u00e1",
+        "capital":"Bogotá",
         "currencies":[
             {
                 "code":"COP",
@@ -4287,7 +4337,7 @@ const List<Map<String, dynamic>> countriesData = [
                 "iso639_1":"es",
                 "iso639_2":"spa",
                 "name":"Spanish",
-                "nativeName":"Espa\u00f1ol"
+                "nativeName":"Español"
             }
         ],
         "latlng":[
@@ -4304,7 +4354,7 @@ const List<Map<String, dynamic>> countriesData = [
                 "acronym":"PA",
                 "name":"Pacific Alliance",
                 "otherNames":[
-                    "Alianza del Pac\u00edfico"
+                    "Alianza del Pacífico"
                 ]
             },
             {
@@ -4316,8 +4366,8 @@ const List<Map<String, dynamic>> countriesData = [
                     "UZAN"
                 ],
                 "otherNames":[
-                    "Uni\u00f3n de Naciones Suramericanas",
-                    "Uni\u00e3o de Na\u00e7\u00f5es Sul-Americanas",
+                    "Unión de Naciones Suramericanas",
+                    "União de Nações Sul-Americanas",
                     "Unie van Zuid-Amerikaanse Naties",
                     "South American Union"
                 ]
@@ -4331,17 +4381,18 @@ const List<Map<String, dynamic>> countriesData = [
             ".co"
         ],
         "translations":{
-            "br":"Col\u00f4mbia",
+            "br":"Colômbia",
             "de":"Kolumbien",
             "es":"Colombia",
-            "fa":"\u06a9\u0644\u0645\u0628\u06cc\u0627",
+            "fa":"کلمبیا",
             "fr":"Colombie",
             "hr":"Kolumbija",
             "it":"Colombia",
-            "ja":"\u30b3\u30ed\u30f3\u30d3\u30a2",
+            "ja":"コロンビア",
             "nl":"Colombia",
-            "pt":"Col\u00f4mbia",
-            "hu":"Kolumbia"
+            "pt":"Colômbia",
+            "hu":"Kolumbia",
+            "ar":"كولومبيا"
         },
         "cioc":"COL"
     },
@@ -4353,7 +4404,7 @@ const List<Map<String, dynamic>> countriesData = [
             "Union of the Comoros",
             "Union des Comores",
             "Udzima wa Komori",
-            "al-Itti\u1e25\u0101d al-Qumur\u012b"
+            "al-Ittiḥād al-Qumurī"
         ],
         "area":1862,
         "borders":[
@@ -4382,13 +4433,13 @@ const List<Map<String, dynamic>> countriesData = [
                 "iso639_1":"ar",
                 "iso639_2":"ara",
                 "name":"Arabic",
-                "nativeName":"\u0627\u0644\u0639\u0631\u0628\u064a\u0629"
+                "nativeName":"العربية"
             },
             {
                 "iso639_1":"fr",
                 "iso639_2":"fra",
                 "name":"French",
-                "nativeName":"fran\u00e7ais"
+                "nativeName":"français"
             }
         ],
         "latlng":[
@@ -4405,10 +4456,10 @@ const List<Map<String, dynamic>> countriesData = [
                 "acronym":"AU",
                 "name":"African Union",
                 "otherNames":[
-                    "\u0627\u0644\u0627\u062a\u062d\u0627\u062f \u0627\u0644\u0623\u0641\u0631\u064a\u0642\u064a",
+                    "الاتحاد الأفريقي",
                     "Union africaine",
-                    "Uni\u00e3o Africana",
-                    "Uni\u00f3n Africana",
+                    "União Africana",
+                    "Unión Africana",
                     "Umoja wa Afrika"
                 ]
             },
@@ -4416,8 +4467,8 @@ const List<Map<String, dynamic>> countriesData = [
                 "acronym":"AL",
                 "name":"Arab League",
                 "otherNames":[
-                    "\u062c\u0627\u0645\u0639\u0629 \u0627\u0644\u062f\u0648\u0644 \u0627\u0644\u0639\u0631\u0628\u064a\u0629",
-                    "J\u0101mi\u02bbat ad-Duwal al-\u02bbArab\u012byah",
+                    "جامعة الدول العربية",
+                    "Jāmiʻat ad-Duwal al-ʻArabīyah",
                     "League of Arab States"
                 ]
             }
@@ -4433,14 +4484,15 @@ const List<Map<String, dynamic>> countriesData = [
             "br":"Comores",
             "de":"Union der Komoren",
             "es":"Comoras",
-            "fa":"\u06a9\u0648\u0645\u0648\u0631",
+            "fa":"کومور",
             "fr":"Comores",
             "hr":"Komori",
             "it":"Comore",
-            "ja":"\u30b3\u30e2\u30ed",
+            "ja":"コモロ",
             "nl":"Comoren",
             "pt":"Comores",
-            "hu":"Comore-szigetek"
+            "hu":"Comore-szigetek",
+            "ar":"جزر القمر"
         },
         "cioc":"COM"
     },
@@ -4482,13 +4534,13 @@ const List<Map<String, dynamic>> countriesData = [
                 "iso639_1":"fr",
                 "iso639_2":"fra",
                 "name":"French",
-                "nativeName":"fran\u00e7ais"
+                "nativeName":"français"
             },
             {
                 "iso639_1":"ln",
                 "iso639_2":"lin",
                 "name":"Lingala",
-                "nativeName":"Ling\u00e1la"
+                "nativeName":"Lingála"
             }
         ],
         "latlng":[
@@ -4496,7 +4548,7 @@ const List<Map<String, dynamic>> countriesData = [
             15
         ],
         "name":"Congo",
-        "nativeName":"R\u00e9publique du Congo",
+        "nativeName":"République du Congo",
         "numericCode":"178",
         "population":4741000,
         "continent":"Africa",
@@ -4505,10 +4557,10 @@ const List<Map<String, dynamic>> countriesData = [
                 "acronym":"AU",
                 "name":"African Union",
                 "otherNames":[
-                    "\u0627\u0644\u0627\u062a\u062d\u0627\u062f \u0627\u0644\u0623\u0641\u0631\u064a\u0642\u064a",
+                    "الاتحاد الأفريقي",
                     "Union africaine",
-                    "Uni\u00e3o Africana",
-                    "Uni\u00f3n Africana",
+                    "União Africana",
+                    "Unión Africana",
                     "Umoja wa Afrika"
                 ]
             }
@@ -4524,14 +4576,15 @@ const List<Map<String, dynamic>> countriesData = [
             "br":"Congo",
             "de":"Kongo",
             "es":"Congo",
-            "fa":"\u06a9\u0646\u06af\u0648",
+            "fa":"کنگو",
             "fr":"Congo",
             "hr":"Kongo",
             "it":"Congo",
-            "ja":"\u30b3\u30f3\u30b4\u5171\u548c\u56fd",
+            "ja":"コンゴ共和国",
             "nl":"Congo [Republiek]",
             "pt":"Congo",
-            "hu":"Kong\u00f3i K\u00f3zt\u00e1rsas\u00e1g"
+            "hu":"Kongói Kóztársaság",
+            "ar":"الكونغو - برازافيل"
         },
         "cioc":"CGO"
     },
@@ -4578,13 +4631,13 @@ const List<Map<String, dynamic>> countriesData = [
                 "iso639_1":"fr",
                 "iso639_2":"fra",
                 "name":"French",
-                "nativeName":"fran\u00e7ais"
+                "nativeName":"français"
             },
             {
                 "iso639_1":"ln",
                 "iso639_2":"lin",
                 "name":"Lingala",
-                "nativeName":"Ling\u00e1la"
+                "nativeName":"Lingála"
             },
             {
                 "iso639_1":"kg",
@@ -4610,7 +4663,7 @@ const List<Map<String, dynamic>> countriesData = [
             25
         ],
         "name":"Congo (Democratic Republic of the)",
-        "nativeName":"R\u00e9publique d\u00e9mocratique du Congo",
+        "nativeName":"République démocratique du Congo",
         "numericCode":"180",
         "population":85026000,
         "continent":"Africa",
@@ -4619,10 +4672,10 @@ const List<Map<String, dynamic>> countriesData = [
                 "acronym":"AU",
                 "name":"African Union",
                 "otherNames":[
-                    "\u0627\u0644\u0627\u062a\u062d\u0627\u062f \u0627\u0644\u0623\u0641\u0631\u064a\u0642\u064a",
+                    "الاتحاد الأفريقي",
                     "Union africaine",
-                    "Uni\u00e3o Africana",
-                    "Uni\u00f3n Africana",
+                    "União Africana",
+                    "Unión Africana",
                     "Umoja wa Afrika"
                 ]
             }
@@ -4639,14 +4692,15 @@ const List<Map<String, dynamic>> countriesData = [
             "br":"RD Congo",
             "de":"Kongo (Dem. Rep.)",
             "es":"Congo (Rep. Dem.)",
-            "fa":"\u062c\u0645\u0647\u0648\u0631\u06cc \u06a9\u0646\u06af\u0648",
-            "fr":"Congo (R\u00e9p. d\u00e9m.)",
+            "fa":"جمهوری کنگو",
+            "fr":"Congo (Rép. dém.)",
             "hr":"Kongo, Demokratska Republika",
             "it":"Congo (Rep. Dem.)",
-            "ja":"\u30b3\u30f3\u30b4\u6c11\u4e3b\u5171\u548c\u56fd",
+            "ja":"コンゴ民主共和国",
             "nl":"Congo [DRC]",
             "pt":"RD Congo",
-            "hu":"Kong\u00f3i Demokratikus K\u00f6ztársaság"
+            "hu":"Kongói Demokratikus Köztársaság",
+            "ar":"جمهورية الكونغو الديمقراطية"
         },
         "cioc":"COD"
     },
@@ -4655,7 +4709,7 @@ const List<Map<String, dynamic>> countriesData = [
         "alpha3Code":"COK",
         "altSpellings":[
             "CK",
-            "K\u016bki '\u0100irani"
+            "Kūki 'Āirani"
         ],
         "area":236,
         "borders":[
@@ -4693,8 +4747,8 @@ const List<Map<String, dynamic>> countriesData = [
             {
                 "iso639-1":"",
                 "iso639_2":"rar",
-                "name":"Cook Islands M\u0101ori",
-                "nativeName":"M\u0101ori"
+                "name":"Cook Islands Māori",
+                "nativeName":"Māori"
             }
         ],
         "latlng":[
@@ -4720,14 +4774,15 @@ const List<Map<String, dynamic>> countriesData = [
             "br":"Ilhas Cook",
             "de":"Cookinseln",
             "es":"Islas Cook",
-            "fa":"\u062c\u0632\u0627\u06cc\u0631 \u06a9\u0648\u06a9",
-            "fr":"\u00celes Cook",
-            "hr":"Cookovo Oto\u010dje",
+            "fa":"جزایر کوک",
+            "fr":"Îles Cook",
+            "hr":"Cookovo Otočje",
             "it":"Isole Cook",
-            "ja":"\u30af\u30c3\u30af\u8af8\u5cf6",
+            "ja":"クック諸島",
             "nl":"Cookeilanden",
             "pt":"Ilhas Cook",
-            "hu":"Cook-szigetek"
+            "hu":"Cook-szigetek",
+            "ar":"جزر كوك"
         },
         "cioc":"COK"
     },
@@ -4737,7 +4792,7 @@ const List<Map<String, dynamic>> countriesData = [
         "altSpellings":[
             "CR",
             "Republic of Costa Rica",
-            "Rep\u00fablica de Costa Rica"
+            "República de Costa Rica"
         ],
         "area":51100,
         "borders":[
@@ -4747,12 +4802,12 @@ const List<Map<String, dynamic>> countriesData = [
         "callingCodes":[
             "506"
         ],
-        "capital":"San Jos\u00e9",
+        "capital":"San José",
         "currencies":[
             {
                 "code":"CRC",
-                "name":"Costa Rican col\u00f3n",
-                "symbol":"\u20a1"
+                "name":"Costa Rican colón",
+                "symbol":"₡"
             }
         ],
         "demonym":"Costa Rican",
@@ -4767,7 +4822,7 @@ const List<Map<String, dynamic>> countriesData = [
                 "iso639_1":"es",
                 "iso639_2":"spa",
                 "name":"Spanish",
-                "nativeName":"Espa\u00f1ol"
+                "nativeName":"Español"
             }
         ],
         "latlng":[
@@ -4787,7 +4842,7 @@ const List<Map<String, dynamic>> countriesData = [
                     "SICA"
                 ],
                 "otherNames":[
-                    "Sistema de la Integraci\u00f3n Centroamericana,"
+                    "Sistema de la Integración Centroamericana,"
                 ]
             }
         ],
@@ -4802,14 +4857,15 @@ const List<Map<String, dynamic>> countriesData = [
             "br":"Costa Rica",
             "de":"Costa Rica",
             "es":"Costa Rica",
-            "fa":"\u06a9\u0627\u0633\u062a\u0627\u0631\u06cc\u06a9\u0627",
+            "fa":"کاستاریکا",
             "fr":"Costa Rica",
             "hr":"Kostarika",
             "it":"Costa Rica",
-            "ja":"\u30b3\u30b9\u30bf\u30ea\u30ab",
+            "ja":"コスタリカ",
             "nl":"Costa Rica",
             "pt":"Costa Rica",
-            "hu":"Costa Rica"
+            "hu":"Costa Rica",
+            "ar":"كوستاريكا"
         },
         "cioc":"CRC"
     },
@@ -4879,17 +4935,18 @@ const List<Map<String, dynamic>> countriesData = [
             ".hr"
         ],
         "translations":{
-            "br":"Cro\u00e1cia",
+            "br":"Croácia",
             "de":"Kroatien",
             "es":"Croacia",
-            "fa":"\u06a9\u0631\u0648\u0627\u0633\u06cc",
+            "fa":"کرواسی",
             "fr":"Croatie",
             "hr":"Hrvatska",
             "it":"Croazia",
-            "ja":"\u30af\u30ed\u30a2\u30c1\u30a2",
-            "nl":"Kroati\u00eb",
-            "pt":"Cro\u00e1cia",
-            "hu":"Horv\u00e1torsz\u00e1g"
+            "ja":"クロアチア",
+            "nl":"Kroatië",
+            "pt":"Croácia",
+            "hu":"Horvátország",
+            "ar":"كرواتيا"
         },
         "cioc":"CRO"
     },
@@ -4899,7 +4956,7 @@ const List<Map<String, dynamic>> countriesData = [
         "altSpellings":[
             "CU",
             "Republic of Cuba",
-            "Rep\u00fablica de Cuba"
+            "República de Cuba"
         ],
         "area":109884,
         "borders":[
@@ -4933,7 +4990,7 @@ const List<Map<String, dynamic>> countriesData = [
                 "iso639_1":"es",
                 "iso639_2":"spa",
                 "name":"Spanish",
-                "nativeName":"Espa\u00f1ol"
+                "nativeName":"Español"
             }
         ],
         "latlng":[
@@ -4959,14 +5016,15 @@ const List<Map<String, dynamic>> countriesData = [
             "br":"Cuba",
             "de":"Kuba",
             "es":"Cuba",
-            "fa":"\u06a9\u0648\u0628\u0627",
+            "fa":"کوبا",
             "fr":"Cuba",
             "hr":"Kuba",
             "it":"Cuba",
-            "ja":"\u30ad\u30e5\u30fc\u30d0",
+            "ja":"キューバ",
             "nl":"Cuba",
             "pt":"Cuba",
-            "hu":"Kuba"
+            "hu":"Kuba",
+            "ar":"كوبا"
         },
         "cioc":"CUB"
     },
@@ -4976,10 +5034,10 @@ const List<Map<String, dynamic>> countriesData = [
         "altSpellings":[
             "CW",
             "Curacao",
-            "K\u00f2rsou",
-            "Country of Cura\u00e7ao",
-            "Land Cura\u00e7ao",
-            "Pais K\u00f2rsou"
+            "Kòrsou",
+            "Country of Curaçao",
+            "Land Curaçao",
+            "Pais Kòrsou"
         ],
         "area":444,
         "borders":[
@@ -4993,7 +5051,7 @@ const List<Map<String, dynamic>> countriesData = [
             {
                 "code":"ANG",
                 "name":"Netherlands Antillean guilder",
-                "symbol":"\u0192"
+                "symbol":"ƒ"
             }
         ],
         "demonym":"Dh",
@@ -5013,7 +5071,7 @@ const List<Map<String, dynamic>> countriesData = [
                 "iso639_1":"pa",
                 "iso639_2":"pan",
                 "name":"(Eastern) Punjabi",
-                "nativeName":"\u0a2a\u0a70\u0a1c\u0a3e\u0a2c\u0a40"
+                "nativeName":"ਪੰਜਾਬੀ"
             },
             {
                 "iso639_1":"en",
@@ -5026,8 +5084,8 @@ const List<Map<String, dynamic>> countriesData = [
             12.116667,
             -68.933333
         ],
-        "name":"Cura\u00e7ao",
-        "nativeName":"Cura\u00e7ao",
+        "name":"Curaçao",
+        "nativeName":"Curaçao",
         "numericCode":"531",
         "population":154843,
         "continent":"Americas",
@@ -5042,15 +5100,16 @@ const List<Map<String, dynamic>> countriesData = [
             ".cw"
         ],
         "translations":{
-            "br":"Cura\u00e7ao",
-            "de":"Cura\u00e7ao",
-            "fa":"\u06a9\u0648\u0631\u0627\u0633\u0627\u0626\u0648",
-            "fr":"Cura\u00e7ao",
-            "it":"Cura\u00e7ao",
-            "nl":"Cura\u00e7ao",
-            "pt":"Cura\u00e7ao",
-            "se":"Cura\u00e7ao",
-            "hu":"Cura\u007eao"
+            "br":"Curaçao",
+            "de":"Curaçao",
+            "fa":"کوراسائو",
+            "fr":"Curaçao",
+            "it":"Curaçao",
+            "nl":"Curaçao",
+            "pt":"Curaçao",
+            "se":"Curaçao",
+            "hu":"Cura~ao",
+            "ar":"كوراساو"
         },
         "cioc":""
     },
@@ -5059,11 +5118,11 @@ const List<Map<String, dynamic>> countriesData = [
         "alpha3Code":"CYP",
         "altSpellings":[
             "CY",
-            "K\u00fdpros",
-            "K\u0131br\u0131s",
+            "Kýpros",
+            "Kıbrıs",
             "Republic of Cyprus",
-            "\u039a\u03c5\u03c0\u03c1\u03b9\u03b1\u03ba\u03ae \u0394\u03b7\u03bc\u03bf\u03ba\u03c1\u03b1\u03c4\u03af\u03b1",
-            "K\u0131br\u0131s Cumhuriyeti"
+            "Κυπριακή Δημοκρατία",
+            "Kıbrıs Cumhuriyeti"
         ],
         "area":9251,
         "borders":[
@@ -5077,7 +5136,7 @@ const List<Map<String, dynamic>> countriesData = [
             {
                 "code":"EUR",
                 "name":"Euro",
-                "symbol":"\u20ac"
+                "symbol":"€"
             }
         ],
         "demonym":"Cypriot",
@@ -5092,19 +5151,19 @@ const List<Map<String, dynamic>> countriesData = [
                 "iso639_1":"el",
                 "iso639_2":"ell",
                 "name":"Greek (modern)",
-                "nativeName":"\u03b5\u03bb\u03bb\u03b7\u03bd\u03b9\u03ba\u03ac"
+                "nativeName":"ελληνικά"
             },
             {
                 "iso639_1":"tr",
                 "iso639_2":"tur",
                 "name":"Turkish",
-                "nativeName":"T\u00fcrk\u00e7e"
+                "nativeName":"Türkçe"
             },
             {
                 "iso639_1":"hy",
                 "iso639_2":"hye",
                 "name":"Armenian",
-                "nativeName":"\u0540\u0561\u0575\u0565\u0580\u0565\u0576"
+                "nativeName":"Հայերեն"
             }
         ],
         "latlng":[
@@ -5112,7 +5171,7 @@ const List<Map<String, dynamic>> countriesData = [
             33
         ],
         "name":"Cyprus",
-        "nativeName":"\u039a\u03cd\u03c0\u03c1\u03bf\u03c2",
+        "nativeName":"Κύπρος",
         "numericCode":"196",
         "population":847000,
         "continent":"Europe",
@@ -5133,14 +5192,15 @@ const List<Map<String, dynamic>> countriesData = [
             "br":"Chipre",
             "de":"Zypern",
             "es":"Chipre",
-            "fa":"\u0642\u0628\u0631\u0633",
+            "fa":"قبرس",
             "fr":"Chypre",
             "hr":"Cipar",
             "it":"Cipro",
-            "ja":"\u30ad\u30d7\u30ed\u30b9",
+            "ja":"キプロス",
             "nl":"Cyprus",
             "pt":"Chipre",
-            "hu":"Ciprus"
+            "hu":"Ciprus",
+            "ar":"قبرص"
         },
         "cioc":"CYP"
     },
@@ -5149,8 +5209,8 @@ const List<Map<String, dynamic>> countriesData = [
         "alpha3Code":"CZE",
         "altSpellings":[
             "CZ",
-            "\u010cesk\u00e1 republika",
-            "\u010cesko"
+            "Česká republika",
+            "Česko"
         ],
         "area":78865,
         "borders":[
@@ -5164,7 +5224,7 @@ const List<Map<String, dynamic>> countriesData = [
             {
                 "code":"CZK",
                 "name":"Czech koruna",
-                "symbol":"K\u010d"
+                "symbol":"Kč"
             }
         ],
         "demonym":"Czech",
@@ -5179,13 +5239,13 @@ const List<Map<String, dynamic>> countriesData = [
                 "iso639_1":"cs",
                 "iso639_2":"ces",
                 "name":"Czech",
-                "nativeName":"\u010de\u0161tina"
+                "nativeName":"čeština"
             },
             {
                 "iso639_1":"sk",
                 "iso639_2":"slk",
                 "name":"Slovak",
-                "nativeName":"sloven\u010dina"
+                "nativeName":"slovenčina"
             }
         ],
         "latlng":[
@@ -5193,7 +5253,7 @@ const List<Map<String, dynamic>> countriesData = [
             15.5
         ],
         "name":"Czech Republic",
-        "nativeName":"\u010cesk\u00e1 republika",
+        "nativeName":"Česká republika",
         "numericCode":"203",
         "population":10558524,
         "continent":"Europe",
@@ -5211,17 +5271,18 @@ const List<Map<String, dynamic>> countriesData = [
             ".cz"
         ],
         "translations":{
-            "br":"Rep\u00fablica Tcheca",
+            "br":"República Tcheca",
             "de":"Tschechische Republik",
-            "es":"Rep\u00fablica Checa",
-            "fa":"\u062c\u0645\u0647\u0648\u0631\u06cc \u0686\u06a9",
-            "fr":"R\u00e9publique tch\u00e8que",
-            "hr":"\u010ce\u0161ka",
+            "es":"República Checa",
+            "fa":"جمهوری چک",
+            "fr":"République tchèque",
+            "hr":"Češka",
             "it":"Repubblica Ceca",
-            "ja":"\u30c1\u30a7\u30b3",
-            "nl":"Tsjechi\u00eb",
-            "pt":"Rep\u00fablica Checa",
-            "hu":"Csehorsz\u00e1g"
+            "ja":"チェコ",
+            "nl":"Tsjechië",
+            "pt":"República Checa",
+            "hu":"Csehország",
+            "ar":"جمهورية التشيك"
         },
         "cioc":"CZE"
     },
@@ -5292,16 +5353,17 @@ const List<Map<String, dynamic>> countriesData = [
         ],
         "translations":{
             "br":"Dinamarca",
-            "de":"D\u00e4nemark",
+            "de":"Dänemark",
             "es":"Dinamarca",
-            "fa":"\u062f\u0627\u0646\u0645\u0627\u0631\u06a9",
+            "fa":"دانمارک",
             "fr":"Danemark",
             "hr":"Danska",
             "it":"Danimarca",
-            "ja":"\u30c7\u30f3\u30de\u30fc\u30af",
+            "ja":"デンマーク",
             "nl":"Denemarken",
             "pt":"Dinamarca",
-            "hu":"D\u00e1nia"
+            "hu":"Dánia",
+            "ar":"الدانمرك"
         },
         "cioc":"DEN"
     },
@@ -5313,7 +5375,7 @@ const List<Map<String, dynamic>> countriesData = [
             "Jabuuti",
             "Gabuuti",
             "Republic of Djibouti",
-            "R\u00e9publique de Djibouti",
+            "République de Djibouti",
             "Gabuutih Ummuuno",
             "Jamhuuriyadda Jabuuti"
         ],
@@ -5346,13 +5408,13 @@ const List<Map<String, dynamic>> countriesData = [
                 "iso639_1":"fr",
                 "iso639_2":"fra",
                 "name":"French",
-                "nativeName":"fran\u00e7ais"
+                "nativeName":"français"
             },
             {
                 "iso639_1":"ar",
                 "iso639_2":"ara",
                 "name":"Arabic",
-                "nativeName":"\u0627\u0644\u0639\u0631\u0628\u064a\u0629"
+                "nativeName":"العربية"
             }
         ],
         "latlng":[
@@ -5369,10 +5431,10 @@ const List<Map<String, dynamic>> countriesData = [
                 "acronym":"AU",
                 "name":"African Union",
                 "otherNames":[
-                    "\u0627\u0644\u0627\u062a\u062d\u0627\u062f \u0627\u0644\u0623\u0641\u0631\u064a\u0642\u064a",
+                    "الاتحاد الأفريقي",
                     "Union africaine",
-                    "Uni\u00e3o Africana",
-                    "Uni\u00f3n Africana",
+                    "União Africana",
+                    "Unión Africana",
                     "Umoja wa Afrika"
                 ]
             },
@@ -5380,8 +5442,8 @@ const List<Map<String, dynamic>> countriesData = [
                 "acronym":"AL",
                 "name":"Arab League",
                 "otherNames":[
-                    "\u062c\u0627\u0645\u0639\u0629 \u0627\u0644\u062f\u0648\u0644 \u0627\u0644\u0639\u0631\u0628\u064a\u0629",
-                    "J\u0101mi\u02bbat ad-Duwal al-\u02bbArab\u012byah",
+                    "جامعة الدول العربية",
+                    "Jāmiʻat ad-Duwal al-ʻArabīyah",
                     "League of Arab States"
                 ]
             }
@@ -5397,14 +5459,15 @@ const List<Map<String, dynamic>> countriesData = [
             "br":"Djibuti",
             "de":"Dschibuti",
             "es":"Yibuti",
-            "fa":"\u062c\u06cc\u0628\u0648\u062a\u06cc",
+            "fa":"جیبوتی",
             "fr":"Djibouti",
-            "hr":"D\u017eibuti",
+            "hr":"Džibuti",
             "it":"Gibuti",
-            "ja":"\u30b8\u30d6\u30c1",
+            "ja":"ジブチ",
             "nl":"Djibouti",
             "pt":"Djibuti",
-            "hu":"Dzsibuti"
+            "hu":"Dzsibuti",
+            "ar":"جيبوتي"
         },
         "cioc":"DJI"
     },
@@ -5414,7 +5477,7 @@ const List<Map<String, dynamic>> countriesData = [
         "altSpellings":[
             "DM",
             "Dominique",
-            "Wai\u2018tu kubuli",
+            "Wai‘tu kubuli",
             "Commonwealth of Dominica"
         ],
         "area":751,
@@ -5469,14 +5532,15 @@ const List<Map<String, dynamic>> countriesData = [
             "br":"Dominica",
             "de":"Dominica",
             "es":"Dominica",
-            "fa":"\u062f\u0648\u0645\u06cc\u0646\u06cc\u06a9\u0627",
+            "fa":"دومینیکا",
             "fr":"Dominique",
             "hr":"Dominika",
             "it":"Dominica",
-            "ja":"\u30c9\u30df\u30cb\u30ab\u56fd",
+            "ja":"ドミニカ国",
             "nl":"Dominica",
             "pt":"Dominica",
-            "hu":"Dominikai K\u00f6z\u00f6ss\u00e9g"
+            "hu":"Dominikai Közösség",
+            "ar":"دومينيكا"
         },
         "cioc":"DMA"
     },
@@ -5513,7 +5577,7 @@ const List<Map<String, dynamic>> countriesData = [
                 "iso639_1":"es",
                 "iso639_2":"spa",
                 "name":"Spanish",
-                "nativeName":"Espa\u00f1ol"
+                "nativeName":"Español"
             }
         ],
         "latlng":[
@@ -5521,7 +5585,7 @@ const List<Map<String, dynamic>> countriesData = [
             -70.66666666
         ],
         "name":"Dominican Republic",
-        "nativeName":"Rep\u00fablica Dominicana",
+        "nativeName":"República Dominicana",
         "numericCode":"214",
         "population":10075045,
         "continent":"Americas",
@@ -5531,7 +5595,7 @@ const List<Map<String, dynamic>> countriesData = [
                 "name":"Caribbean Community",
                 "otherNames":[
                     "Comunidad del Caribe",
-                    "Communaut\u00e9 Carib\u00e9enne",
+                    "Communauté Caribéenne",
                     "Caribische Gemeenschap"
                 ]
             },
@@ -5542,7 +5606,7 @@ const List<Map<String, dynamic>> countriesData = [
                     "SICA"
                 ],
                 "otherNames":[
-                    "Sistema de la Integraci\u00f3n Centroamericana,"
+                    "Sistema de la Integración Centroamericana,"
                 ]
             }
         ],
@@ -5554,17 +5618,18 @@ const List<Map<String, dynamic>> countriesData = [
             ".do"
         ],
         "translations":{
-            "br":"Rep\u00fablica Dominicana",
+            "br":"República Dominicana",
             "de":"Dominikanische Republik",
-            "es":"Rep\u00fablica Dominicana",
-            "fa":"\u062c\u0645\u0647\u0648\u0631\u06cc \u062f\u0648\u0645\u06cc\u0646\u06cc\u06a9\u0646",
-            "fr":"R\u00e9publique dominicaine",
+            "es":"República Dominicana",
+            "fa":"جمهوری دومینیکن",
+            "fr":"République dominicaine",
             "hr":"Dominikanska Republika",
             "it":"Repubblica Dominicana",
-            "ja":"\u30c9\u30df\u30cb\u30ab\u5171\u548c\u56fd",
+            "ja":"ドミニカ共和国",
             "nl":"Dominicaanse Republiek",
-            "pt":"Rep\u00fablica Dominicana",
-            "hu":"Dominikai K\u00f6zt\u00e1rsas\u00e1g"
+            "pt":"República Dominicana",
+            "hu":"Dominikai Köztársaság",
+            "ar":"جمهورية الدومينيك"
         },
         "cioc":"DOM"
     },
@@ -5574,7 +5639,7 @@ const List<Map<String, dynamic>> countriesData = [
         "altSpellings":[
             "EC",
             "Republic of Ecuador",
-            "Rep\u00fablica del Ecuador"
+            "República del Ecuador"
         ],
         "area":276841,
         "borders":[
@@ -5604,7 +5669,7 @@ const List<Map<String, dynamic>> countriesData = [
                 "iso639_1":"es",
                 "iso639_2":"spa",
                 "name":"Spanish",
-                "nativeName":"Espa\u00f1ol"
+                "nativeName":"Español"
             }
         ],
         "latlng":[
@@ -5626,8 +5691,8 @@ const List<Map<String, dynamic>> countriesData = [
                     "UZAN"
                 ],
                 "otherNames":[
-                    "Uni\u00f3n de Naciones Suramericanas",
-                    "Uni\u00e3o de Na\u00e7\u00f5es Sul-Americanas",
+                    "Unión de Naciones Suramericanas",
+                    "União de Nações Sul-Americanas",
                     "Unie van Zuid-Amerikaanse Naties",
                     "South American Union"
                 ]
@@ -5645,14 +5710,15 @@ const List<Map<String, dynamic>> countriesData = [
             "br":"Equador",
             "de":"Ecuador",
             "es":"Ecuador",
-            "fa":"\u0627\u06a9\u0648\u0627\u062f\u0648\u0631",
-            "fr":"\u00c9quateur",
+            "fa":"اکوادور",
+            "fr":"Équateur",
             "hr":"Ekvador",
             "it":"Ecuador",
-            "ja":"\u30a8\u30af\u30a2\u30c9\u30eb",
+            "ja":"エクアドル",
             "nl":"Ecuador",
             "pt":"Equador",
-            "hu":"Ecuador"
+            "hu":"Ecuador",
+            "ar":"الاكوادور"
         },
         "cioc":"ECU"
     },
@@ -5677,7 +5743,7 @@ const List<Map<String, dynamic>> countriesData = [
             {
                 "code":"EGP",
                 "name":"Egyptian pound",
-                "symbol":"\u00a3"
+                "symbol":"£"
             }
         ],
         "demonym":"Egyptian",
@@ -5692,7 +5758,7 @@ const List<Map<String, dynamic>> countriesData = [
                 "iso639_1":"ar",
                 "iso639_2":"ara",
                 "name":"Arabic",
-                "nativeName":"\u0627\u0644\u0639\u0631\u0628\u064a\u0629"
+                "nativeName":"العربية"
             }
         ],
         "latlng":[
@@ -5700,7 +5766,7 @@ const List<Map<String, dynamic>> countriesData = [
             30
         ],
         "name":"Egypt",
-        "nativeName":"\u0645\u0635\u0631\u200e",
+        "nativeName":"مصر‎",
         "numericCode":"818",
         "population":91290000,
         "continent":"Africa",
@@ -5709,10 +5775,10 @@ const List<Map<String, dynamic>> countriesData = [
                 "acronym":"AU",
                 "name":"African Union",
                 "otherNames":[
-                    "\u0627\u0644\u0627\u062a\u062d\u0627\u062f \u0627\u0644\u0623\u0641\u0631\u064a\u0642\u064a",
+                    "الاتحاد الأفريقي",
                     "Union africaine",
-                    "Uni\u00e3o Africana",
-                    "Uni\u00f3n Africana",
+                    "União Africana",
+                    "Unión Africana",
                     "Umoja wa Afrika"
                 ]
             },
@@ -5720,8 +5786,8 @@ const List<Map<String, dynamic>> countriesData = [
                 "acronym":"AL",
                 "name":"Arab League",
                 "otherNames":[
-                    "\u062c\u0627\u0645\u0639\u0629 \u0627\u0644\u062f\u0648\u0644 \u0627\u0644\u0639\u0631\u0628\u064a\u0629",
-                    "J\u0101mi\u02bbat ad-Duwal al-\u02bbArab\u012byah",
+                    "جامعة الدول العربية",
+                    "Jāmiʻat ad-Duwal al-ʻArabīyah",
                     "League of Arab States"
                 ]
             }
@@ -5735,16 +5801,17 @@ const List<Map<String, dynamic>> countriesData = [
         ],
         "translations":{
             "br":"Egito",
-            "de":"\u00c4gypten",
+            "de":"Ägypten",
             "es":"Egipto",
-            "fa":"\u0645\u0635\u0631",
-            "fr":"\u00c9gypte",
+            "fa":"مصر",
+            "fr":"Égypte",
             "hr":"Egipat",
             "it":"Egitto",
-            "ja":"\u30a8\u30b8\u30d7\u30c8",
+            "ja":"エジプト",
             "nl":"Egypte",
             "pt":"Egipto",
-            "hu":"Egyiptom"
+            "hu":"Egyiptom",
+            "ar":"مصر"
         },
         "cioc":"EGY"
     },
@@ -5754,7 +5821,7 @@ const List<Map<String, dynamic>> countriesData = [
         "altSpellings":[
             "SV",
             "Republic of El Salvador",
-            "Rep\u00fablica de El Salvador"
+            "República de El Salvador"
         ],
         "area":21041,
         "borders":[
@@ -5784,7 +5851,7 @@ const List<Map<String, dynamic>> countriesData = [
                 "iso639_1":"es",
                 "iso639_2":"spa",
                 "name":"Spanish",
-                "nativeName":"Espa\u00f1ol"
+                "nativeName":"Español"
             }
         ],
         "latlng":[
@@ -5804,7 +5871,7 @@ const List<Map<String, dynamic>> countriesData = [
                     "SICA"
                 ],
                 "otherNames":[
-                    "Sistema de la Integraci\u00f3n Centroamericana,"
+                    "Sistema de la Integración Centroamericana,"
                 ]
             }
         ],
@@ -5819,14 +5886,15 @@ const List<Map<String, dynamic>> countriesData = [
             "br":"El Salvador",
             "de":"El Salvador",
             "es":"El Salvador",
-            "fa":"\u0627\u0644\u0633\u0627\u0644\u0648\u0627\u062f\u0648\u0631",
+            "fa":"السالوادور",
             "fr":"Salvador",
             "hr":"Salvador",
             "it":"El Salvador",
-            "ja":"\u30a8\u30eb\u30b5\u30eb\u30d0\u30c9\u30eb",
+            "ja":"エルサルバドル",
             "nl":"El Salvador",
             "pt":"El Salvador",
-            "hu":"Salvador"
+            "hu":"Salvador",
+            "ar":"السلفادور"
         },
         "cioc":"ESA"
     },
@@ -5836,9 +5904,9 @@ const List<Map<String, dynamic>> countriesData = [
         "altSpellings":[
             "GQ",
             "Republic of Equatorial Guinea",
-            "Rep\u00fablica de Guinea Ecuatorial",
-            "R\u00e9publique de Guin\u00e9e \u00e9quatoriale",
-            "Rep\u00fablica da Guin\u00e9 Equatorial"
+            "República de Guinea Ecuatorial",
+            "République de Guinée équatoriale",
+            "República da Guiné Equatorial"
         ],
         "area":28051,
         "borders":[
@@ -5868,19 +5936,19 @@ const List<Map<String, dynamic>> countriesData = [
                 "iso639_1":"es",
                 "iso639_2":"spa",
                 "name":"Spanish",
-                "nativeName":"Espa\u00f1ol"
+                "nativeName":"Español"
             },
             {
                 "iso639_1":"fr",
                 "iso639_2":"fra",
                 "name":"French",
-                "nativeName":"fran\u00e7ais"
+                "nativeName":"français"
             },
             {
                 "iso639_1":"pt",
                 "iso639_2":"por",
                 "name":"Portuguese",
-                "nativeName":"Portugu\u00eas"
+                "nativeName":"Português"
             },
             {
                 "iso639_1":"",
@@ -5903,10 +5971,10 @@ const List<Map<String, dynamic>> countriesData = [
                 "acronym":"AU",
                 "name":"African Union",
                 "otherNames":[
-                    "\u0627\u0644\u0627\u062a\u062d\u0627\u062f \u0627\u0644\u0623\u0641\u0631\u064a\u0642\u064a",
+                    "الاتحاد الأفريقي",
                     "Union africaine",
-                    "Uni\u00e3o Africana",
-                    "Uni\u00f3n Africana",
+                    "União Africana",
+                    "Unión Africana",
                     "Umoja wa Afrika"
                 ]
             }
@@ -5919,17 +5987,18 @@ const List<Map<String, dynamic>> countriesData = [
             ".gq"
         ],
         "translations":{
-            "br":"Guin\u00e9 Equatorial",
-            "de":"\u00c4quatorial-Guinea",
+            "br":"Guiné Equatorial",
+            "de":"Äquatorial-Guinea",
             "es":"Guinea Ecuatorial",
-            "fa":"\u06af\u06cc\u0646\u0647 \u0627\u0633\u062a\u0648\u0627\u06cc\u06cc",
-            "fr":"Guin\u00e9e-\u00c9quatoriale",
+            "fa":"گینه استوایی",
+            "fr":"Guinée-Équatoriale",
             "hr":"Ekvatorijalna Gvineja",
             "it":"Guinea Equatoriale",
-            "ja":"\u8d64\u9053\u30ae\u30cb\u30a2",
+            "ja":"赤道ギニア",
             "nl":"Equatoriaal-Guinea",
-            "pt":"Guin\u00e9 Equatorial",
-            "hu":"Egyenl\u00edt\u0151i-Guinea"
+            "pt":"Guiné Equatorial",
+            "hu":"Egyenlítői-Guinea",
+            "ar":"غينيا الاستوائية"
         },
         "cioc":"GEQ"
     },
@@ -5939,10 +6008,10 @@ const List<Map<String, dynamic>> countriesData = [
         "altSpellings":[
             "ER",
             "State of Eritrea",
-            "\u1203\u1308\u1228 \u12a4\u122d\u1275\u122b",
-            "Dawlat Iritriy\u00e1",
-            "\u02beErtr\u0101",
-            "Iritriy\u0101",
+            "ሃገረ ኤርትራ",
+            "Dawlat Iritriyá",
+            "ʾErtrā",
+            "Iritriyā",
             ""
         ],
         "area":117600,
@@ -5973,13 +6042,13 @@ const List<Map<String, dynamic>> countriesData = [
                 "iso639_1":"ti",
                 "iso639_2":"tir",
                 "name":"Tigrinya",
-                "nativeName":"\u1275\u130d\u122d\u129b"
+                "nativeName":"ትግርኛ"
             },
             {
                 "iso639_1":"ar",
                 "iso639_2":"ara",
                 "name":"Arabic",
-                "nativeName":"\u0627\u0644\u0639\u0631\u0628\u064a\u0629"
+                "nativeName":"العربية"
             },
             {
                 "iso639_1":"en",
@@ -5991,7 +6060,7 @@ const List<Map<String, dynamic>> countriesData = [
                 "iso639_1":"",
                 "iso639_2":"tig",
                 "name":"Tigre",
-                "nativeName":"\u1275\u130d\u1228"
+                "nativeName":"ትግረ"
             },
             {
                 "iso639_1":"",
@@ -6009,7 +6078,7 @@ const List<Map<String, dynamic>> countriesData = [
                 "iso639_1":"",
                 "iso639_2":"byn",
                 "name":"Bilen",
-                "nativeName":"\u1265\u120a\u1293"
+                "nativeName":"ብሊና"
             },
             {
                 "iso639_1":"",
@@ -6029,7 +6098,7 @@ const List<Map<String, dynamic>> countriesData = [
             39
         ],
         "name":"Eritrea",
-        "nativeName":"\u12a4\u122d\u1275\u122b",
+        "nativeName":"ኤርትራ",
         "numericCode":"232",
         "population":5352000,
         "continent":"Africa",
@@ -6038,10 +6107,10 @@ const List<Map<String, dynamic>> countriesData = [
                 "acronym":"AU",
                 "name":"African Union",
                 "otherNames":[
-                    "\u0627\u0644\u0627\u062a\u062d\u0627\u062f \u0627\u0644\u0623\u0641\u0631\u064a\u0642\u064a",
+                    "الاتحاد الأفريقي",
                     "Union africaine",
-                    "Uni\u00e3o Africana",
-                    "Uni\u00f3n Africana",
+                    "União Africana",
+                    "Unión Africana",
                     "Umoja wa Afrika"
                 ]
             }
@@ -6057,14 +6126,15 @@ const List<Map<String, dynamic>> countriesData = [
             "br":"Eritreia",
             "de":"Eritrea",
             "es":"Eritrea",
-            "fa":"\u0627\u0631\u06cc\u062a\u0631\u0647",
-            "fr":"\u00c9rythr\u00e9e",
+            "fa":"اریتره",
+            "fr":"Érythrée",
             "hr":"Eritreja",
             "it":"Eritrea",
-            "ja":"\u30a8\u30ea\u30c8\u30ea\u30a2",
+            "ja":"エリトリア",
             "nl":"Eritrea",
             "pt":"Eritreia",
-            "hu":"Eritrea"
+            "hu":"Eritrea",
+            "ar":"اريتريا"
         },
         "cioc":"ERI"
     },
@@ -6090,7 +6160,7 @@ const List<Map<String, dynamic>> countriesData = [
             {
                 "code":"EUR",
                 "name":"Euro",
-                "symbol":"\u20ac"
+                "symbol":"€"
             }
         ],
         "demonym":"Estonian",
@@ -6131,17 +6201,18 @@ const List<Map<String, dynamic>> countriesData = [
             ".ee"
         ],
         "translations":{
-            "br":"Est\u00f4nia",
+            "br":"Estônia",
             "de":"Estland",
             "es":"Estonia",
-            "fa":"\u0627\u0633\u062a\u0648\u0646\u06cc",
+            "fa":"استونی",
             "fr":"Estonie",
             "hr":"Estonija",
             "it":"Estonia",
-            "ja":"\u30a8\u30b9\u30c8\u30cb\u30a2",
+            "ja":"エストニア",
             "nl":"Estland",
-            "pt":"Est\u00f3nia",
-            "hu":"\u00c9sztorsz\u00e1g"
+            "pt":"Estónia",
+            "hu":"Észtország",
+            "ar":"استونيا"
         },
         "cioc":"EST"
     },
@@ -6150,9 +6221,9 @@ const List<Map<String, dynamic>> countriesData = [
         "alpha3Code":"ETH",
         "altSpellings":[
             "ET",
-            "\u02be\u012aty\u014d\u1e57\u1e57y\u0101",
+            "ʾĪtyōṗṗyā",
             "Federal Democratic Republic of Ethiopia",
-            "\u12e8\u12a2\u1275\u12ee\u1335\u12eb \u134c\u12f4\u122b\u120b\u12ca \u12f2\u121e\u12ad\u122b\u1232\u12eb\u12ca \u122a\u1350\u1265\u120a\u12ad"
+            "የኢትዮጵያ ፌዴራላዊ ዲሞክራሲያዊ ሪፐብሊክ"
         ],
         "area":1104300,
         "borders":[
@@ -6186,7 +6257,7 @@ const List<Map<String, dynamic>> countriesData = [
                 "iso639_1":"am",
                 "iso639_2":"amh",
                 "name":"Amharic",
-                "nativeName":"\u12a0\u121b\u122d\u129b"
+                "nativeName":"አማርኛ"
             }
         ],
         "latlng":[
@@ -6194,7 +6265,7 @@ const List<Map<String, dynamic>> countriesData = [
             38
         ],
         "name":"Ethiopia",
-        "nativeName":"\u12a2\u1275\u12ee\u1335\u12eb",
+        "nativeName":"ኢትዮጵያ",
         "numericCode":"231",
         "population":92206005,
         "continent":"Africa",
@@ -6203,10 +6274,10 @@ const List<Map<String, dynamic>> countriesData = [
                 "acronym":"AU",
                 "name":"African Union",
                 "otherNames":[
-                    "\u0627\u0644\u0627\u062a\u062d\u0627\u062f \u0627\u0644\u0623\u0641\u0631\u064a\u0642\u064a",
+                    "الاتحاد الأفريقي",
                     "Union africaine",
-                    "Uni\u00e3o Africana",
-                    "Uni\u00f3n Africana",
+                    "União Africana",
+                    "Unión Africana",
                     "Umoja wa Afrika"
                 ]
             }
@@ -6219,17 +6290,18 @@ const List<Map<String, dynamic>> countriesData = [
             ".et"
         ],
         "translations":{
-            "br":"Eti\u00f3pia",
-            "de":"\u00c4thiopien",
-            "es":"Etiop\u00eda",
-            "fa":"\u0627\u062a\u06cc\u0648\u067e\u06cc",
-            "fr":"\u00c9thiopie",
+            "br":"Etiópia",
+            "de":"Äthiopien",
+            "es":"Etiopía",
+            "fa":"اتیوپی",
+            "fr":"Éthiopie",
             "hr":"Etiopija",
             "it":"Etiopia",
-            "ja":"\u30a8\u30c1\u30aa\u30d4\u30a2",
-            "nl":"Ethiopi\u00eb",
-            "pt":"Eti\u00f3pia",
-            "hu":"Eti\u00f3pia"
+            "ja":"エチオピア",
+            "nl":"Ethiopië",
+            "pt":"Etiópia",
+            "hu":"Etiópia",
+            "ar":"اثيوبيا"
         },
         "cioc":"ETH"
     },
@@ -6252,7 +6324,7 @@ const List<Map<String, dynamic>> countriesData = [
             {
                 "code":"FKP",
                 "name":"Falkland Islands pound",
-                "symbol":"\u00a3"
+                "symbol":"£"
             }
         ],
         "demonym":"Falkland Islander",
@@ -6288,8 +6360,8 @@ const List<Map<String, dynamic>> countriesData = [
                     "UZAN"
                 ],
                 "otherNames":[
-                    "Uni\u00f3n de Naciones Suramericanas",
-                    "Uni\u00e3o de Na\u00e7\u00f5es Sul-Americanas",
+                    "Unión de Naciones Suramericanas",
+                    "União de Nações Sul-Americanas",
                     "Unie van Zuid-Amerikaanse Naties",
                     "South American Union"
                 ]
@@ -6306,14 +6378,15 @@ const List<Map<String, dynamic>> countriesData = [
             "br":"Ilhas Malvinas",
             "de":"Falklandinseln",
             "es":"Islas Malvinas",
-            "fa":"\u062c\u0632\u0627\u06cc\u0631 \u0641\u0627\u0644\u06a9\u0644\u0646\u062f",
-            "fr":"\u00celes Malouines",
+            "fa":"جزایر فالکلند",
+            "fr":"Îles Malouines",
             "hr":"Falklandski Otoci",
             "it":"Isole Falkland o Isole Malvine",
-            "ja":"\u30d5\u30a9\u30fc\u30af\u30e9\u30f3\u30c9\uff08\u30de\u30eb\u30d3\u30ca\u30b9\uff09\u8af8\u5cf6",
+            "ja":"フォークランド（マルビナス）諸島",
             "nl":"Falklandeilanden [Islas Malvinas]",
             "pt":"Ilhas Falkland",
-            "hu":"Falkland-szigetek"
+            "hu":"Falkland-szigetek",
+            "ar":"جزر فوكلاند"
         },
         "cioc":""
     },
@@ -6322,8 +6395,8 @@ const List<Map<String, dynamic>> countriesData = [
         "alpha3Code":"FRO",
         "altSpellings":[
             "FO",
-            "F\u00f8royar",
-            "F\u00e6r\u00f8erne"
+            "Føroyar",
+            "Færøerne"
         ],
         "area":1393,
         "borders":[
@@ -6332,7 +6405,7 @@ const List<Map<String, dynamic>> countriesData = [
         "callingCodes":[
             "298"
         ],
-        "capital":"T\u00f3rshavn",
+        "capital":"Tórshavn",
         "currencies":[
             {
                 "code":"DKK",
@@ -6341,7 +6414,7 @@ const List<Map<String, dynamic>> countriesData = [
             },
             {
                 "code":"(none)",
-                "name":"Faroese kr\u00f3na",
+                "name":"Faroese króna",
                 "symbol":"kr"
             }
         ],
@@ -6356,7 +6429,7 @@ const List<Map<String, dynamic>> countriesData = [
                 "iso639_1":"fo",
                 "iso639_2":"fao",
                 "name":"Faroese",
-                "nativeName":"f\u00f8royskt"
+                "nativeName":"føroyskt"
             }
         ],
         "latlng":[
@@ -6364,7 +6437,7 @@ const List<Map<String, dynamic>> countriesData = [
             -7
         ],
         "name":"Faroe Islands",
-        "nativeName":"F\u00f8royar",
+        "nativeName":"Føroyar",
         "numericCode":"234",
         "population":49376,
         "continent":"Europe",
@@ -6379,17 +6452,18 @@ const List<Map<String, dynamic>> countriesData = [
             ".fo"
         ],
         "translations":{
-            "br":"Ilhas Faro\u00e9",
-            "de":"F\u00e4r\u00f6er-Inseln",
+            "br":"Ilhas Faroé",
+            "de":"Färöer-Inseln",
             "es":"Islas Faroe",
-            "fa":"\u062c\u0632\u0627\u06cc\u0631 \u0641\u0627\u0631\u0648",
-            "fr":"\u00celes F\u00e9ro\u00e9",
+            "fa":"جزایر فارو",
+            "fr":"Îles Féroé",
             "hr":"Farski Otoci",
             "it":"Isole Far Oer",
-            "ja":"\u30d5\u30a7\u30ed\u30fc\u8af8\u5cf6",
-            "nl":"Faer\u00f6er",
-            "pt":"Ilhas Faro\u00e9",
-            "hu":"Fer\u00f6er"
+            "ja":"フェロー諸島",
+            "nl":"Faeröer",
+            "pt":"Ilhas Faroé",
+            "hu":"Feröer",
+            "ar":"جزر فارو"
         },
         "cioc":""
     },
@@ -6401,7 +6475,7 @@ const List<Map<String, dynamic>> countriesData = [
             "Viti",
             "Republic of Fiji",
             "Matanitu ko Viti",
-            "Fij\u012b Ga\u1e47ar\u0101jya"
+            "Fijī Gaṇarājya"
         ],
         "area":18272,
         "borders":[
@@ -6442,13 +6516,13 @@ const List<Map<String, dynamic>> countriesData = [
                 "iso639_1":"",
                 "iso639_2":"hif",
                 "name":"Fiji Hindi",
-                "nativeName":"\u092b\u093c\u093f\u091c\u0940 \u092c\u093e\u0924"
+                "nativeName":"फ़िजी बात"
             },
             {
                 "iso639_1":"",
                 "iso639_2":"rtm",
                 "name":"Rotuman",
-                "nativeName":"F\u00e4eag Rotuma"
+                "nativeName":"Fäeag Rotuma"
             }
         ],
         "latlng":[
@@ -6474,14 +6548,15 @@ const List<Map<String, dynamic>> countriesData = [
             "br":"Fiji",
             "de":"Fidschi",
             "es":"Fiyi",
-            "fa":"\u0641\u06cc\u062c\u06cc",
+            "fa":"فیجی",
             "fr":"Fidji",
-            "hr":"Fi\u0111i",
+            "hr":"Fiđi",
             "it":"Figi",
-            "ja":"\u30d5\u30a3\u30b8\u30fc",
+            "ja":"フィジー",
             "nl":"Fiji",
             "pt":"Fiji",
-            "hu":"Fidzsi-szigetek"
+            "hu":"Fidzsi-szigetek",
+            "ar":"فيجي"
         },
         "cioc":"FIJ"
     },
@@ -6509,7 +6584,7 @@ const List<Map<String, dynamic>> countriesData = [
             {
                 "code":"EUR",
                 "name":"Euro",
-                "symbol":"\u20ac"
+                "symbol":"€"
             }
         ],
         "demonym":"Finnish",
@@ -6556,17 +6631,18 @@ const List<Map<String, dynamic>> countriesData = [
             ".fi"
         ],
         "translations":{
-            "br":"Finl\u00e2ndia",
+            "br":"Finlândia",
             "de":"Finnland",
             "es":"Finlandia",
-            "fa":"\u0641\u0646\u0644\u0627\u0646\u062f",
+            "fa":"فنلاند",
             "fr":"Finlande",
             "hr":"Finska",
             "it":"Finlandia",
-            "ja":"\u30d5\u30a3\u30f3\u30e9\u30f3\u30c9",
+            "ja":"フィンランド",
             "nl":"Finland",
-            "pt":"Finl\u00e2ndia",
-            "hu":"Finnorsz\u00e1g"
+            "pt":"Finlândia",
+            "hu":"Finnország",
+            "ar":"فنلندا"
         },
         "cioc":"FIN"
     },
@@ -6576,7 +6652,7 @@ const List<Map<String, dynamic>> countriesData = [
         "altSpellings":[
             "FR",
             "French Republic",
-            "R\u00e9publique fran\u00e7aise"
+            "République française"
         ],
         "area":640679,
         "borders":[
@@ -6597,7 +6673,7 @@ const List<Map<String, dynamic>> countriesData = [
             {
                 "code":"EUR",
                 "name":"Euro",
-                "symbol":"\u20ac"
+                "symbol":"€"
             }
         ],
         "demonym":"French",
@@ -6612,7 +6688,7 @@ const List<Map<String, dynamic>> countriesData = [
                 "iso639_1":"fr",
                 "iso639_2":"fra",
                 "name":"French",
-                "nativeName":"fran\u00e7ais"
+                "nativeName":"français"
             }
         ],
         "latlng":[
@@ -6651,17 +6727,18 @@ const List<Map<String, dynamic>> countriesData = [
             ".fr"
         ],
         "translations":{
-            "br":"Fran\u00e7a",
+            "br":"França",
             "de":"Frankreich",
             "es":"Francia",
-            "fa":"\u0641\u0631\u0627\u0646\u0633\u0647",
+            "fa":"فرانسه",
             "fr":"France",
             "hr":"Francuska",
             "it":"Francia",
-            "ja":"\u30d5\u30e9\u30f3\u30b9",
+            "ja":"フランス",
             "nl":"Frankrijk",
-            "pt":"Fran\u00e7a",
-            "hu":"Franciaorsz\u00e1g"
+            "pt":"França",
+            "hu":"Franciaország",
+            "ar":"فرنسا"
         },
         "cioc":"FRA"
     },
@@ -6685,7 +6762,7 @@ const List<Map<String, dynamic>> countriesData = [
             {
                 "code":"EUR",
                 "name":"Euro",
-                "symbol":"\u20ac"
+                "symbol":"€"
             }
         ],
         "demonym":"",
@@ -6699,7 +6776,7 @@ const List<Map<String, dynamic>> countriesData = [
                 "iso639_1":"fr",
                 "iso639_2":"fra",
                 "name":"French",
-                "nativeName":"fran\u00e7ais"
+                "nativeName":"français"
             }
         ],
         "latlng":[
@@ -6707,7 +6784,7 @@ const List<Map<String, dynamic>> countriesData = [
             -53
         ],
         "name":"French Guiana",
-        "nativeName":"Guyane fran\u00e7aise",
+        "nativeName":"Guyane française",
         "numericCode":"254",
         "population":254541,
         "continent":"Americas",
@@ -6721,8 +6798,8 @@ const List<Map<String, dynamic>> countriesData = [
                     "UZAN"
                 ],
                 "otherNames":[
-                    "Uni\u00f3n de Naciones Suramericanas",
-                    "Uni\u00e3o de Na\u00e7\u00f5es Sul-Americanas",
+                    "Unión de Naciones Suramericanas",
+                    "União de Nações Sul-Americanas",
                     "Unie van Zuid-Amerikaanse Naties",
                     "South American Union"
                 ]
@@ -6741,16 +6818,17 @@ const List<Map<String, dynamic>> countriesData = [
         ],
         "translations":{
             "br":"Guiana Francesa",
-            "de":"Franz\u00f6sisch Guyana",
+            "de":"Französisch Guyana",
             "es":"Guayana Francesa",
-            "fa":"\u06af\u0648\u06cc\u0627\u0646 \u0641\u0631\u0627\u0646\u0633\u0647",
+            "fa":"گویان فرانسه",
             "fr":"Guayane",
             "hr":"Francuska Gvajana",
             "it":"Guyana francese",
-            "ja":"\u30d5\u30e9\u30f3\u30b9\u9818\u30ae\u30a2\u30ca",
+            "ja":"フランス領ギアナ",
             "nl":"Frans-Guyana",
             "pt":"Guiana Francesa",
-            "hu":"Francia Guyana"
+            "hu":"Francia Guyana",
+            "ar":"غويانا"
         },
         "cioc":""
     },
@@ -6759,9 +6837,9 @@ const List<Map<String, dynamic>> countriesData = [
         "alpha3Code":"PYF",
         "altSpellings":[
             "PF",
-            "Polyn\u00e9sie fran\u00e7aise",
+            "Polynésie française",
             "French Polynesia",
-            "P\u014dr\u012bnetia Far\u0101ni"
+            "Pōrīnetia Farāni"
         ],
         "area":4167,
         "borders":[
@@ -6770,7 +6848,7 @@ const List<Map<String, dynamic>> countriesData = [
         "callingCodes":[
             "689"
         ],
-        "capital":"Papeet\u0113",
+        "capital":"Papeetē",
         "currencies":[
             {
                 "code":"XPF",
@@ -6789,7 +6867,7 @@ const List<Map<String, dynamic>> countriesData = [
                 "iso639_1":"fr",
                 "iso639_2":"fra",
                 "name":"French",
-                "nativeName":"fran\u00e7ais"
+                "nativeName":"français"
             }
         ],
         "latlng":[
@@ -6797,7 +6875,7 @@ const List<Map<String, dynamic>> countriesData = [
             -140
         ],
         "name":"French Polynesia",
-        "nativeName":"Polyn\u00e9sie fran\u00e7aise",
+        "nativeName":"Polynésie française",
         "numericCode":"258",
         "population":271800,
         "continent":"Oceania",
@@ -6814,17 +6892,18 @@ const List<Map<String, dynamic>> countriesData = [
             ".pf"
         ],
         "translations":{
-            "br":"Polin\u00e9sia Francesa",
-            "de":"Franz\u00f6sisch-Polynesien",
+            "br":"Polinésia Francesa",
+            "de":"Französisch-Polynesien",
             "es":"Polinesia Francesa",
-            "fa":"\u067e\u0644\u06cc\u200c\u0646\u0632\u06cc \u0641\u0631\u0627\u0646\u0633\u0647",
-            "fr":"Polyn\u00e9sie fran\u00e7aise",
+            "fa":"پلی‌نزی فرانسه",
+            "fr":"Polynésie française",
             "hr":"Francuska Polinezija",
             "it":"Polinesia Francese",
-            "ja":"\u30d5\u30e9\u30f3\u30b9\u9818\u30dd\u30ea\u30cd\u30b7\u30a2",
-            "nl":"Frans-Polynesi\u00eb",
-            "pt":"Polin\u00e9sia Francesa",
-            "hu":"Francia Polin\u00e9zia"
+            "ja":"フランス領ポリネシア",
+            "nl":"Frans-Polynesië",
+            "pt":"Polinésia Francesa",
+            "hu":"Francia Polinézia",
+            "ar":"بولينيزيا الفرنسية"
         },
         "cioc":""
     },
@@ -6841,12 +6920,12 @@ const List<Map<String, dynamic>> countriesData = [
         "callingCodes":[
             "262"
         ],
-        "capital":"Port-aux-Fran\u00e7ais",
+        "capital":"Port-aux-Français",
         "currencies":[
             {
                 "code":"EUR",
                 "name":"Euro",
-                "symbol":"\u20ac"
+                "symbol":"€"
             }
         ],
         "demonym":"French",
@@ -6860,7 +6939,7 @@ const List<Map<String, dynamic>> countriesData = [
                 "iso639_1":"fr",
                 "iso639_2":"fra",
                 "name":"French",
-                "nativeName":"fran\u00e7ais"
+                "nativeName":"français"
             }
         ],
         "latlng":[
@@ -6868,7 +6947,7 @@ const List<Map<String, dynamic>> countriesData = [
             69.167
         ],
         "name":"French Southern Territories",
-        "nativeName":"Territoire des Terres australes et antarctiques fran\u00e7aises",
+        "nativeName":"Territoire des Terres australes et antarctiques françaises",
         "numericCode":"260",
         "population":140,
         "continent":"Africa",
@@ -6877,10 +6956,10 @@ const List<Map<String, dynamic>> countriesData = [
                 "acronym":"AU",
                 "name":"African Union",
                 "otherNames":[
-                    "\u0627\u0644\u0627\u062a\u062d\u0627\u062f \u0627\u0644\u0623\u0641\u0631\u064a\u0642\u064a",
+                    "الاتحاد الأفريقي",
                     "Union africaine",
-                    "Uni\u00e3o Africana",
-                    "Uni\u00f3n Africana",
+                    "União Africana",
+                    "Unión Africana",
                     "Umoja wa Afrika"
                 ]
             }
@@ -6893,17 +6972,18 @@ const List<Map<String, dynamic>> countriesData = [
             ".tf"
         ],
         "translations":{
-            "br":"Terras Austrais e Ant\u00e1rticas Francesas",
-            "de":"Franz\u00f6sische S\u00fcd- und Antarktisgebiete",
-            "es":"Tierras Australes y Ant\u00e1rticas Francesas",
-            "fa":"\u0633\u0631\u0632\u0645\u06cc\u0646\u200c\u0647\u0627\u06cc \u062c\u0646\u0648\u0628\u06cc \u0648 \u062c\u0646\u0648\u0628\u06af\u0627\u0646\u06cc \u0641\u0631\u0627\u0646\u0633\u0647",
-            "fr":"Terres australes et antarctiques fran\u00e7aises",
-            "hr":"Francuski ju\u017eni i antarkti\u010dki teritoriji",
+            "br":"Terras Austrais e Antárticas Francesas",
+            "de":"Französische Süd- und Antarktisgebiete",
+            "es":"Tierras Australes y Antárticas Francesas",
+            "fa":"سرزمین‌های جنوبی و جنوبگانی فرانسه",
+            "fr":"Terres australes et antarctiques françaises",
+            "hr":"Francuski južni i antarktički teritoriji",
             "it":"Territori Francesi del Sud",
-            "ja":"\u30d5\u30e9\u30f3\u30b9\u9818\u5357\u65b9\u30fb\u5357\u6975\u5730\u57df",
+            "ja":"フランス領南方・南極地域",
             "nl":"Franse Gebieden in de zuidelijke Indische Oceaan",
-            "pt":"Terras Austrais e Ant\u00e1rticas Francesas",
-            "hu":"Francia d\u00e9li \u00e9s antarktiszi ter\u00fcletek"
+            "pt":"Terras Austrais e Antárticas Francesas",
+            "hu":"Francia déli és antarktiszi területek",
+            "ar":"المقاطعات الجنوبية الفرنسية"
         },
         "cioc":""
     },
@@ -6913,7 +6993,7 @@ const List<Map<String, dynamic>> countriesData = [
         "altSpellings":[
             "GA",
             "Gabonese Republic",
-            "R\u00e9publique Gabonaise"
+            "République Gabonaise"
         ],
         "area":267668,
         "borders":[
@@ -6944,7 +7024,7 @@ const List<Map<String, dynamic>> countriesData = [
                 "iso639_1":"fr",
                 "iso639_2":"fra",
                 "name":"French",
-                "nativeName":"fran\u00e7ais"
+                "nativeName":"français"
             }
         ],
         "latlng":[
@@ -6961,10 +7041,10 @@ const List<Map<String, dynamic>> countriesData = [
                 "acronym":"AU",
                 "name":"African Union",
                 "otherNames":[
-                    "\u0627\u0644\u0627\u062a\u062d\u0627\u062f \u0627\u0644\u0623\u0641\u0631\u064a\u0642\u064a",
+                    "الاتحاد الأفريقي",
                     "Union africaine",
-                    "Uni\u00e3o Africana",
-                    "Uni\u00f3n Africana",
+                    "União Africana",
+                    "Unión Africana",
                     "Umoja wa Afrika"
                 ]
             }
@@ -6977,17 +7057,18 @@ const List<Map<String, dynamic>> countriesData = [
             ".ga"
         ],
         "translations":{
-            "br":"Gab\u00e3o",
+            "br":"Gabão",
             "de":"Gabun",
-            "es":"Gab\u00f3n",
-            "fa":"\u06af\u0627\u0628\u0646",
+            "es":"Gabón",
+            "fa":"گابن",
             "fr":"Gabon",
             "hr":"Gabon",
             "it":"Gabon",
-            "ja":"\u30ac\u30dc\u30f3",
+            "ja":"ガボン",
             "nl":"Gabon",
-            "pt":"Gab\u00e3o",
-            "hu":"Gabon"
+            "pt":"Gabão",
+            "hu":"Gabon",
+            "ar":"الجابون"
         },
         "cioc":"GAB"
     },
@@ -7041,10 +7122,10 @@ const List<Map<String, dynamic>> countriesData = [
                 "acronym":"AU",
                 "name":"African Union",
                 "otherNames":[
-                    "\u0627\u0644\u0627\u062a\u062d\u0627\u062f \u0627\u0644\u0623\u0641\u0631\u064a\u0642\u064a",
+                    "الاتحاد الأفريقي",
                     "Union africaine",
-                    "Uni\u00e3o Africana",
-                    "Uni\u00f3n Africana",
+                    "União Africana",
+                    "Unión Africana",
                     "Umoja wa Afrika"
                 ]
             }
@@ -7057,17 +7138,18 @@ const List<Map<String, dynamic>> countriesData = [
             ".gm"
         ],
         "translations":{
-            "br":"G\u00e2mbia",
+            "br":"Gâmbia",
             "de":"Gambia",
             "es":"Gambia",
-            "fa":"\u06af\u0627\u0645\u0628\u06cc\u0627",
+            "fa":"گامبیا",
             "fr":"Gambie",
             "hr":"Gambija",
             "it":"Gambia",
-            "ja":"\u30ac\u30f3\u30d3\u30a2",
+            "ja":"ガンビア",
             "nl":"Gambia",
-            "pt":"G\u00e2mbia",
-            "hu":"Gambia"
+            "pt":"Gâmbia",
+            "hu":"Gambia",
+            "ar":"غامبيا"
         },
         "cioc":"GAM"
     },
@@ -7093,7 +7175,7 @@ const List<Map<String, dynamic>> countriesData = [
             {
                 "code":"GEL",
                 "name":"Georgian Lari",
-                "symbol":"\u10da"
+                "symbol":"ლ"
             }
         ],
         "demonym":"Georgian",
@@ -7108,7 +7190,7 @@ const List<Map<String, dynamic>> countriesData = [
                 "iso639_1":"ka",
                 "iso639_2":"kat",
                 "name":"Georgian",
-                "nativeName":"\u10e5\u10d0\u10e0\u10d7\u10e3\u10da\u10d8"
+                "nativeName":"ქართული"
             }
         ],
         "latlng":[
@@ -7116,7 +7198,7 @@ const List<Map<String, dynamic>> countriesData = [
             43.5
         ],
         "name":"Georgia",
-        "nativeName":"\u10e1\u10d0\u10e5\u10d0\u10e0\u10d7\u10d5\u10d4\u10da\u10dd",
+        "nativeName":"საქართველო",
         "numericCode":"268",
         "population":3720400,
         "continent":"Asia",
@@ -7131,17 +7213,18 @@ const List<Map<String, dynamic>> countriesData = [
             ".ge"
         ],
         "translations":{
-            "br":"Ge\u00f3rgia",
+            "br":"Geórgia",
             "de":"Georgien",
             "es":"Georgia",
-            "fa":"\u06af\u0631\u062c\u0633\u062a\u0627\u0646",
-            "fr":"G\u00e9orgie",
+            "fa":"گرجستان",
+            "fr":"Géorgie",
             "hr":"Gruzija",
             "it":"Georgia",
-            "ja":"\u30b0\u30eb\u30b8\u30a2",
-            "nl":"Georgi\u00eb",
-            "pt":"Ge\u00f3rgia",
-            "hu":"Gr\u00fazia"
+            "ja":"グルジア",
+            "nl":"Georgië",
+            "pt":"Geórgia",
+            "hu":"Grúzia",
+            "ar":"جورجيا"
         },
         "cioc":"GEO"
     },
@@ -7173,7 +7256,7 @@ const List<Map<String, dynamic>> countriesData = [
             {
                 "code":"EUR",
                 "name":"Euro",
-                "symbol":"\u20ac"
+                "symbol":"€"
             }
         ],
         "demonym":"German",
@@ -7217,14 +7300,15 @@ const List<Map<String, dynamic>> countriesData = [
             "br":"Alemanha",
             "de":"Deutschland",
             "es":"Alemania",
-            "fa":"\u0622\u0644\u0645\u0627\u0646",
+            "fa":"آلمان",
             "fr":"Allemagne",
-            "hr":"Njema\u010dka",
+            "hr":"Njemačka",
             "it":"Germania",
-            "ja":"\u30c9\u30a4\u30c4",
+            "ja":"ドイツ",
             "nl":"Duitsland",
             "pt":"Alemanha",
-            "hu":"Gr\u00fazia"
+            "hu":"Grúzia",
+            "ar":"ألمانيا"
         },
         "cioc":"GER"
     },
@@ -7248,7 +7332,7 @@ const List<Map<String, dynamic>> countriesData = [
             {
                 "code":"GHS",
                 "name":"Ghanaian cedi",
-                "symbol":"\u20b5"
+                "symbol":"₵"
             }
         ],
         "demonym":"Ghanaian",
@@ -7280,10 +7364,10 @@ const List<Map<String, dynamic>> countriesData = [
                 "acronym":"AU",
                 "name":"African Union",
                 "otherNames":[
-                    "\u0627\u0644\u0627\u062a\u062d\u0627\u062f \u0627\u0644\u0623\u0641\u0631\u064a\u0642\u064a",
+                    "الاتحاد الأفريقي",
                     "Union africaine",
-                    "Uni\u00e3o Africana",
-                    "Uni\u00f3n Africana",
+                    "União Africana",
+                    "Unión Africana",
                     "Umoja wa Afrika"
                 ]
             }
@@ -7299,14 +7383,15 @@ const List<Map<String, dynamic>> countriesData = [
             "br":"Gana",
             "de":"Ghana",
             "es":"Ghana",
-            "fa":"\u063a\u0646\u0627",
+            "fa":"غنا",
             "fr":"Ghana",
             "hr":"Gana",
             "it":"Ghana",
-            "ja":"\u30ac\u30fc\u30ca",
+            "ja":"ガーナ",
             "nl":"Ghana",
             "pt":"Gana",
-            "hu":"Gh\u00e1na"
+            "hu":"Ghána",
+            "ar":"غانا"
         },
         "cioc":"GHA"
     },
@@ -7328,7 +7413,7 @@ const List<Map<String, dynamic>> countriesData = [
             {
                 "code":"GIP",
                 "name":"Gibraltar pound",
-                "symbol":"\u00a3"
+                "symbol":"£"
             }
         ],
         "demonym":"Gibraltar",
@@ -7371,14 +7456,15 @@ const List<Map<String, dynamic>> countriesData = [
             "br":"Gibraltar",
             "de":"Gibraltar",
             "es":"Gibraltar",
-            "fa":"\u062c\u0628\u0644\u200c\u0637\u0627\u0631\u0642",
+            "fa":"جبل‌طارق",
             "fr":"Gibraltar",
             "hr":"Gibraltar",
             "it":"Gibilterra",
-            "ja":"\u30b8\u30d6\u30e9\u30eb\u30bf\u30eb",
+            "ja":"ジブラルタル",
             "nl":"Gibraltar",
             "pt":"Gibraltar",
-            "hu":"Gibralt\u00e1r"
+            "hu":"Gibraltár",
+            "ar":"جبل طارق"
         },
         "cioc":""
     },
@@ -7387,9 +7473,9 @@ const List<Map<String, dynamic>> countriesData = [
         "alpha3Code":"GRC",
         "altSpellings":[
             "GR",
-            "Ell\u00e1da",
+            "Elláda",
             "Hellenic Republic",
-            "\u0395\u03bb\u03bb\u03b7\u03bd\u03b9\u03ba\u03ae \u0394\u03b7\u03bc\u03bf\u03ba\u03c1\u03b1\u03c4\u03af\u03b1"
+            "Ελληνική Δημοκρατία"
         ],
         "area":131990,
         "borders":[
@@ -7406,7 +7492,7 @@ const List<Map<String, dynamic>> countriesData = [
             {
                 "code":"EUR",
                 "name":"Euro",
-                "symbol":"\u20ac"
+                "symbol":"€"
             }
         ],
         "demonym":"Greek",
@@ -7421,7 +7507,7 @@ const List<Map<String, dynamic>> countriesData = [
                 "iso639_1":"el",
                 "iso639_2":"ell",
                 "name":"Greek (modern)",
-                "nativeName":"\u03b5\u03bb\u03bb\u03b7\u03bd\u03b9\u03ba\u03ac"
+                "nativeName":"ελληνικά"
             }
         ],
         "latlng":[
@@ -7429,7 +7515,7 @@ const List<Map<String, dynamic>> countriesData = [
             22
         ],
         "name":"Greece",
-        "nativeName":"\u0395\u03bb\u03bb\u03ac\u03b4\u03b1",
+        "nativeName":"Ελλάδα",
         "numericCode":"300",
         "population":10858018,
         "continent":"Europe",
@@ -7447,17 +7533,18 @@ const List<Map<String, dynamic>> countriesData = [
             ".gr"
         ],
         "translations":{
-            "br":"Gr\u00e9cia",
+            "br":"Grécia",
             "de":"Griechenland",
             "es":"Grecia",
-            "fa":"\u06cc\u0648\u0646\u0627\u0646",
-            "fr":"Gr\u00e8ce",
-            "hr":"Gr\u010dka",
+            "fa":"یونان",
+            "fr":"Grèce",
+            "hr":"Grčka",
             "it":"Grecia",
-            "ja":"\u30ae\u30ea\u30b7\u30e3",
+            "ja":"ギリシャ",
             "nl":"Griekenland",
-            "pt":"Gr\u00e9cia",
-            "hu":"G\u00f6r\u00f6gorsz\u00e1g"
+            "pt":"Grécia",
+            "hu":"Görögország",
+            "ar":"اليونان"
         },
         "cioc":"GRE"
     },
@@ -7466,7 +7553,7 @@ const List<Map<String, dynamic>> countriesData = [
         "alpha3Code":"GRL",
         "altSpellings":[
             "GL",
-            "Gr\u00f8nland"
+            "Grønland"
         ],
         "area":2166086,
         "borders":[
@@ -7520,17 +7607,18 @@ const List<Map<String, dynamic>> countriesData = [
             ".gl"
         ],
         "translations":{
-            "br":"Groel\u00e2ndia",
-            "de":"Gr\u00f6nland",
+            "br":"Groelândia",
+            "de":"Grönland",
             "es":"Groenlandia",
-            "fa":"\u06af\u0631\u06cc\u0646\u0644\u0646\u062f",
+            "fa":"گرینلند",
             "fr":"Groenland",
             "hr":"Grenland",
             "it":"Groenlandia",
-            "ja":"\u30b0\u30ea\u30fc\u30f3\u30e9\u30f3\u30c9",
+            "ja":"グリーンランド",
             "nl":"Groenland",
-            "pt":"Gronel\u00e2ndia",
-            "hu":"Gr\u00f6nland"
+            "pt":"Gronelândia",
+            "hu":"Grönland",
+            "ar":"جرينلاند"
         },
         "cioc":""
     },
@@ -7584,7 +7672,7 @@ const List<Map<String, dynamic>> countriesData = [
                 "name":"Caribbean Community",
                 "otherNames":[
                     "Comunidad del Caribe",
-                    "Communaut\u00e9 Carib\u00e9enne",
+                    "Communauté Caribéenne",
                     "Caribische Gemeenschap"
                 ]
             }
@@ -7600,14 +7688,15 @@ const List<Map<String, dynamic>> countriesData = [
             "br":"Granada",
             "de":"Grenada",
             "es":"Grenada",
-            "fa":"\u06af\u0631\u0646\u0627\u062f\u0627",
+            "fa":"گرنادا",
             "fr":"Grenade",
             "hr":"Grenada",
             "it":"Grenada",
-            "ja":"\u30b0\u30ec\u30ca\u30c0",
+            "ja":"グレナダ",
             "nl":"Grenada",
             "pt":"Granada",
-            "hu":"Grenada"
+            "hu":"Grenada",
+            "ar":"جرينادا"
         },
         "cioc":"GRN"
     },
@@ -7629,7 +7718,7 @@ const List<Map<String, dynamic>> countriesData = [
             {
                 "code":"EUR",
                 "name":"Euro",
-                "symbol":"\u20ac"
+                "symbol":"€"
             }
         ],
         "demonym":"Guadeloupian",
@@ -7643,7 +7732,7 @@ const List<Map<String, dynamic>> countriesData = [
                 "iso639_1":"fr",
                 "iso639_2":"fra",
                 "name":"French",
-                "nativeName":"fran\u00e7ais"
+                "nativeName":"français"
             }
         ],
         "latlng":[
@@ -7669,14 +7758,15 @@ const List<Map<String, dynamic>> countriesData = [
             "br":"Guadalupe",
             "de":"Guadeloupe",
             "es":"Guadalupe",
-            "fa":"\u062c\u0632\u06cc\u0631\u0647 \u06af\u0648\u0627\u062f\u0644\u0648\u067e",
+            "fa":"جزیره گوادلوپ",
             "fr":"Guadeloupe",
             "hr":"Gvadalupa",
             "it":"Guadeloupa",
-            "ja":"\u30b0\u30a2\u30c9\u30eb\u30fc\u30d7",
+            "ja":"グアドループ",
             "nl":"Guadeloupe",
             "pt":"Guadalupe",
-            "hu":"Guadeloupe"
+            "hu":"Guadeloupe",
+            "ar":"جوادلوب"
         },
         "cioc":""
     },
@@ -7685,7 +7775,7 @@ const List<Map<String, dynamic>> countriesData = [
         "alpha3Code":"GUM",
         "altSpellings":[
             "GU",
-            "Gu\u00e5h\u00e5n"
+            "Guåhån"
         ],
         "area":549,
         "borders":[
@@ -7694,7 +7784,7 @@ const List<Map<String, dynamic>> countriesData = [
         "callingCodes":[
             "1"
         ],
-        "capital":"Hag\u00e5t\u00f1a",
+        "capital":"Hagåtña",
         "currencies":[
             {
                 "code":"USD",
@@ -7725,7 +7815,7 @@ const List<Map<String, dynamic>> countriesData = [
                 "iso639_1":"es",
                 "iso639_2":"spa",
                 "name":"Spanish",
-                "nativeName":"Espa\u00f1ol"
+                "nativeName":"Español"
             }
         ],
         "latlng":[
@@ -7751,14 +7841,15 @@ const List<Map<String, dynamic>> countriesData = [
             "br":"Guam",
             "de":"Guam",
             "es":"Guam",
-            "fa":"\u06af\u0648\u0627\u0645",
+            "fa":"گوام",
             "fr":"Guam",
             "hr":"Guam",
             "it":"Guam",
-            "ja":"\u30b0\u30a2\u30e0",
+            "ja":"グアム",
             "nl":"Guam",
             "pt":"Guame",
-            "hu":"Guam"
+            "hu":"Guam",
+            "ar":"جوام"
         },
         "cioc":"GUM"
     },
@@ -7798,7 +7889,7 @@ const List<Map<String, dynamic>> countriesData = [
                 "iso639_1":"es",
                 "iso639_2":"spa",
                 "name":"Spanish",
-                "nativeName":"Espa\u00f1ol"
+                "nativeName":"Español"
             }
         ],
         "latlng":[
@@ -7818,7 +7909,7 @@ const List<Map<String, dynamic>> countriesData = [
                     "SICA"
                 ],
                 "otherNames":[
-                    "Sistema de la Integraci\u00f3n Centroamericana,"
+                    "Sistema de la Integración Centroamericana,"
                 ]
             }
         ],
@@ -7833,14 +7924,15 @@ const List<Map<String, dynamic>> countriesData = [
             "br":"Guatemala",
             "de":"Guatemala",
             "es":"Guatemala",
-            "fa":"\u06af\u0648\u0627\u062a\u0645\u0627\u0644\u0627",
+            "fa":"گواتمالا",
             "fr":"Guatemala",
             "hr":"Gvatemala",
             "it":"Guatemala",
-            "ja":"\u30b0\u30a2\u30c6\u30de\u30e9",
+            "ja":"グアテマラ",
             "nl":"Guatemala",
             "pt":"Guatemala",
-            "hu":"Guatemala"
+            "hu":"Guatemala",
+            "ar":"جواتيمالا"
         },
         "cioc":"GUA"
     },
@@ -7864,12 +7956,12 @@ const List<Map<String, dynamic>> countriesData = [
             {
                 "code":"GBP",
                 "name":"British pound",
-                "symbol":"\u00a3"
+                "symbol":"£"
             },
             {
                 "code":"(none)",
                 "name":"Guernsey pound",
-                "symbol":"\u00a3"
+                "symbol":"£"
             }
         ],
         "demonym":"Channel Islander",
@@ -7889,7 +7981,7 @@ const List<Map<String, dynamic>> countriesData = [
                 "iso639_1":"fr",
                 "iso639_2":"fra",
                 "name":"French",
-                "nativeName":"fran\u00e7ais"
+                "nativeName":"français"
             }
         ],
         "latlng":[
@@ -7915,14 +8007,15 @@ const List<Map<String, dynamic>> countriesData = [
             "br":"Guernsey",
             "de":"Guernsey",
             "es":"Guernsey",
-            "fa":"\u06af\u0631\u0646\u0632\u06cc",
+            "fa":"گرنزی",
             "fr":"Guernesey",
             "hr":"Guernsey",
             "it":"Guernsey",
-            "ja":"\u30ac\u30fc\u30f3\u30b8\u30fc",
+            "ja":"ガーンジー",
             "nl":"Guernsey",
             "pt":"Guernsey",
-            "hu":"Guernsey"
+            "hu":"Guernsey",
+            "ar":"غيرنزي"
         },
         "cioc":""
     },
@@ -7932,7 +8025,7 @@ const List<Map<String, dynamic>> countriesData = [
         "altSpellings":[
             "GN",
             "Republic of Guinea",
-            "R\u00e9publique de Guin\u00e9e"
+            "République de Guinée"
         ],
         "area":245857,
         "borders":[
@@ -7966,7 +8059,7 @@ const List<Map<String, dynamic>> countriesData = [
                 "iso639_1":"fr",
                 "iso639_2":"fra",
                 "name":"French",
-                "nativeName":"fran\u00e7ais"
+                "nativeName":"français"
             },
             {
                 "iso639_1":"ff",
@@ -7980,7 +8073,7 @@ const List<Map<String, dynamic>> countriesData = [
             -10
         ],
         "name":"Guinea",
-        "nativeName":"Guin\u00e9e",
+        "nativeName":"Guinée",
         "numericCode":"324",
         "population":12947000,
         "continent":"Africa",
@@ -7989,10 +8082,10 @@ const List<Map<String, dynamic>> countriesData = [
                 "acronym":"AU",
                 "name":"African Union",
                 "otherNames":[
-                    "\u0627\u0644\u0627\u062a\u062d\u0627\u062f \u0627\u0644\u0623\u0641\u0631\u064a\u0642\u064a",
+                    "الاتحاد الأفريقي",
                     "Union africaine",
-                    "Uni\u00e3o Africana",
-                    "Uni\u00f3n Africana",
+                    "União Africana",
+                    "Unión Africana",
                     "Umoja wa Afrika"
                 ]
             }
@@ -8005,17 +8098,18 @@ const List<Map<String, dynamic>> countriesData = [
             ".gn"
         ],
         "translations":{
-            "br":"Guin\u00e9",
+            "br":"Guiné",
             "de":"Guinea",
             "es":"Guinea",
-            "fa":"\u06af\u06cc\u0646\u0647",
-            "fr":"Guin\u00e9e",
+            "fa":"گینه",
+            "fr":"Guinée",
             "hr":"Gvineja",
             "it":"Guinea",
-            "ja":"\u30ae\u30cb\u30a2",
+            "ja":"ギニア",
             "nl":"Guinee",
-            "pt":"Guin\u00e9",
-            "hu":"Guinea"
+            "pt":"Guiné",
+            "hu":"Guinea",
+            "ar":"غينيا"
         },
         "cioc":"GUI"
     },
@@ -8025,7 +8119,7 @@ const List<Map<String, dynamic>> countriesData = [
         "altSpellings":[
             "GW",
             "Republic of Guinea-Bissau",
-            "Rep\u00fablica da Guin\u00e9-Bissau"
+            "República da Guiné-Bissau"
         ],
         "area":36125,
         "borders":[
@@ -8055,7 +8149,7 @@ const List<Map<String, dynamic>> countriesData = [
                 "iso639_1":"pt",
                 "iso639_2":"por",
                 "name":"Portuguese",
-                "nativeName":"Portugu\u00eas"
+                "nativeName":"Português"
             }
         ],
         "latlng":[
@@ -8063,7 +8157,7 @@ const List<Map<String, dynamic>> countriesData = [
             -15
         ],
         "name":"Guinea-Bissau",
-        "nativeName":"Guin\u00e9-Bissau",
+        "nativeName":"Guiné-Bissau",
         "numericCode":"624",
         "population":1547777,
         "continent":"Africa",
@@ -8072,10 +8166,10 @@ const List<Map<String, dynamic>> countriesData = [
                 "acronym":"AU",
                 "name":"African Union",
                 "otherNames":[
-                    "\u0627\u0644\u0627\u062a\u062d\u0627\u062f \u0627\u0644\u0623\u0641\u0631\u064a\u0642\u064a",
+                    "الاتحاد الأفريقي",
                     "Union africaine",
-                    "Uni\u00e3o Africana",
-                    "Uni\u00f3n Africana",
+                    "União Africana",
+                    "Unión Africana",
                     "Umoja wa Afrika"
                 ]
             }
@@ -8088,17 +8182,18 @@ const List<Map<String, dynamic>> countriesData = [
             ".gw"
         ],
         "translations":{
-            "br":"Guin\u00e9-Bissau",
+            "br":"Guiné-Bissau",
             "de":"Guinea-Bissau",
-            "es":"Guinea-Bis\u00e1u",
-            "fa":"\u06af\u06cc\u0646\u0647 \u0628\u06cc\u0633\u0627\u0626\u0648",
-            "fr":"Guin\u00e9e-Bissau",
+            "es":"Guinea-Bisáu",
+            "fa":"گینه بیسائو",
+            "fr":"Guinée-Bissau",
             "hr":"Gvineja Bisau",
             "it":"Guinea-Bissau",
-            "ja":"\u30ae\u30cb\u30a2\u30d3\u30b5\u30a6",
+            "ja":"ギニアビサウ",
             "nl":"Guinee-Bissau",
-            "pt":"Guin\u00e9-Bissau",
-            "hu":"Bissau-Guinea"
+            "pt":"Guiné-Bissau",
+            "hu":"Bissau-Guinea",
+            "ar":"غينيا بيساو"
         },
         "cioc":"GBS"
     },
@@ -8156,7 +8251,7 @@ const List<Map<String, dynamic>> countriesData = [
                 "name":"Caribbean Community",
                 "otherNames":[
                     "Comunidad del Caribe",
-                    "Communaut\u00e9 Carib\u00e9enne",
+                    "Communauté Caribéenne",
                     "Caribische Gemeenschap"
                 ]
             },
@@ -8169,8 +8264,8 @@ const List<Map<String, dynamic>> countriesData = [
                     "UZAN"
                 ],
                 "otherNames":[
-                    "Uni\u00f3n de Naciones Suramericanas",
-                    "Uni\u00e3o de Na\u00e7\u00f5es Sul-Americanas",
+                    "Unión de Naciones Suramericanas",
+                    "União de Nações Sul-Americanas",
                     "Unie van Zuid-Amerikaanse Naties",
                     "South American Union"
                 ]
@@ -8187,14 +8282,15 @@ const List<Map<String, dynamic>> countriesData = [
             "br":"Guiana",
             "de":"Guyana",
             "es":"Guyana",
-            "fa":"\u06af\u0648\u06cc\u0627\u0646",
+            "fa":"گویان",
             "fr":"Guyane",
             "hr":"Gvajana",
             "it":"Guyana",
-            "ja":"\u30ac\u30a4\u30a2\u30ca",
+            "ja":"ガイアナ",
             "nl":"Guyana",
             "pt":"Guiana",
-            "hu":"Guyana"
+            "hu":"Guyana",
+            "ar":"غيانا"
         },
         "cioc":"GUY"
     },
@@ -8204,7 +8300,7 @@ const List<Map<String, dynamic>> countriesData = [
         "altSpellings":[
             "HT",
             "Republic of Haiti",
-            "R\u00e9publique d'Ha\u00efti",
+            "République d'Haïti",
             "Repiblik Ayiti"
         ],
         "area":27750,
@@ -8234,13 +8330,13 @@ const List<Map<String, dynamic>> countriesData = [
                 "iso639_1":"fr",
                 "iso639_2":"fra",
                 "name":"French",
-                "nativeName":"fran\u00e7ais"
+                "nativeName":"français"
             },
             {
                 "iso639_1":"ht",
                 "iso639_2":"hat",
                 "name":"Haitian",
-                "nativeName":"Krey\u00f2l ayisyen"
+                "nativeName":"Kreyòl ayisyen"
             }
         ],
         "latlng":[
@@ -8248,7 +8344,7 @@ const List<Map<String, dynamic>> countriesData = [
             -72.41666666
         ],
         "name":"Haiti",
-        "nativeName":"Ha\u00efti",
+        "nativeName":"Haïti",
         "numericCode":"332",
         "population":11078033,
         "continent":"Americas",
@@ -8258,7 +8354,7 @@ const List<Map<String, dynamic>> countriesData = [
                 "name":"Caribbean Community",
                 "otherNames":[
                     "Comunidad del Caribe",
-                    "Communaut\u00e9 Carib\u00e9enne",
+                    "Communauté Caribéenne",
                     "Caribische Gemeenschap"
                 ]
             }
@@ -8274,14 +8370,15 @@ const List<Map<String, dynamic>> countriesData = [
             "br":"Haiti",
             "de":"Haiti",
             "es":"Haiti",
-            "fa":"\u0647\u0627\u0626\u06cc\u062a\u06cc",
-            "fr":"Ha\u00efti",
+            "fa":"هائیتی",
+            "fr":"Haïti",
             "hr":"Haiti",
             "it":"Haiti",
-            "ja":"\u30cf\u30a4\u30c1",
-            "nl":"Ha\u00efti",
+            "ja":"ハイチ",
+            "nl":"Haïti",
             "pt":"Haiti",
-            "hu":"Haiti"
+            "hu":"Haiti",
+            "ar":"هايتي"
         },
         "cioc":"HAI"
     },
@@ -8344,14 +8441,15 @@ const List<Map<String, dynamic>> countriesData = [
             "br":"Ilha Heard e Ilhas McDonald",
             "de":"Heard und die McDonaldinseln",
             "es":"Islas Heard y McDonald",
-            "fa":"\u062c\u0632\u06cc\u0631\u0647 \u0647\u0631\u062f \u0648 \u062c\u0632\u0627\u06cc\u0631 \u0645\u06a9\u200c\u062f\u0648\u0646\u0627\u0644\u062f",
-            "fr":"\u00celes Heard-et-MacDonald",
-            "hr":"Otok Heard i oto\u010dje McDonald",
+            "fa":"جزیره هرد و جزایر مک‌دونالد",
+            "fr":"Îles Heard-et-MacDonald",
+            "hr":"Otok Heard i otočje McDonald",
             "it":"Isole Heard e McDonald",
-            "ja":"\u30cf\u30fc\u30c9\u5cf6\u3068\u30de\u30af\u30c9\u30ca\u30eb\u30c9\u8af8\u5cf6",
+            "ja":"ハード島とマクドナルド諸島",
             "nl":"Heard- en McDonaldeilanden",
             "pt":"Ilha Heard e Ilhas McDonald",
-            "hu":"Heard-sziget \u00e9s McDonald-szigetek"
+            "hu":"Heard-sziget és McDonald-szigetek",
+            "ar":"جزيرة هيرد وماكدونالد"
         },
         "cioc":""
     },
@@ -8374,7 +8472,7 @@ const List<Map<String, dynamic>> countriesData = [
             {
                 "code":"EUR",
                 "name":"Euro",
-                "symbol":"\u20ac"
+                "symbol":"€"
             }
         ],
         "demonym":"Vatican",
@@ -8401,7 +8499,7 @@ const List<Map<String, dynamic>> countriesData = [
                 "iso639_1":"fr",
                 "iso639_2":"fra",
                 "name":"French",
-                "nativeName":"Fran\u00e7ais"
+                "nativeName":"Français"
             },
             {
                 "iso639_1":"de",
@@ -8433,14 +8531,15 @@ const List<Map<String, dynamic>> countriesData = [
             "br":"Vaticano",
             "de":"Heiliger Stuhl",
             "es":"Santa Sede",
-            "fa":"\u0633\u0631\u06cc\u0631 \u0645\u0642\u062f\u0633",
+            "fa":"سریر مقدس",
             "fr":"voir Saint",
             "hr":"Sveta Stolica",
             "it":"Santa Sede",
-            "ja":"\u8056\u5ea7",
+            "ja":"聖座",
             "nl":"Heilige Stoel",
             "pt":"Vaticano",
-            "hu":"Vatik\u00e1n"
+            "hu":"Vatikán",
+            "ar":"الفاتيكان"
         },
         "cioc":""
     },
@@ -8450,7 +8549,7 @@ const List<Map<String, dynamic>> countriesData = [
         "altSpellings":[
             "HN",
             "Republic of Honduras",
-            "Rep\u00fablica de Honduras"
+            "República de Honduras"
         ],
         "area":112492,
         "borders":[
@@ -8481,7 +8580,7 @@ const List<Map<String, dynamic>> countriesData = [
                 "iso639_1":"es",
                 "iso639_2":"spa",
                 "name":"Spanish",
-                "nativeName":"Espa\u00f1ol"
+                "nativeName":"Español"
             }
         ],
         "latlng":[
@@ -8501,7 +8600,7 @@ const List<Map<String, dynamic>> countriesData = [
                     "SICA"
                 ],
                 "otherNames":[
-                    "Sistema de la Integraci\u00f3n Centroamericana,"
+                    "Sistema de la Integración Centroamericana,"
                 ]
             }
         ],
@@ -8516,14 +8615,15 @@ const List<Map<String, dynamic>> countriesData = [
             "br":"Honduras",
             "de":"Honduras",
             "es":"Honduras",
-            "fa":"\u0647\u0646\u062f\u0648\u0631\u0627\u0633",
+            "fa":"هندوراس",
             "fr":"Honduras",
             "hr":"Honduras",
             "it":"Honduras",
-            "ja":"\u30db\u30f3\u30b8\u30e5\u30e9\u30b9",
+            "ja":"ホンジュラス",
             "nl":"Honduras",
             "pt":"Honduras",
-            "hu":"Honduras"
+            "hu":"Honduras",
+            "ar":"هندوراس"
         },
         "cioc":"HON"
     },
@@ -8574,7 +8674,7 @@ const List<Map<String, dynamic>> countriesData = [
             20
         ],
         "name":"Hungary",
-        "nativeName":"Magyarorsz\u00e1g",
+        "nativeName":"Magyarország",
         "numericCode":"348",
         "population":9823000,
         "continent":"Europe",
@@ -8594,15 +8694,16 @@ const List<Map<String, dynamic>> countriesData = [
         "translations":{
             "br":"Hungria",
             "de":"Ungarn",
-            "es":"Hungr\u00eda",
-            "fa":"\u0645\u062c\u0627\u0631\u0633\u062a\u0627\u0646",
+            "es":"Hungría",
+            "fa":"مجارستان",
             "fr":"Hongrie",
-            "hr":"Ma\u0111arska",
+            "hr":"Mađarska",
             "it":"Ungheria",
-            "ja":"\u30cf\u30f3\u30ac\u30ea\u30fc",
+            "ja":"ハンガリー",
             "nl":"Hongarije",
             "pt":"Hungria",
-            "hu":"Magyarorsz\u00e1g"
+            "hu":"Magyarország",
+            "ar":"المجر"
         },
         "cioc":"HUN"
     },
@@ -8613,7 +8714,7 @@ const List<Map<String, dynamic>> countriesData = [
             "IS",
             "Island",
             "Republic of Iceland",
-            "L\u00fd\u00f0veldi\u00f0 \u00cdsland"
+            "Lýðveldið Ísland"
         ],
         "area":103000,
         "borders":[
@@ -8622,11 +8723,11 @@ const List<Map<String, dynamic>> countriesData = [
         "callingCodes":[
             "354"
         ],
-        "capital":"Reykjav\u00edk",
+        "capital":"Reykjavík",
         "currencies":[
             {
                 "code":"ISK",
-                "name":"Icelandic kr\u00f3na",
+                "name":"Icelandic króna",
                 "symbol":"kr"
             }
         ],
@@ -8642,7 +8743,7 @@ const List<Map<String, dynamic>> countriesData = [
                 "iso639_1":"is",
                 "iso639_2":"isl",
                 "name":"Icelandic",
-                "nativeName":"\u00cdslenska"
+                "nativeName":"Íslenska"
             }
         ],
         "latlng":[
@@ -8650,7 +8751,7 @@ const List<Map<String, dynamic>> countriesData = [
             -18
         ],
         "name":"Iceland",
-        "nativeName":"\u00cdsland",
+        "nativeName":"Ísland",
         "numericCode":"352",
         "population":334300,
         "continent":"Europe",
@@ -8668,17 +8769,18 @@ const List<Map<String, dynamic>> countriesData = [
             ".is"
         ],
         "translations":{
-            "br":"Isl\u00e2ndia",
+            "br":"Islândia",
             "de":"Island",
             "es":"Islandia",
-            "fa":"\u0627\u06cc\u0633\u0644\u0646\u062f",
+            "fa":"ایسلند",
             "fr":"Islande",
             "hr":"Island",
             "it":"Islanda",
-            "ja":"\u30a2\u30a4\u30b9\u30e9\u30f3\u30c9",
+            "ja":"アイスランド",
             "nl":"IJsland",
-            "pt":"Isl\u00e2ndia",
-            "hu":"Izland"
+            "pt":"Islândia",
+            "hu":"Izland",
+            "ar":"أيسلندا"
         },
         "cioc":"ISL"
     },
@@ -8687,7 +8789,7 @@ const List<Map<String, dynamic>> countriesData = [
         "alpha3Code":"IND",
         "altSpellings":[
             "IN",
-            "Bh\u0101rat",
+            "Bhārat",
             "Republic of India",
             "Bharat Ganrajya"
         ],
@@ -8710,7 +8812,7 @@ const List<Map<String, dynamic>> countriesData = [
             {
                 "code":"INR",
                 "name":"Indian rupee",
-                "symbol":"\u20b9"
+                "symbol":"₹"
             }
         ],
         "demonym":"Indian",
@@ -8725,7 +8827,7 @@ const List<Map<String, dynamic>> countriesData = [
                 "iso639_1":"hi",
                 "iso639_2":"hin",
                 "name":"Hindi",
-                "nativeName":"\u0939\u093f\u0928\u094d\u0926\u0940"
+                "nativeName":"हिन्दी"
             },
             {
                 "iso639_1":"en",
@@ -8739,7 +8841,7 @@ const List<Map<String, dynamic>> countriesData = [
             77
         ],
         "name":"India",
-        "nativeName":"\u092d\u093e\u0930\u0924",
+        "nativeName":"भारत",
         "numericCode":"356",
         "population":1378712489,
         "continent":"Asia",
@@ -8757,17 +8859,18 @@ const List<Map<String, dynamic>> countriesData = [
             ".in"
         ],
         "translations":{
-            "br":"\u00cdndia",
+            "br":"Índia",
             "de":"Indien",
             "es":"India",
-            "fa":"\u0647\u0646\u062f",
+            "fa":"هند",
             "fr":"Inde",
             "hr":"Indija",
             "it":"India",
-            "ja":"\u30a4\u30f3\u30c9",
+            "ja":"インド",
             "nl":"India",
-            "pt":"\u00cdndia",
-            "hu":"India"
+            "pt":"Índia",
+            "hu":"India",
+            "ar":"الهند"
         },
         "cioc":"IND"
     },
@@ -8836,17 +8939,18 @@ const List<Map<String, dynamic>> countriesData = [
             ".id"
         ],
         "translations":{
-            "br":"Indon\u00e9sia",
+            "br":"Indonésia",
             "de":"Indonesien",
             "es":"Indonesia",
-            "fa":"\u0627\u0646\u062f\u0648\u0646\u0632\u06cc",
-            "fr":"Indon\u00e9sie",
+            "fa":"اندونزی",
+            "fr":"Indonésie",
             "hr":"Indonezija",
             "it":"Indonesia",
-            "ja":"\u30a4\u30f3\u30c9\u30cd\u30b7\u30a2",
-            "nl":"Indonesi\u00eb",
-            "pt":"Indon\u00e9sia",
-            "hu":"Indon\u00e9zia"
+            "ja":"インドネシア",
+            "nl":"Indonesië",
+            "pt":"Indonésia",
+            "hu":"Indonézia",
+            "ar":"اندونيسيا"
         },
         "cioc":"INA"
     },
@@ -8856,8 +8960,8 @@ const List<Map<String, dynamic>> countriesData = [
         "altSpellings":[
             "CI",
             "Ivory Coast",
-            "Republic of C\u00f4te d'Ivoire",
-            "R\u00e9publique de C\u00f4te d'Ivoire"
+            "Republic of Côte d'Ivoire",
+            "République de Côte d'Ivoire"
         ],
         "area":322463,
         "borders":[
@@ -8890,7 +8994,7 @@ const List<Map<String, dynamic>> countriesData = [
                 "iso639_1":"fr",
                 "iso639_2":"fra",
                 "name":"French",
-                "nativeName":"fran\u00e7ais"
+                "nativeName":"français"
             }
         ],
         "latlng":[
@@ -8898,7 +9002,7 @@ const List<Map<String, dynamic>> countriesData = [
             -5
         ],
         "name":"Ivory Coast",
-        "nativeName":"C\u00f4te d'Ivoire",
+        "nativeName":"Côte d'Ivoire",
         "numericCode":"384",
         "population":22671331,
         "continent":"Africa",
@@ -8907,10 +9011,10 @@ const List<Map<String, dynamic>> countriesData = [
                 "acronym":"AU",
                 "name":"African Union",
                 "otherNames":[
-                    "\u0627\u0644\u0627\u062a\u062d\u0627\u062f \u0627\u0644\u0623\u0641\u0631\u064a\u0642\u064a",
+                    "الاتحاد الأفريقي",
                     "Union africaine",
-                    "Uni\u00e3o Africana",
-                    "Uni\u00f3n Africana",
+                    "União Africana",
+                    "Unión Africana",
                     "Umoja wa Afrika"
                 ]
             }
@@ -8924,16 +9028,17 @@ const List<Map<String, dynamic>> countriesData = [
         ],
         "translations":{
             "br":"Costa do Marfim",
-            "de":"Elfenbeink\u00fcste",
+            "de":"Elfenbeinküste",
             "es":"Costa de Marfil",
-            "fa":"\u0633\u0627\u062d\u0644 \u0639\u0627\u062c",
-            "fr":"C\u00f4te d'Ivoire",
+            "fa":"ساحل عاج",
+            "fr":"Côte d'Ivoire",
             "hr":"Obala Bjelokosti",
             "it":"Costa D'Avorio",
-            "ja":"\u30b3\u30fc\u30c8\u30b8\u30dc\u30ef\u30fc\u30eb",
+            "ja":"コートジボワール",
             "nl":"Ivoorkust",
             "pt":"Costa do Marfim",
-            "hu":"Elef\u00e1ntcsontpart"
+            "hu":"Elefántcsontpart",
+            "ar":"ساحل العاج"
         },
         "cioc":"CIV"
     },
@@ -8943,7 +9048,7 @@ const List<Map<String, dynamic>> countriesData = [
         "altSpellings":[
             "IR",
             "Islamic Republic of Iran",
-            "Jomhuri-ye Esl\u0101mi-ye Ir\u0101n"
+            "Jomhuri-ye Eslāmi-ye Irān"
         ],
         "area":1648195,
         "borders":[
@@ -8963,7 +9068,7 @@ const List<Map<String, dynamic>> countriesData = [
             {
                 "code":"IRR",
                 "name":"Iranian rial",
-                "symbol":"\ufdfc"
+                "symbol":"﷼"
             }
         ],
         "demonym":"Iranian",
@@ -8978,7 +9083,7 @@ const List<Map<String, dynamic>> countriesData = [
                 "iso639_1":"fa",
                 "iso639_2":"fas",
                 "name":"Persian (Farsi)",
-                "nativeName":"\u0641\u0627\u0631\u0633\u06cc"
+                "nativeName":"فارسی"
             }
         ],
         "latlng":[
@@ -8986,7 +9091,7 @@ const List<Map<String, dynamic>> countriesData = [
             53
         ],
         "name":"Iran (Islamic Republic of)",
-        "nativeName":"\u0627\u06cc\u0631\u0627\u0646",
+        "nativeName":"ایران",
         "numericCode":"364",
         "population":79369900,
         "continent":"Asia",
@@ -9001,16 +9106,17 @@ const List<Map<String, dynamic>> countriesData = [
             ".ir"
         ],
         "translations":{
-            "br":"Ir\u00e3",
+            "br":"Irã",
             "de":"Iran",
             "es":"Iran",
-            "fa":"\u0627\u06cc\u0631\u0627\u0646",
+            "fa":"ایران",
             "fr":"Iran",
             "hr":"Iran",
-            "ja":"\u30a4\u30e9\u30f3\u30fb\u30a4\u30b9\u30e9\u30e0\u5171\u548c\u56fd",
+            "ja":"イラン・イスラム共和国",
             "nl":"Iran",
-            "pt":"Ir\u00e3o",
-            "hu":"Ir\u00e1n"
+            "pt":"Irão",
+            "hu":"Irán",
+            "ar":"ايران"
         },
         "cioc":"IRI"
     },
@@ -9020,7 +9126,7 @@ const List<Map<String, dynamic>> countriesData = [
         "altSpellings":[
             "IQ",
             "Republic of Iraq",
-            "Jumh\u016briyyat al-\u2018Ir\u0101q"
+            "Jumhūriyyat al-‘Irāq"
         ],
         "area":438317,
         "borders":[
@@ -9039,7 +9145,7 @@ const List<Map<String, dynamic>> countriesData = [
             {
                 "code":"IQD",
                 "name":"Iraqi dinar",
-                "symbol":"\u0639.\u062f"
+                "symbol":"ع.د"
             }
         ],
         "demonym":"Iraqi",
@@ -9054,13 +9160,13 @@ const List<Map<String, dynamic>> countriesData = [
                 "iso639_1":"ar",
                 "iso639_2":"ara",
                 "name":"Arabic",
-                "nativeName":"\u0627\u0644\u0639\u0631\u0628\u064a\u0629"
+                "nativeName":"العربية"
             },
             {
                 "iso639_1":"ku",
                 "iso639_2":"kur",
                 "name":"Kurdish",
-                "nativeName":"Kurd\u00ee"
+                "nativeName":"Kurdî"
             }
         ],
         "latlng":[
@@ -9068,7 +9174,7 @@ const List<Map<String, dynamic>> countriesData = [
             44
         ],
         "name":"Iraq",
-        "nativeName":"\u0627\u0644\u0639\u0631\u0627\u0642",
+        "nativeName":"العراق",
         "numericCode":"368",
         "population":37883543,
         "continent":"Asia",
@@ -9077,8 +9183,8 @@ const List<Map<String, dynamic>> countriesData = [
                 "acronym":"AL",
                 "name":"Arab League",
                 "otherNames":[
-                    "\u062c\u0627\u0645\u0639\u0629 \u0627\u0644\u062f\u0648\u0644 \u0627\u0644\u0639\u0631\u0628\u064a\u0629",
-                    "J\u0101mi\u02bbat ad-Duwal al-\u02bbArab\u012byah",
+                    "جامعة الدول العربية",
+                    "Jāmiʻat ad-Duwal al-ʻArabīyah",
                     "League of Arab States"
                 ]
             }
@@ -9094,14 +9200,15 @@ const List<Map<String, dynamic>> countriesData = [
             "br":"Iraque",
             "de":"Irak",
             "es":"Irak",
-            "fa":"\u0639\u0631\u0627\u0642",
+            "fa":"عراق",
             "fr":"Irak",
             "hr":"Irak",
             "it":"Iraq",
-            "ja":"\u30a4\u30e9\u30af",
+            "ja":"イラク",
             "nl":"Irak",
             "pt":"Iraque",
-            "hu":"Irak"
+            "hu":"Irak",
+            "ar":"العراق"
         },
         "cioc":"IRQ"
     },
@@ -9110,9 +9217,9 @@ const List<Map<String, dynamic>> countriesData = [
         "alpha3Code":"IRL",
         "altSpellings":[
             "IE",
-            "\u00c9ire",
+            "Éire",
             "Republic of Ireland",
-            "Poblacht na h\u00c9ireann"
+            "Poblacht na hÉireann"
         ],
         "area":70273,
         "borders":[
@@ -9126,7 +9233,7 @@ const List<Map<String, dynamic>> countriesData = [
             {
                 "code":"EUR",
                 "name":"Euro",
-                "symbol":"\u20ac"
+                "symbol":"€"
             }
         ],
         "demonym":"Irish",
@@ -9155,7 +9262,7 @@ const List<Map<String, dynamic>> countriesData = [
             -8
         ],
         "name":"Ireland",
-        "nativeName":"\u00c9ire",
+        "nativeName":"Éire",
         "numericCode":"372",
         "population":6378000,
         "continent":"Europe",
@@ -9176,14 +9283,15 @@ const List<Map<String, dynamic>> countriesData = [
             "br":"Irlanda",
             "de":"Irland",
             "es":"Irlanda",
-            "fa":"\u0627\u06cc\u0631\u0644\u0646\u062f",
+            "fa":"ایرلند",
             "fr":"Irlande",
             "hr":"Irska",
             "it":"Irlanda",
-            "ja":"\u30a2\u30a4\u30eb\u30e9\u30f3\u30c9",
+            "ja":"アイルランド",
             "nl":"Ierland",
             "pt":"Irlanda",
-            "hu":"\u00cdrorsz\u00e1g"
+            "hu":"Írország",
+            "ar":"أيرلندا"
         },
         "cioc":"IRL"
     },
@@ -9208,12 +9316,12 @@ const List<Map<String, dynamic>> countriesData = [
             {
                 "code":"GBP",
                 "name":"British pound",
-                "symbol":"\u00a3"
+                "symbol":"£"
             },
             {
                 "code":"IMP[G]",
                 "name":"Manx pound",
-                "symbol":"\u00a3"
+                "symbol":"£"
             }
         ],
         "demonym":"Manx",
@@ -9262,14 +9370,15 @@ const List<Map<String, dynamic>> countriesData = [
             "br":"Ilha de Man",
             "de":"Insel Man",
             "es":"Isla de Man",
-            "fa":"\u062c\u0632\u06cc\u0631\u0647 \u0645\u0646",
-            "fr":"\u00cele de Man",
+            "fa":"جزیره من",
+            "fr":"Île de Man",
             "hr":"Otok Man",
             "it":"Isola di Man",
-            "ja":"\u30de\u30f3\u5cf6",
+            "ja":"マン島",
             "nl":"Isle of Man",
             "pt":"Ilha de Man",
-            "hu":"Man"
+            "hu":"Man",
+            "ar":"جزيرة مان"
         },
         "cioc":""
     },
@@ -9279,7 +9388,7 @@ const List<Map<String, dynamic>> countriesData = [
         "altSpellings":[
             "IL",
             "State of Israel",
-            "Med\u012bnat Yisr\u0101'el"
+            "Medīnat Yisrā'el"
         ],
         "area":20770,
         "borders":[
@@ -9296,7 +9405,7 @@ const List<Map<String, dynamic>> countriesData = [
             {
                 "code":"ILS",
                 "name":"Israeli new shekel",
-                "symbol":"\u20aa"
+                "symbol":"₪"
             }
         ],
         "demonym":"Israeli",
@@ -9311,13 +9420,13 @@ const List<Map<String, dynamic>> countriesData = [
                 "iso639_1":"he",
                 "iso639_2":"heb",
                 "name":"Hebrew (modern)",
-                "nativeName":"\u05e2\u05d1\u05e8\u05d9\u05ea"
+                "nativeName":"עברית"
             },
             {
                 "iso639_1":"ar",
                 "iso639_2":"ara",
                 "name":"Arabic",
-                "nativeName":"\u0627\u0644\u0639\u0631\u0628\u064a\u0629"
+                "nativeName":"العربية"
             }
         ],
         "latlng":[
@@ -9325,7 +9434,7 @@ const List<Map<String, dynamic>> countriesData = [
             34.75
         ],
         "name":"Israel",
-        "nativeName":"\u05d9\u05b4\u05e9\u05b0\u05c2\u05e8\u05b8\u05d0\u05b5\u05dc",
+        "nativeName":"יִשְׂרָאֵל",
         "numericCode":"376",
         "population":8527400,
         "continent":"Asia",
@@ -9343,14 +9452,15 @@ const List<Map<String, dynamic>> countriesData = [
             "br":"Israel",
             "de":"Israel",
             "es":"Israel",
-            "fa":"\u0627\u0633\u0631\u0627\u0626\u06cc\u0644",
-            "fr":"Isra\u00ebl",
+            "fa":"اسرائیل",
+            "fr":"Israël",
             "hr":"Izrael",
             "it":"Israele",
-            "ja":"\u30a4\u30b9\u30e9\u30a8\u30eb",
-            "nl":"Isra\u00ebl",
+            "ja":"イスラエル",
+            "nl":"Israël",
             "pt":"Israel",
-            "hu":"Izrael"
+            "hu":"Izrael",
+            "ar":"اسرائيل"
         },
         "cioc":"ISR"
     },
@@ -9379,7 +9489,7 @@ const List<Map<String, dynamic>> countriesData = [
             {
                 "code":"EUR",
                 "name":"Euro",
-                "symbol":"\u20ac"
+                "symbol":"€"
             }
         ],
         "demonym":"Italian",
@@ -9420,17 +9530,18 @@ const List<Map<String, dynamic>> countriesData = [
             ".it"
         ],
         "translations":{
-            "br":"It\u00e1lia",
+            "br":"Itália",
             "de":"Italien",
             "es":"Italia",
-            "fa":"\u0627\u06cc\u062a\u0627\u0644\u06cc\u0627",
+            "fa":"ایتالیا",
             "fr":"Italie",
             "hr":"Italija",
             "it":"Italia",
-            "ja":"\u30a4\u30bf\u30ea\u30a2",
-            "nl":"Itali\u00eb",
-            "pt":"It\u00e1lia",
-            "hu":"Olaszorsz\u00e1g"
+            "ja":"イタリア",
+            "nl":"Italië",
+            "pt":"Itália",
+            "hu":"Olaszország",
+            "ar":"ايطاليا"
         },
         "cioc":"ITA"
     },
@@ -9485,7 +9596,7 @@ const List<Map<String, dynamic>> countriesData = [
                 "name":"Caribbean Community",
                 "otherNames":[
                     "Comunidad del Caribe",
-                    "Communaut\u00e9 Carib\u00e9enne",
+                    "Communauté Caribéenne",
                     "Caribische Gemeenschap"
                 ]
             }
@@ -9501,14 +9612,15 @@ const List<Map<String, dynamic>> countriesData = [
             "br":"Jamaica",
             "de":"Jamaika",
             "es":"Jamaica",
-            "fa":"\u062c\u0627\u0645\u0627\u0626\u06cc\u06a9\u0627",
-            "fr":"Jama\u00efque",
+            "fa":"جامائیکا",
+            "fr":"Jamaïque",
             "hr":"Jamajka",
             "it":"Giamaica",
-            "ja":"\u30b8\u30e3\u30de\u30a4\u30ab",
+            "ja":"ジャマイカ",
             "nl":"Jamaica",
             "pt":"Jamaica",
-            "hu":"Jamaica"
+            "hu":"Jamaica",
+            "ar":"جامايكا"
         },
         "cioc":"JAM"
     },
@@ -9532,7 +9644,7 @@ const List<Map<String, dynamic>> countriesData = [
             {
                 "code":"JPY",
                 "name":"Japanese yen",
-                "symbol":"\u00a5"
+                "symbol":"¥"
             }
         ],
         "demonym":"Japanese",
@@ -9547,7 +9659,7 @@ const List<Map<String, dynamic>> countriesData = [
                 "iso639_1":"ja",
                 "iso639_2":"jpn",
                 "name":"Japanese",
-                "nativeName":"\u65e5\u672c\u8a9e (\u306b\u307b\u3093\u3054)"
+                "nativeName":"日本語 (にほんご)"
             }
         ],
         "latlng":[
@@ -9555,7 +9667,7 @@ const List<Map<String, dynamic>> countriesData = [
             138
         ],
         "name":"Japan",
-        "nativeName":"\u65e5\u672c",
+        "nativeName":"日本",
         "numericCode":"392",
         "population":126960000,
         "continent":"Asia",
@@ -9570,17 +9682,18 @@ const List<Map<String, dynamic>> countriesData = [
             ".jp"
         ],
         "translations":{
-            "br":"Jap\u00e3o",
+            "br":"Japão",
             "de":"Japan",
-            "es":"Jap\u00f3n",
-            "fa":"\u0698\u0627\u067e\u0646",
+            "es":"Japón",
+            "fa":"ژاپن",
             "fr":"Japon",
             "hr":"Japan",
             "it":"Giappone",
-            "ja":"\u65e5\u672c",
+            "ja":"日本",
             "nl":"Japan",
-            "pt":"Jap\u00e3o",
-            "hu":"Jap\u00e1n"
+            "pt":"Japão",
+            "hu":"Japán",
+            "ar":"اليابان"
         },
         "cioc":"JPN"
     },
@@ -9591,7 +9704,7 @@ const List<Map<String, dynamic>> countriesData = [
             "JE",
             "Bailiwick of Jersey",
             "Bailliage de Jersey",
-            "Bailliage d\u00e9 J\u00e8rri"
+            "Bailliage dé Jèrri"
         ],
         "area":116,
         "borders":[
@@ -9605,12 +9718,12 @@ const List<Map<String, dynamic>> countriesData = [
             {
                 "code":"GBP",
                 "name":"British pound",
-                "symbol":"\u00a3"
+                "symbol":"£"
             },
             {
                 "code":"JEP[G]",
                 "name":"Jersey pound",
-                "symbol":"\u00a3"
+                "symbol":"£"
             }
         ],
         "demonym":"Channel Islander",
@@ -9630,7 +9743,7 @@ const List<Map<String, dynamic>> countriesData = [
                 "iso639_1":"fr",
                 "iso639_2":"fra",
                 "name":"French",
-                "nativeName":"fran\u00e7ais"
+                "nativeName":"français"
             }
         ],
         "latlng":[
@@ -9656,14 +9769,15 @@ const List<Map<String, dynamic>> countriesData = [
             "br":"Jersey",
             "de":"Jersey",
             "es":"Jersey",
-            "fa":"\u062c\u0631\u0632\u06cc",
+            "fa":"جرزی",
             "fr":"Jersey",
             "hr":"Jersey",
             "it":"Isola di Jersey",
-            "ja":"\u30b8\u30e3\u30fc\u30b8\u30fc",
+            "ja":"ジャージー",
             "nl":"Jersey",
             "pt":"Jersey",
-            "hu":"Jersey"
+            "hu":"Jersey",
+            "ar":"جيرسي"
         },
         "cioc":""
     },
@@ -9673,7 +9787,7 @@ const List<Map<String, dynamic>> countriesData = [
         "altSpellings":[
             "JO",
             "Hashemite Kingdom of Jordan",
-            "al-Mamlakah al-Urdun\u012byah al-H\u0101shim\u012byah"
+            "al-Mamlakah al-Urdunīyah al-Hāshimīyah"
         ],
         "area":89342,
         "borders":[
@@ -9690,7 +9804,7 @@ const List<Map<String, dynamic>> countriesData = [
             {
                 "code":"JOD",
                 "name":"Jordanian dinar",
-                "symbol":"\u062f.\u0627"
+                "symbol":"د.ا"
             }
         ],
         "demonym":"Jordanian",
@@ -9705,7 +9819,7 @@ const List<Map<String, dynamic>> countriesData = [
                 "iso639_1":"ar",
                 "iso639_2":"ara",
                 "name":"Arabic",
-                "nativeName":"\u0627\u0644\u0639\u0631\u0628\u064a\u0629"
+                "nativeName":"العربية"
             }
         ],
         "latlng":[
@@ -9713,7 +9827,7 @@ const List<Map<String, dynamic>> countriesData = [
             36
         ],
         "name":"Jordan",
-        "nativeName":"\u0627\u0644\u0623\u0631\u062f\u0646",
+        "nativeName":"الأردن",
         "numericCode":"400",
         "population":9531712,
         "continent":"Asia",
@@ -9722,8 +9836,8 @@ const List<Map<String, dynamic>> countriesData = [
                 "acronym":"AL",
                 "name":"Arab League",
                 "otherNames":[
-                    "\u062c\u0627\u0645\u0639\u0629 \u0627\u0644\u062f\u0648\u0644 \u0627\u0644\u0639\u0631\u0628\u064a\u0629",
-                    "J\u0101mi\u02bbat ad-Duwal al-\u02bbArab\u012byah",
+                    "جامعة الدول العربية",
+                    "Jāmiʻat ad-Duwal al-ʻArabīyah",
                     "League of Arab States"
                 ]
             }
@@ -9736,17 +9850,18 @@ const List<Map<String, dynamic>> countriesData = [
             ".jo"
         ],
         "translations":{
-            "br":"Jord\u00e2nia",
+            "br":"Jordânia",
             "de":"Jordanien",
             "es":"Jordania",
-            "fa":"\u0627\u0631\u062f\u0646",
+            "fa":"اردن",
             "fr":"Jordanie",
             "hr":"Jordan",
             "it":"Giordania",
-            "ja":"\u30e8\u30eb\u30c0\u30f3",
-            "nl":"Jordani\u00eb",
-            "pt":"Jord\u00e2nia",
-            "hu":"Jord\u00e1nia"
+            "ja":"ヨルダン",
+            "nl":"Jordanië",
+            "pt":"Jordânia",
+            "hu":"Jordánia",
+            "ar":"الأردن"
         },
         "cioc":"JOR"
     },
@@ -9756,11 +9871,11 @@ const List<Map<String, dynamic>> countriesData = [
         "altSpellings":[
             "KZ",
             "Qazaqstan",
-            "\u041a\u0430\u0437\u0430\u0445\u0441\u0442\u0430\u043d",
+            "Казахстан",
             "Republic of Kazakhstan",
-            "\u049a\u0430\u0437\u0430\u049b\u0441\u0442\u0430\u043d \u0420\u0435\u0441\u043f\u0443\u0431\u043b\u0438\u043a\u0430\u0441\u044b",
-            "Qazaqstan Respubl\u00efkas\u0131",
-            "\u0420\u0435\u0441\u043f\u0443\u0431\u043b\u0438\u043a\u0430 \u041a\u0430\u0437\u0430\u0445\u0441\u0442\u0430\u043d",
+            "Қазақстан Республикасы",
+            "Qazaqstan Respublïkası",
+            "Республика Казахстан",
             "Respublika Kazakhstan"
         ],
         "area":2724900,
@@ -9780,7 +9895,7 @@ const List<Map<String, dynamic>> countriesData = [
             {
                 "code":"KZT",
                 "name":"Kazakhstani tenge",
-                "symbol":"\u20b8"
+                "symbol":"₸"
             }
         ],
         ",demonym":"Kazakhstani",
@@ -9794,13 +9909,13 @@ const List<Map<String, dynamic>> countriesData = [
                 "iso639_1":"kk",
                 "iso639_2":"kaz",
                 "name":"Kazakh",
-                "nativeName":"\u049b\u0430\u0437\u0430\u049b \u0442\u0456\u043b\u0456"
+                "nativeName":"қазақ тілі"
             },
             {
                 "iso639_1":"ru",
                 "iso639_2":"rus",
                 "name":"Russian",
-                "nativeName":"\u0420\u0443\u0441\u0441\u043a\u0438\u0439"
+                "nativeName":"Русский"
             }
         ],
         "latlng":[
@@ -9808,7 +9923,7 @@ const List<Map<String, dynamic>> countriesData = [
             68
         ],
         "name":"Kazakhstan",
-        "nativeName":"\u049a\u0430\u0437\u0430\u049b\u0441\u0442\u0430\u043d",
+        "nativeName":"Қазақстан",
         "numericCode":"398",
         "population":17753200,
         "continent":"Asia",
@@ -9828,20 +9943,21 @@ const List<Map<String, dynamic>> countriesData = [
         ],
         "topLevelDomain":[
             ".kz",
-            ".\u049b\u0430\u0437"
+            ".қаз"
         ],
         "translations":{
-            "br":"Cazaquist\u00e3o",
+            "br":"Cazaquistão",
             "de":"Kasachstan",
-            "es":"Kazajist\u00e1n",
-            "fa":"\u0642\u0632\u0627\u0642\u0633\u062a\u0627\u0646",
+            "es":"Kazajistán",
+            "fa":"قزاقستان",
             "fr":"Kazakhstan",
             "hr":"Kazahstan",
             "it":"Kazakistan",
-            "ja":"\u30ab\u30b6\u30d5\u30b9\u30bf\u30f3",
+            "ja":"カザフスタン",
             "nl":"Kazachstan",
-            "pt":"Cazaquist\u00e3o",
-            "hu":"Kazahszt\u00e1n"
+            "pt":"Cazaquistão",
+            "hu":"Kazahsztán",
+            "ar":"كازاخستان"
         },
         "cioc":"KAZ"
     },
@@ -9907,10 +10023,10 @@ const List<Map<String, dynamic>> countriesData = [
                 "acronym":"AU",
                 "name":"African Union",
                 "otherNames":[
-                    "\u0627\u0644\u0627\u062a\u062d\u0627\u062f \u0627\u0644\u0623\u0641\u0631\u064a\u0642\u064a",
+                    "الاتحاد الأفريقي",
                     "Union africaine",
-                    "Uni\u00e3o Africana",
-                    "Uni\u00f3n Africana",
+                    "União Africana",
+                    "Unión Africana",
                     "Umoja wa Afrika"
                 ]
             }
@@ -9923,17 +10039,18 @@ const List<Map<String, dynamic>> countriesData = [
             ".ke"
         ],
         "translations":{
-            "br":"Qu\u00eania",
+            "br":"Quênia",
             "de":"Kenia",
             "es":"Kenia",
-            "fa":"\u06a9\u0646\u06cc\u0627",
+            "fa":"کنیا",
             "fr":"Kenya",
             "hr":"Kenija",
             "it":"Kenya",
-            "ja":"\u30b1\u30cb\u30a2",
+            "ja":"ケニア",
             "nl":"Kenia",
-            "pt":"Qu\u00e9nia",
-            "hu":"Kenya"
+            "pt":"Quénia",
+            "hu":"Kenya",
+            "ar":"كينيا"
         },
         "cioc":"KEN"
     },
@@ -10004,14 +10121,15 @@ const List<Map<String, dynamic>> countriesData = [
             "br":"Kiribati",
             "de":"Kiribati",
             "es":"Kiribati",
-            "fa":"\u06a9\u06cc\u0631\u06cc\u0628\u0627\u062a\u06cc",
+            "fa":"کیریباتی",
             "fr":"Kiribati",
             "hr":"Kiribati",
             "it":"Kiribati",
-            "ja":"\u30ad\u30ea\u30d0\u30b9",
+            "ja":"キリバス",
             "nl":"Kiribati",
-            "pt":"Quirib\u00e1ti",
-            "hu":"Kiribati"
+            "pt":"Quiribáti",
+            "hu":"Kiribati",
+            "ar":"كيريباتي"
         },
         "cioc":"KIR"
     },
@@ -10036,7 +10154,7 @@ const List<Map<String, dynamic>> countriesData = [
             {
                 "code":"KWD",
                 "name":"Kuwaiti dinar",
-                "symbol":"\u062f.\u0643"
+                "symbol":"د.ك"
             }
         ],
         "demonym":"Kuwaiti",
@@ -10051,7 +10169,7 @@ const List<Map<String, dynamic>> countriesData = [
                 "iso639_1":"ar",
                 "iso639_2":"ara",
                 "name":"Arabic",
-                "nativeName":"\u0627\u0644\u0639\u0631\u0628\u064a\u0629"
+                "nativeName":"العربية"
             }
         ],
         "latlng":[
@@ -10059,7 +10177,7 @@ const List<Map<String, dynamic>> countriesData = [
             45.75
         ],
         "name":"Kuwait",
-        "nativeName":"\u0627\u0644\u0643\u0648\u064a\u062a",
+        "nativeName":"الكويت",
         "numericCode":"414",
         "population":4183658,
         "continent":"Asia",
@@ -10068,8 +10186,8 @@ const List<Map<String, dynamic>> countriesData = [
                 "acronym":"AL",
                 "name":"Arab League",
                 "otherNames":[
-                    "\u062c\u0627\u0645\u0639\u0629 \u0627\u0644\u062f\u0648\u0644 \u0627\u0644\u0639\u0631\u0628\u064a\u0629",
-                    "J\u0101mi\u02bbat ad-Duwal al-\u02bbArab\u012byah",
+                    "جامعة الدول العربية",
+                    "Jāmiʻat ad-Duwal al-ʻArabīyah",
                     "League of Arab States"
                 ]
             }
@@ -10085,14 +10203,15 @@ const List<Map<String, dynamic>> countriesData = [
             "br":"Kuwait",
             "de":"Kuwait",
             "es":"Kuwait",
-            "fa":"\u06a9\u0648\u06cc\u062a",
-            "fr":"Kowe\u00eft",
+            "fa":"کویت",
+            "fr":"Koweït",
             "hr":"Kuvajt",
             "it":"Kuwait",
-            "ja":"\u30af\u30a6\u30a7\u30fc\u30c8",
+            "ja":"クウェート",
             "nl":"Koeweit",
             "pt":"Kuwait",
-            "hu":"Kuvait"
+            "hu":"Kuvait",
+            "ar":"الكويت"
         },
         "cioc":"KUW"
     },
@@ -10101,9 +10220,9 @@ const List<Map<String, dynamic>> countriesData = [
         "alpha3Code":"KGZ",
         "altSpellings":[
             "KG",
-            "\u041a\u0438\u0440\u0433\u0438\u0437\u0438\u044f",
+            "Киргизия",
             "Kyrgyz Republic",
-            "\u041a\u044b\u0440\u0433\u044b\u0437 \u0420\u0435\u0441\u043f\u0443\u0431\u043b\u0438\u043a\u0430\u0441\u044b",
+            "Кыргыз Республикасы",
             "Kyrgyz Respublikasy"
         ],
         "area":199951,
@@ -10121,7 +10240,7 @@ const List<Map<String, dynamic>> countriesData = [
             {
                 "code":"KGS",
                 "name":"Kyrgyzstani som",
-                "symbol":"\u0441"
+                "symbol":"с"
             }
         ],
         "demonym":"Kirghiz",
@@ -10136,13 +10255,13 @@ const List<Map<String, dynamic>> countriesData = [
                 "iso639_1":"ky",
                 "iso639_2":"kir",
                 "name":"Kyrgyz",
-                "nativeName":"\u041a\u044b\u0440\u0433\u044b\u0437\u0447\u0430"
+                "nativeName":"Кыргызча"
             },
             {
                 "iso639_1":"ru",
                 "iso639_2":"rus",
                 "name":"Russian",
-                "nativeName":"\u0420\u0443\u0441\u0441\u043a\u0438\u0439"
+                "nativeName":"Русский"
             }
         ],
         "latlng":[
@@ -10150,7 +10269,7 @@ const List<Map<String, dynamic>> countriesData = [
             75
         ],
         "name":"Kyrgyzstan",
-        "nativeName":"\u041a\u044b\u0440\u0433\u044b\u0437\u0441\u0442\u0430\u043d",
+        "nativeName":"Кыргызстан",
         "numericCode":"417",
         "population":6047800,
         "continent":"Asia",
@@ -10171,17 +10290,18 @@ const List<Map<String, dynamic>> countriesData = [
             ".kg"
         ],
         "translations":{
-            "br":"Quirguist\u00e3o",
+            "br":"Quirguistão",
             "de":"Kirgisistan",
-            "es":"Kirguizist\u00e1n",
-            "fa":"\u0642\u0631\u0642\u06cc\u0632\u0633\u062a\u0627\u0646",
+            "es":"Kirguizistán",
+            "fa":"قرقیزستان",
             "fr":"Kirghizistan",
             "hr":"Kirgistan",
             "it":"Kirghizistan",
-            "ja":"\u30ad\u30eb\u30ae\u30b9",
-            "nl":"Kirgizi\u00eb",
-            "pt":"Quirguizist\u00e3o",
-            "hu":"Kirgiziszt\u00e1n"
+            "ja":"キルギス",
+            "nl":"Kirgizië",
+            "pt":"Quirguizistão",
+            "hu":"Kirgizisztán",
+            "ar":"قرغيزستان"
         },
         "cioc":"KGZ"
     },
@@ -10211,7 +10331,7 @@ const List<Map<String, dynamic>> countriesData = [
             {
                 "code":"LAK",
                 "name":"Lao kip",
-                "symbol":"\u20ad"
+                "symbol":"₭"
             }
         ],
         "demonym":"Laotian",
@@ -10226,7 +10346,7 @@ const List<Map<String, dynamic>> countriesData = [
                 "iso639_1":"lo",
                 "iso639_2":"lao",
                 "name":"Lao",
-                "nativeName":"\u0e9e\u0eb2\u0eaa\u0eb2\u0ea5\u0eb2\u0ea7"
+                "nativeName":"ພາສາລາວ"
             }
         ],
         "latlng":[
@@ -10234,7 +10354,7 @@ const List<Map<String, dynamic>> countriesData = [
             105
         ],
         "name":"Lao People's Democratic Republic",
-        "nativeName":"\u0eaa\u0eb2\u0e97\u0eb2\u0ea5\u0eb0\u0e99\u0eb0\u0ea5\u0eb1\u0e94 \u0e9b\u0eb0\u0e8a\u0eb2\u0e97\u0eb4\u0e9b\u0eb0\u0ec4\u0e95 \u0e9b\u0eb0\u0e8a\u0eb2\u0e8a\u0ebb\u0e99\u0ea5\u0eb2\u0ea7",
+        "nativeName":"ສາທາລະນະລັດ ປະຊາທິປະໄຕ ປະຊາຊົນລາວ",
         "numericCode":"418",
         "population":6492400,
         "continent":"Asia",
@@ -10255,14 +10375,15 @@ const List<Map<String, dynamic>> countriesData = [
             "br":"Laos",
             "de":"Laos",
             "es":"Laos",
-            "fa":"\u0644\u0627\u0626\u0648\u0633",
+            "fa":"لائوس",
             "fr":"Laos",
             "hr":"Laos",
             "it":"Laos",
-            "ja":"\u30e9\u30aa\u30b9\u4eba\u6c11\u6c11\u4e3b\u5171\u548c\u56fd",
+            "ja":"ラオス人民民主共和国",
             "nl":"Laos",
             "pt":"Laos",
-            "hu":"Laosz"
+            "hu":"Laosz",
+            "ar":"لاوس"
         },
         "cioc":"LAO"
     },
@@ -10289,7 +10410,7 @@ const List<Map<String, dynamic>> countriesData = [
             {
                 "code":"EUR",
                 "name":"Euro",
-                "symbol":"\u20ac"
+                "symbol":"€"
             }
         ],
         "demonym":"Latvian",
@@ -10304,7 +10425,7 @@ const List<Map<String, dynamic>> countriesData = [
                 "iso639_1":"lv",
                 "iso639_2":"lav",
                 "name":"Latvian",
-                "nativeName":"latvie\u0161u valoda"
+                "nativeName":"latviešu valoda"
             }
         ],
         "latlng":[
@@ -10330,17 +10451,18 @@ const List<Map<String, dynamic>> countriesData = [
             ".lv"
         ],
         "translations":{
-            "br":"Let\u00f4nia",
+            "br":"Letônia",
             "de":"Lettland",
             "es":"Letonia",
-            "fa":"\u0644\u062a\u0648\u0646\u06cc",
+            "fa":"لتونی",
             "fr":"Lettonie",
             "hr":"Latvija",
             "it":"Lettonia",
-            "ja":"\u30e9\u30c8\u30d3\u30a2",
+            "ja":"ラトビア",
             "nl":"Letland",
-            "pt":"Let\u00f3nia",
-            "hu":"Lettorsz\u00e1g"
+            "pt":"Letónia",
+            "hu":"Lettország",
+            "ar":"لاتفيا"
         },
         "cioc":"LAT"
     },
@@ -10350,7 +10472,7 @@ const List<Map<String, dynamic>> countriesData = [
         "altSpellings":[
             "LB",
             "Lebanese Republic",
-            "Al-Jumh\u016br\u012byah Al-Libn\u0101n\u012byah"
+            "Al-Jumhūrīyah Al-Libnānīyah"
         ],
         "area":10452,
         "borders":[
@@ -10365,7 +10487,7 @@ const List<Map<String, dynamic>> countriesData = [
             {
                 "code":"LBP",
                 "name":"Lebanese pound",
-                "symbol":"\u0644.\u0644"
+                "symbol":"ل.ل"
             }
         ],
         "demonym":"Lebanese",
@@ -10380,13 +10502,13 @@ const List<Map<String, dynamic>> countriesData = [
                 "iso639_1":"ar",
                 "iso639_2":"ara",
                 "name":"Arabic",
-                "nativeName":"\u0627\u0644\u0639\u0631\u0628\u064a\u0629"
+                "nativeName":"العربية"
             },
             {
                 "iso639_1":"fr",
                 "iso639_2":"fra",
                 "name":"French",
-                "nativeName":"fran\u00e7ais"
+                "nativeName":"français"
             }
         ],
         "latlng":[
@@ -10394,7 +10516,7 @@ const List<Map<String, dynamic>> countriesData = [
             35.83333333
         ],
         "name":"Lebanon",
-        "nativeName":"\u0644\u0628\u0646\u0627\u0646",
+        "nativeName":"لبنان",
         "numericCode":"422",
         "population":5988000,
         "continent":"Asia",
@@ -10403,8 +10525,8 @@ const List<Map<String, dynamic>> countriesData = [
                 "acronym":"AL",
                 "name":"Arab League",
                 "otherNames":[
-                    "\u062c\u0627\u0645\u0639\u0629 \u0627\u0644\u062f\u0648\u0644 \u0627\u0644\u0639\u0631\u0628\u064a\u0629",
-                    "J\u0101mi\u02bbat ad-Duwal al-\u02bbArab\u012byah",
+                    "جامعة الدول العربية",
+                    "Jāmiʻat ad-Duwal al-ʻArabīyah",
                     "League of Arab States"
                 ]
             }
@@ -10417,17 +10539,18 @@ const List<Map<String, dynamic>> countriesData = [
             ".lb"
         ],
         "translations":{
-            "br":"L\u00edbano",
+            "br":"Líbano",
             "de":"Libanon",
-            "es":"L\u00edbano",
-            "fa":"\u0644\u0628\u0646\u0627\u0646",
+            "es":"Líbano",
+            "fa":"لبنان",
             "fr":"Liban",
             "hr":"Libanon",
             "it":"Libano",
-            "ja":"\u30ec\u30d0\u30ce\u30f3",
+            "ja":"レバノン",
             "nl":"Libanon",
-            "pt":"L\u00edbano",
-            "hu":"Libanon"
+            "pt":"Líbano",
+            "hu":"Libanon",
+            "ar":"لبنان"
         },
         "cioc":"LIB"
     },
@@ -10494,10 +10617,10 @@ const List<Map<String, dynamic>> countriesData = [
                 "acronym":"AU",
                 "name":"African Union",
                 "otherNames":[
-                    "\u0627\u0644\u0627\u062a\u062d\u0627\u062f \u0627\u0644\u0623\u0641\u0631\u064a\u0642\u064a",
+                    "الاتحاد الأفريقي",
                     "Union africaine",
-                    "Uni\u00e3o Africana",
-                    "Uni\u00f3n Africana",
+                    "União Africana",
+                    "Unión Africana",
                     "Umoja wa Afrika"
                 ]
             }
@@ -10513,14 +10636,15 @@ const List<Map<String, dynamic>> countriesData = [
             "br":"Lesoto",
             "de":"Lesotho",
             "es":"Lesotho",
-            "fa":"\u0644\u0633\u0648\u062a\u0648",
+            "fa":"لسوتو",
             "fr":"Lesotho",
             "hr":"Lesoto",
             "it":"Lesotho",
-            "ja":"\u30ec\u30bd\u30c8",
+            "ja":"レソト",
             "nl":"Lesotho",
             "pt":"Lesoto",
-            "hu":"Lesotho"
+            "hu":"Lesotho",
+            "ar":"ليسوتو"
         },
         "cioc":"LES"
     },
@@ -10577,10 +10701,10 @@ const List<Map<String, dynamic>> countriesData = [
                 "acronym":"AU",
                 "name":"African Union",
                 "otherNames":[
-                    "\u0627\u0644\u0627\u062a\u062d\u0627\u062f \u0627\u0644\u0623\u0641\u0631\u064a\u0642\u064a",
+                    "الاتحاد الأفريقي",
                     "Union africaine",
-                    "Uni\u00e3o Africana",
-                    "Uni\u00f3n Africana",
+                    "União Africana",
+                    "Unión Africana",
                     "Umoja wa Afrika"
                 ]
             }
@@ -10593,17 +10717,18 @@ const List<Map<String, dynamic>> countriesData = [
             ".lr"
         ],
         "translations":{
-            "br":"Lib\u00e9ria",
+            "br":"Libéria",
             "de":"Liberia",
             "es":"Liberia",
-            "fa":"\u0644\u06cc\u0628\u0631\u06cc\u0627",
+            "fa":"لیبریا",
             "fr":"Liberia",
             "hr":"Liberija",
             "it":"Liberia",
-            "ja":"\u30ea\u30d9\u30ea\u30a2",
+            "ja":"リベリア",
             "nl":"Liberia",
-            "pt":"Lib\u00e9ria",
-            "hu":"Lib\u00e9ria"
+            "pt":"Libéria",
+            "hu":"Libéria",
+            "ar":"ليبيريا"
         },
         "cioc":"LBR"
     },
@@ -10632,7 +10757,7 @@ const List<Map<String, dynamic>> countriesData = [
             {
                 "code":"LYD",
                 "name":"Libyan dinar",
-                "symbol":"\u0644.\u062f"
+                "symbol":"ل.د"
             }
         ],
         "demonym":"Libyan",
@@ -10647,7 +10772,7 @@ const List<Map<String, dynamic>> countriesData = [
                 "iso639_1":"ar",
                 "iso639_2":"ara",
                 "name":"Arabic",
-                "nativeName":"\u0627\u0644\u0639\u0631\u0628\u064a\u0629"
+                "nativeName":"العربية"
             }
         ],
         "latlng":[
@@ -10655,7 +10780,7 @@ const List<Map<String, dynamic>> countriesData = [
             17
         ],
         "name":"Libya",
-        "nativeName":"\u200f\u0644\u064a\u0628\u064a\u0627",
+        "nativeName":"‏ليبيا",
         "numericCode":"434",
         "population":6385000,
         "continent":"Africa",
@@ -10664,10 +10789,10 @@ const List<Map<String, dynamic>> countriesData = [
                 "acronym":"AU",
                 "name":"African Union",
                 "otherNames":[
-                    "\u0627\u0644\u0627\u062a\u062d\u0627\u062f \u0627\u0644\u0623\u0641\u0631\u064a\u0642\u064a",
+                    "الاتحاد الأفريقي",
                     "Union africaine",
-                    "Uni\u00e3o Africana",
-                    "Uni\u00f3n Africana",
+                    "União Africana",
+                    "Unión Africana",
                     "Umoja wa Afrika"
                 ]
             },
@@ -10675,8 +10800,8 @@ const List<Map<String, dynamic>> countriesData = [
                 "acronym":"AL",
                 "name":"Arab League",
                 "otherNames":[
-                    "\u062c\u0627\u0645\u0639\u0629 \u0627\u0644\u062f\u0648\u0644 \u0627\u0644\u0639\u0631\u0628\u064a\u0629",
-                    "J\u0101mi\u02bbat ad-Duwal al-\u02bbArab\u012byah",
+                    "جامعة الدول العربية",
+                    "Jāmiʻat ad-Duwal al-ʻArabīyah",
                     "League of Arab States"
                 ]
             }
@@ -10689,17 +10814,18 @@ const List<Map<String, dynamic>> countriesData = [
             ".ly"
         ],
         "translations":{
-            "br":"L\u00edbia",
+            "br":"Líbia",
             "de":"Libyen",
             "es":"Libia",
-            "fa":"\u0644\u06cc\u0628\u06cc",
+            "fa":"لیبی",
             "fr":"Libye",
             "hr":"Libija",
             "it":"Libia",
-            "ja":"\u30ea\u30d3\u30a2",
-            "nl":"Libi\u00eb",
-            "pt":"L\u00edbia",
-            "hu":"L\u00edbia"
+            "ja":"リビア",
+            "nl":"Libië",
+            "pt":"Líbia",
+            "hu":"Líbia",
+            "ar":"ليبيا"
         },
         "cioc":"LBA"
     },
@@ -10709,7 +10835,7 @@ const List<Map<String, dynamic>> countriesData = [
         "altSpellings":[
             "LI",
             "Principality of Liechtenstein",
-            "F\u00fcrstentum Liechtenstein"
+            "Fürstentum Liechtenstein"
         ],
         "area":160,
         "borders":[
@@ -10767,14 +10893,15 @@ const List<Map<String, dynamic>> countriesData = [
             "br":"Liechtenstein",
             "de":"Liechtenstein",
             "es":"Liechtenstein",
-            "fa":"\u0644\u06cc\u062e\u062a\u0646\u200c\u0627\u0634\u062a\u0627\u06cc\u0646",
+            "fa":"لیختن‌اشتاین",
             "fr":"Liechtenstein",
-            "hr":"Lihten\u0161tajn",
+            "hr":"Lihtenštajn",
             "it":"Liechtenstein",
-            "ja":"\u30ea\u30d2\u30c6\u30f3\u30b7\u30e5\u30bf\u30a4\u30f3",
+            "ja":"リヒテンシュタイン",
             "nl":"Liechtenstein",
             "pt":"Listenstaine",
-            "hu":"Liechtenstein"
+            "hu":"Liechtenstein",
+            "ar":"ليختنشتاين"
         },
         "cioc":"LIE"
     },
@@ -10801,7 +10928,7 @@ const List<Map<String, dynamic>> countriesData = [
             {
                 "code":"EUR",
                 "name":"Euro",
-                "symbol":"\u20ac"
+                "symbol":"€"
             }
         ],
         "demonym":"Lithuanian",
@@ -10816,7 +10943,7 @@ const List<Map<String, dynamic>> countriesData = [
                 "iso639_1":"lt",
                 "iso639_2":"lit",
                 "name":"Lithuanian",
-                "nativeName":"lietuvi\u0173 kalba"
+                "nativeName":"lietuvių kalba"
             }
         ],
         "latlng":[
@@ -10842,17 +10969,18 @@ const List<Map<String, dynamic>> countriesData = [
             ".lt"
         ],
         "translations":{
-            "br":"Litu\u00e2nia",
+            "br":"Lituânia",
             "de":"Litauen",
             "es":"Lituania",
-            "fa":"\u0644\u06cc\u062a\u0648\u0627\u0646\u06cc",
+            "fa":"لیتوانی",
             "fr":"Lituanie",
             "hr":"Litva",
             "it":"Lituania",
-            "ja":"\u30ea\u30c8\u30a2\u30cb\u30a2",
+            "ja":"リトアニア",
             "nl":"Litouwen",
-            "pt":"Litu\u00e2nia",
-            "hu":"Litv\u00e1nia"
+            "pt":"Lituânia",
+            "hu":"Litvánia",
+            "ar":"ليتوانيا"
         },
         "cioc":"LTU"
     },
@@ -10862,9 +10990,9 @@ const List<Map<String, dynamic>> countriesData = [
         "altSpellings":[
             "LU",
             "Grand Duchy of Luxembourg",
-            "Grand-Duch\u00e9 de Luxembourg",
-            "Gro\u00dfherzogtum Luxemburg",
-            "Groussherzogtum L\u00ebtzebuerg"
+            "Grand-Duché de Luxembourg",
+            "Großherzogtum Luxemburg",
+            "Groussherzogtum Lëtzebuerg"
         ],
         "area":2586,
         "borders":[
@@ -10880,7 +11008,7 @@ const List<Map<String, dynamic>> countriesData = [
             {
                 "code":"EUR",
                 "name":"Euro",
-                "symbol":"\u20ac"
+                "symbol":"€"
             }
         ],
         "demonym":"Luxembourger",
@@ -10895,7 +11023,7 @@ const List<Map<String, dynamic>> countriesData = [
                 "iso639_1":"fr",
                 "iso639_2":"fra",
                 "name":"French",
-                "nativeName":"fran\u00e7ais"
+                "nativeName":"français"
             },
             {
                 "iso639_1":"de",
@@ -10907,7 +11035,7 @@ const List<Map<String, dynamic>> countriesData = [
                 "iso639_1":"lb",
                 "iso639_2":"ltz",
                 "name":"Luxembourgish",
-                "nativeName":"L\u00ebtzebuergesch"
+                "nativeName":"Lëtzebuergesch"
             }
         ],
         "latlng":[
@@ -10936,14 +11064,15 @@ const List<Map<String, dynamic>> countriesData = [
             "br":"Luxemburgo",
             "de":"Luxemburg",
             "es":"Luxemburgo",
-            "fa":"\u0644\u0648\u06a9\u0632\u0627\u0645\u0628\u0648\u0631\u06af",
+            "fa":"لوکزامبورگ",
             "fr":"Luxembourg",
             "hr":"Luksemburg",
             "it":"Lussemburgo",
-            "ja":"\u30eb\u30af\u30bb\u30f3\u30d6\u30eb\u30af",
+            "ja":"ルクセンブルク",
             "nl":"Luxemburg",
             "pt":"Luxemburgo",
-            "hu":"Luxemburg"
+            "hu":"Luxemburg",
+            "ar":"لوكسمبورج"
         },
         "cioc":"LUX"
     },
@@ -10952,10 +11081,10 @@ const List<Map<String, dynamic>> countriesData = [
         "alpha3Code":"MAC",
         "altSpellings":[
             "MO",
-            "\u6fb3\u95e8",
+            "澳门",
             "Macao Special Administrative Region of the People's Republic of China",
-            "\u4e2d\u83ef\u4eba\u6c11\u5171\u548c\u570b\u6fb3\u9580\u7279\u5225\u884c\u653f\u5340",
-            "Regi\u00e3o Administrativa Especial de Macau da Rep\u00fablica Popular da China"
+            "中華人民共和國澳門特別行政區",
+            "Região Administrativa Especial de Macau da República Popular da China"
         ],
         "area":30,
         "borders":[
@@ -10983,13 +11112,13 @@ const List<Map<String, dynamic>> countriesData = [
                 "iso639_1":"zh",
                 "iso639_2":"zho",
                 "name":"Chinese",
-                "nativeName":"\u4e2d\u6587 (Zh\u014dngw\u00e9n)"
+                "nativeName":"中文 (Zhōngwén)"
             },
             {
                 "iso639_1":"pt",
                 "iso639_2":"por",
                 "name":"Portuguese",
-                "nativeName":"Portugu\u00eas"
+                "nativeName":"Português"
             }
         ],
         "latlng":[
@@ -10997,7 +11126,7 @@ const List<Map<String, dynamic>> countriesData = [
             113.55
         ],
         "name":"Macao",
-        "nativeName":"\u6fb3\u9580",
+        "nativeName":"澳門",
         "numericCode":"446",
         "population":649100,
         "continent":"Asia",
@@ -11015,14 +11144,15 @@ const List<Map<String, dynamic>> countriesData = [
             "br":"Macau",
             "de":"Macao",
             "es":"Macao",
-            "fa":"\u0645\u06a9\u0627\u0626\u0648",
+            "fa":"مکائو",
             "fr":"Macao",
             "hr":"Makao",
             "it":"Macao",
-            "ja":"\u30de\u30ab\u30aa",
+            "ja":"マカオ",
             "nl":"Macao",
             "pt":"Macau",
-            "hu":"Maka\u00f3"
+            "hu":"Makaó",
+            "ar":"ماكاو الصينية"
         },
         "cioc":""
     },
@@ -11032,7 +11162,7 @@ const List<Map<String, dynamic>> countriesData = [
         "altSpellings":[
             "MK",
             "Republic of Macedonia",
-            "\u0420\u0435\u043f\u0443\u0431\u043b\u0438\u043a\u0430 \u041c\u0430\u043a\u0435\u0434\u043e\u043d\u0438\u0458\u0430"
+            "Република Македонија"
         ],
         "area":25713,
         "borders":[
@@ -11050,7 +11180,7 @@ const List<Map<String, dynamic>> countriesData = [
             {
                 "code":"MKD",
                 "name":"Macedonian denar",
-                "symbol":"\u0434\u0435\u043d"
+                "symbol":"ден"
             }
         ],
         "demonym":"Macedonian",
@@ -11065,7 +11195,7 @@ const List<Map<String, dynamic>> countriesData = [
                 "iso639_1":"mk",
                 "iso639_2":"mkd",
                 "name":"Macedonian",
-                "nativeName":"\u043c\u0430\u043a\u0435\u0434\u043e\u043d\u0441\u043a\u0438 \u0458\u0430\u0437\u0438\u043a"
+                "nativeName":"македонски јазик"
             }
         ],
         "latlng":[
@@ -11073,7 +11203,7 @@ const List<Map<String, dynamic>> countriesData = [
             22
         ],
         "name":"Macedonia (the former Yugoslav Republic of)",
-        "nativeName":"\u041c\u0430\u043a\u0435\u0434\u043e\u043d\u0438\u0458\u0430",
+        "nativeName":"Македонија",
         "numericCode":"807",
         "population":2058539,
         "continent":"Europe",
@@ -11091,17 +11221,18 @@ const List<Map<String, dynamic>> countriesData = [
             ".mk"
         ],
         "translations":{
-            "br":"Maced\u00f4nia",
+            "br":"Macedônia",
             "de":"Mazedonien",
             "es":"Macedonia",
             "fa":"",
-            "fr":"Mac\u00e9doine",
+            "fr":"Macédoine",
             "hr":"Makedonija",
             "it":"Macedonia",
-            "ja":"\u30de\u30b1\u30c9\u30cb\u30a2\u65e7\u30e6\u30fc\u30b4\u30b9\u30e9\u30d3\u30a2\u5171\u548c\u56fd",
-            "nl":"Macedoni\u00eb",
-            "pt":"Maced\u00f3nia",
-            "hu":"Maced\u00f3nia"
+            "ja":"マケドニア旧ユーゴスラビア共和国",
+            "nl":"Macedonië",
+            "pt":"Macedónia",
+            "hu":"Macedónia",
+            "ar":"مقدونيا"
         },
         "cioc":"MKD"
     },
@@ -11112,7 +11243,7 @@ const List<Map<String, dynamic>> countriesData = [
             "MG",
             "Republic of Madagascar",
             "Repoblikan'i Madagasikara",
-            "R\u00e9publique de Madagascar"
+            "République de Madagascar"
         ],
         "area":587041,
         "borders":[
@@ -11141,7 +11272,7 @@ const List<Map<String, dynamic>> countriesData = [
                 "iso639_1":"fr",
                 "iso639_2":"fra",
                 "name":"French",
-                "nativeName":"fran\u00e7ais"
+                "nativeName":"français"
             },
             {
                 "iso639_1":"mg",
@@ -11164,10 +11295,10 @@ const List<Map<String, dynamic>> countriesData = [
                 "acronym":"AU",
                 "name":"African Union",
                 "otherNames":[
-                    "\u0627\u0644\u0627\u062a\u062d\u0627\u062f \u0627\u0644\u0623\u0641\u0631\u064a\u0642\u064a",
+                    "الاتحاد الأفريقي",
                     "Union africaine",
-                    "Uni\u00e3o Africana",
-                    "Uni\u00f3n Africana",
+                    "União Africana",
+                    "Unión Africana",
                     "Umoja wa Afrika"
                 ]
             }
@@ -11183,14 +11314,15 @@ const List<Map<String, dynamic>> countriesData = [
             "br":"Madagascar",
             "de":"Madagaskar",
             "es":"Madagascar",
-            "fa":"\u0645\u0627\u062f\u0627\u06af\u0627\u0633\u06a9\u0627\u0631",
+            "fa":"ماداگاسکار",
             "fr":"Madagascar",
             "hr":"Madagaskar",
             "it":"Madagascar",
-            "ja":"\u30de\u30c0\u30ac\u30b9\u30ab\u30eb",
+            "ja":"マダガスカル",
             "nl":"Madagaskar",
-            "pt":"Madag\u00e1scar",
-            "hu":"Madagaszk\u00e1r"
+            "pt":"Madagáscar",
+            "hu":"Madagaszkár",
+            "ar":"مدغشقر"
         },
         "cioc":"MAD"
     },
@@ -11236,7 +11368,7 @@ const List<Map<String, dynamic>> countriesData = [
                 "iso639_1":"ny",
                 "iso639_2":"nya",
                 "name":"Chichewa",
-                "nativeName":"chiChe\u0175a"
+                "nativeName":"chiCheŵa"
             }
         ],
         "latlng":[
@@ -11253,10 +11385,10 @@ const List<Map<String, dynamic>> countriesData = [
                 "acronym":"AU",
                 "name":"African Union",
                 "otherNames":[
-                    "\u0627\u0644\u0627\u062a\u062d\u0627\u062f \u0627\u0644\u0623\u0641\u0631\u064a\u0642\u064a",
+                    "الاتحاد الأفريقي",
                     "Union africaine",
-                    "Uni\u00e3o Africana",
-                    "Uni\u00f3n Africana",
+                    "União Africana",
+                    "Unión Africana",
                     "Umoja wa Afrika"
                 ]
             }
@@ -11272,14 +11404,15 @@ const List<Map<String, dynamic>> countriesData = [
             "br":"Malawi",
             "de":"Malawi",
             "es":"Malawi",
-            "fa":"\u0645\u0627\u0644\u0627\u0648\u06cc",
+            "fa":"مالاوی",
             "fr":"Malawi",
             "hr":"Malavi",
             "it":"Malawi",
-            "ja":"\u30de\u30e9\u30a6\u30a4",
+            "ja":"マラウイ",
             "nl":"Malawi",
-            "pt":"Mal\u00e1vi",
-            "hu":"Malawi"
+            "pt":"Malávi",
+            "hu":"Malawi",
+            "ar":"ملاوي"
         },
         "cioc":"MAW"
     },
@@ -11318,7 +11451,7 @@ const List<Map<String, dynamic>> countriesData = [
                 "iso639_1":"ms",
                 "iso639_2":"zsm",
                 "name":"Malaysian",
-                "nativeName":"\u0628\u0647\u0627\u0633 \u0645\u0644\u064a\u0633\u064a\u0627"
+                "nativeName":"بهاس مليسيا"
             }
         ],
         "latlng":[
@@ -11344,17 +11477,18 @@ const List<Map<String, dynamic>> countriesData = [
             ".my"
         ],
         "translations":{
-            "br":"Mal\u00e1sia",
+            "br":"Malásia",
             "de":"Malaysia",
             "es":"Malasia",
-            "fa":"\u0645\u0627\u0644\u0632\u06cc",
+            "fa":"مالزی",
             "fr":"Malaisie",
             "hr":"Malezija",
             "it":"Malesia",
-            "ja":"\u30de\u30ec\u30fc\u30b7\u30a2",
-            "nl":"Maleisi\u00eb",
-            "pt":"Mal\u00e1sia",
-            "hu":"Malajzia"
+            "ja":"マレーシア",
+            "nl":"Maleisië",
+            "pt":"Malásia",
+            "hu":"Malajzia",
+            "ar":"ماليزيا"
         },
         "cioc":"MAS"
     },
@@ -11374,12 +11508,12 @@ const List<Map<String, dynamic>> countriesData = [
         "callingCodes":[
             "960"
         ],
-        "capital":"Mal\u00e9",
+        "capital":"Malé",
         "currencies":[
             {
                 "code":"MVR",
                 "name":"Maldivian rufiyaa",
-                "symbol":".\u0783"
+                "symbol":".ރ"
             }
         ],
         "demonym":"Maldivan",
@@ -11394,7 +11528,7 @@ const List<Map<String, dynamic>> countriesData = [
                 "iso639_1":"dv",
                 "iso639_2":"div",
                 "name":"Divehi",
-                "nativeName":"\u078b\u07a8\u0788\u07ac\u0780\u07a8"
+                "nativeName":"ދިވެހި"
             }
         ],
         "latlng":[
@@ -11423,14 +11557,15 @@ const List<Map<String, dynamic>> countriesData = [
             "br":"Maldivas",
             "de":"Malediven",
             "es":"Maldivas",
-            "fa":"\u0645\u0627\u0644\u062f\u06cc\u0648",
+            "fa":"مالدیو",
             "fr":"Maldives",
             "hr":"Maldivi",
             "it":"Maldive",
-            "ja":"\u30e2\u30eb\u30c7\u30a3\u30d6",
+            "ja":"モルディブ",
             "nl":"Maldiven",
             "pt":"Maldivas",
-            "hu":"Mald\u00edv-szigetek"
+            "hu":"Maldív-szigetek",
+            "ar":"جزر الملديف"
         },
         "cioc":"MDV"
     },
@@ -11440,7 +11575,7 @@ const List<Map<String, dynamic>> countriesData = [
         "altSpellings":[
             "ML",
             "Republic of Mali",
-            "R\u00e9publique du Mali"
+            "République du Mali"
         ],
         "area":1240192,
         "borders":[
@@ -11475,7 +11610,7 @@ const List<Map<String, dynamic>> countriesData = [
                 "iso639_1":"fr",
                 "iso639_2":"fra",
                 "name":"French",
-                "nativeName":"fran\u00e7ais"
+                "nativeName":"français"
             }
         ],
         "latlng":[
@@ -11492,10 +11627,10 @@ const List<Map<String, dynamic>> countriesData = [
                 "acronym":"AU",
                 "name":"African Union",
                 "otherNames":[
-                    "\u0627\u0644\u0627\u062a\u062d\u0627\u062f \u0627\u0644\u0623\u0641\u0631\u064a\u0642\u064a",
+                    "الاتحاد الأفريقي",
                     "Union africaine",
-                    "Uni\u00e3o Africana",
-                    "Uni\u00f3n Africana",
+                    "União Africana",
+                    "Unión Africana",
                     "Umoja wa Afrika"
                 ]
             }
@@ -11511,14 +11646,15 @@ const List<Map<String, dynamic>> countriesData = [
             "br":"Mali",
             "de":"Mali",
             "es":"Mali",
-            "fa":"\u0645\u0627\u0644\u06cc",
+            "fa":"مالی",
             "fr":"Mali",
             "hr":"Mali",
             "it":"Mali",
-            "ja":"\u30de\u30ea",
+            "ja":"マリ",
             "nl":"Mali",
             "pt":"Mali",
-            "hu":"Mali"
+            "hu":"Mali",
+            "ar":"مالي"
         },
         "cioc":"MLI"
     },
@@ -11542,7 +11678,7 @@ const List<Map<String, dynamic>> countriesData = [
             {
                 "code":"EUR",
                 "name":"Euro",
-                "symbol":"\u20ac"
+                "symbol":"€"
             }
         ],
         "demonym":"Maltese",
@@ -11592,14 +11728,15 @@ const List<Map<String, dynamic>> countriesData = [
             "br":"Malta",
             "de":"Malta",
             "es":"Malta",
-            "fa":"\u0645\u0627\u0644\u062a",
+            "fa":"مالت",
             "fr":"Malte",
             "hr":"Malta",
             "it":"Malta",
-            "ja":"\u30de\u30eb\u30bf",
+            "ja":"マルタ",
             "nl":"Malta",
             "pt":"Malta",
-            "hu":"M\u00e1lta"
+            "hu":"Málta",
+            "ar":"مالطا"
         },
         "cioc":"MLT"
     },
@@ -11609,7 +11746,7 @@ const List<Map<String, dynamic>> countriesData = [
         "altSpellings":[
             "MH",
             "Republic of the Marshall Islands",
-            "Aolep\u0101n Aor\u014dkin M\u0327aje\u013c"
+            "Aolepān Aorōkin M̧ajeļ"
         ],
         "area":181,
         "borders":[
@@ -11643,7 +11780,7 @@ const List<Map<String, dynamic>> countriesData = [
                 "iso639_1":"mh",
                 "iso639_2":"mah",
                 "name":"Marshallese",
-                "nativeName":"Kajin M\u0327aje\u013c"
+                "nativeName":"Kajin M̧ajeļ"
             }
         ],
         "latlng":[
@@ -11651,7 +11788,7 @@ const List<Map<String, dynamic>> countriesData = [
             168
         ],
         "name":"Marshall Islands",
-        "nativeName":"M\u0327aje\u013c",
+        "nativeName":"M̧ajeļ",
         "numericCode":"584",
         "population":54880,
         "continent":"Oceania",
@@ -11669,14 +11806,15 @@ const List<Map<String, dynamic>> countriesData = [
             "br":"Ilhas Marshall",
             "de":"Marshallinseln",
             "es":"Islas Marshall",
-            "fa":"\u062c\u0632\u0627\u06cc\u0631 \u0645\u0627\u0631\u0634\u0627\u0644",
-            "fr":"\u00celes Marshall",
-            "hr":"Mar\u0161alovi Otoci",
+            "fa":"جزایر مارشال",
+            "fr":"Îles Marshall",
+            "hr":"Maršalovi Otoci",
             "it":"Isole Marshall",
-            "ja":"\u30de\u30fc\u30b7\u30e3\u30eb\u8af8\u5cf6",
+            "ja":"マーシャル諸島",
             "nl":"Marshalleilanden",
             "pt":"Ilhas Marshall",
-            "hu":"Marshall-szigetek"
+            "hu":"Marshall-szigetek",
+            "ar":"جزر المارشال"
         },
         "cioc":"MHL"
     },
@@ -11697,7 +11835,7 @@ const List<Map<String, dynamic>> countriesData = [
             {
                 "code":"EUR",
                 "name":"Euro",
-                "symbol":"\u20ac"
+                "symbol":"€"
             }
         ],
         "demonym":"French",
@@ -11711,7 +11849,7 @@ const List<Map<String, dynamic>> countriesData = [
                 "iso639_1":"fr",
                 "iso639_2":"fra",
                 "name":"French",
-                "nativeName":"fran\u00e7ais"
+                "nativeName":"français"
             }
         ],
         "latlng":[
@@ -11737,14 +11875,15 @@ const List<Map<String, dynamic>> countriesData = [
             "br":"Martinica",
             "de":"Martinique",
             "es":"Martinica",
-            "fa":"\u0645\u0648\u0646\u062a\u0633\u0631\u0627\u062a",
+            "fa":"مونتسرات",
             "fr":"Martinique",
             "hr":"Martinique",
             "it":"Martinica",
-            "ja":"\u30de\u30eb\u30c6\u30a3\u30cb\u30fc\u30af",
+            "ja":"マルティニーク",
             "nl":"Martinique",
             "pt":"Martinica",
-            "hu":"Martinique"
+            "hu":"Martinique",
+            "ar":"مارتينيك"
         },
         "cioc":""
     },
@@ -11754,7 +11893,7 @@ const List<Map<String, dynamic>> countriesData = [
         "altSpellings":[
             "MR",
             "Islamic Republic of Mauritania",
-            "al-Jumh\u016briyyah al-\u02beIsl\u0101miyyah al-M\u016br\u012bt\u0101niyyah"
+            "al-Jumhūriyyah al-ʾIslāmiyyah al-Mūrītāniyyah"
         ],
         "area":1030700,
         "borders":[
@@ -11786,7 +11925,7 @@ const List<Map<String, dynamic>> countriesData = [
                 "iso639_1":"ar",
                 "iso639_2":"ara",
                 "name":"Arabic",
-                "nativeName":"\u0627\u0644\u0639\u0631\u0628\u064a\u0629"
+                "nativeName":"العربية"
             }
         ],
         "latlng":[
@@ -11794,7 +11933,7 @@ const List<Map<String, dynamic>> countriesData = [
             -12
         ],
         "name":"Mauritania",
-        "nativeName":"\u0645\u0648\u0631\u064a\u062a\u0627\u0646\u064a\u0627",
+        "nativeName":"موريتانيا",
         "numericCode":"478",
         "population":3718678,
         "continent":"Africa",
@@ -11803,10 +11942,10 @@ const List<Map<String, dynamic>> countriesData = [
                 "acronym":"AU",
                 "name":"African Union",
                 "otherNames":[
-                    "\u0627\u0644\u0627\u062a\u062d\u0627\u062f \u0627\u0644\u0623\u0641\u0631\u064a\u0642\u064a",
+                    "الاتحاد الأفريقي",
                     "Union africaine",
-                    "Uni\u00e3o Africana",
-                    "Uni\u00f3n Africana",
+                    "União Africana",
+                    "Unión Africana",
                     "Umoja wa Afrika"
                 ]
             },
@@ -11814,8 +11953,8 @@ const List<Map<String, dynamic>> countriesData = [
                 "acronym":"AL",
                 "name":"Arab League",
                 "otherNames":[
-                    "\u062c\u0627\u0645\u0639\u0629 \u0627\u0644\u062f\u0648\u0644 \u0627\u0644\u0639\u0631\u0628\u064a\u0629",
-                    "J\u0101mi\u02bbat ad-Duwal al-\u02bbArab\u012byah",
+                    "جامعة الدول العربية",
+                    "Jāmiʻat ad-Duwal al-ʻArabīyah",
                     "League of Arab States"
                 ]
             }
@@ -11828,17 +11967,18 @@ const List<Map<String, dynamic>> countriesData = [
             ".mr"
         ],
         "translations":{
-            "br":"Maurit\u00e2nia",
+            "br":"Mauritânia",
             "de":"Mauretanien",
             "es":"Mauritania",
-            "fa":"\u0645\u0648\u0631\u06cc\u062a\u0627\u0646\u06cc",
+            "fa":"موریتانی",
             "fr":"Mauritanie",
             "hr":"Mauritanija",
             "it":"Mauritania",
-            "ja":"\u30e2\u30fc\u30ea\u30bf\u30cb\u30a2",
-            "nl":"Mauritani\u00eb",
-            "pt":"Maurit\u00e2nia",
-            "hu":"Maurit\u00e1nia"
+            "ja":"モーリタニア",
+            "nl":"Mauritanië",
+            "pt":"Mauritânia",
+            "hu":"Mauritánia",
+            "ar":"موريتانيا"
         },
         "cioc":"MTN"
     },
@@ -11848,7 +11988,7 @@ const List<Map<String, dynamic>> countriesData = [
         "altSpellings":[
             "MU",
             "Republic of Mauritius",
-            "R\u00e9publique de Maurice"
+            "République de Maurice"
         ],
         "area":2040,
         "borders":[
@@ -11862,7 +12002,7 @@ const List<Map<String, dynamic>> countriesData = [
             {
                 "code":"MUR",
                 "name":"Mauritian rupee",
-                "symbol":"\u20a8"
+                "symbol":"₨"
             }
         ],
         "demonym":"Mauritian",
@@ -11894,10 +12034,10 @@ const List<Map<String, dynamic>> countriesData = [
                 "acronym":"AU",
                 "name":"African Union",
                 "otherNames":[
-                    "\u0627\u0644\u0627\u062a\u062d\u0627\u062f \u0627\u0644\u0623\u0641\u0631\u064a\u0642\u064a",
+                    "الاتحاد الأفريقي",
                     "Union africaine",
-                    "Uni\u00e3o Africana",
-                    "Uni\u00f3n Africana",
+                    "União Africana",
+                    "Unión Africana",
                     "Umoja wa Afrika"
                 ]
             }
@@ -11910,17 +12050,18 @@ const List<Map<String, dynamic>> countriesData = [
             ".mu"
         ],
         "translations":{
-            "br":"Maur\u00edcio",
+            "br":"Maurício",
             "de":"Mauritius",
             "es":"Mauricio",
-            "fa":"\u0645\u0648\u0631\u06cc\u0633",
-            "fr":"\u00cele Maurice",
+            "fa":"موریس",
+            "fr":"Île Maurice",
             "hr":"Mauricijus",
             "it":"Mauritius",
-            "ja":"\u30e2\u30fc\u30ea\u30b7\u30e3\u30b9",
+            "ja":"モーリシャス",
             "nl":"Mauritius",
-            "pt":"Maur\u00edcia",
-            "hu":"Mauritius"
+            "pt":"Maurícia",
+            "hu":"Mauritius",
+            "ar":"موريشيوس"
         },
         "cioc":"MRI"
     },
@@ -11930,7 +12071,7 @@ const List<Map<String, dynamic>> countriesData = [
         "altSpellings":[
             "YT",
             "Department of Mayotte",
-            "D\u00e9partement de Mayotte"
+            "Département de Mayotte"
         ],
         "borders":[
             
@@ -11943,7 +12084,7 @@ const List<Map<String, dynamic>> countriesData = [
             {
                 "code":"EUR",
                 "name":"Euro",
-                "symbol":"\u20ac"
+                "symbol":"€"
             }
         ],
         "demonym":"French",
@@ -11957,7 +12098,7 @@ const List<Map<String, dynamic>> countriesData = [
                 "iso639_1":"fr",
                 "iso639_2":"fra",
                 "name":"French",
-                "nativeName":"fran\u00e7ais"
+                "nativeName":"français"
             }
         ],
         "latlng":[
@@ -11974,10 +12115,10 @@ const List<Map<String, dynamic>> countriesData = [
                 "acronym":"AU",
                 "name":"African Union",
                 "otherNames":[
-                    "\u0627\u0644\u0627\u062a\u062d\u0627\u062f \u0627\u0644\u0623\u0641\u0631\u064a\u0642\u064a",
+                    "الاتحاد الأفريقي",
                     "Union africaine",
-                    "Uni\u00e3o Africana",
-                    "Uni\u00f3n Africana",
+                    "União Africana",
+                    "Unión Africana",
                     "Umoja wa Afrika"
                 ]
             }
@@ -11993,14 +12134,15 @@ const List<Map<String, dynamic>> countriesData = [
             "br":"Mayotte",
             "de":"Mayotte",
             "es":"Mayotte",
-            "fa":"\u0645\u0627\u06cc\u0648\u062a",
+            "fa":"مایوت",
             "fr":"Mayotte",
             "hr":"Mayotte",
             "it":"Mayotte",
-            "ja":"\u30de\u30e8\u30c3\u30c8",
+            "ja":"マヨット",
             "nl":"Mayotte",
             "pt":"Mayotte",
-            "hu":"Mayotte"
+            "hu":"Mayotte",
+            "ar":"مايوت"
         },
         "cioc":""
     },
@@ -12042,7 +12184,7 @@ const List<Map<String, dynamic>> countriesData = [
                 "iso639_1":"es",
                 "iso639_2":"spa",
                 "name":"Spanish",
-                "nativeName":"Espa\u00f1ol"
+                "nativeName":"Español"
             }
         ],
         "latlng":[
@@ -12050,7 +12192,7 @@ const List<Map<String, dynamic>> countriesData = [
             -102
         ],
         "name":"Mexico",
-        "nativeName":"M\u00e9xico",
+        "nativeName":"México",
         "numericCode":"484",
         "population":122273473,
         "continent":"Americas",
@@ -12059,15 +12201,15 @@ const List<Map<String, dynamic>> countriesData = [
                 "acronym":"PA",
                 "name":"Pacific Alliance",
                 "otherNames":[
-                    "Alianza del Pac\u00edfico"
+                    "Alianza del Pacífico"
                 ]
             },
             {
                 "acronym":"NAFTA",
                 "name":"North American Free Trade Agreement",
                 "otherNames":[
-                    "Tratado de Libre Comercio de Am\u00e9rica del Norte",
-                    "Accord de Libre-\u00e9change Nord-Am\u00e9ricain"
+                    "Tratado de Libre Comercio de América del Norte",
+                    "Accord de Libre-échange Nord-Américain"
                 ]
             }
         ],
@@ -12081,17 +12223,18 @@ const List<Map<String, dynamic>> countriesData = [
             ".mx"
         ],
         "translations":{
-            "br":"M\u00e9xico",
+            "br":"México",
             "de":"Mexiko",
-            "es":"M\u00e9xico",
-            "fa":"\u0645\u06a9\u0632\u06cc\u06a9",
+            "es":"México",
+            "fa":"مکزیک",
             "fr":"Mexique",
             "hr":"Meksiko",
             "it":"Messico",
-            "ja":"\u30e1\u30ad\u30b7\u30b3",
+            "ja":"メキシコ",
             "nl":"Mexico",
-            "pt":"M\u00e9xico",
-            "hu":"Mexik\u00f3"
+            "pt":"México",
+            "hu":"Mexikó",
+            "ar":"المكسيك"
         },
         "cioc":"MEX"
     },
@@ -12152,17 +12295,18 @@ const List<Map<String, dynamic>> countriesData = [
             ".fm"
         ],
         "translations":{
-            "br":"Micron\u00e9sia",
+            "br":"Micronésia",
             "de":"Mikronesien",
             "es":"Micronesia",
-            "fa":"\u0627\u06cc\u0627\u0644\u0627\u062a \u0641\u062f\u0631\u0627\u0644 \u0645\u06cc\u06a9\u0631\u0648\u0646\u0632\u06cc",
-            "fr":"Micron\u00e9sie",
+            "fa":"ایالات فدرال میکرونزی",
+            "fr":"Micronésie",
             "hr":"Mikronezija",
             "it":"Micronesia",
-            "ja":"\u30df\u30af\u30ed\u30cd\u30b7\u30a2\u9023\u90a6",
-            "nl":"Micronesi\u00eb",
-            "pt":"Micron\u00e9sia",
-            "hu":"Mikron\u00e9zia"
+            "ja":"ミクロネシア連邦",
+            "nl":"Micronesië",
+            "pt":"Micronésia",
+            "hu":"Mikronézia",
+            "ar":"ميكرونيزيا"
         },
         "cioc":"FSM"
     },
@@ -12182,7 +12326,7 @@ const List<Map<String, dynamic>> countriesData = [
         "callingCodes":[
             "373"
         ],
-        "capital":"Chi\u0219in\u0103u",
+        "capital":"Chișinău",
         "currencies":[
             {
                 "code":"MDL",
@@ -12202,7 +12346,7 @@ const List<Map<String, dynamic>> countriesData = [
                 "iso639_1":"ro",
                 "iso639_2":"ron",
                 "name":"Romanian",
-                "nativeName":"Rom\u00e2n\u0103"
+                "nativeName":"Română"
             }
         ],
         "latlng":[
@@ -12228,17 +12372,18 @@ const List<Map<String, dynamic>> countriesData = [
             ".md"
         ],
         "translations":{
-            "br":"Mold\u00e1via",
+            "br":"Moldávia",
             "de":"Moldawie",
             "es":"Moldavia",
-            "fa":"\u0645\u0648\u0644\u062f\u0627\u0648\u06cc",
+            "fa":"مولداوی",
             "fr":"Moldavie",
             "hr":"Moldova",
             "it":"Moldavia",
-            "ja":"\u30e2\u30eb\u30c9\u30d0\u5171\u548c\u56fd",
-            "nl":"Moldavi\u00eb",
-            "pt":"Mold\u00e1via",
-            "hu":"Moldova"
+            "ja":"モルドバ共和国",
+            "nl":"Moldavië",
+            "pt":"Moldávia",
+            "hu":"Moldova",
+            "ar":"مولدافيا"
         },
         "cioc":"MDA"
     },
@@ -12248,7 +12393,7 @@ const List<Map<String, dynamic>> countriesData = [
         "altSpellings":[
             "MC",
             "Principality of Monaco",
-            "Principaut\u00e9 de Monaco"
+            "Principauté de Monaco"
         ],
         "area":2.02,
         "borders":[
@@ -12262,7 +12407,7 @@ const List<Map<String, dynamic>> countriesData = [
             {
                 "code":"EUR",
                 "name":"Euro",
-                "symbol":"\u20ac"
+                "symbol":"€"
             }
         ],
         "demonym":"Monegasque",
@@ -12276,7 +12421,7 @@ const List<Map<String, dynamic>> countriesData = [
                 "iso639_1":"fr",
                 "iso639_2":"fra",
                 "name":"French",
-                "nativeName":"fran\u00e7ais"
+                "nativeName":"français"
             }
         ],
         "latlng":[
@@ -12299,17 +12444,18 @@ const List<Map<String, dynamic>> countriesData = [
             ".mc"
         ],
         "translations":{
-            "br":"M\u00f4naco",
+            "br":"Mônaco",
             "de":"Monaco",
-            "es":"M\u00f3naco",
-            "fa":"\u0645\u0648\u0646\u0627\u06a9\u0648",
+            "es":"Mónaco",
+            "fa":"موناکو",
             "fr":"Monaco",
             "hr":"Monako",
             "it":"Principato di Monaco",
-            "ja":"\u30e2\u30ca\u30b3",
+            "ja":"モナコ",
             "nl":"Monaco",
-            "pt":"M\u00f3naco",
-            "hu":"Monaco"
+            "pt":"Mónaco",
+            "hu":"Monaco",
+            "ar":"موناكو"
         },
         "cioc":"MON"
     },
@@ -12331,8 +12477,8 @@ const List<Map<String, dynamic>> countriesData = [
         "currencies":[
             {
                 "code":"MNT",
-                "name":"Mongolian t\u00f6gr\u00f6g",
-                "symbol":"\u20ae"
+                "name":"Mongolian tögrög",
+                "symbol":"₮"
             }
         ],
         "demonym":"Mongolian",
@@ -12347,7 +12493,7 @@ const List<Map<String, dynamic>> countriesData = [
                 "iso639_1":"mn",
                 "iso639_2":"mon",
                 "name":"Mongolian",
-                "nativeName":"\u041c\u043e\u043d\u0433\u043e\u043b \u0445\u044d\u043b"
+                "nativeName":"Монгол хэл"
             }
         ],
         "latlng":[
@@ -12355,7 +12501,7 @@ const List<Map<String, dynamic>> countriesData = [
             105
         ],
         "name":"Mongolia",
-        "nativeName":"\u041c\u043e\u043d\u0433\u043e\u043b \u0443\u043b\u0441",
+        "nativeName":"Монгол улс",
         "numericCode":"496",
         "population":3093100,
         "continent":"Asia",
@@ -12371,17 +12517,18 @@ const List<Map<String, dynamic>> countriesData = [
             ".mn"
         ],
         "translations":{
-            "br":"Mong\u00f3lia",
+            "br":"Mongólia",
             "de":"Mongolei",
             "es":"Mongolia",
-            "fa":"\u0645\u063a\u0648\u0644\u0633\u062a\u0627\u0646",
+            "fa":"مغولستان",
             "fr":"Mongolie",
             "hr":"Mongolija",
             "it":"Mongolia",
-            "ja":"\u30e2\u30f3\u30b4\u30eb",
-            "nl":"Mongoli\u00eb",
-            "pt":"Mong\u00f3lia",
-            "hu":"Mong\u00f3lia"
+            "ja":"モンゴル",
+            "nl":"Mongolië",
+            "pt":"Mongólia",
+            "hu":"Mongólia",
+            "ar":"منغوليا"
         },
         "cioc":"MGL"
     },
@@ -12408,7 +12555,7 @@ const List<Map<String, dynamic>> countriesData = [
             {
                 "code":"EUR",
                 "name":"Euro",
-                "symbol":"\u20ac"
+                "symbol":"€"
             }
         ],
         "demonym":"Montenegrin",
@@ -12423,7 +12570,7 @@ const List<Map<String, dynamic>> countriesData = [
                 "iso639_1":"sr",
                 "iso639_2":"srp",
                 "name":"Serbian",
-                "nativeName":"\u0441\u0440\u043f\u0441\u043a\u0438 \u0458\u0435\u0437\u0438\u043a"
+                "nativeName":"српски језик"
             },
             {
                 "iso639_1":"bs",
@@ -12449,7 +12596,7 @@ const List<Map<String, dynamic>> countriesData = [
             19.3
         ],
         "name":"Montenegro",
-        "nativeName":"\u0426\u0440\u043d\u0430 \u0413\u043e\u0440\u0430",
+        "nativeName":"Црна Гора",
         "numericCode":"499",
         "population":621810,
         "continent":"Europe",
@@ -12470,14 +12617,15 @@ const List<Map<String, dynamic>> countriesData = [
             "br":"Montenegro",
             "de":"Montenegro",
             "es":"Montenegro",
-            "fa":"\u0645\u0648\u0646\u062a\u0647\u200c\u0646\u06af\u0631\u0648",
-            "fr":"Mont\u00e9n\u00e9gro",
+            "fa":"مونته‌نگرو",
+            "fr":"Monténégro",
             "hr":"Crna Gora",
             "it":"Montenegro",
-            "ja":"\u30e2\u30f3\u30c6\u30cd\u30b0\u30ed",
+            "ja":"モンテネグロ",
             "nl":"Montenegro",
             "pt":"Montenegro",
-            "hu":"Montenegr\u00f3"
+            "hu":"Montenegró",
+            "ar":"الجبل الأسود"
         },
         "cioc":"MNE"
     },
@@ -12531,7 +12679,7 @@ const List<Map<String, dynamic>> countriesData = [
                 "name":"Caribbean Community",
                 "otherNames":[
                     "Comunidad del Caribe",
-                    "Communaut\u00e9 Carib\u00e9enne",
+                    "Communauté Caribéenne",
                     "Caribische Gemeenschap"
                 ]
             }
@@ -12547,14 +12695,15 @@ const List<Map<String, dynamic>> countriesData = [
             "br":"Montserrat",
             "de":"Montserrat",
             "es":"Montserrat",
-            "fa":"\u0645\u0627\u06cc\u0648\u062a",
+            "fa":"مایوت",
             "fr":"Montserrat",
             "hr":"Montserrat",
             "it":"Montserrat",
-            "ja":"\u30e2\u30f3\u30c8\u30bb\u30e9\u30c8",
+            "ja":"モントセラト",
             "nl":"Montserrat",
             "pt":"Monserrate",
-            "hu":"Montserrat"
+            "hu":"Montserrat",
+            "ar":"مونتسرات"
         },
         "cioc":""
     },
@@ -12564,7 +12713,7 @@ const List<Map<String, dynamic>> countriesData = [
         "altSpellings":[
             "MA",
             "Kingdom of Morocco",
-            "Al-Mamlakah al-Ma\u0121ribiyah"
+            "Al-Mamlakah al-Maġribiyah"
         ],
         "area":446550,
         "borders":[
@@ -12580,7 +12729,7 @@ const List<Map<String, dynamic>> countriesData = [
             {
                 "code":"MAD",
                 "name":"Moroccan dirham",
-                "symbol":"\u062f.\u0645."
+                "symbol":"د.م."
             }
         ],
         "demonym":"Moroccan",
@@ -12595,7 +12744,7 @@ const List<Map<String, dynamic>> countriesData = [
                 "iso639_1":"ar",
                 "iso639_2":"ara",
                 "name":"Arabic",
-                "nativeName":"\u0627\u0644\u0639\u0631\u0628\u064a\u0629"
+                "nativeName":"العربية"
             }
         ],
         "latlng":[
@@ -12603,7 +12752,7 @@ const List<Map<String, dynamic>> countriesData = [
             -5
         ],
         "name":"Morocco",
-        "nativeName":"\u0627\u0644\u0645\u063a\u0631\u0628",
+        "nativeName":"المغرب",
         "numericCode":"504",
         "population":33337529,
         "continent":"Africa",
@@ -12612,10 +12761,10 @@ const List<Map<String, dynamic>> countriesData = [
                 "acronym":"AU",
                 "name":"African Union",
                 "otherNames":[
-                    "\u0627\u0644\u0627\u062a\u062d\u0627\u062f \u0627\u0644\u0623\u0641\u0631\u064a\u0642\u064a",
+                    "الاتحاد الأفريقي",
                     "Union africaine",
-                    "Uni\u00e3o Africana",
-                    "Uni\u00f3n Africana",
+                    "União Africana",
+                    "Unión Africana",
                     "Umoja wa Afrika"
                 ]
             },
@@ -12623,8 +12772,8 @@ const List<Map<String, dynamic>> countriesData = [
                 "acronym":"AL",
                 "name":"Arab League",
                 "otherNames":[
-                    "\u062c\u0627\u0645\u0639\u0629 \u0627\u0644\u062f\u0648\u0644 \u0627\u0644\u0639\u0631\u0628\u064a\u0629",
-                    "J\u0101mi\u02bbat ad-Duwal al-\u02bbArab\u012byah",
+                    "جامعة الدول العربية",
+                    "Jāmiʻat ad-Duwal al-ʻArabīyah",
                     "League of Arab States"
                 ]
             }
@@ -12640,14 +12789,15 @@ const List<Map<String, dynamic>> countriesData = [
             "br":"Marrocos",
             "de":"Marokko",
             "es":"Marruecos",
-            "fa":"\u0627\u0644\u0645\u063a\u0631\u0628",
+            "fa":"المغرب",
             "fr":"Maroc",
             "hr":"Maroko",
             "it":"Marocco",
-            "ja":"\u30e2\u30ed\u30c3\u30b3",
+            "ja":"モロッコ",
             "nl":"Marokko",
             "pt":"Marrocos",
-            "hu":"Marokk\u00f3"
+            "hu":"Marokkó",
+            "ar":"المغرب"
         },
         "cioc":"MAR"
     },
@@ -12657,7 +12807,7 @@ const List<Map<String, dynamic>> countriesData = [
         "altSpellings":[
             "MZ",
             "Republic of Mozambique",
-            "Rep\u00fablica de Mo\u00e7ambique"
+            "República de Moçambique"
         ],
         "area":801590,
         "borders":[
@@ -12691,7 +12841,7 @@ const List<Map<String, dynamic>> countriesData = [
                 "iso639_1":"pt",
                 "iso639_2":"por",
                 "name":"Portuguese",
-                "nativeName":"Portugu\u00eas"
+                "nativeName":"Português"
             }
         ],
         "latlng":[
@@ -12699,7 +12849,7 @@ const List<Map<String, dynamic>> countriesData = [
             35
         ],
         "name":"Mozambique",
-        "nativeName":"Mo\u00e7ambique",
+        "nativeName":"Moçambique",
         "numericCode":"508",
         "population":26423700,
         "continent":"Africa",
@@ -12708,10 +12858,10 @@ const List<Map<String, dynamic>> countriesData = [
                 "acronym":"AU",
                 "name":"African Union",
                 "otherNames":[
-                    "\u0627\u0644\u0627\u062a\u062d\u0627\u062f \u0627\u0644\u0623\u0641\u0631\u064a\u0642\u064a",
+                    "الاتحاد الأفريقي",
                     "Union africaine",
-                    "Uni\u00e3o Africana",
-                    "Uni\u00f3n Africana",
+                    "União Africana",
+                    "Unión Africana",
                     "Umoja wa Afrika"
                 ]
             }
@@ -12724,17 +12874,18 @@ const List<Map<String, dynamic>> countriesData = [
             ".mz"
         ],
         "translations":{
-            "br":"Mo\u00e7ambique",
+            "br":"Moçambique",
             "de":"Mosambik",
             "es":"Mozambique",
-            "fa":"\u0645\u0648\u0632\u0627\u0645\u0628\u06cc\u06a9",
+            "fa":"موزامبیک",
             "fr":"Mozambique",
             "hr":"Mozambik",
             "it":"Mozambico",
-            "ja":"\u30e2\u30b6\u30f3\u30d3\u30fc\u30af",
+            "ja":"モザンビーク",
             "nl":"Mozambique",
-            "pt":"Mo\u00e7ambique",
-            "hu":"Mozambik"
+            "pt":"Moçambique",
+            "hu":"Mozambik",
+            "ar":"موزمبيق"
         },
         "cioc":"MOZ"
     },
@@ -12745,7 +12896,7 @@ const List<Map<String, dynamic>> countriesData = [
             "MM",
             "Burma",
             "Republic of the Union of Myanmar",
-            "Pyidaunzu Thanm\u0103da My\u0103ma Nainngandaw"
+            "Pyidaunzu Thanmăda Myăma Nainngandaw"
         ],
         "area":676578,
         "borders":[
@@ -12778,7 +12929,7 @@ const List<Map<String, dynamic>> countriesData = [
                 "iso639_1":"my",
                 "iso639_2":"mya",
                 "name":"Burmese",
-                "nativeName":"\u1017\u1019\u102c\u1005\u102c"
+                "nativeName":"ဗမာစာ"
             }
         ],
         "latlng":[
@@ -12807,14 +12958,15 @@ const List<Map<String, dynamic>> countriesData = [
             "br":"Myanmar",
             "de":"Myanmar",
             "es":"Myanmar",
-            "fa":"\u0645\u06cc\u0627\u0646\u0645\u0627\u0631",
+            "fa":"میانمار",
             "fr":"Myanmar",
             "hr":"Mijanmar",
             "it":"Birmania",
-            "ja":"\u30df\u30e3\u30f3\u30de\u30fc",
+            "ja":"ミャンマー",
             "nl":"Myanmar",
             "pt":"Myanmar",
-            "hu":"Mianmar"
+            "hu":"Mianmar",
+            "ar":"ميانمار"
         },
         "cioc":"MYA"
     },
@@ -12823,7 +12975,7 @@ const List<Map<String, dynamic>> countriesData = [
         "alpha3Code":"NAM",
         "altSpellings":[
             "NA",
-            "Namibi\u00eb",
+            "Namibië",
             "Republic of Namibia"
         ],
         "area":825615,
@@ -12884,10 +13036,10 @@ const List<Map<String, dynamic>> countriesData = [
                 "acronym":"AU",
                 "name":"African Union",
                 "otherNames":[
-                    "\u0627\u0644\u0627\u062a\u062d\u0627\u062f \u0627\u0644\u0623\u0641\u0631\u064a\u0642\u064a",
+                    "الاتحاد الأفريقي",
                     "Union africaine",
-                    "Uni\u00e3o Africana",
-                    "Uni\u00f3n Africana",
+                    "União Africana",
+                    "Unión Africana",
                     "Umoja wa Afrika"
                 ]
             }
@@ -12900,17 +13052,18 @@ const List<Map<String, dynamic>> countriesData = [
             ".na"
         ],
         "translations":{
-            "br":"Nam\u00edbia",
+            "br":"Namíbia",
             "de":"Namibia",
             "es":"Namibia",
-            "fa":"\u0646\u0627\u0645\u06cc\u0628\u06cc\u0627",
+            "fa":"نامیبیا",
             "fr":"Namibie",
             "hr":"Namibija",
             "it":"Namibia",
-            "ja":"\u30ca\u30df\u30d3\u30a2",
-            "nl":"Namibi\u00eb",
-            "pt":"Nam\u00edbia",
-            "hu":"Nam\u00edbia"
+            "ja":"ナミビア",
+            "nl":"Namibië",
+            "pt":"Namíbia",
+            "hu":"Namíbia",
+            "ar":"ناميبيا"
         },
         "cioc":"NAM"
     },
@@ -12982,14 +13135,15 @@ const List<Map<String, dynamic>> countriesData = [
             "br":"Nauru",
             "de":"Nauru",
             "es":"Nauru",
-            "fa":"\u0646\u0627\u0626\u0648\u0631\u0648",
+            "fa":"نائورو",
             "fr":"Nauru",
             "hr":"Nauru",
             "it":"Nauru",
-            "ja":"\u30ca\u30a6\u30eb",
+            "ja":"ナウル",
             "nl":"Nauru",
             "pt":"Nauru",
-            "hu":"Nauru"
+            "hu":"Nauru",
+            "ar":"نورو"
         },
         "cioc":"NRU"
     },
@@ -12999,7 +13153,7 @@ const List<Map<String, dynamic>> countriesData = [
         "altSpellings":[
             "NP",
             "Federal Democratic Republic of Nepal",
-            "Lokt\u0101ntrik Ganatantra Nep\u0101l"
+            "Loktāntrik Ganatantra Nepāl"
         ],
         "area":147181,
         "borders":[
@@ -13014,7 +13168,7 @@ const List<Map<String, dynamic>> countriesData = [
             {
                 "code":"NPR",
                 "name":"Nepalese rupee",
-                "symbol":"\u20a8"
+                "symbol":"₨"
             }
         ],
         "demonym":"Nepalese",
@@ -13029,7 +13183,7 @@ const List<Map<String, dynamic>> countriesData = [
                 "iso639_1":"ne",
                 "iso639_2":"nep",
                 "name":"Nepali",
-                "nativeName":"\u0928\u0947\u092a\u093e\u0932\u0940"
+                "nativeName":"नेपाली"
             }
         ],
         "latlng":[
@@ -13037,7 +13191,7 @@ const List<Map<String, dynamic>> countriesData = [
             84
         ],
         "name":"Nepal",
-        "nativeName":"\u0928\u0947\u092a\u093e\u0932",
+        "nativeName":"नेपाल",
         "numericCode":"524",
         "population":28431500,
         "continent":"Asia",
@@ -13056,16 +13210,17 @@ const List<Map<String, dynamic>> countriesData = [
         ],
         "translations":{
             "br":"Nepal",
-            "de":"N\u00e9pal",
+            "de":"Népal",
             "es":"Nepal",
-            "fa":"\u0646\u067e\u0627\u0644",
-            "fr":"N\u00e9pal",
+            "fa":"نپال",
+            "fr":"Népal",
             "hr":"Nepal",
             "it":"Nepal",
-            "ja":"\u30cd\u30d1\u30fc\u30eb",
+            "ja":"ネパール",
             "nl":"Nepal",
             "pt":"Nepal",
-            "hu":"Nep\u00e1l"
+            "hu":"Nepál",
+            "ar":"نيبال"
         },
         "cioc":"NEP"
     },
@@ -13090,7 +13245,7 @@ const List<Map<String, dynamic>> countriesData = [
             {
                 "code":"EUR",
                 "name":"Euro",
-                "symbol":"\u20ac"
+                "symbol":"€"
             }
         ],
         "demonym":"Dh",
@@ -13134,15 +13289,16 @@ const List<Map<String, dynamic>> countriesData = [
         "translations":{
             "br":"Holanda",
             "de":"Niederlande",
-            "es":"Pa\u00edses Bajos",
-            "fa":"\u067e\u0627\u062f\u0634\u0627\u0647\u06cc \u0647\u0644\u0646\u062f",
+            "es":"Países Bajos",
+            "fa":"پادشاهی هلند",
             "fr":"Pays-Bas",
             "hr":"Nizozemska",
             "it":"Paesi Bassi",
-            "ja":"\u30aa\u30e9\u30f3\u30c0",
+            "ja":"オランダ",
             "nl":"Nederland",
-            "pt":"Pa\u00edses Baixos",
-            "hu":"Hollandia"
+            "pt":"Países Baixos",
+            "hu":"Hollandia",
+            "ar":"هولندا"
         },
         "cioc":"NED"
     },
@@ -13159,7 +13315,7 @@ const List<Map<String, dynamic>> countriesData = [
         "callingCodes":[
             "687"
         ],
-        "capital":"Noum\u00e9a",
+        "capital":"Nouméa",
         "currencies":[
             {
                 "code":"XPF",
@@ -13178,7 +13334,7 @@ const List<Map<String, dynamic>> countriesData = [
                 "iso639_1":"fr",
                 "iso639_2":"fra",
                 "name":"French",
-                "nativeName":"fran\u00e7ais"
+                "nativeName":"français"
             }
         ],
         "latlng":[
@@ -13186,7 +13342,7 @@ const List<Map<String, dynamic>> countriesData = [
             165.5
         ],
         "name":"New Caledonia",
-        "nativeName":"Nouvelle-Cal\u00e9donie",
+        "nativeName":"Nouvelle-Calédonie",
         "numericCode":"540",
         "population":268767,
         "continent":"Oceania",
@@ -13201,17 +13357,18 @@ const List<Map<String, dynamic>> countriesData = [
             ".nc"
         ],
         "translations":{
-            "br":"Nova Caled\u00f4nia",
+            "br":"Nova Caledônia",
             "de":"Neukaledonien",
             "es":"Nueva Caledonia",
-            "fa":"\u06a9\u0627\u0644\u062f\u0648\u0646\u06cc\u0627\u06cc \u062c\u062f\u06cc\u062f",
-            "fr":"Nouvelle-Cal\u00e9donie",
+            "fa":"کالدونیای جدید",
+            "fr":"Nouvelle-Calédonie",
             "hr":"Nova Kaledonija",
             "it":"Nuova Caledonia",
-            "ja":"\u30cb\u30e5\u30fc\u30ab\u30ec\u30c9\u30cb\u30a2",
-            "nl":"Nieuw-Caledoni\u00eb",
-            "pt":"Nova Caled\u00f3nia",
-            "hu":"\u00daj-Kaled\u00f3nia"
+            "ja":"ニューカレドニア",
+            "nl":"Nieuw-Caledonië",
+            "pt":"Nova Caledónia",
+            "hu":"Új-Kaledónia",
+            "ar":"كاليدونيا الجديدة"
         },
         "cioc":""
     },
@@ -13254,8 +13411,8 @@ const List<Map<String, dynamic>> countriesData = [
             {
                 "iso639_1":"mi",
                 "iso639_2":"mri",
-                "name":"M\u0101ori",
-                "nativeName":"te reo M\u0101ori"
+                "name":"Māori",
+                "nativeName":"te reo Māori"
             }
         ],
         "latlng":[
@@ -13282,17 +13439,18 @@ const List<Map<String, dynamic>> countriesData = [
             ".nz"
         ],
         "translations":{
-            "br":"Nova Zel\u00e2ndia",
+            "br":"Nova Zelândia",
             "de":"Neuseeland",
             "es":"Nueva Zelanda",
-            "fa":"\u0646\u06cc\u0648\u0632\u06cc\u0644\u0646\u062f",
-            "fr":"Nouvelle-Z\u00e9lande",
+            "fa":"نیوزیلند",
+            "fr":"Nouvelle-Zélande",
             "hr":"Novi Zeland",
             "it":"Nuova Zelanda",
-            "ja":"\u30cb\u30e5\u30fc\u30b8\u30fc\u30e9\u30f3\u30c9",
+            "ja":"ニュージーランド",
             "nl":"Nieuw-Zeeland",
-            "pt":"Nova Zel\u00e2ndia",
-            "hu":"\u00daj-Z\u00e9land"
+            "pt":"Nova Zelândia",
+            "hu":"Új-Zéland",
+            "ar":"نيوزيلاندا"
         },
         "cioc":"NZL"
     },
@@ -13302,7 +13460,7 @@ const List<Map<String, dynamic>> countriesData = [
         "altSpellings":[
             "NI",
             "Republic of Nicaragua",
-            "Rep\u00fablica de Nicaragua"
+            "República de Nicaragua"
         ],
         "area":130373,
         "borders":[
@@ -13316,7 +13474,7 @@ const List<Map<String, dynamic>> countriesData = [
         "currencies":[
             {
                 "code":"NIO",
-                "name":"Nicaraguan c\u00f3rdoba",
+                "name":"Nicaraguan córdoba",
                 "symbol":"C\$"
             }
         ],
@@ -13332,7 +13490,7 @@ const List<Map<String, dynamic>> countriesData = [
                 "iso639_1":"es",
                 "iso639_2":"spa",
                 "name":"Spanish",
-                "nativeName":"Espa\u00f1ol"
+                "nativeName":"Español"
             }
         ],
         "latlng":[
@@ -13352,7 +13510,7 @@ const List<Map<String, dynamic>> countriesData = [
                     "SICA"
                 ],
                 "otherNames":[
-                    "Sistema de la Integraci\u00f3n Centroamericana,"
+                    "Sistema de la Integración Centroamericana,"
                 ]
             }
         ],
@@ -13364,17 +13522,18 @@ const List<Map<String, dynamic>> countriesData = [
             ".ni"
         ],
         "translations":{
-            "br":"Nicar\u00e1gua",
+            "br":"Nicarágua",
             "de":"Nicaragua",
             "es":"Nicaragua",
-            "fa":"\u0646\u06cc\u06a9\u0627\u0631\u0627\u06af\u0648\u0626\u0647",
+            "fa":"نیکاراگوئه",
             "fr":"Nicaragua",
             "hr":"Nikaragva",
             "it":"Nicaragua",
-            "ja":"\u30cb\u30ab\u30e9\u30b0\u30a2",
+            "ja":"ニカラグア",
             "nl":"Nicaragua",
-            "pt":"Nicar\u00e1gua",
-            "hu":"Nicaragua"
+            "pt":"Nicarágua",
+            "hu":"Nicaragua",
+            "ar":"نيكاراجوا"
         },
         "cioc":"NCA"
     },
@@ -13385,7 +13544,7 @@ const List<Map<String, dynamic>> countriesData = [
             "NE",
             "Nijar",
             "Republic of Niger",
-            "R\u00e9publique du Niger"
+            "République du Niger"
         ],
         "area":1267000,
         "borders":[
@@ -13420,7 +13579,7 @@ const List<Map<String, dynamic>> countriesData = [
                 "iso639_1":"fr",
                 "iso639_2":"fra",
                 "name":"French",
-                "nativeName":"fran\u00e7ais"
+                "nativeName":"français"
             }
         ],
         "latlng":[
@@ -13437,10 +13596,10 @@ const List<Map<String, dynamic>> countriesData = [
                 "acronym":"AU",
                 "name":"African Union",
                 "otherNames":[
-                    "\u0627\u0644\u0627\u062a\u062d\u0627\u062f \u0627\u0644\u0623\u0641\u0631\u064a\u0642\u064a",
+                    "الاتحاد الأفريقي",
                     "Union africaine",
-                    "Uni\u00e3o Africana",
-                    "Uni\u00f3n Africana",
+                    "União Africana",
+                    "Unión Africana",
                     "Umoja wa Afrika"
                 ]
             }
@@ -13453,17 +13612,18 @@ const List<Map<String, dynamic>> countriesData = [
             ".ne"
         ],
         "translations":{
-            "br":"N\u00edger",
+            "br":"Níger",
             "de":"Niger",
-            "es":"N\u00edger",
-            "fa":"\u0646\u06cc\u062c\u0631",
+            "es":"Níger",
+            "fa":"نیجر",
             "fr":"Niger",
             "hr":"Niger",
             "it":"Niger",
-            "ja":"\u30cb\u30b8\u30a7\u30fc\u30eb",
+            "ja":"ニジェール",
             "nl":"Niger",
-            "pt":"N\u00edger",
-            "hu":"Niger"
+            "pt":"Níger",
+            "hu":"Niger",
+            "ar":"النيجر"
         },
         "cioc":"NIG"
     },
@@ -13473,7 +13633,7 @@ const List<Map<String, dynamic>> countriesData = [
         "altSpellings":[
             "NG",
             "Nijeriya",
-            "Na\u00edj\u00edr\u00ed\u00e0",
+            "Naíjíríà",
             "Federal Republic of Nigeria"
         ],
         "area":923768,
@@ -13491,7 +13651,7 @@ const List<Map<String, dynamic>> countriesData = [
             {
                 "code":"NGN",
                 "name":"Nigerian naira",
-                "symbol":"\u20a6"
+                "symbol":"₦"
             }
         ],
         "demonym":"Nigerian",
@@ -13523,10 +13683,10 @@ const List<Map<String, dynamic>> countriesData = [
                 "acronym":"AU",
                 "name":"African Union",
                 "otherNames":[
-                    "\u0627\u0644\u0627\u062a\u062d\u0627\u062f \u0627\u0644\u0623\u0641\u0631\u064a\u0642\u064a",
+                    "الاتحاد الأفريقي",
                     "Union africaine",
-                    "Uni\u00e3o Africana",
-                    "Uni\u00f3n Africana",
+                    "União Africana",
+                    "Unión Africana",
                     "Umoja wa Afrika"
                 ]
             }
@@ -13539,17 +13699,18 @@ const List<Map<String, dynamic>> countriesData = [
             ".ng"
         ],
         "translations":{
-            "br":"Nig\u00e9ria",
+            "br":"Nigéria",
             "de":"Nigeria",
             "es":"Nigeria",
-            "fa":"\u0646\u06cc\u062c\u0631\u06cc\u0647",
-            "fr":"Nig\u00e9ria",
+            "fa":"نیجریه",
+            "fr":"Nigéria",
             "hr":"Nigerija",
             "it":"Nigeria",
-            "ja":"\u30ca\u30a4\u30b8\u30a7\u30ea\u30a2",
+            "ja":"ナイジェリア",
             "nl":"Nigeria",
-            "pt":"Nig\u00e9ria",
-            "hu":"Nig\u00e9ria"
+            "pt":"Nigéria",
+            "hu":"Nigéria",
+            "ar":"نيجيريا"
         },
         "cioc":"NGR"
     },
@@ -13598,7 +13759,7 @@ const List<Map<String, dynamic>> countriesData = [
             -169.86666666
         ],
         "name":"Niue",
-        "nativeName":"Niu\u0113",
+        "nativeName":"Niuē",
         "numericCode":"570",
         "population":1470,
         "continent":"Oceania",
@@ -13616,14 +13777,15 @@ const List<Map<String, dynamic>> countriesData = [
             "br":"Niue",
             "de":"Niue",
             "es":"Niue",
-            "fa":"\u0646\u06cc\u0648\u0648\u06cc",
+            "fa":"نیووی",
             "fr":"Niue",
             "hr":"Niue",
             "it":"Niue",
-            "ja":"\u30cb\u30a6\u30a8",
+            "ja":"ニウエ",
             "nl":"Niue",
             "pt":"Niue",
-            "hu":"Niue"
+            "hu":"Niue",
+            "ar":"نيوي"
         },
         "cioc":""
     },
@@ -13687,14 +13849,15 @@ const List<Map<String, dynamic>> countriesData = [
             "br":"Ilha Norfolk",
             "de":"Norfolkinsel",
             "es":"Isla de Norfolk",
-            "fa":"\u062c\u0632\u06cc\u0631\u0647 \u0646\u0648\u0631\u0641\u06a9",
-            "fr":"\u00cele de Norfolk",
+            "fa":"جزیره نورفک",
+            "fr":"Île de Norfolk",
             "hr":"Otok Norfolk",
             "it":"Isola Norfolk",
-            "ja":"\u30ce\u30fc\u30d5\u30a9\u30fc\u30af\u5cf6",
+            "ja":"ノーフォーク島",
             "nl":"Norfolkeiland",
             "pt":"Ilha Norfolk",
-            "hu":"Norfolk-sziget"
+            "hu":"Norfolk-sziget",
+            "ar":"جزيرة نورفوك"
         },
         "cioc":""
     },
@@ -13704,8 +13867,8 @@ const List<Map<String, dynamic>> countriesData = [
         "altSpellings":[
             "KP",
             "Democratic People's Republic of Korea",
-            "\uc870\uc120\ubbfc\uc8fc\uc8fc\uc758\uc778\ubbfc\uacf5\ud654\uad6d",
-            "Chos\u014fn Minjuju\u016di Inmin Konghwaguk"
+            "조선민주주의인민공화국",
+            "Chosŏn Minjujuŭi Inmin Konghwaguk"
         ],
         "area":120538,
         "borders":[
@@ -13721,7 +13884,7 @@ const List<Map<String, dynamic>> countriesData = [
             {
                 "code":"KPW",
                 "name":"North Korean won",
-                "symbol":"\u20a9"
+                "symbol":"₩"
             }
         ],
         "demonym":"North Korean",
@@ -13736,7 +13899,7 @@ const List<Map<String, dynamic>> countriesData = [
                 "iso639_1":"ko",
                 "iso639_2":"kor",
                 "name":"Korean",
-                "nativeName":"\ud55c\uad6d\uc5b4"
+                "nativeName":"한국어"
             }
         ],
         "latlng":[
@@ -13744,7 +13907,7 @@ const List<Map<String, dynamic>> countriesData = [
             127
         ],
         "name":"Korea (Democratic People's Republic of)",
-        "nativeName":"\ubd81\ud55c",
+        "nativeName":"북한",
         "numericCode":"408",
         "population":25281000,
         "continent":"Asia",
@@ -13762,14 +13925,15 @@ const List<Map<String, dynamic>> countriesData = [
             "br":"Coreia do Norte",
             "de":"Nordkorea",
             "es":"Corea del Norte",
-            "fa":"\u06a9\u0631\u0647 \u062c\u0646\u0648\u0628\u06cc",
-            "fr":"Cor\u00e9e du Nord",
+            "fa":"کره جنوبی",
+            "fr":"Corée du Nord",
             "hr":"Sjeverna Koreja",
             "it":"Corea del Nord",
-            "ja":"\u671d\u9bae\u6c11\u4e3b\u4e3b\u7fa9\u4eba\u6c11\u5171\u548c\u56fd",
+            "ja":"朝鮮民主主義人民共和国",
             "nl":"Noord-Korea",
             "pt":"Coreia do Norte",
-            "hu":"\u00c9szak-Korea"
+            "hu":"Észak-Korea",
+            "ar":"كوريا الشمالية"
         },
         "cioc":"PRK"
     },
@@ -13779,7 +13943,7 @@ const List<Map<String, dynamic>> countriesData = [
         "altSpellings":[
             "MP",
             "Commonwealth of the Northern Mariana Islands",
-            "Sankattan Siha Na Islas Mari\u00e5nas"
+            "Sankattan Siha Na Islas Mariånas"
         ],
         "area":464,
         "borders":[
@@ -13837,16 +14001,17 @@ const List<Map<String, dynamic>> countriesData = [
         ],
         "translations":{
             "br":"Ilhas Marianas",
-            "de":"N\u00f6rdliche Marianen",
+            "de":"Nördliche Marianen",
             "es":"Islas Marianas del Norte",
-            "fa":"\u062c\u0632\u0627\u06cc\u0631 \u0645\u0627\u0631\u06cc\u0627\u0646\u0627\u06cc \u0634\u0645\u0627\u0644\u06cc",
-            "fr":"\u00celes Mariannes du Nord",
+            "fa":"جزایر ماریانای شمالی",
+            "fr":"Îles Mariannes du Nord",
             "hr":"Sjevernomarijanski otoci",
             "it":"Isole Marianne Settentrionali",
-            "ja":"\u5317\u30de\u30ea\u30a2\u30ca\u8af8\u5cf6",
+            "ja":"北マリアナ諸島",
             "nl":"Noordelijke Marianeneilanden",
             "pt":"Ilhas Marianas",
-            "hu":"\u00c9szaki-Mariana-szigetek"
+            "hu":"Északi-Mariana-szigetek",
+            "ar":"جزر ماريانا الشمالية"
         },
         "cioc":""
     },
@@ -13895,8 +14060,8 @@ const List<Map<String, dynamic>> countriesData = [
             {
                 "iso639_1":"nb",
                 "iso639_2":"nob",
-                "name":"Norwegian Bokm\u00e5l",
-                "nativeName":"Norsk bokm\u00e5l"
+                "name":"Norwegian Bokmål",
+                "nativeName":"Norsk bokmål"
             },
             {
                 "iso639_1":"nn",
@@ -13931,14 +14096,15 @@ const List<Map<String, dynamic>> countriesData = [
             "br":"Noruega",
             "de":"Norwegen",
             "es":"Noruega",
-            "fa":"\u0646\u0631\u0648\u0698",
-            "fr":"Norv\u00e8ge",
-            "hr":"Norve\u0161ka",
+            "fa":"نروژ",
+            "fr":"Norvège",
+            "hr":"Norveška",
             "it":"Norvegia",
-            "ja":"\u30ce\u30eb\u30a6\u30a7\u30fc",
+            "ja":"ノルウェー",
             "nl":"Noorwegen",
             "pt":"Noruega",
-            "hu":"Norv\u00e9gia"
+            "hu":"Norvégia",
+            "ar":"النرويج"
         },
         "cioc":"NOR"
     },
@@ -13948,7 +14114,7 @@ const List<Map<String, dynamic>> countriesData = [
         "altSpellings":[
             "OM",
             "Sultanate of Oman",
-            "Sal\u1e6danat \u02bbUm\u0101n"
+            "Salṭanat ʻUmān"
         ],
         "area":309500,
         "borders":[
@@ -13964,7 +14130,7 @@ const List<Map<String, dynamic>> countriesData = [
             {
                 "code":"OMR",
                 "name":"Omani rial",
-                "symbol":"\u0631.\u0639."
+                "symbol":"ر.ع."
             }
         ],
         "demonym":"Omani",
@@ -13979,7 +14145,7 @@ const List<Map<String, dynamic>> countriesData = [
                 "iso639_1":"ar",
                 "iso639_2":"ara",
                 "name":"Arabic",
-                "nativeName":"\u0627\u0644\u0639\u0631\u0628\u064a\u0629"
+                "nativeName":"العربية"
             }
         ],
         "latlng":[
@@ -13987,7 +14153,7 @@ const List<Map<String, dynamic>> countriesData = [
             57
         ],
         "name":"Oman",
-        "nativeName":"\u0639\u0645\u0627\u0646",
+        "nativeName":"عمان",
         "numericCode":"512",
         "population":4420133,
         "continent":"Asia",
@@ -13996,8 +14162,8 @@ const List<Map<String, dynamic>> countriesData = [
                 "acronym":"AL",
                 "name":"Arab League",
                 "otherNames":[
-                    "\u062c\u0627\u0645\u0639\u0629 \u0627\u0644\u062f\u0648\u0644 \u0627\u0644\u0639\u0631\u0628\u064a\u0629",
-                    "J\u0101mi\u02bbat ad-Duwal al-\u02bbArab\u012byah",
+                    "جامعة الدول العربية",
+                    "Jāmiʻat ad-Duwal al-ʻArabīyah",
                     "League of Arab States"
                 ]
             }
@@ -14010,17 +14176,18 @@ const List<Map<String, dynamic>> countriesData = [
             ".om"
         ],
         "translations":{
-            "br":"Om\u00e3",
+            "br":"Omã",
             "de":"Oman",
-            "es":"Om\u00e1n",
-            "fa":"\u0639\u0645\u0627\u0646",
+            "es":"Omán",
+            "fa":"عمان",
             "fr":"Oman",
             "hr":"Oman",
             "it":"oman",
-            "ja":"\u30aa\u30de\u30fc\u30f3",
+            "ja":"オマーン",
             "nl":"Oman",
-            "pt":"Om\u00e3",
-            "hu":"Om\u00e1n"
+            "pt":"Omã",
+            "hu":"Omán",
+            "ar":"عمان"
         },
         "cioc":"OMA"
     },
@@ -14029,9 +14196,9 @@ const List<Map<String, dynamic>> countriesData = [
         "alpha3Code":"PAK",
         "altSpellings":[
             "PK",
-            "P\u0101kist\u0101n",
+            "Pākistān",
             "Islamic Republic of Pakistan",
-            "Isl\u0101m\u012b Jumh\u016briya'eh P\u0101kist\u0101n"
+            "Islāmī Jumhūriya'eh Pākistān"
         ],
         "area":881912,
         "borders":[
@@ -14048,7 +14215,7 @@ const List<Map<String, dynamic>> countriesData = [
             {
                 "code":"PKR",
                 "name":"Pakistani rupee",
-                "symbol":"\u20a8"
+                "symbol":"₨"
             }
         ],
         "demonym":"Pakistani",
@@ -14063,7 +14230,7 @@ const List<Map<String, dynamic>> countriesData = [
                 "iso639_1":"ur",
                 "iso639_2":"urd",
                 "name":"Urdu",
-                "nativeName":"\u0627\u0631\u062f\u0648"
+                "nativeName":"اردو"
             },
             {
                 "iso639_1":"en",
@@ -14095,17 +14262,18 @@ const List<Map<String, dynamic>> countriesData = [
             ".pk"
         ],
         "translations":{
-            "br":"Paquist\u00e3o",
+            "br":"Paquistão",
             "de":"Pakistan",
-            "es":"Pakist\u00e1n",
-            "fa":"\u067e\u0627\u06a9\u0633\u062a\u0627\u0646",
+            "es":"Pakistán",
+            "fa":"پاکستان",
             "fr":"Pakistan",
             "hr":"Pakistan",
             "it":"Pakistan",
-            "ja":"\u30d1\u30ad\u30b9\u30bf\u30f3",
+            "ja":"パキスタン",
             "nl":"Pakistan",
-            "pt":"Paquist\u00e3o",
-            "hu":"Pakiszt\u00e1n"
+            "pt":"Paquistão",
+            "hu":"Pakisztán",
+            "ar":"باكستان"
         },
         "cioc":"PAK"
     },
@@ -14169,14 +14337,15 @@ const List<Map<String, dynamic>> countriesData = [
             "br":"Palau",
             "de":"Palau",
             "es":"Palau",
-            "fa":"\u067e\u0627\u0644\u0627\u0626\u0648",
+            "fa":"پالائو",
             "fr":"Palaos",
             "hr":"Palau",
             "it":"Palau",
-            "ja":"\u30d1\u30e9\u30aa",
+            "ja":"パラオ",
             "nl":"Palau",
             "pt":"Palau",
-            "hu":"Palau"
+            "hu":"Palau",
+            "ar":"بالاو"
         },
         "cioc":"PLW"
     },
@@ -14186,7 +14355,7 @@ const List<Map<String, dynamic>> countriesData = [
         "altSpellings":[
             "PS",
             "State of Palestine",
-            "Dawlat Filas\u1e6din"
+            "Dawlat Filasṭin"
         ],
         "borders":[
             "ISR",
@@ -14201,7 +14370,7 @@ const List<Map<String, dynamic>> countriesData = [
             {
                 "code":"ILS",
                 "name":"Israeli new sheqel",
-                "symbol":"\u20aa"
+                "symbol":"₪"
             }
         ],
         "demonym":"Palestinian",
@@ -14216,7 +14385,7 @@ const List<Map<String, dynamic>> countriesData = [
                 "iso639_1":"ar",
                 "iso639_2":"ara",
                 "name":"Arabic",
-                "nativeName":"\u0627\u0644\u0639\u0631\u0628\u064a\u0629"
+                "nativeName":"العربية"
             }
         ],
         "latlng":[
@@ -14224,7 +14393,7 @@ const List<Map<String, dynamic>> countriesData = [
             35.2
         ],
         "name":"Palestine, State of",
-        "nativeName":"\u0641\u0644\u0633\u0637\u064a\u0646",
+        "nativeName":"فلسطين",
         "numericCode":"275",
         "population":4682467,
         "continent":"Asia",
@@ -14233,8 +14402,8 @@ const List<Map<String, dynamic>> countriesData = [
                 "acronym":"AL",
                 "name":"Arab League",
                 "otherNames":[
-                    "\u062c\u0627\u0645\u0639\u0629 \u0627\u0644\u062f\u0648\u0644 \u0627\u0644\u0639\u0631\u0628\u064a\u0629",
-                    "J\u0101mi\u02bbat ad-Duwal al-\u02bbArab\u012byah",
+                    "جامعة الدول العربية",
+                    "Jāmiʻat ad-Duwal al-ʻArabīyah",
                     "League of Arab States"
                 ]
             }
@@ -14248,16 +14417,17 @@ const List<Map<String, dynamic>> countriesData = [
         ],
         "translations":{
             "br":"Palestina",
-            "de":"Pal\u00e4stina",
+            "de":"Palästina",
             "es":"Palestina",
-            "fa":"\u0641\u0644\u0633\u0637\u06cc\u0646",
+            "fa":"فلسطین",
             "fr":"Palestine",
             "hr":"Palestina",
             "it":"Palestina",
-            "ja":"\u30d1\u30ec\u30b9\u30c1\u30ca",
+            "ja":"パレスチナ",
             "nl":"Palestijnse gebieden",
             "pt":"Palestina",
-            "hu":"Palesztina"
+            "hu":"Palesztina",
+            "ar":"فلسطين"
         },
         "cioc":"PLE"
     },
@@ -14267,7 +14437,7 @@ const List<Map<String, dynamic>> countriesData = [
         "altSpellings":[
             "PA",
             "Republic of Panama",
-            "Rep\u00fablica de Panam\u00e1"
+            "República de Panamá"
         ],
         "area":75417,
         "borders":[
@@ -14302,7 +14472,7 @@ const List<Map<String, dynamic>> countriesData = [
                 "iso639_1":"es",
                 "iso639_2":"spa",
                 "name":"Spanish",
-                "nativeName":"Espa\u00f1ol"
+                "nativeName":"Español"
             }
         ],
         "latlng":[
@@ -14310,7 +14480,7 @@ const List<Map<String, dynamic>> countriesData = [
             -80
         ],
         "name":"Panama",
-        "nativeName":"Panam\u00e1",
+        "nativeName":"Panamá",
         "numericCode":"591",
         "population":3814672,
         "continent":"Americas",
@@ -14322,7 +14492,7 @@ const List<Map<String, dynamic>> countriesData = [
                     "SICA"
                 ],
                 "otherNames":[
-                    "Sistema de la Integraci\u00f3n Centroamericana,"
+                    "Sistema de la Integración Centroamericana,"
                 ]
             }
         ],
@@ -14334,17 +14504,18 @@ const List<Map<String, dynamic>> countriesData = [
             ".pa"
         ],
         "translations":{
-            "br":"Panam\u00e1",
+            "br":"Panamá",
             "de":"Panama",
-            "es":"Panam\u00e1",
-            "fa":"\u067e\u0627\u0646\u0627\u0645\u0627",
+            "es":"Panamá",
+            "fa":"پاناما",
             "fr":"Panama",
             "hr":"Panama",
             "it":"Panama",
-            "ja":"\u30d1\u30ca\u30de",
+            "ja":"パナマ",
             "nl":"Panama",
-            "pt":"Panam\u00e1",
-            "hu":"Panama"
+            "pt":"Panamá",
+            "hu":"Panama",
+            "ar":"بنما"
         },
         "cioc":"PAN"
     },
@@ -14406,17 +14577,18 @@ const List<Map<String, dynamic>> countriesData = [
             ".pg"
         ],
         "translations":{
-            "br":"Papua Nova Guin\u00e9",
+            "br":"Papua Nova Guiné",
             "de":"Papua-Neuguinea",
-            "es":"Pap\u00faa Nueva Guinea",
-            "fa":"\u067e\u0627\u067e\u0648\u0622 \u06af\u06cc\u0646\u0647 \u0646\u0648",
-            "fr":"Papouasie-Nouvelle-Guin\u00e9e",
+            "es":"Papúa Nueva Guinea",
+            "fa":"پاپوآ گینه نو",
+            "fr":"Papouasie-Nouvelle-Guinée",
             "hr":"Papua Nova Gvineja",
             "it":"Papua Nuova Guinea",
-            "ja":"\u30d1\u30d7\u30a2\u30cb\u30e5\u30fc\u30ae\u30cb\u30a2",
+            "ja":"パプアニューギニア",
             "nl":"Papoea-Nieuw-Guinea",
-            "pt":"Papua Nova Guin\u00e9",
-            "hu":"P\u00e1pua \u00daj-Guinea"
+            "pt":"Papua Nova Guiné",
+            "hu":"Pápua Új-Guinea",
+            "ar":"بابوا غينيا الجديدة"
         },
         "cioc":"PNG"
     },
@@ -14426,8 +14598,8 @@ const List<Map<String, dynamic>> countriesData = [
         "altSpellings":[
             "PY",
             "Republic of Paraguay",
-            "Rep\u00fablica del Paraguay",
-            "Tet\u00e3 Paragu\u00e1i"
+            "República del Paraguay",
+            "Tetã Paraguái"
         ],
         "area":406752,
         "borders":[
@@ -14438,12 +14610,12 @@ const List<Map<String, dynamic>> countriesData = [
         "callingCodes":[
             "595"
         ],
-        "capital":"Asunci\u00f3n",
+        "capital":"Asunción",
         "currencies":[
             {
                 "code":"PYG",
-                "name":"Paraguayan guaran\u00ed",
-                "symbol":"\u20b2"
+                "name":"Paraguayan guaraní",
+                "symbol":"₲"
             }
         ],
         "demonym":"Paraguayan",
@@ -14458,13 +14630,13 @@ const List<Map<String, dynamic>> countriesData = [
                 "iso639_1":"es",
                 "iso639_2":"spa",
                 "name":"Spanish",
-                "nativeName":"Espa\u00f1ol"
+                "nativeName":"Español"
             },
             {
                 "iso639_1":"gn",
                 "iso639_2":"grn",
-                "name":"Guaran\u00ed",
-                "nativeName":"Ava\u00f1e'\u1ebd"
+                "name":"Guaraní",
+                "nativeName":"Avañe'ẽ"
             }
         ],
         "latlng":[
@@ -14486,8 +14658,8 @@ const List<Map<String, dynamic>> countriesData = [
                     "UZAN"
                 ],
                 "otherNames":[
-                    "Uni\u00f3n de Naciones Suramericanas",
-                    "Uni\u00e3o de Na\u00e7\u00f5es Sul-Americanas",
+                    "Unión de Naciones Suramericanas",
+                    "União de Nações Sul-Americanas",
                     "Unie van Zuid-Amerikaanse Naties",
                     "South American Union"
                 ]
@@ -14504,14 +14676,15 @@ const List<Map<String, dynamic>> countriesData = [
             "br":"Paraguai",
             "de":"Paraguay",
             "es":"Paraguay",
-            "fa":"\u067e\u0627\u0631\u0627\u06af\u0648\u0626\u0647",
+            "fa":"پاراگوئه",
             "fr":"Paraguay",
             "hr":"Paragvaj",
             "it":"Paraguay",
-            "ja":"\u30d1\u30e9\u30b0\u30a2\u30a4",
+            "ja":"パラグアイ",
             "nl":"Paraguay",
             "pt":"Paraguai",
-            "hu":"Paraguay"
+            "hu":"Paraguay",
+            "ar":"باراجواي"
         },
         "cioc":"PAR"
     },
@@ -14521,7 +14694,7 @@ const List<Map<String, dynamic>> countriesData = [
         "altSpellings":[
             "PE",
             "Republic of Peru",
-            " Rep\u00fablica del Per\u00fa"
+            " República del Perú"
         ],
         "area":1285216,
         "borders":[
@@ -14554,7 +14727,7 @@ const List<Map<String, dynamic>> countriesData = [
                 "iso639_1":"es",
                 "iso639_2":"spa",
                 "name":"Spanish",
-                "nativeName":"Espa\u00f1ol"
+                "nativeName":"Español"
             }
         ],
         "latlng":[
@@ -14562,7 +14735,7 @@ const List<Map<String, dynamic>> countriesData = [
             -76
         ],
         "name":"Peru",
-        "nativeName":"Per\u00fa",
+        "nativeName":"Perú",
         "numericCode":"604",
         "population":31488700,
         "continent":"Americas",
@@ -14571,7 +14744,7 @@ const List<Map<String, dynamic>> countriesData = [
                 "acronym":"PA",
                 "name":"Pacific Alliance",
                 "otherNames":[
-                    "Alianza del Pac\u00edfico"
+                    "Alianza del Pacífico"
                 ]
             },
             {
@@ -14583,8 +14756,8 @@ const List<Map<String, dynamic>> countriesData = [
                     "UZAN"
                 ],
                 "otherNames":[
-                    "Uni\u00f3n de Naciones Suramericanas",
-                    "Uni\u00e3o de Na\u00e7\u00f5es Sul-Americanas",
+                    "Unión de Naciones Suramericanas",
+                    "União de Nações Sul-Americanas",
                     "Unie van Zuid-Amerikaanse Naties",
                     "South American Union"
                 ]
@@ -14600,15 +14773,16 @@ const List<Map<String, dynamic>> countriesData = [
         "translations":{
             "br":"Peru",
             "de":"Peru",
-            "es":"Per\u00fa",
-            "fa":"\u067e\u0631\u0648",
-            "fr":"P\u00e9rou",
+            "es":"Perú",
+            "fa":"پرو",
+            "fr":"Pérou",
             "hr":"Peru",
-            "it":"Per\u00f9",
-            "ja":"\u30da\u30eb\u30fc",
+            "it":"Perù",
+            "ja":"ペルー",
             "nl":"Peru",
             "pt":"Peru",
-            "hu":"Peru"
+            "hu":"Peru",
+            "ar":"بيرو"
         },
         "cioc":"PER"
     },
@@ -14618,7 +14792,7 @@ const List<Map<String, dynamic>> countriesData = [
         "altSpellings":[
             "PH",
             "Republic of the Philippines",
-            "Rep\u00fablika ng Pilipinas"
+            "Repúblika ng Pilipinas"
         ],
         "area":342353,
         "borders":[
@@ -14632,7 +14806,7 @@ const List<Map<String, dynamic>> countriesData = [
             {
                 "code":"PHP",
                 "name":"Philippine peso",
-                "symbol":"\u20b1"
+                "symbol":"₱"
             }
         ],
         "demonym":"Filipino",
@@ -14676,14 +14850,15 @@ const List<Map<String, dynamic>> countriesData = [
             "br":"Filipinas",
             "de":"Philippinen",
             "es":"Filipinas",
-            "fa":"\u062c\u0632\u0627\u06cc\u0631 \u0627\u0644\u0646\u062f\u0641\u06cc\u0644\u06cc\u067e\u06cc\u0646",
+            "fa":"جزایر الندفیلیپین",
             "fr":"Philippines",
             "hr":"Filipini",
             "it":"Filippine",
-            "ja":"\u30d5\u30a3\u30ea\u30d4\u30f3",
+            "ja":"フィリピン",
             "nl":"Filipijnen",
             "pt":"Filipinas",
-            "hu":"F\u00fcl\u00f6p-szigetek"
+            "hu":"Fülöp-szigetek",
+            "ar":"الفيلبين"
         },
         "cioc":"PHI"
     },
@@ -14751,14 +14926,15 @@ const List<Map<String, dynamic>> countriesData = [
             "br":"Ilhas Pitcairn",
             "de":"Pitcairn",
             "es":"Islas Pitcairn",
-            "fa":"\u067e\u06cc\u062a\u06a9\u0631\u0646",
-            "fr":"\u00celes Pitcairn",
-            "hr":"Pitcairnovo oto\u010dje",
+            "fa":"پیتکرن",
+            "fr":"Îles Pitcairn",
+            "hr":"Pitcairnovo otočje",
             "it":"Isole Pitcairn",
-            "ja":"\u30d4\u30c8\u30b1\u30a2\u30f3",
+            "ja":"ピトケアン",
             "nl":"Pitcairneilanden",
-            "pt":"Ilhas Pic\u00e1rnia",
-            "hu":"Pitcairn-szigetek"
+            "pt":"Ilhas Picárnia",
+            "hu":"Pitcairn-szigetek",
+            "ar":"بتكايرن"
         },
         "cioc":""
     },
@@ -14787,8 +14963,8 @@ const List<Map<String, dynamic>> countriesData = [
         "currencies":[
             {
                 "code":"PLN",
-                "name":"Polish z\u0142oty",
-                "symbol":"z\u0142"
+                "name":"Polish złoty",
+                "symbol":"zł"
             }
         ],
         "demonym":"Polish",
@@ -14803,7 +14979,7 @@ const List<Map<String, dynamic>> countriesData = [
                 "iso639_1":"pl",
                 "iso639_2":"pol",
                 "name":"Polish",
-                "nativeName":"j\u0119zyk polski"
+                "nativeName":"język polski"
             }
         ],
         "latlng":[
@@ -14829,17 +15005,18 @@ const List<Map<String, dynamic>> countriesData = [
             ".pl"
         ],
         "translations":{
-            "br":"Pol\u00f4nia",
+            "br":"Polônia",
             "de":"Polen",
             "es":"Polonia",
-            "fa":"\u0644\u0647\u0633\u062a\u0627\u0646",
+            "fa":"لهستان",
             "fr":"Pologne",
             "hr":"Poljska",
             "it":"Polonia",
-            "ja":"\u30dd\u30fc\u30e9\u30f3\u30c9",
+            "ja":"ポーランド",
             "nl":"Polen",
-            "pt":"Pol\u00f3nia",
-            "hu":"Lengyelorsz\u00e1g"
+            "pt":"Polónia",
+            "hu":"Lengyelország",
+            "ar":"بولندا"
         },
         "cioc":"POL"
     },
@@ -14850,7 +15027,7 @@ const List<Map<String, dynamic>> countriesData = [
             "PT",
             "Portuguesa",
             "Portuguese Republic",
-            "Rep\u00fablica Portuguesa"
+            "República Portuguesa"
         ],
         "area":92090,
         "borders":[
@@ -14864,7 +15041,7 @@ const List<Map<String, dynamic>> countriesData = [
             {
                 "code":"EUR",
                 "name":"Euro",
-                "symbol":"\u20ac"
+                "symbol":"€"
             }
         ],
         "demonym":"Portuguese",
@@ -14879,7 +15056,7 @@ const List<Map<String, dynamic>> countriesData = [
                 "iso639_1":"pt",
                 "iso639_2":"por",
                 "name":"Portuguese",
-                "nativeName":"Portugu\u00eas"
+                "nativeName":"Português"
             }
         ],
         "latlng":[
@@ -14909,14 +15086,15 @@ const List<Map<String, dynamic>> countriesData = [
             "br":"Portugal",
             "de":"Portugal",
             "es":"Portugal",
-            "fa":"\u067e\u0631\u062a\u063a\u0627\u0644",
+            "fa":"پرتغال",
             "fr":"Portugal",
             "hr":"Portugal",
             "it":"Portogallo",
-            "ja":"\u30dd\u30eb\u30c8\u30ac\u30eb",
+            "ja":"ポルトガル",
             "nl":"Portugal",
             "pt":"Portugal",
-            "hu":"Portug\u00e1lia"
+            "hu":"Portugália",
+            "ar":"البرتغال"
         },
         "cioc":"POR"
     },
@@ -14954,7 +15132,7 @@ const List<Map<String, dynamic>> countriesData = [
                 "iso639_1":"es",
                 "iso639_2":"spa",
                 "name":"Spanish",
-                "nativeName":"Espa\u00f1ol"
+                "nativeName":"Español"
             },
             {
                 "iso639_1":"en",
@@ -14986,14 +15164,15 @@ const List<Map<String, dynamic>> countriesData = [
             "br":"Porto Rico",
             "de":"Puerto Rico",
             "es":"Puerto Rico",
-            "fa":"\u067e\u0648\u0631\u062a\u0648 \u0631\u06cc\u06a9\u0648",
+            "fa":"پورتو ریکو",
             "fr":"Porto Rico",
             "hr":"Portoriko",
             "it":"Porto Rico",
-            "ja":"\u30d7\u30a8\u30eb\u30c8\u30ea\u30b3",
+            "ja":"プエルトリコ",
             "nl":"Puerto Rico",
             "pt":"Porto Rico",
-            "hu":"Puerto Rico"
+            "hu":"Puerto Rico",
+            "ar":"بورتوريكو"
         },
         "cioc":"PUR"
     },
@@ -15003,7 +15182,7 @@ const List<Map<String, dynamic>> countriesData = [
         "altSpellings":[
             "QA",
             "State of Qatar",
-            "Dawlat Qa\u1e6dar"
+            "Dawlat Qaṭar"
         ],
         "area":11586,
         "borders":[
@@ -15017,7 +15196,7 @@ const List<Map<String, dynamic>> countriesData = [
             {
                 "code":"QAR",
                 "name":"Qatari riyal",
-                "symbol":"\u0631.\u0642"
+                "symbol":"ر.ق"
             }
         ],
         "demonym":"Qatari",
@@ -15032,7 +15211,7 @@ const List<Map<String, dynamic>> countriesData = [
                 "iso639_1":"ar",
                 "iso639_2":"ara",
                 "name":"Arabic",
-                "nativeName":"\u0627\u0644\u0639\u0631\u0628\u064a\u0629"
+                "nativeName":"العربية"
             }
         ],
         "latlng":[
@@ -15040,7 +15219,7 @@ const List<Map<String, dynamic>> countriesData = [
             51.25
         ],
         "name":"Qatar",
-        "nativeName":"\u0642\u0637\u0631",
+        "nativeName":"قطر",
         "numericCode":"634",
         "population":2587564,
         "continent":"Asia",
@@ -15049,8 +15228,8 @@ const List<Map<String, dynamic>> countriesData = [
                 "acronym":"AL",
                 "name":"Arab League",
                 "otherNames":[
-                    "\u062c\u0627\u0645\u0639\u0629 \u0627\u0644\u062f\u0648\u0644 \u0627\u0644\u0639\u0631\u0628\u064a\u0629",
-                    "J\u0101mi\u02bbat ad-Duwal al-\u02bbArab\u012byah",
+                    "جامعة الدول العربية",
+                    "Jāmiʻat ad-Duwal al-ʻArabīyah",
                     "League of Arab States"
                 ]
             }
@@ -15066,14 +15245,15 @@ const List<Map<String, dynamic>> countriesData = [
             "br":"Catar",
             "de":"Katar",
             "es":"Catar",
-            "fa":"\u0642\u0637\u0631",
+            "fa":"قطر",
             "fr":"Qatar",
             "hr":"Katar",
             "it":"Qatar",
-            "ja":"\u30ab\u30bf\u30fc\u30eb",
+            "ja":"カタール",
             "nl":"Qatar",
             "pt":"Catar",
-            "hu":"Katar"
+            "hu":"Katar",
+            "ar":"قطر"
         },
         "cioc":"QAT"
     },
@@ -15082,7 +15262,7 @@ const List<Map<String, dynamic>> countriesData = [
         "alpha3Code":"KOS",
         "altSpellings":[
             "XK",
-            "\u0420\u0435\u043f\u0443\u0431\u043b\u0438\u043a\u0430 \u041a\u043e\u0441\u043e\u0432\u043e"
+            "Република Косово"
         ],
         "area":10908,
         "borders":[
@@ -15099,7 +15279,7 @@ const List<Map<String, dynamic>> countriesData = [
             {
                 "code":"EUR",
                 "name":"Euro",
-                "symbol":"\u20ac"
+                "symbol":"€"
             }
         ],
         "demonym":"Kosovar",
@@ -15119,7 +15299,7 @@ const List<Map<String, dynamic>> countriesData = [
                 "iso639_1":"sr",
                 "iso639_2":"srp",
                 "name":"Serbian",
-                "nativeName":"\u0441\u0440\u043f\u0441\u043a\u0438 \u0458\u0435\u0437\u0438\u043a"
+                "nativeName":"српски језик"
             }
         ],
         "latlng":[
@@ -15127,7 +15307,7 @@ const List<Map<String, dynamic>> countriesData = [
             21.166667
         ],
         "name":"Republic of Kosovo",
-        "nativeName":"Republika e Kosov\u00ebs",
+        "nativeName":"Republika e Kosovës",
         "population":1733842,
         "continent":"Europe",
         "regionalBlocs":[
@@ -15146,10 +15326,11 @@ const List<Map<String, dynamic>> countriesData = [
         "translations":{
             "br":"Kosovo",
             "es":"Kosovo",
-            "fa":"\u06a9\u0648\u0632\u0648\u0648",
+            "fa":"کوزوو",
             "hr":"Kosovo",
             "pt":"Kosovo",
-            "hu":"Koszov\u00f3"
+            "hu":"Koszovó",
+            "ar":"كوسوفو"
         }
     },
     {
@@ -15170,7 +15351,7 @@ const List<Map<String, dynamic>> countriesData = [
             {
                 "code":"EUR",
                 "name":"Euro",
-                "symbol":"\u20ac"
+                "symbol":"€"
             }
         ],
         "demonym":"French",
@@ -15184,15 +15365,15 @@ const List<Map<String, dynamic>> countriesData = [
                 "iso639_1":"fr",
                 "iso639_2":"fra",
                 "name":"French",
-                "nativeName":"fran\u00e7ais"
+                "nativeName":"français"
             }
         ],
         "latlng":[
             -21.15,
             55.5
         ],
-        "name":"R\u00e9union",
-        "nativeName":"La R\u00e9union",
+        "name":"Réunion",
+        "nativeName":"La Réunion",
         "numericCode":"638",
         "population":840974,
         "continent":"Africa",
@@ -15201,10 +15382,10 @@ const List<Map<String, dynamic>> countriesData = [
                 "acronym":"AU",
                 "name":"African Union",
                 "otherNames":[
-                    "\u0627\u0644\u0627\u062a\u062d\u0627\u062f \u0627\u0644\u0623\u0641\u0631\u064a\u0642\u064a",
+                    "الاتحاد الأفريقي",
                     "Union africaine",
-                    "Uni\u00e3o Africana",
-                    "Uni\u00f3n Africana",
+                    "União Africana",
+                    "Unión Africana",
                     "Umoja wa Afrika"
                 ]
             }
@@ -15217,17 +15398,18 @@ const List<Map<String, dynamic>> countriesData = [
             ".re"
         ],
         "translations":{
-            "br":"Reuni\u00e3o",
-            "de":"R\u00e9union",
-            "es":"Reuni\u00f3n",
-            "fa":"\u0631\u0626\u0648\u0646\u06cc\u0648\u0646",
-            "fr":"R\u00e9union",
-            "hr":"R\u00e9union",
+            "br":"Reunião",
+            "de":"Réunion",
+            "es":"Reunión",
+            "fa":"رئونیون",
+            "fr":"Réunion",
+            "hr":"Réunion",
             "it":"Riunione",
-            "ja":"\u30ec\u30e6\u30cb\u30aa\u30f3",
-            "nl":"R\u00e9union",
-            "pt":"Reuni\u00e3o",
-            "hu":"R\u00e9union"
+            "ja":"レユニオン",
+            "nl":"Réunion",
+            "pt":"Reunião",
+            "hu":"Réunion",
+            "ar":"روينيون"
         },
         "cioc":""
     },
@@ -15238,7 +15420,7 @@ const List<Map<String, dynamic>> countriesData = [
             "RO",
             "Rumania",
             "Roumania",
-            "Rom\u00e2nia"
+            "România"
         ],
         "area":238391,
         "borders":[
@@ -15271,7 +15453,7 @@ const List<Map<String, dynamic>> countriesData = [
                 "iso639_1":"ro",
                 "iso639_2":"ron",
                 "name":"Romanian",
-                "nativeName":"Rom\u00e2n\u0103"
+                "nativeName":"Română"
             }
         ],
         "latlng":[
@@ -15279,7 +15461,7 @@ const List<Map<String, dynamic>> countriesData = [
             25
         ],
         "name":"Romania",
-        "nativeName":"Rom\u00e2nia",
+        "nativeName":"România",
         "numericCode":"642",
         "population":19861408,
         "continent":"Europe",
@@ -15297,17 +15479,18 @@ const List<Map<String, dynamic>> countriesData = [
             ".ro"
         ],
         "translations":{
-            "br":"Rom\u00eania",
-            "de":"Rum\u00e4nien",
+            "br":"Romênia",
+            "de":"Rumänien",
             "es":"Rumania",
-            "fa":"\u0631\u0648\u0645\u0627\u0646\u06cc",
+            "fa":"رومانی",
             "fr":"Roumanie",
             "hr":"Rumunjska",
             "it":"Romania",
-            "ja":"\u30eb\u30fc\u30de\u30cb\u30a2",
-            "nl":"Roemeni\u00eb",
-            "pt":"Rom\u00e9nia",
-            "hu":"Rom\u00e1nia"
+            "ja":"ルーマニア",
+            "nl":"Roemenië",
+            "pt":"Roménia",
+            "hu":"Románia",
+            "ar":"رومانيا"
         },
         "cioc":"ROU"
     },
@@ -15318,7 +15501,7 @@ const List<Map<String, dynamic>> countriesData = [
             "RU",
             "Rossiya",
             "Russian Federation",
-            "\u0420\u043e\u0441\u0441\u0438\u0439\u0441\u043a\u0430\u044f \u0424\u0435\u0434\u0435\u0440\u0430\u0446\u0438\u044f",
+            "Российская Федерация",
             "Rossiyskaya Federatsiya"
         ],
         "area":17124442,
@@ -15346,7 +15529,7 @@ const List<Map<String, dynamic>> countriesData = [
             {
                 "code":"RUB",
                 "name":"Russian ruble",
-                "symbol":"\u20bd"
+                "symbol":"₽"
             }
         ],
         "demonym":"Russian",
@@ -15361,7 +15544,7 @@ const List<Map<String, dynamic>> countriesData = [
                 "iso639_1":"ru",
                 "iso639_2":"rus",
                 "name":"Russian",
-                "nativeName":"\u0420\u0443\u0441\u0441\u043a\u0438\u0439"
+                "nativeName":"Русский"
             }
         ],
         "latlng":[
@@ -15369,7 +15552,7 @@ const List<Map<String, dynamic>> countriesData = [
             100
         ],
         "name":"Russian Federation",
-        "nativeName":"\u0420\u043e\u0441\u0441\u0438\u044f",
+        "nativeName":"Россия",
         "numericCode":"643",
         "population":146599183,
         "continent":"Europe",
@@ -15398,17 +15581,18 @@ const List<Map<String, dynamic>> countriesData = [
             ".ru"
         ],
         "translations":{
-            "br":"R\u00fassia",
+            "br":"Rússia",
             "de":"Russland",
             "es":"Rusia",
-            "fa":"\u0631\u0648\u0633\u06cc\u0647",
+            "fa":"روسیه",
             "fr":"Russie",
             "hr":"Rusija",
             "it":"Russia",
-            "ja":"\u30ed\u30b7\u30a2\u9023\u90a6",
+            "ja":"ロシア連邦",
             "nl":"Rusland",
-            "pt":"R\u00fassia",
-            "hu":"Oroszorsz\u00e1g"
+            "pt":"Rússia",
+            "hu":"Oroszország",
+            "ar":"روسيا"
         },
         "cioc":"RUS"
     },
@@ -15419,7 +15603,7 @@ const List<Map<String, dynamic>> countriesData = [
             "RW",
             "Republic of Rwanda",
             "Repubulika y'u Rwanda",
-            "R\u00e9publique du Rwanda"
+            "République du Rwanda"
         ],
         "area":26338,
         "borders":[
@@ -15463,7 +15647,7 @@ const List<Map<String, dynamic>> countriesData = [
                 "iso639_1":"fr",
                 "iso639_2":"fra",
                 "name":"French",
-                "nativeName":"fran\u00e7ais"
+                "nativeName":"français"
             }
         ],
         "latlng":[
@@ -15480,10 +15664,10 @@ const List<Map<String, dynamic>> countriesData = [
                 "acronym":"AU",
                 "name":"African Union",
                 "otherNames":[
-                    "\u0627\u0644\u0627\u062a\u062d\u0627\u062f \u0627\u0644\u0623\u0641\u0631\u064a\u0642\u064a",
+                    "الاتحاد الأفريقي",
                     "Union africaine",
-                    "Uni\u00e3o Africana",
-                    "Uni\u00f3n Africana",
+                    "União Africana",
+                    "Unión Africana",
                     "Umoja wa Afrika"
                 ]
             }
@@ -15499,14 +15683,15 @@ const List<Map<String, dynamic>> countriesData = [
             "br":"Ruanda",
             "de":"Ruanda",
             "es":"Ruanda",
-            "fa":"\u0631\u0648\u0627\u0646\u062f\u0627",
+            "fa":"رواندا",
             "fr":"Rwanda",
             "hr":"Ruanda",
             "it":"Ruanda",
-            "ja":"\u30eb\u30ef\u30f3\u30c0",
+            "ja":"ルワンダ",
             "nl":"Rwanda",
             "pt":"Ruanda",
-            "hu":"Ruanda"
+            "hu":"Ruanda",
+            "ar":"رواندا"
         },
         "cioc":"RWA"
     },
@@ -15516,8 +15701,8 @@ const List<Map<String, dynamic>> countriesData = [
         "altSpellings":[
             "BL",
             "St. Barthelemy",
-            "Collectivity of Saint Barth\u00e9lemy",
-            "Collectivit\u00e9 de Saint-Barth\u00e9lemy"
+            "Collectivity of Saint Barthélemy",
+            "Collectivité de Saint-Barthélemy"
         ],
         "area":21,
         "borders":[
@@ -15531,10 +15716,10 @@ const List<Map<String, dynamic>> countriesData = [
             {
                 "code":"EUR",
                 "name":"Euro",
-                "symbol":"\u20ac"
+                "symbol":"€"
             }
         ],
-        "demonym":"Saint Barth\u00e9lemy Islander",
+        "demonym":"Saint Barthélemy Islander",
         "independent":false,
         "flags":[
             "https://restcountries.com/data/blm.svg",
@@ -15545,15 +15730,15 @@ const List<Map<String, dynamic>> countriesData = [
                 "iso639_1":"fr",
                 "iso639_2":"fra",
                 "name":"French",
-                "nativeName":"fran\u00e7ais"
+                "nativeName":"français"
             }
         ],
         "latlng":[
             18.5,
             -63.41666666
         ],
-        "name":"Saint Barth\u00e9lemy",
-        "nativeName":"Saint-Barth\u00e9lemy",
+        "name":"Saint Barthélemy",
+        "nativeName":"Saint-Barthélemy",
         "numericCode":"652",
         "population":9417,
         "continent":"Americas",
@@ -15568,17 +15753,18 @@ const List<Map<String, dynamic>> countriesData = [
             ".bl"
         ],
         "translations":{
-            "br":"S\u00e3o Bartolomeu",
-            "de":"Saint-Barth\u00e9lemy",
-            "es":"San Bartolom\u00e9",
-            "fa":"\u0633\u0646-\u0628\u0627\u0631\u062a\u0644\u0645\u06cc",
-            "fr":"Saint-Barth\u00e9lemy",
-            "hr":"Saint Barth\u00e9lemy",
+            "br":"São Bartolomeu",
+            "de":"Saint-Barthélemy",
+            "es":"San Bartolomé",
+            "fa":"سن-بارتلمی",
+            "fr":"Saint-Barthélemy",
+            "hr":"Saint Barthélemy",
             "it":"Antille Francesi",
-            "ja":"\u30b5\u30f3\u30fb\u30d0\u30eb\u30c6\u30eb\u30df\u30fc",
-            "nl":"Saint Barth\u00e9lemy",
-            "pt":"S\u00e3o Bartolomeu",
-            "hu":"Saint-Barth\u00e9lemy"
+            "ja":"サン・バルテルミー",
+            "nl":"Saint Barthélemy",
+            "pt":"São Bartolomeu",
+            "hu":"Saint-Barthélemy",
+            "ar":"سان بارتيلمي"
         },
         "cioc":""
     },
@@ -15599,7 +15785,7 @@ const List<Map<String, dynamic>> countriesData = [
             {
                 "code":"SHP",
                 "name":"Saint Helena pound",
-                "symbol":"\u00a3"
+                "symbol":"£"
             }
         ],
         "demonym":"Saint Helenian",
@@ -15630,10 +15816,10 @@ const List<Map<String, dynamic>> countriesData = [
                 "acronym":"AU",
                 "name":"African Union",
                 "otherNames":[
-                    "\u0627\u0644\u0627\u062a\u062d\u0627\u062f \u0627\u0644\u0623\u0641\u0631\u064a\u0642\u064a",
+                    "الاتحاد الأفريقي",
                     "Union africaine",
-                    "Uni\u00e3o Africana",
-                    "Uni\u00f3n Africana",
+                    "União Africana",
+                    "Unión Africana",
                     "Umoja wa Afrika"
                 ]
             }
@@ -15649,14 +15835,15 @@ const List<Map<String, dynamic>> countriesData = [
             "br":"Santa Helena",
             "de":"Sankt Helena",
             "es":"Santa Helena",
-            "fa":"\u0633\u0646\u062a \u0647\u0644\u0646\u0627\u060c \u0627\u0633\u0646\u0634\u0646 \u0648 \u062a\u0631\u06cc\u0633\u062a\u0627\u0646 \u062f\u0627 \u06a9\u0648\u0646\u0627",
-            "fr":"Sainte-H\u00e9l\u00e8ne",
+            "fa":"سنت هلنا، اسنشن و تریستان دا کونا",
+            "fr":"Sainte-Hélène",
             "hr":"Sveta Helena",
             "it":"Sant'Elena",
-            "ja":"\u30bb\u30f3\u30c8\u30d8\u30ec\u30ca\u30fb\u30a2\u30bb\u30f3\u30b7\u30e7\u30f3\u304a\u3088\u3073\u30c8\u30ea\u30b9\u30bf\u30f3\u30c0\u30af\u30fc\u30cb\u30e3",
+            "ja":"セントヘレナ・アセンションおよびトリスタンダクーニャ",
             "nl":"Sint-Helena",
             "pt":"Santa Helena",
-            "hu":"Szent Ilona"
+            "hu":"Szent Ilona",
+            "ar":"سانت هيلنا"
         }
     },
     {
@@ -15710,7 +15897,7 @@ const List<Map<String, dynamic>> countriesData = [
                 "name":"Caribbean Community",
                 "otherNames":[
                     "Comunidad del Caribe",
-                    "Communaut\u00e9 Carib\u00e9enne",
+                    "Communauté Caribéenne",
                     "Caribische Gemeenschap"
                 ]
             }
@@ -15723,17 +15910,18 @@ const List<Map<String, dynamic>> countriesData = [
             ".kn"
         ],
         "translations":{
-            "br":"S\u00e3o Crist\u00f3v\u00e3o e Neves",
+            "br":"São Cristóvão e Neves",
             "de":"St. Kitts und Nevis",
-            "es":"San Crist\u00f3bal y Nieves",
-            "fa":"\u0633\u0646\u062a \u06a9\u06cc\u062a\u0633 \u0648 \u0646\u0648\u06cc\u0633",
-            "fr":"Saint-Christophe-et-Ni\u00e9v\u00e8s",
+            "es":"San Cristóbal y Nieves",
+            "fa":"سنت کیتس و نویس",
+            "fr":"Saint-Christophe-et-Niévès",
             "hr":"Sveti Kristof i Nevis",
             "it":"Saint Kitts e Nevis",
-            "ja":"\u30bb\u30f3\u30c8\u30af\u30ea\u30b9\u30c8\u30d5\u30a1\u30fc\u30fb\u30cd\u30a4\u30d3\u30b9",
+            "ja":"セントクリストファー・ネイビス",
             "nl":"Saint Kitts en Nevis",
-            "pt":"S\u00e3o Crist\u00f3v\u00e3o e Neves",
-            "hu":"Saint Kitts \u00e9s Nevis"
+            "pt":"São Cristóvão e Neves",
+            "hu":"Saint Kitts és Nevis",
+            "ar":"سانت كيتس ونيفيس"
         },
         "cioc":"SKN"
     },
@@ -15788,7 +15976,7 @@ const List<Map<String, dynamic>> countriesData = [
                 "name":"Caribbean Community",
                 "otherNames":[
                     "Comunidad del Caribe",
-                    "Communaut\u00e9 Carib\u00e9enne",
+                    "Communauté Caribéenne",
                     "Caribische Gemeenschap"
                 ]
             }
@@ -15801,17 +15989,18 @@ const List<Map<String, dynamic>> countriesData = [
             ".lc"
         ],
         "translations":{
-            "br":"Santa L\u00facia",
+            "br":"Santa Lúcia",
             "de":"Saint Lucia",
-            "es":"Santa Luc\u00eda",
-            "fa":"\u0633\u0646\u062a \u0644\u0648\u0633\u06cc\u0627",
+            "es":"Santa Lucía",
+            "fa":"سنت لوسیا",
             "fr":"Saint-Lucie",
             "hr":"Sveta Lucija",
             "it":"Santa Lucia",
-            "ja":"\u30bb\u30f3\u30c8\u30eb\u30b7\u30a2",
+            "ja":"セントルシア",
             "nl":"Saint Lucia",
-            "pt":"Santa L\u00facia",
-            "hu":"Saint Lucia"
+            "pt":"Santa Lúcia",
+            "hu":"Saint Lucia",
+            "ar":"سانت لوسيا"
         },
         "cioc":"LCA"
     },
@@ -15821,7 +16010,7 @@ const List<Map<String, dynamic>> countriesData = [
         "altSpellings":[
             "MF",
             "Collectivity of Saint Martin",
-            "Collectivit\u00e9 de Saint-Martin"
+            "Collectivité de Saint-Martin"
         ],
         "area":53,
         "borders":[
@@ -15836,7 +16025,7 @@ const List<Map<String, dynamic>> countriesData = [
             {
                 "code":"EUR",
                 "name":"Euro",
-                "symbol":"\u20ac"
+                "symbol":"€"
             }
         ],
         "demonym":"Saint Martin Islander",
@@ -15856,7 +16045,7 @@ const List<Map<String, dynamic>> countriesData = [
                 "iso639_1":"fr",
                 "iso639_2":"fra",
                 "name":"French",
-                "nativeName":"fran\u00e7ais"
+                "nativeName":"français"
             },
             {
                 "iso639_1":"nl",
@@ -15890,15 +16079,16 @@ const List<Map<String, dynamic>> countriesData = [
             "br":"Saint Martin",
             "de":"Saint Martin",
             "es":"Saint Martin",
-            "fa":"\u0633\u06cc\u0646\u062a \u0645\u0627\u0631\u062a\u0646",
+            "fa":"سینت مارتن",
             "fr":"Saint-Martin",
             "hr":"Sveti Martin",
             "it":"Saint Martin",
-            "ja":"\u30b5\u30f3\u30fb\u30de\u30eb\u30bf\u30f3\uff08\u30d5\u30e9\u30f3\u30b9\u9818\uff09",
+            "ja":"サン・マルタン（フランス領）",
             "nl":"Saint-Martin",
-            "pt":"Ilha S\u00e3o Martinho",
+            "pt":"Ilha São Martinho",
             "hu":"Saint-Martin",
-            "se":"Saint Martin"
+            "se":"Saint Martin",
+            "ar":"سانت مارتين"
         },
         "cioc":""
     },
@@ -15907,7 +16097,7 @@ const List<Map<String, dynamic>> countriesData = [
         "alpha3Code":"SPM",
         "altSpellings":[
             "PM",
-            "Collectivit\u00e9 territoriale de Saint-Pierre-et-Miquelon"
+            "Collectivité territoriale de Saint-Pierre-et-Miquelon"
         ],
         "area":242,
         "borders":[
@@ -15921,7 +16111,7 @@ const List<Map<String, dynamic>> countriesData = [
             {
                 "code":"EUR",
                 "name":"Euro",
-                "symbol":"\u20ac"
+                "symbol":"€"
             }
         ],
         "demonym":"French",
@@ -15935,7 +16125,7 @@ const List<Map<String, dynamic>> countriesData = [
                 "iso639_1":"fr",
                 "iso639_2":"fra",
                 "name":"French",
-                "nativeName":"fran\u00e7ais"
+                "nativeName":"français"
             }
         ],
         "latlng":[
@@ -15960,15 +16150,16 @@ const List<Map<String, dynamic>> countriesData = [
         "translations":{
             "br":"Saint-Pierre e Miquelon",
             "de":"Saint-Pierre und Miquelon",
-            "es":"San Pedro y Miquel\u00f3n",
-            "fa":"\u0633\u0646 \u067e\u06cc\u0631 \u0648 \u0645\u06cc\u06a9\u0644\u0646",
+            "es":"San Pedro y Miquelón",
+            "fa":"سن پیر و میکلن",
             "fr":"Saint-Pierre-et-Miquelon",
             "hr":"Sveti Petar i Mikelon",
             "it":"Saint-Pierre e Miquelon",
-            "ja":"\u30b5\u30f3\u30d4\u30a8\u30fc\u30eb\u5cf6\u30fb\u30df\u30af\u30ed\u30f3\u5cf6",
+            "ja":"サンピエール島・ミクロン島",
             "nl":"Saint Pierre en Miquelon",
-            "pt":"S\u00e3o Pedro e Miquelon",
-            "hu":"Saint-Pierre \u00e9s Miquelon"
+            "pt":"São Pedro e Miquelon",
+            "hu":"Saint-Pierre és Miquelon",
+            "ar":"سانت بيير وميكولون"
         },
         "cioc":""
     },
@@ -16022,7 +16213,7 @@ const List<Map<String, dynamic>> countriesData = [
                 "name":"Caribbean Community",
                 "otherNames":[
                     "Comunidad del Caribe",
-                    "Communaut\u00e9 Carib\u00e9enne",
+                    "Communauté Caribéenne",
                     "Caribische Gemeenschap"
                 ]
             }
@@ -16035,17 +16226,18 @@ const List<Map<String, dynamic>> countriesData = [
             ".vc"
         ],
         "translations":{
-            "br":"S\u00e3o Vicente e Granadinas",
+            "br":"São Vicente e Granadinas",
             "de":"Saint Vincent und die Grenadinen",
             "es":"San Vicente y Granadinas",
-            "fa":"\u0633\u0646\u062a \u0648\u06cc\u0646\u0633\u0646\u062a \u0648 \u06af\u0631\u0646\u0627\u062f\u06cc\u0646\u200c\u0647\u0627",
+            "fa":"سنت وینسنت و گرنادین‌ها",
             "fr":"Saint-Vincent-et-les-Grenadines",
             "hr":"Sveti Vincent i Grenadini",
             "it":"Saint Vincent e Grenadine",
-            "ja":"\u30bb\u30f3\u30c8\u30d3\u30f3\u30bb\u30f3\u30c8\u304a\u3088\u3073\u30b0\u30ec\u30ca\u30c7\u30a3\u30fc\u30f3\u8af8\u5cf6",
+            "ja":"セントビンセントおよびグレナディーン諸島",
             "nl":"Saint Vincent en de Grenadines",
-            "pt":"S\u00e3o Vicente e Granadinas",
-            "hu":"Saint Vincent \u00e9s a Grenadine-szigetek"
+            "pt":"São Vicente e Granadinas",
+            "hu":"Saint Vincent és a Grenadine-szigetek",
+            "ar":"سانت فنسنت وغرنادين"
         },
         "cioc":"VIN"
     },
@@ -16055,7 +16247,7 @@ const List<Map<String, dynamic>> countriesData = [
         "altSpellings":[
             "WS",
             "Independent State of Samoa",
-            "Malo Sa\u02bboloto Tuto\u02bbatasi o S\u0101moa"
+            "Malo Saʻoloto Tutoʻatasi o Sāmoa"
         ],
         "area":2842,
         "borders":[
@@ -16068,7 +16260,7 @@ const List<Map<String, dynamic>> countriesData = [
         "currencies":[
             {
                 "code":"WST",
-                "name":"Samoan t\u0101l\u0101",
+                "name":"Samoan tālā",
                 "symbol":"T"
             }
         ],
@@ -16115,14 +16307,15 @@ const List<Map<String, dynamic>> countriesData = [
             "br":"Samoa",
             "de":"Samoa",
             "es":"Samoa",
-            "fa":"\u0633\u0627\u0645\u0648\u0622",
+            "fa":"ساموآ",
             "fr":"Samoa",
             "hr":"Samoa",
             "it":"Samoa",
-            "ja":"\u30b5\u30e2\u30a2",
+            "ja":"サモア",
             "nl":"Samoa",
             "pt":"Samoa",
-            "hu":"Szamoa"
+            "hu":"Szamoa",
+            "ar":"ساموا"
         },
         "cioc":"SAM"
     },
@@ -16146,7 +16339,7 @@ const List<Map<String, dynamic>> countriesData = [
             {
                 "code":"EUR",
                 "name":"Euro",
-                "symbol":"\u20ac"
+                "symbol":"€"
             }
         ],
         "demonym":"Sammarinese",
@@ -16186,14 +16379,15 @@ const List<Map<String, dynamic>> countriesData = [
             "br":"San Marino",
             "de":"San Marino",
             "es":"San Marino",
-            "fa":"\u0633\u0627\u0646 \u0645\u0627\u0631\u06cc\u0646\u0648",
+            "fa":"سان مارینو",
             "fr":"Saint-Marin",
             "hr":"San Marino",
             "it":"San Marino",
-            "ja":"\u30b5\u30f3\u30de\u30ea\u30ce",
+            "ja":"サンマリノ",
             "nl":"San Marino",
-            "pt":"S\u00e3o Marinho",
-            "hu":"San Marino"
+            "pt":"São Marinho",
+            "hu":"San Marino",
+            "ar":"سان مارينو"
         },
         "cioc":"SMR"
     },
@@ -16202,8 +16396,8 @@ const List<Map<String, dynamic>> countriesData = [
         "alpha3Code":"STP",
         "altSpellings":[
             "ST",
-            "Democratic Republic of S\u00e3o Tom\u00e9 and Pr\u00edncipe",
-            "Rep\u00fablica Democr\u00e1tica de S\u00e3o Tom\u00e9 e Pr\u00edncipe"
+            "Democratic Republic of São Tomé and Príncipe",
+            "República Democrática de São Tomé e Príncipe"
         ],
         "area":964,
         "borders":[
@@ -16212,11 +16406,11 @@ const List<Map<String, dynamic>> countriesData = [
         "callingCodes":[
             "239"
         ],
-        "capital":"S\u00e3o Tom\u00e9",
+        "capital":"São Tomé",
         "currencies":[
             {
                 "code":"STD",
-                "name":"S\u00e3o Tom\u00e9 and Pr\u00edncipe dobra",
+                "name":"São Tomé and Príncipe dobra",
                 "symbol":"Db"
             }
         ],
@@ -16232,7 +16426,7 @@ const List<Map<String, dynamic>> countriesData = [
                 "iso639_1":"pt",
                 "iso639_2":"por",
                 "name":"Portuguese",
-                "nativeName":"Portugu\u00eas"
+                "nativeName":"Português"
             }
         ],
         "latlng":[
@@ -16240,7 +16434,7 @@ const List<Map<String, dynamic>> countriesData = [
             7
         ],
         "name":"Sao Tome and Principe",
-        "nativeName":"S\u00e3o Tom\u00e9 e Pr\u00edncipe",
+        "nativeName":"São Tomé e Príncipe",
         "numericCode":"678",
         "population":187356,
         "continent":"Africa",
@@ -16249,10 +16443,10 @@ const List<Map<String, dynamic>> countriesData = [
                 "acronym":"AU",
                 "name":"African Union",
                 "otherNames":[
-                    "\u0627\u0644\u0627\u062a\u062d\u0627\u062f \u0627\u0644\u0623\u0641\u0631\u064a\u0642\u064a",
+                    "الاتحاد الأفريقي",
                     "Union africaine",
-                    "Uni\u00e3o Africana",
-                    "Uni\u00f3n Africana",
+                    "União Africana",
+                    "Unión Africana",
                     "Umoja wa Afrika"
                 ]
             }
@@ -16265,17 +16459,18 @@ const List<Map<String, dynamic>> countriesData = [
             ".st"
         ],
         "translations":{
-            "br":"S\u00e3o Tom\u00e9 e Pr\u00edncipe",
-            "de":"S\u00e3o Tom\u00e9 und Pr\u00edncipe",
-            "es":"Santo Tom\u00e9 y Pr\u00edncipe",
-            "fa":"\u06a9\u0648\u0627\u062a\u0631\u0648 \u062f\u0648 \u0641\u0631\u0648\u06cc\u0631\u0648",
-            "fr":"Sao Tom\u00e9-et-Principe",
+            "br":"São Tomé e Príncipe",
+            "de":"São Tomé und Príncipe",
+            "es":"Santo Tomé y Príncipe",
+            "fa":"کواترو دو فرویرو",
+            "fr":"Sao Tomé-et-Principe",
             "hr":"Sveti Toma i Princip",
-            "it":"S\u00e3o Tom\u00e9 e Pr\u00edncipe",
-            "ja":"\u30b5\u30f3\u30c8\u30e1\u30fb\u30d7\u30ea\u30f3\u30b7\u30da",
-            "nl":"Sao Tom\u00e9 en Principe",
-            "pt":"S\u00e3o Tom\u00e9 e Pr\u00edncipe",
-            "hu":"S\u00e3o Tom\u00e9 \u00e9s Pr\u00edncipe"
+            "it":"São Tomé e Príncipe",
+            "ja":"サントメ・プリンシペ",
+            "nl":"Sao Tomé en Principe",
+            "pt":"São Tomé e Príncipe",
+            "hu":"São Tomé és Príncipe",
+            "ar":"ساو تومي وبرينسيبي"
         },
         "cioc":"STP"
     },
@@ -16285,7 +16480,7 @@ const List<Map<String, dynamic>> countriesData = [
         "altSpellings":[
             "SA",
             "Kingdom of Saudi Arabia",
-            "Al-Mamlakah al-\u2018Arabiyyah as-Su\u2018\u016bdiyyah"
+            "Al-Mamlakah al-‘Arabiyyah as-Su‘ūdiyyah"
         ],
         "area":2149690,
         "borders":[
@@ -16305,7 +16500,7 @@ const List<Map<String, dynamic>> countriesData = [
             {
                 "code":"SAR",
                 "name":"Saudi riyal",
-                "symbol":"\u0631.\u0633"
+                "symbol":"ر.س"
             }
         ],
         "demonym":"Saudi Arabian",
@@ -16320,7 +16515,7 @@ const List<Map<String, dynamic>> countriesData = [
                 "iso639_1":"ar",
                 "iso639_2":"ara",
                 "name":"Arabic",
-                "nativeName":"\u0627\u0644\u0639\u0631\u0628\u064a\u0629"
+                "nativeName":"العربية"
             }
         ],
         "latlng":[
@@ -16328,7 +16523,7 @@ const List<Map<String, dynamic>> countriesData = [
             45
         ],
         "name":"Saudi Arabia",
-        "nativeName":"\u0627\u0644\u0639\u0631\u0628\u064a\u0629 \u0627\u0644\u0633\u0639\u0648\u062f\u064a\u0629",
+        "nativeName":"العربية السعودية",
         "numericCode":"682",
         "population":32248200,
         "continent":"Asia",
@@ -16337,8 +16532,8 @@ const List<Map<String, dynamic>> countriesData = [
                 "acronym":"AL",
                 "name":"Arab League",
                 "otherNames":[
-                    "\u062c\u0627\u0645\u0639\u0629 \u0627\u0644\u062f\u0648\u0644 \u0627\u0644\u0639\u0631\u0628\u064a\u0629",
-                    "J\u0101mi\u02bbat ad-Duwal al-\u02bbArab\u012byah",
+                    "جامعة الدول العربية",
+                    "Jāmiʻat ad-Duwal al-ʻArabīyah",
                     "League of Arab States"
                 ]
             }
@@ -16351,17 +16546,18 @@ const List<Map<String, dynamic>> countriesData = [
             ".sa"
         ],
         "translations":{
-            "br":"Ar\u00e1bia Saudita",
+            "br":"Arábia Saudita",
             "de":"Saudi-Arabien",
-            "es":"Arabia Saud\u00ed",
-            "fa":"\u0639\u0631\u0628\u0633\u062a\u0627\u0646 \u0633\u0639\u0648\u062f\u06cc",
+            "es":"Arabia Saudí",
+            "fa":"عربستان سعودی",
             "fr":"Arabie Saoudite",
             "hr":"Saudijska Arabija",
             "it":"Arabia Saudita",
-            "ja":"\u30b5\u30a6\u30b8\u30a2\u30e9\u30d3\u30a2",
-            "nl":"Saoedi-Arabi\u00eb",
-            "pt":"Ar\u00e1bia Saudita",
-            "hu":"Sza\u00fad-Ar\u00e1bia"
+            "ja":"サウジアラビア",
+            "nl":"Saoedi-Arabië",
+            "pt":"Arábia Saudita",
+            "hu":"Szaúd-Arábia",
+            "ar":"المملكة العربية السعودية"
         },
         "cioc":"KSA"
     },
@@ -16371,7 +16567,7 @@ const List<Map<String, dynamic>> countriesData = [
         "altSpellings":[
             "SN",
             "Republic of Senegal",
-            "R\u00e9publique du S\u00e9n\u00e9gal"
+            "République du Sénégal"
         ],
         "area":196722,
         "borders":[
@@ -16404,7 +16600,7 @@ const List<Map<String, dynamic>> countriesData = [
                 "iso639_1":"fr",
                 "iso639_2":"fra",
                 "name":"French",
-                "nativeName":"fran\u00e7ais"
+                "nativeName":"français"
             }
         ],
         "latlng":[
@@ -16412,7 +16608,7 @@ const List<Map<String, dynamic>> countriesData = [
             -14
         ],
         "name":"Senegal",
-        "nativeName":"S\u00e9n\u00e9gal",
+        "nativeName":"Sénégal",
         "numericCode":"686",
         "population":14799859,
         "continent":"Africa",
@@ -16421,10 +16617,10 @@ const List<Map<String, dynamic>> countriesData = [
                 "acronym":"AU",
                 "name":"African Union",
                 "otherNames":[
-                    "\u0627\u0644\u0627\u062a\u062d\u0627\u062f \u0627\u0644\u0623\u0641\u0631\u064a\u0642\u064a",
+                    "الاتحاد الأفريقي",
                     "Union africaine",
-                    "Uni\u00e3o Africana",
-                    "Uni\u00f3n Africana",
+                    "União Africana",
+                    "Unión Africana",
                     "Umoja wa Afrika"
                 ]
             }
@@ -16440,14 +16636,15 @@ const List<Map<String, dynamic>> countriesData = [
             "br":"Senegal",
             "de":"Senegal",
             "es":"Senegal",
-            "fa":"\u0633\u0646\u06af\u0627\u0644",
-            "fr":"S\u00e9n\u00e9gal",
+            "fa":"سنگال",
+            "fr":"Sénégal",
             "hr":"Senegal",
             "it":"Senegal",
-            "ja":"\u30bb\u30cd\u30ac\u30eb",
+            "ja":"セネガル",
             "nl":"Senegal",
             "pt":"Senegal",
-            "hu":"Szeneg\u00e1l"
+            "hu":"Szenegál",
+            "ar":"السنغال"
         },
         "cioc":"SEN"
     },
@@ -16458,7 +16655,7 @@ const List<Map<String, dynamic>> countriesData = [
             "RS",
             "Srbija",
             "Republic of Serbia",
-            "\u0420\u0435\u043f\u0443\u0431\u043b\u0438\u043a\u0430 \u0421\u0440\u0431\u0438\u0458\u0430",
+            "Република Србија",
             "Republika Srbija"
         ],
         "area":88361,
@@ -16480,7 +16677,7 @@ const List<Map<String, dynamic>> countriesData = [
             {
                 "code":"RSD",
                 "name":"Serbian dinar",
-                "symbol":"\u0434\u0438\u043d."
+                "symbol":"дин."
             }
         ],
         "demonym":"Serbian",
@@ -16495,7 +16692,7 @@ const List<Map<String, dynamic>> countriesData = [
                 "iso639_1":"sr",
                 "iso639_2":"srp",
                 "name":"Serbian",
-                "nativeName":"\u0441\u0440\u043f\u0441\u043a\u0438 \u0458\u0435\u0437\u0438\u043a"
+                "nativeName":"српски језик"
             }
         ],
         "latlng":[
@@ -16503,7 +16700,7 @@ const List<Map<String, dynamic>> countriesData = [
             21
         ],
         "name":"Serbia",
-        "nativeName":"\u0421\u0440\u0431\u0438\u0458\u0430",
+        "nativeName":"Србија",
         "numericCode":"688",
         "population":7076372,
         "continent":"Europe",
@@ -16521,17 +16718,18 @@ const List<Map<String, dynamic>> countriesData = [
             ".rs"
         ],
         "translations":{
-            "br":"S\u00e9rvia",
+            "br":"Sérvia",
             "de":"Serbien",
             "es":"Serbia",
-            "fa":"\u0635\u0631\u0628\u0633\u062a\u0627\u0646",
+            "fa":"صربستان",
             "fr":"Serbie",
             "hr":"Srbija",
             "it":"Serbia",
-            "ja":"\u30bb\u30eb\u30d3\u30a2",
-            "nl":"Servi\u00eb",
-            "pt":"S\u00e9rvia",
-            "hu":"Szerbia"
+            "ja":"セルビア",
+            "nl":"Servië",
+            "pt":"Sérvia",
+            "hu":"Szerbia",
+            "ar":"صربيا"
         },
         "cioc":"SRB"
     },
@@ -16542,7 +16740,7 @@ const List<Map<String, dynamic>> countriesData = [
             "SC",
             "Republic of Seychelles",
             "Repiblik Sesel",
-            "R\u00e9publique des Seychelles"
+            "République des Seychelles"
         ],
         "area":452,
         "borders":[
@@ -16556,7 +16754,7 @@ const List<Map<String, dynamic>> countriesData = [
             {
                 "code":"SCR",
                 "name":"Seychellois rupee",
-                "symbol":"\u20a8"
+                "symbol":"₨"
             }
         ],
         "demonym":"Seychellois",
@@ -16571,7 +16769,7 @@ const List<Map<String, dynamic>> countriesData = [
                 "iso639_1":"fr",
                 "iso639_2":"fra",
                 "name":"French",
-                "nativeName":"fran\u00e7ais"
+                "nativeName":"français"
             },
             {
                 "iso639_1":"en",
@@ -16594,10 +16792,10 @@ const List<Map<String, dynamic>> countriesData = [
                 "acronym":"AU",
                 "name":"African Union",
                 "otherNames":[
-                    "\u0627\u0644\u0627\u062a\u062d\u0627\u062f \u0627\u0644\u0623\u0641\u0631\u064a\u0642\u064a",
+                    "الاتحاد الأفريقي",
                     "Union africaine",
-                    "Uni\u00e3o Africana",
-                    "Uni\u00f3n Africana",
+                    "União Africana",
+                    "Unión Africana",
                     "Umoja wa Afrika"
                 ]
             }
@@ -16613,14 +16811,15 @@ const List<Map<String, dynamic>> countriesData = [
             "br":"Seicheles",
             "de":"Seychellen",
             "es":"Seychelles",
-            "fa":"\u0633\u06cc\u0634\u0644",
+            "fa":"سیشل",
             "fr":"Seychelles",
-            "hr":"Sej\u0161eli",
+            "hr":"Sejšeli",
             "it":"Seychelles",
-            "ja":"\u30bb\u30fc\u30b7\u30a7\u30eb",
+            "ja":"セーシェル",
             "nl":"Seychellen",
             "pt":"Seicheles",
-            "hu":"Seychelle-szigetek"
+            "hu":"Seychelle-szigetek",
+            "ar":"سيشل"
         },
         "cioc":"SEY"
     },
@@ -16676,10 +16875,10 @@ const List<Map<String, dynamic>> countriesData = [
                 "acronym":"AU",
                 "name":"African Union",
                 "otherNames":[
-                    "\u0627\u0644\u0627\u062a\u062d\u0627\u062f \u0627\u0644\u0623\u0641\u0631\u064a\u0642\u064a",
+                    "الاتحاد الأفريقي",
                     "Union africaine",
-                    "Uni\u00e3o Africana",
-                    "Uni\u00f3n Africana",
+                    "União Africana",
+                    "Unión Africana",
                     "Umoja wa Afrika"
                 ]
             }
@@ -16695,14 +16894,15 @@ const List<Map<String, dynamic>> countriesData = [
             "br":"Serra Leoa",
             "de":"Sierra Leone",
             "es":"Sierra Leone",
-            "fa":"\u0633\u06cc\u0631\u0627\u0644\u0626\u0648\u0646",
+            "fa":"سیرالئون",
             "fr":"Sierra Leone",
             "hr":"Sijera Leone",
             "it":"Sierra Leone",
-            "ja":"\u30b7\u30a8\u30e9\u30ec\u30aa\u30cd",
+            "ja":"シエラレオネ",
             "nl":"Sierra Leone",
             "pt":"Serra Leoa",
-            "hu":"Sierra Leone"
+            "hu":"Sierra Leone",
+            "ar":"سيراليون"
         },
         "cioc":"SLE"
     },
@@ -16713,7 +16913,7 @@ const List<Map<String, dynamic>> countriesData = [
             "SG",
             "Singapura",
             "Republik Singapura",
-            "\u65b0\u52a0\u5761\u5171\u548c\u56fd"
+            "新加坡共和国"
         ],
         "area":710,
         "borders":[
@@ -16759,13 +16959,13 @@ const List<Map<String, dynamic>> countriesData = [
                 "iso639_1":"ta",
                 "iso639_2":"tam",
                 "name":"Tamil",
-                "nativeName":"\u0ba4\u0bae\u0bbf\u0bb4\u0bcd"
+                "nativeName":"தமிழ்"
             },
             {
                 "iso639_1":"zh",
                 "iso639_2":"zho",
                 "name":"Chinese",
-                "nativeName":"\u4e2d\u6587 (Zh\u014dngw\u00e9n)"
+                "nativeName":"中文 (Zhōngwén)"
             }
         ],
         "latlng":[
@@ -16794,14 +16994,15 @@ const List<Map<String, dynamic>> countriesData = [
             "br":"Singapura",
             "de":"Singapur",
             "es":"Singapur",
-            "fa":"\u0633\u0646\u06af\u0627\u067e\u0648\u0631",
+            "fa":"سنگاپور",
             "fr":"Singapour",
             "hr":"Singapur",
             "it":"Singapore",
-            "ja":"\u30b7\u30f3\u30ac\u30dd\u30fc\u30eb",
+            "ja":"シンガポール",
             "nl":"Singapore",
             "pt":"Singapura",
-            "hu":"Szingap\u00far"
+            "hu":"Szingapúr",
+            "ar":"سنغافورة"
         },
         "cioc":"SIN"
     },
@@ -16823,7 +17024,7 @@ const List<Map<String, dynamic>> countriesData = [
             {
                 "code":"ANG",
                 "name":"Netherlands Antillean guilder",
-                "symbol":"\u0192"
+                "symbol":"ƒ"
             }
         ],
         "demonym":"Dh",
@@ -16868,13 +17069,14 @@ const List<Map<String, dynamic>> countriesData = [
         "translations":{
             "br":"Sint Maarten",
             "de":"Sint Maarten (niederl. Teil)",
-            "fa":"\u0633\u06cc\u0646\u062a \u0645\u0627\u0631\u062a\u0646",
-            "fr":"Saint Martin (partie n\u00e9erlandaise)",
+            "fa":"سینت مارتن",
+            "fr":"Saint Martin (partie néerlandaise)",
             "it":"Saint Martin (parte olandese)",
             "nl":"Sint Maarten",
-            "pt":"S\u00e3o Martinho",
+            "pt":"São Martinho",
             "se":"Saint Martin",
-            "hu":"Sint Maarten"
+            "hu":"Sint Maarten",
+            "ar":"سينت مارتن"
         },
         "cioc":""
     },
@@ -16884,7 +17086,7 @@ const List<Map<String, dynamic>> countriesData = [
         "altSpellings":[
             "SK",
             "Slovak Republic",
-            "Slovensk\u00e1 republika"
+            "Slovenská republika"
         ],
         "area":49037,
         "borders":[
@@ -16902,7 +17104,7 @@ const List<Map<String, dynamic>> countriesData = [
             {
                 "code":"EUR",
                 "name":"Euro",
-                "symbol":"\u20ac"
+                "symbol":"€"
             }
         ],
         "demonym":"Slovak",
@@ -16917,7 +17119,7 @@ const List<Map<String, dynamic>> countriesData = [
                 "iso639_1":"sk",
                 "iso639_2":"slk",
                 "name":"Slovak",
-                "nativeName":"sloven\u010dina"
+                "nativeName":"slovenčina"
             }
         ],
         "latlng":[
@@ -16943,17 +17145,18 @@ const List<Map<String, dynamic>> countriesData = [
             ".sk"
         ],
         "translations":{
-            "br":"Eslov\u00e1quia",
+            "br":"Eslováquia",
             "de":"Slowakei",
-            "es":"Rep\u00fablica Eslovaca",
-            "fa":"\u0627\u0633\u0644\u0648\u0627\u06a9\u06cc",
+            "es":"República Eslovaca",
+            "fa":"اسلواکی",
             "fr":"Slovaquie",
-            "hr":"Slova\u010dka",
+            "hr":"Slovačka",
             "it":"Slovacchia",
-            "ja":"\u30b9\u30ed\u30d0\u30ad\u30a2",
+            "ja":"スロバキア",
             "nl":"Slowakije",
-            "pt":"Eslov\u00e1quia",
-            "hu":"Szlov\u00e1kia"
+            "pt":"Eslováquia",
+            "hu":"Szlovákia",
+            "ar":"سلوفاكيا"
         },
         "cioc":"SVK"
     },
@@ -16980,7 +17183,7 @@ const List<Map<String, dynamic>> countriesData = [
             {
                 "code":"EUR",
                 "name":"Euro",
-                "symbol":"\u20ac"
+                "symbol":"€"
             }
         ],
         "demonym":"Slovene",
@@ -17021,17 +17224,18 @@ const List<Map<String, dynamic>> countriesData = [
             ".si"
         ],
         "translations":{
-            "br":"Eslov\u00eania",
+            "br":"Eslovênia",
             "de":"Slowenien",
             "es":"Eslovenia",
-            "fa":"\u0627\u0633\u0644\u0648\u0648\u0646\u06cc",
-            "fr":"Slov\u00e9nie",
+            "fa":"اسلوونی",
+            "fr":"Slovénie",
             "hr":"Slovenija",
             "it":"Slovenia",
-            "ja":"\u30b9\u30ed\u30d9\u30cb\u30a2",
-            "nl":"Sloveni\u00eb",
-            "pt":"Eslov\u00e9nia",
-            "hu":"Szlov\u00e9nia"
+            "ja":"スロベニア",
+            "nl":"Slovenië",
+            "pt":"Eslovénia",
+            "hu":"Szlovénia",
+            "ar":"سلوفينيا"
         },
         "cioc":"SLO"
     },
@@ -17090,17 +17294,18 @@ const List<Map<String, dynamic>> countriesData = [
             ".sb"
         ],
         "translations":{
-            "br":"Ilhas Salom\u00e3o",
+            "br":"Ilhas Salomão",
             "de":"Salomonen",
-            "es":"Islas Salom\u00f3n",
-            "fa":"\u062c\u0632\u0627\u06cc\u0631 \u0633\u0644\u06cc\u0645\u0627\u0646",
-            "fr":"\u00celes Salomon",
+            "es":"Islas Salomón",
+            "fa":"جزایر سلیمان",
+            "fr":"Îles Salomon",
             "hr":"Solomonski Otoci",
             "it":"Isole Salomone",
-            "ja":"\u30bd\u30ed\u30e2\u30f3\u8af8\u5cf6",
+            "ja":"ソロモン諸島",
             "nl":"Salomonseilanden",
-            "pt":"Ilhas Salom\u00e3o",
-            "hu":"Salamon-szigetek"
+            "pt":"Ilhas Salomão",
+            "hu":"Salamon-szigetek",
+            "ar":"جزر سليمان"
         },
         "cioc":"SOL"
     },
@@ -17109,10 +17314,10 @@ const List<Map<String, dynamic>> countriesData = [
         "alpha3Code":"SOM",
         "altSpellings":[
             "SO",
-            "a\u1e63-\u1e62\u016bm\u0101l",
+            "aṣ-Ṣūmāl",
             "Federal Republic of Somalia",
             "Jamhuuriyadda Federaalka Soomaaliya",
-            "Jumh\u016briyyat a\u1e63-\u1e62\u016bm\u0101l al-Fider\u0101liyya"
+            "Jumhūriyyat aṣ-Ṣūmāl al-Fiderāliyya"
         ],
         "area":637657,
         "borders":[
@@ -17149,7 +17354,7 @@ const List<Map<String, dynamic>> countriesData = [
                 "iso639_1":"ar",
                 "iso639_2":"ara",
                 "name":"Arabic",
-                "nativeName":"\u0627\u0644\u0639\u0631\u0628\u064a\u0629"
+                "nativeName":"العربية"
             }
         ],
         "latlng":[
@@ -17166,10 +17371,10 @@ const List<Map<String, dynamic>> countriesData = [
                 "acronym":"AU",
                 "name":"African Union",
                 "otherNames":[
-                    "\u0627\u0644\u0627\u062a\u062d\u0627\u062f \u0627\u0644\u0623\u0641\u0631\u064a\u0642\u064a",
+                    "الاتحاد الأفريقي",
                     "Union africaine",
-                    "Uni\u00e3o Africana",
-                    "Uni\u00f3n Africana",
+                    "União Africana",
+                    "Unión Africana",
                     "Umoja wa Afrika"
                 ]
             },
@@ -17177,8 +17382,8 @@ const List<Map<String, dynamic>> countriesData = [
                 "acronym":"AL",
                 "name":"Arab League",
                 "otherNames":[
-                    "\u062c\u0627\u0645\u0639\u0629 \u0627\u0644\u062f\u0648\u0644 \u0627\u0644\u0639\u0631\u0628\u064a\u0629",
-                    "J\u0101mi\u02bbat ad-Duwal al-\u02bbArab\u012byah",
+                    "جامعة الدول العربية",
+                    "Jāmiʻat ad-Duwal al-ʻArabīyah",
                     "League of Arab States"
                 ]
             }
@@ -17191,17 +17396,18 @@ const List<Map<String, dynamic>> countriesData = [
             ".so"
         ],
         "translations":{
-            "br":"Som\u00e1lia",
+            "br":"Somália",
             "de":"Somalia",
             "es":"Somalia",
-            "fa":"\u0633\u0648\u0645\u0627\u0644\u06cc",
+            "fa":"سومالی",
             "fr":"Somalie",
             "hr":"Somalija",
             "it":"Somalia",
-            "ja":"\u30bd\u30de\u30ea\u30a2",
-            "nl":"Somali\u00eb",
-            "pt":"Som\u00e1lia",
-            "hu":"Szom\u00e1lia"
+            "ja":"ソマリア",
+            "nl":"Somalië",
+            "pt":"Somália",
+            "hu":"Szomália",
+            "ar":"الصومال"
         },
         "cioc":"SOM"
     },
@@ -17288,7 +17494,7 @@ const List<Map<String, dynamic>> countriesData = [
                 "iso639_1":"ve",
                 "iso639_2":"ven",
                 "name":"Venda",
-                "nativeName":"Tshiven\u1e13a"
+                "nativeName":"Tshivenḓa"
             },
             {
                 "iso639_1":"xh",
@@ -17317,10 +17523,10 @@ const List<Map<String, dynamic>> countriesData = [
                 "acronym":"AU",
                 "name":"African Union",
                 "otherNames":[
-                    "\u0627\u0644\u0627\u062a\u062d\u0627\u062f \u0627\u0644\u0623\u0641\u0631\u064a\u0642\u064a",
+                    "الاتحاد الأفريقي",
                     "Union africaine",
-                    "Uni\u00e3o Africana",
-                    "Uni\u00f3n Africana",
+                    "União Africana",
+                    "Unión Africana",
                     "Umoja wa Afrika"
                 ]
             }
@@ -17333,17 +17539,18 @@ const List<Map<String, dynamic>> countriesData = [
             ".za"
         ],
         "translations":{
-            "br":"Rep\u00fablica Sul-Africana",
-            "de":"Republik S\u00fcdafrika",
-            "es":"Rep\u00fablica de Sud\u00e1frica",
-            "fa":"\u0622\u0641\u0631\u06cc\u0642\u0627\u06cc \u062c\u0646\u0648\u0628\u06cc",
+            "br":"República Sul-Africana",
+            "de":"Republik Südafrika",
+            "es":"República de Sudáfrica",
+            "fa":"آفریقای جنوبی",
             "fr":"Afrique du Sud",
-            "hr":"Ju\u017enoafri\u010dka Republika",
+            "hr":"Južnoafrička Republika",
             "it":"Sud Africa",
-            "ja":"\u5357\u30a2\u30d5\u30ea\u30ab",
+            "ja":"南アフリカ",
             "nl":"Zuid-Afrika",
-            "pt":"Rep\u00fablica Sul-Africana",
-            "hu":"D\u00e9l-afrikai K\u00f6zt\u00e1rsas\u00e1g"
+            "pt":"República Sul-Africana",
+            "hu":"Dél-afrikai Köztársaság",
+            "ar":"جمهورية جنوب افريقيا"
         },
         "cioc":"RSA"
     },
@@ -17365,7 +17572,7 @@ const List<Map<String, dynamic>> countriesData = [
             {
                 "code":"FKP",
                 "name":"Falkland Islands Pound",
-                "symbol":"\u00a3"
+                "symbol":"£"
             }
         ],
         "demonym":"South Georgia and the South Sandwich Islander",
@@ -17401,8 +17608,8 @@ const List<Map<String, dynamic>> countriesData = [
                     "UZAN"
                 ],
                 "otherNames":[
-                    "Uni\u00f3n de Naciones Suramericanas",
-                    "Uni\u00e3o de Na\u00e7\u00f5es Sul-Americanas",
+                    "Unión de Naciones Suramericanas",
+                    "União de Nações Sul-Americanas",
                     "Unie van Zuid-Amerikaanse Naties",
                     "South American Union"
                 ]
@@ -17416,18 +17623,19 @@ const List<Map<String, dynamic>> countriesData = [
             ".gs"
         ],
         "translations":{
-            "br":"Ilhas Ge\u00f3rgias do Sul e Sandwich do Sul",
-            "de":"S\u00fcdgeorgien und die S\u00fcdlichen Sandwichinseln",
+            "br":"Ilhas Geórgias do Sul e Sandwich do Sul",
+            "de":"Südgeorgien und die Südlichen Sandwichinseln",
             "es":"Islas Georgias del Sur y Sandwich del Sur",
-            "fa":"\u062c\u0632\u0627\u06cc\u0631 \u062c\u0648\u0631\u062c\u06cc\u0627\u06cc \u062c\u0646\u0648\u0628\u06cc \u0648 \u0633\u0627\u0646\u062f\u0648\u06cc\u0686 \u062c\u0646\u0648\u0628\u06cc",
-            "fr":"G\u00e9orgie du Sud-et-les \u00celes Sandwich du Sud",
-            "hr":"Ju\u017ena Georgija i oto\u010dje Ju\u017eni Sandwich",
+            "fa":"جزایر جورجیای جنوبی و ساندویچ جنوبی",
+            "fr":"Géorgie du Sud-et-les Îles Sandwich du Sud",
+            "hr":"Južna Georgija i otočje Južni Sandwich",
             "it":"Georgia del Sud e Isole Sandwich Meridionali",
-            "ja":"\u30b5\u30a6\u30b9\u30b8\u30e7\u30fc\u30b8\u30a2\u30fb\u30b5\u30a6\u30b9\u30b5\u30f3\u30c9\u30a6\u30a3\u30c3\u30c1\u8af8\u5cf6",
+            "ja":"サウスジョージア・サウスサンドウィッチ諸島",
             "nl":"Zuid-Georgia en Zuidelijke Sandwicheilanden",
-            "pt":"Ilhas Ge\u00f3rgia do Sul e Sandu\u00edche do Sul",
-            "se":"Sydgeorgien och Sydsandwich\u00f6arna",
-            "hu":"D\u00edli-Georgia \u00eds D\u00edli-Sandwich-szigetek"
+            "pt":"Ilhas Geórgia do Sul e Sanduíche do Sul",
+            "se":"Sydgeorgien och Sydsandwichöarna",
+            "hu":"Díli-Georgia ís Díli-Sandwich-szigetek",
+            "ar":"جورجيا الجنوبية وجزر ساندويتش الجنوبية"
         },
         "cioc":""
     },
@@ -17450,7 +17658,7 @@ const List<Map<String, dynamic>> countriesData = [
             {
                 "code":"KRW",
                 "name":"South Korean won",
-                "symbol":"\u20a9"
+                "symbol":"₩"
             }
         ],
         "demonym":"South Korean",
@@ -17465,7 +17673,7 @@ const List<Map<String, dynamic>> countriesData = [
                 "iso639_1":"ko",
                 "iso639_2":"kor",
                 "name":"Korean",
-                "nativeName":"\ud55c\uad6d\uc5b4"
+                "nativeName":"한국어"
             }
         ],
         "latlng":[
@@ -17473,7 +17681,7 @@ const List<Map<String, dynamic>> countriesData = [
             127.5
         ],
         "name":"Korea (Republic of)",
-        "nativeName":"\ub300\ud55c\ubbfc\uad6d",
+        "nativeName":"대한민국",
         "numericCode":"410",
         "population":50801405,
         "continent":"Asia",
@@ -17489,16 +17697,17 @@ const List<Map<String, dynamic>> countriesData = [
         ],
         "translations":{
             "br":"Coreia do Sul",
-            "de":"S\u00fcdkorea",
+            "de":"Südkorea",
             "es":"Corea del Sur",
-            "fa":"\u06a9\u0631\u0647 \u0634\u0645\u0627\u0644\u06cc",
-            "fr":"Cor\u00e9e du Sud",
-            "hr":"Ju\u017ena Koreja",
+            "fa":"کره شمالی",
+            "fr":"Corée du Sud",
+            "hr":"Južna Koreja",
             "it":"Corea del Sud",
-            "ja":"\u5927\u97d3\u6c11\u56fd",
+            "ja":"大韓民国",
             "nl":"Zuid-Korea",
             "pt":"Coreia do Sul",
-            "hu":"D\u00edl-Korea"
+            "hu":"Díl-Korea",
+            "ar":"كوريا الجنوبية"
         },
         "cioc":"KOR"
     },
@@ -17525,7 +17734,7 @@ const List<Map<String, dynamic>> countriesData = [
             {
                 "code":"SSP",
                 "name":"South Sudanese pound",
-                "symbol":"\u00a3"
+                "symbol":"£"
             }
         ],
         "demonym":"South Sudanese",
@@ -17557,10 +17766,10 @@ const List<Map<String, dynamic>> countriesData = [
                 "acronym":"AU",
                 "name":"African Union",
                 "otherNames":[
-                    "\u0627\u0644\u0627\u062a\u062d\u0627\u062f \u0627\u0644\u0623\u0641\u0631\u064a\u0642\u064a",
+                    "الاتحاد الأفريقي",
                     "Union africaine",
-                    "Uni\u00e3o Africana",
-                    "Uni\u00f3n Africana",
+                    "União Africana",
+                    "Unión Africana",
                     "Umoja wa Afrika"
                 ]
             }
@@ -17573,17 +17782,18 @@ const List<Map<String, dynamic>> countriesData = [
             ".ss"
         ],
         "translations":{
-            "br":"Sud\u00e3o do Sul",
-            "de":"S\u00fcdsudan",
-            "es":"Sud\u00e1n del Sur",
-            "fa":"\u0633\u0648\u062f\u0627\u0646 \u062c\u0646\u0648\u0628\u06cc",
+            "br":"Sudão do Sul",
+            "de":"Südsudan",
+            "es":"Sudán del Sur",
+            "fa":"سودان جنوبی",
             "fr":"Soudan du Sud",
-            "hr":"Ju\u017eni Sudan",
+            "hr":"Južni Sudan",
             "it":"Sudan del sud",
-            "ja":"\u5357\u30b9\u30fc\u30c0\u30f3",
+            "ja":"南スーダン",
             "nl":"Zuid-Soedan",
-            "pt":"Sud\u00e3o do Sul",
-            "hu":"D\u00edl-Szud\u00e1n"
+            "pt":"Sudão do Sul",
+            "hu":"Díl-Szudán",
+            "ar":"جنوب السودان"
         },
         "cioc":""
     },
@@ -17593,7 +17803,7 @@ const List<Map<String, dynamic>> countriesData = [
         "altSpellings":[
             "ES",
             "Kingdom of Spain",
-            "Reino de Espa\u00f1a"
+            "Reino de España"
         ],
         "area":505992,
         "borders":[
@@ -17611,7 +17821,7 @@ const List<Map<String, dynamic>> countriesData = [
             {
                 "code":"EUR",
                 "name":"Euro",
-                "symbol":"\u20ac"
+                "symbol":"€"
             }
         ],
         "demonym":"Spanish",
@@ -17626,7 +17836,7 @@ const List<Map<String, dynamic>> countriesData = [
                 "iso639_1":"es",
                 "iso639_2":"spa",
                 "name":"Spanish",
-                "nativeName":"Espa\u00f1ol"
+                "nativeName":"Español"
             }
         ],
         "latlng":[
@@ -17634,7 +17844,7 @@ const List<Map<String, dynamic>> countriesData = [
             -4
         ],
         "name":"Spain",
-        "nativeName":"Espa\u00f1a",
+        "nativeName":"España",
         "numericCode":"724",
         "population":46438422,
         "continent":"Europe",
@@ -17655,15 +17865,16 @@ const List<Map<String, dynamic>> countriesData = [
         "translations":{
             "br":"Espanha",
             "de":"Spanien",
-            "es":"Espa\u00f1a",
-            "fa":"\u0627\u0633\u067e\u0627\u0646\u06cc\u0627",
+            "es":"España",
+            "fa":"اسپانیا",
             "fr":"Espagne",
-            "hr":"\u0160panjolska",
+            "hr":"Španjolska",
             "it":"Spagna",
-            "ja":"\u30b9\u30da\u30a4\u30f3",
+            "ja":"スペイン",
             "nl":"Spanje",
             "pt":"Espanha",
-            "hu":"Spanyolorsz\u00e1g"
+            "hu":"Spanyolország",
+            "ar":"أسبانيا"
         },
         "cioc":"ESP"
     },
@@ -17672,7 +17883,7 @@ const List<Map<String, dynamic>> countriesData = [
         "alpha3Code":"LKA",
         "altSpellings":[
             "LK",
-            "ila\u1e45kai",
+            "ilaṅkai",
             "Democratic Socialist Republic of Sri Lanka"
         ],
         "area":65610,
@@ -17702,13 +17913,13 @@ const List<Map<String, dynamic>> countriesData = [
                 "iso639_1":"si",
                 "iso639_2":"sin",
                 "name":"Sinhalese",
-                "nativeName":"\u0dc3\u0dd2\u0d82\u0dc4\u0dbd"
+                "nativeName":"සිංහල"
             },
             {
                 "iso639_1":"ta",
                 "iso639_2":"tam",
                 "name":"Tamil",
-                "nativeName":"\u0ba4\u0bae\u0bbf\u0bb4\u0bcd"
+                "nativeName":"தமிழ்"
             }
         ],
         "latlng":[
@@ -17716,7 +17927,7 @@ const List<Map<String, dynamic>> countriesData = [
             81
         ],
         "name":"Sri Lanka",
-        "nativeName":"\u015br\u012b la\u1e43k\u0101va",
+        "nativeName":"śrī laṃkāva",
         "numericCode":"144",
         "population":20966000,
         "continent":"Asia",
@@ -17737,14 +17948,15 @@ const List<Map<String, dynamic>> countriesData = [
             "br":"Sri Lanka",
             "de":"Sri Lanka",
             "es":"Sri Lanka",
-            "fa":"\u0633\u0631\u06cc\u200c\u0644\u0627\u0646\u06a9\u0627",
+            "fa":"سری‌لانکا",
             "fr":"Sri Lanka",
-            "hr":"\u0160ri Lanka",
+            "hr":"Šri Lanka",
             "it":"Sri Lanka",
-            "ja":"\u30b9\u30ea\u30e9\u30f3\u30ab",
+            "ja":"スリランカ",
             "nl":"Sri Lanka",
             "pt":"Sri Lanka",
-            "hu":"Srí Lanka"
+            "hu":"Srí Lanka",
+            "ar":"سريلانكا"
         },
         "cioc":"SRI"
     },
@@ -17754,7 +17966,7 @@ const List<Map<String, dynamic>> countriesData = [
         "altSpellings":[
             "SD",
             "Republic of the Sudan",
-            "Jumh\u016br\u012byat as-S\u016bd\u0101n"
+            "Jumhūrīyat as-Sūdān"
         ],
         "area":1886068,
         "borders":[
@@ -17774,7 +17986,7 @@ const List<Map<String, dynamic>> countriesData = [
             {
                 "code":"SDG",
                 "name":"Sudanese pound",
-                "symbol":"\u062c.\u0633."
+                "symbol":"ج.س."
             }
         ],
         "demonym":"Sudanese",
@@ -17789,7 +18001,7 @@ const List<Map<String, dynamic>> countriesData = [
                 "iso639_1":"ar",
                 "iso639_2":"ara",
                 "name":"Arabic",
-                "nativeName":"\u0627\u0644\u0639\u0631\u0628\u064a\u0629"
+                "nativeName":"العربية"
             },
             {
                 "iso639_1":"en",
@@ -17803,7 +18015,7 @@ const List<Map<String, dynamic>> countriesData = [
             30
         ],
         "name":"Sudan",
-        "nativeName":"\u0627\u0644\u0633\u0648\u062f\u0627\u0646",
+        "nativeName":"السودان",
         "numericCode":"729",
         "population":39598700,
         "continent":"Africa",
@@ -17812,10 +18024,10 @@ const List<Map<String, dynamic>> countriesData = [
                 "acronym":"AU",
                 "name":"African Union",
                 "otherNames":[
-                    "\u0627\u0644\u0627\u062a\u062d\u0627\u062f \u0627\u0644\u0623\u0641\u0631\u064a\u0642\u064a",
+                    "الاتحاد الأفريقي",
                     "Union africaine",
-                    "Uni\u00e3o Africana",
-                    "Uni\u00f3n Africana",
+                    "União Africana",
+                    "Unión Africana",
                     "Umoja wa Afrika"
                 ]
             },
@@ -17823,8 +18035,8 @@ const List<Map<String, dynamic>> countriesData = [
                 "acronym":"AL",
                 "name":"Arab League",
                 "otherNames":[
-                    "\u062c\u0627\u0645\u0639\u0629 \u0627\u0644\u062f\u0648\u0644 \u0627\u0644\u0639\u0631\u0628\u064a\u0629",
-                    "J\u0101mi\u02bbat ad-Duwal al-\u02bbArab\u012byah",
+                    "جامعة الدول العربية",
+                    "Jāmiʻat ad-Duwal al-ʻArabīyah",
                     "League of Arab States"
                 ]
             }
@@ -17837,17 +18049,18 @@ const List<Map<String, dynamic>> countriesData = [
             ".sd"
         ],
         "translations":{
-            "br":"Sud\u00e3o",
+            "br":"Sudão",
             "de":"Sudan",
-            "es":"Sud\u00e1n",
-            "fa":"\u0633\u0648\u062f\u0627\u0646",
+            "es":"Sudán",
+            "fa":"سودان",
             "fr":"Soudan",
             "hr":"Sudan",
             "it":"Sudan",
-            "ja":"\u30b9\u30fc\u30c0\u30f3",
+            "ja":"スーダン",
             "nl":"Soedan",
-            "pt":"Sud\u00e3o",
-            "hu":"Szud\u00e1n"
+            "pt":"Sudão",
+            "hu":"Szudán",
+            "ar":"السودان"
         },
         "cioc":"SUD"
     },
@@ -17909,7 +18122,7 @@ const List<Map<String, dynamic>> countriesData = [
                 "name":"Caribbean Community",
                 "otherNames":[
                     "Comunidad del Caribe",
-                    "Communaut\u00e9 Carib\u00e9enne",
+                    "Communauté Caribéenne",
                     "Caribische Gemeenschap"
                 ]
             },
@@ -17922,8 +18135,8 @@ const List<Map<String, dynamic>> countriesData = [
                     "UZAN"
                 ],
                 "otherNames":[
-                    "Uni\u00f3n de Naciones Suramericanas",
-                    "Uni\u00e3o de Na\u00e7\u00f5es Sul-Americanas",
+                    "Unión de Naciones Suramericanas",
+                    "União de Nações Sul-Americanas",
                     "Unie van Zuid-Amerikaanse Naties",
                     "South American Union"
                 ]
@@ -17940,14 +18153,15 @@ const List<Map<String, dynamic>> countriesData = [
             "br":"Suriname",
             "de":"Suriname",
             "es":"Surinam",
-            "fa":"\u0633\u0648\u0631\u06cc\u0646\u0627\u0645",
+            "fa":"سورینام",
             "fr":"Surinam",
             "hr":"Surinam",
             "it":"Suriname",
-            "ja":"\u30b9\u30ea\u30ca\u30e0",
+            "ja":"スリナム",
             "nl":"Suriname",
             "pt":"Suriname",
-            "hu":"Suriname"
+            "hu":"Suriname",
+            "ar":"سورينام"
         },
         "cioc":"SUR"
     },
@@ -18009,14 +18223,15 @@ const List<Map<String, dynamic>> countriesData = [
             "br":"Svalbard",
             "de":"Svalbard und Jan Mayen",
             "es":"Islas Svalbard y Jan Mayen",
-            "fa":"\u0633\u0648\u0627\u0644\u0628\u0627\u0631\u062f \u0648 \u06cc\u0627\u0646 \u0645\u0627\u06cc\u0646",
+            "fa":"سوالبارد و یان ماین",
             "fr":"Svalbard et Jan Mayen",
             "hr":"Svalbard i Jan Mayen",
             "it":"Svalbard e Jan Mayen",
-            "ja":"\u30b9\u30f4\u30a1\u30fc\u30eb\u30d0\u30eb\u8af8\u5cf6\u304a\u3088\u3073\u30e4\u30f3\u30de\u30a4\u30a8\u30f3\u5cf6",
+            "ja":"スヴァールバル諸島およびヤンマイエン島",
             "nl":"Svalbard en Jan Mayen",
             "pt":"Svalbard",
-            "hu":"Spitzberg\u00e1k \u00eds Jan Mayen-szigetek"
+            "hu":"Spitzbergák ís Jan Mayen-szigetek",
+            "ar":"سفالبارد وجان مايان"
         },
         "cioc":""
     },
@@ -18082,10 +18297,10 @@ const List<Map<String, dynamic>> countriesData = [
                 "acronym":"AU",
                 "name":"African Union",
                 "otherNames":[
-                    "\u0627\u0644\u0627\u062a\u062d\u0627\u062f \u0627\u0644\u0623\u0641\u0631\u064a\u0642\u064a",
+                    "الاتحاد الأفريقي",
                     "Union africaine",
-                    "Uni\u00e3o Africana",
-                    "Uni\u00f3n Africana",
+                    "União Africana",
+                    "Unión Africana",
                     "Umoja wa Afrika"
                 ]
             }
@@ -18098,17 +18313,18 @@ const List<Map<String, dynamic>> countriesData = [
             ".sz"
         ],
         "translations":{
-            "br":"Suazil\u00e2ndia",
+            "br":"Suazilândia",
             "de":"Swasiland",
             "es":"Suazilandia",
-            "fa":"\u0633\u0648\u0627\u0632\u06cc\u0644\u0646\u062f",
+            "fa":"سوازیلند",
             "fr":"Swaziland",
             "hr":"Svazi",
             "it":"Swaziland",
-            "ja":"\u30b9\u30ef\u30b8\u30e9\u30f3\u30c9",
+            "ja":"スワジランド",
             "nl":"Swaziland",
-            "pt":"Suazil\u00e2ndia",
-            "hu":"Szv\u00e1zif\u00f6ld"
+            "pt":"Suazilândia",
+            "hu":"Szváziföld",
+            "ar":"سوازيلاند"
         },
         "cioc":"SWZ"
     },
@@ -18174,17 +18390,18 @@ const List<Map<String, dynamic>> countriesData = [
             ".se"
         ],
         "translations":{
-            "br":"Su\u00e9cia",
+            "br":"Suécia",
             "de":"Schweden",
             "es":"Suecia",
-            "fa":"\u0633\u0648\u0626\u062f",
-            "fr":"Su\u00e8de",
-            "hr":"\u0160vedska",
+            "fa":"سوئد",
+            "fr":"Suède",
+            "hr":"Švedska",
             "it":"Svezia",
-            "ja":"\u30b9\u30a6\u30a7\u30fc\u30c7\u30f3",
+            "ja":"スウェーデン",
             "nl":"Zweden",
-            "pt":"Su\u00e9cia",
-            "hu":"Sv\u00eddorsz\u00e1g"
+            "pt":"Suécia",
+            "hu":"Svídország",
+            "ar":"السويد"
         },
         "cioc":"SWE"
     },
@@ -18236,7 +18453,7 @@ const List<Map<String, dynamic>> countriesData = [
                 "iso639_1":"fr",
                 "iso639_2":"fra",
                 "name":"French",
-                "nativeName":"fran\u00e7ais"
+                "nativeName":"français"
             },
             {
                 "iso639_1":"it",
@@ -18274,17 +18491,18 @@ const List<Map<String, dynamic>> countriesData = [
             ".ch"
         ],
         "translations":{
-            "br":"Su\u00ed\u00e7a",
+            "br":"Suíça",
             "de":"Schweiz",
             "es":"Suiza",
-            "fa":"\u0633\u0648\u0626\u06cc\u0633",
+            "fa":"سوئیس",
             "fr":"Suisse",
-            "hr":"\u0160vicarska",
+            "hr":"Švicarska",
             "it":"Svizzera",
-            "ja":"\u30b9\u30a4\u30b9",
+            "ja":"スイス",
             "nl":"Zwitserland",
-            "pt":"Su\u00ed\u00e7a",
-            "hu":"Sv\u00e1jc"
+            "pt":"Suíça",
+            "hu":"Svájc",
+            "ar":"سويسرا"
         },
         "cioc":"SUI"
     },
@@ -18294,7 +18512,7 @@ const List<Map<String, dynamic>> countriesData = [
         "altSpellings":[
             "SY",
             "Syrian Arab Republic",
-            "Al-Jumh\u016br\u012byah Al-\u02bbArab\u012byah As-S\u016br\u012byah"
+            "Al-Jumhūrīyah Al-ʻArabīyah As-Sūrīyah"
         ],
         "area":185180,
         "borders":[
@@ -18312,7 +18530,7 @@ const List<Map<String, dynamic>> countriesData = [
             {
                 "code":"SYP",
                 "name":"Syrian pound",
-                "symbol":"\u00a3"
+                "symbol":"£"
             }
         ],
         "demonym":"Syrian",
@@ -18327,7 +18545,7 @@ const List<Map<String, dynamic>> countriesData = [
                 "iso639_1":"ar",
                 "iso639_2":"ara",
                 "name":"Arabic",
-                "nativeName":"\u0627\u0644\u0639\u0631\u0628\u064a\u0629"
+                "nativeName":"العربية"
             }
         ],
         "latlng":[
@@ -18335,7 +18553,7 @@ const List<Map<String, dynamic>> countriesData = [
             38
         ],
         "name":"Syrian Arab Republic",
-        "nativeName":"\u0633\u0648\u0631\u064a\u0627",
+        "nativeName":"سوريا",
         "numericCode":"760",
         "population":18564000,
         "continent":"Asia",
@@ -18344,8 +18562,8 @@ const List<Map<String, dynamic>> countriesData = [
                 "acronym":"AL",
                 "name":"Arab League",
                 "otherNames":[
-                    "\u062c\u0627\u0645\u0639\u0629 \u0627\u0644\u062f\u0648\u0644 \u0627\u0644\u0639\u0631\u0628\u064a\u0629",
-                    "J\u0101mi\u02bbat ad-Duwal al-\u02bbArab\u012byah",
+                    "جامعة الدول العربية",
+                    "Jāmiʻat ad-Duwal al-ʻArabīyah",
                     "League of Arab States"
                 ]
             }
@@ -18358,17 +18576,18 @@ const List<Map<String, dynamic>> countriesData = [
             ".sy"
         ],
         "translations":{
-            "br":"S\u00edria",
+            "br":"Síria",
             "de":"Syrien",
             "es":"Siria",
-            "fa":"\u0633\u0648\u0631\u06cc\u0647",
+            "fa":"سوریه",
             "fr":"Syrie",
             "hr":"Sirija",
             "it":"Siria",
-            "ja":"\u30b7\u30ea\u30a2\u30fb\u30a2\u30e9\u30d6\u5171\u548c\u56fd",
-            "nl":"Syri\u00eb",
-            "pt":"S\u00edria",
-            "hu":"Sz\u0151ria"
+            "ja":"シリア・アラブ共和国",
+            "nl":"Syrië",
+            "pt":"Síria",
+            "hu":"Szőria",
+            "ar":"سوريا"
         },
         "cioc":"SYR"
     },
@@ -18377,10 +18596,10 @@ const List<Map<String, dynamic>> countriesData = [
         "alpha3Code":"TWN",
         "altSpellings":[
             "TW",
-            "T\u00e1iw\u0101n",
+            "Táiwān",
             "Republic of China",
-            "\u4e2d\u83ef\u6c11\u570b",
-            "Zh\u014dnghu\u00e1 M\u00edngu\u00f3"
+            "中華民國",
+            "Zhōnghuá Mínguó"
         ],
         "area":36193,
         "borders":[
@@ -18409,7 +18628,7 @@ const List<Map<String, dynamic>> countriesData = [
                 "iso639_1":"zh",
                 "iso639_2":"zho",
                 "name":"Chinese",
-                "nativeName":"\u4e2d\u6587 (Zh\u014dngw\u00e9n)"
+                "nativeName":"中文 (Zhōngwén)"
             }
         ],
         "latlng":[
@@ -18417,7 +18636,7 @@ const List<Map<String, dynamic>> countriesData = [
             121
         ],
         "name":"Taiwan",
-        "nativeName":"\u81fa\u7063",
+        "nativeName":"臺灣",
         "numericCode":"158",
         "population":23503349,
         "continent":"Asia",
@@ -18434,15 +18653,16 @@ const List<Map<String, dynamic>> countriesData = [
         "translations":{
             "br":"Taiwan",
             "de":"Taiwan",
-            "es":"Taiw\u00e1n",
-            "fa":"\u062a\u0627\u06cc\u0648\u0627\u0646",
-            "fr":"Ta\u00efwan",
+            "es":"Taiwán",
+            "fa":"تایوان",
+            "fr":"Taïwan",
             "hr":"Tajvan",
             "it":"Taiwan",
-            "ja":"\u53f0\u6e7e\uff08\u4e2d\u83ef\u6c11\u56fd\uff09",
+            "ja":"台湾（中華民国）",
             "nl":"Taiwan",
             "pt":"Taiwan",
-            "hu":"Tajvan"
+            "hu":"Tajvan",
+            "ar":"تايوان"
         },
         "cioc":"TPE"
     },
@@ -18451,10 +18671,10 @@ const List<Map<String, dynamic>> countriesData = [
         "alpha3Code":"TJK",
         "altSpellings":[
             "TJ",
-            "To\u00e7ikiston",
+            "Toçikiston",
             "Republic of Tajikistan",
-            "\u04b6\u0443\u043c\u04b3\u0443\u0440\u0438\u0438 \u0422\u043e\u04b7\u0438\u043a\u0438\u0441\u0442\u043e\u043d",
-            "\u00c7umhuriyi To\u00e7ikiston"
+            "Ҷумҳурии Тоҷикистон",
+            "Çumhuriyi Toçikiston"
         ],
         "area":143100,
         "borders":[
@@ -18471,7 +18691,7 @@ const List<Map<String, dynamic>> countriesData = [
             {
                 "code":"TJS",
                 "name":"Tajikistani somoni",
-                "symbol":"\u0405\u041c"
+                "symbol":"ЅМ"
             }
         ],
         "demonym":"Tadzhik",
@@ -18486,13 +18706,13 @@ const List<Map<String, dynamic>> countriesData = [
                 "iso639_1":"tg",
                 "iso639_2":"tgk",
                 "name":"Tajik",
-                "nativeName":"\u0442\u043e\u04b7\u0438\u043a\u04e3"
+                "nativeName":"тоҷикӣ"
             },
             {
                 "iso639_1":"ru",
                 "iso639_2":"rus",
                 "name":"Russian",
-                "nativeName":"\u0420\u0443\u0441\u0441\u043a\u0438\u0439"
+                "nativeName":"Русский"
             }
         ],
         "latlng":[
@@ -18500,7 +18720,7 @@ const List<Map<String, dynamic>> countriesData = [
             71
         ],
         "name":"Tajikistan",
-        "nativeName":"\u0422\u043e\u04b7\u0438\u043a\u0438\u0441\u0442\u043e\u043d",
+        "nativeName":"Тоҷикистон",
         "numericCode":"762",
         "population":8593600,
         "continent":"Asia",
@@ -18515,17 +18735,18 @@ const List<Map<String, dynamic>> countriesData = [
             ".tj"
         ],
         "translations":{
-            "br":"Tajiquist\u00e3o",
+            "br":"Tajiquistão",
             "de":"Tadschikistan",
-            "es":"Tayikist\u00e1n",
-            "fa":"\u062a\u0627\u062c\u06cc\u06a9\u0633\u062a\u0627\u0646",
+            "es":"Tayikistán",
+            "fa":"تاجیکستان",
             "fr":"Tadjikistan",
-            "hr":"Ta\u0111ikistan",
+            "hr":"Tađikistan",
             "it":"Tagikistan",
-            "ja":"\u30bf\u30b8\u30ad\u30b9\u30bf\u30f3",
+            "ja":"タジキスタン",
             "nl":"Tadzjikistan",
-            "pt":"Tajiquist\u00e3o",
-            "hu":"T\u00e1dzsikiszt\u00e1n"
+            "pt":"Tajiquistão",
+            "hu":"Tádzsikisztán",
+            "ar":"طاجكستان"
         },
         "cioc":"TJK"
     },
@@ -18594,10 +18815,10 @@ const List<Map<String, dynamic>> countriesData = [
                 "acronym":"AU",
                 "name":"African Union",
                 "otherNames":[
-                    "\u0627\u0644\u0627\u062a\u062d\u0627\u062f \u0627\u0644\u0623\u0641\u0631\u064a\u0642\u064a",
+                    "الاتحاد الأفريقي",
                     "Union africaine",
-                    "Uni\u00e3o Africana",
-                    "Uni\u00f3n Africana",
+                    "União Africana",
+                    "Unión Africana",
                     "Umoja wa Afrika"
                 ]
             }
@@ -18610,17 +18831,18 @@ const List<Map<String, dynamic>> countriesData = [
             ".tz"
         ],
         "translations":{
-            "br":"Tanz\u00e2nia",
+            "br":"Tanzânia",
             "de":"Tansania",
             "es":"Tanzania",
-            "fa":"\u062a\u0627\u0646\u0632\u0627\u0646\u06cc\u0627",
+            "fa":"تانزانیا",
             "fr":"Tanzanie",
             "hr":"Tanzanija",
             "it":"Tanzania",
-            "ja":"\u30bf\u30f3\u30b6\u30cb\u30a2",
+            "ja":"タンザニア",
             "nl":"Tanzania",
-            "pt":"Tanz\u00e2nia",
-            "hu":"T\u00e1dzsikiszt\u00e1n"
+            "pt":"Tanzânia",
+            "hu":"Tádzsikisztán",
+            "ar":"تانزانيا"
         },
         "cioc":"TAN"
     },
@@ -18632,7 +18854,7 @@ const List<Map<String, dynamic>> countriesData = [
             "Prathet",
             "Thai",
             "Kingdom of Thailand",
-            "\u0e23\u0e32\u0e0a\u0e2d\u0e32\u0e13\u0e32\u0e08\u0e31\u0e01\u0e23\u0e44\u0e17\u0e22",
+            "ราชอาณาจักรไทย",
             "Ratcha Anachak Thai"
         ],
         "area":513120,
@@ -18650,7 +18872,7 @@ const List<Map<String, dynamic>> countriesData = [
             {
                 "code":"THB",
                 "name":"Thai baht",
-                "symbol":"\u0e3f"
+                "symbol":"฿"
             }
         ],
         "demonym":"Thai",
@@ -18665,7 +18887,7 @@ const List<Map<String, dynamic>> countriesData = [
                 "iso639_1":"th",
                 "iso639_2":"tha",
                 "name":"Thai",
-                "nativeName":"\u0e44\u0e17\u0e22"
+                "nativeName":"ไทย"
             }
         ],
         "latlng":[
@@ -18673,7 +18895,7 @@ const List<Map<String, dynamic>> countriesData = [
             100
         ],
         "name":"Thailand",
-        "nativeName":"\u0e1b\u0e23\u0e30\u0e40\u0e17\u0e28\u0e44\u0e17\u0e22",
+        "nativeName":"ประเทศไทย",
         "numericCode":"764",
         "population":65327652,
         "continent":"Asia",
@@ -18691,17 +18913,18 @@ const List<Map<String, dynamic>> countriesData = [
             ".th"
         ],
         "translations":{
-            "br":"Tail\u00e2ndia",
+            "br":"Tailândia",
             "de":"Thailand",
             "es":"Tailandia",
-            "fa":"\u062a\u0627\u06cc\u0644\u0646\u062f",
-            "fr":"Tha\u00eflande",
+            "fa":"تایلند",
+            "fr":"Thaïlande",
             "hr":"Tajland",
             "it":"Tailandia",
-            "ja":"\u30bf\u30a4",
+            "ja":"タイ",
             "nl":"Thailand",
-            "pt":"Tail\u00e2ndia",
-            "hu":"Thaif\u00f6ld"
+            "pt":"Tailândia",
+            "hu":"Thaiföld",
+            "ar":"تايلند"
         },
         "cioc":"THA"
     },
@@ -18712,8 +18935,8 @@ const List<Map<String, dynamic>> countriesData = [
             "TL",
             "East Timor",
             "Democratic Republic of Timor-Leste",
-            "Rep\u00fablica Democr\u00e1tica de Timor-Leste",
-            "Rep\u00fablika Demokr\u00e1tika Tim\u00f3r-Leste"
+            "República Democrática de Timor-Leste",
+            "Repúblika Demokrátika Timór-Leste"
         ],
         "area":14874,
         "borders":[
@@ -18727,7 +18950,7 @@ const List<Map<String, dynamic>> countriesData = [
             {
                 "code":"THB",
                 "name":"Thai baht",
-                "symbol":"\u0e3f"
+                "symbol":"฿"
             }
         ],
         "demonym":"East Timorese",
@@ -18742,7 +18965,7 @@ const List<Map<String, dynamic>> countriesData = [
                 "iso639_1":"pt",
                 "iso639_2":"por",
                 "name":"Portuguese",
-                "nativeName":"Portugu\u00eas"
+                "nativeName":"Português"
             }
         ],
         "latlng":[
@@ -18768,14 +18991,15 @@ const List<Map<String, dynamic>> countriesData = [
             "br":"Timor Leste",
             "de":"Timor-Leste",
             "es":"Timor Oriental",
-            "fa":"\u062a\u06cc\u0645\u0648\u0631 \u0634\u0631\u0642\u06cc",
+            "fa":"تیمور شرقی",
             "fr":"Timor oriental",
-            "hr":"Isto\u010dni Timor",
+            "hr":"Istočni Timor",
             "it":"Timor Est",
-            "ja":"\u6771\u30c6\u30a3\u30e2\u30fc\u30eb",
+            "ja":"東ティモール",
             "nl":"Oost-Timor",
             "pt":"Timor Leste",
-            "hu":"Kelet-Timor"
+            "hu":"Kelet-Timor",
+            "ar":"تيمور الشرقية"
         },
         "cioc":"TLS"
     },
@@ -18786,7 +19010,7 @@ const List<Map<String, dynamic>> countriesData = [
             "TG",
             "Togolese",
             "Togolese Republic",
-            "R\u00e9publique Togolaise"
+            "République Togolaise"
         ],
         "area":56785,
         "borders":[
@@ -18797,7 +19021,7 @@ const List<Map<String, dynamic>> countriesData = [
         "callingCodes":[
             "228"
         ],
-        "capital":"Lom\u00e9",
+        "capital":"Lomé",
         "currencies":[
             {
                 "code":"XOF",
@@ -18817,7 +19041,7 @@ const List<Map<String, dynamic>> countriesData = [
                 "iso639_1":"fr",
                 "iso639_2":"fra",
                 "name":"French",
-                "nativeName":"fran\u00e7ais"
+                "nativeName":"français"
             }
         ],
         "latlng":[
@@ -18834,10 +19058,10 @@ const List<Map<String, dynamic>> countriesData = [
                 "acronym":"AU",
                 "name":"African Union",
                 "otherNames":[
-                    "\u0627\u0644\u0627\u062a\u062d\u0627\u062f \u0627\u0644\u0623\u0641\u0631\u064a\u0642\u064a",
+                    "الاتحاد الأفريقي",
                     "Union africaine",
-                    "Uni\u00e3o Africana",
-                    "Uni\u00f3n Africana",
+                    "União Africana",
+                    "Unión Africana",
                     "Umoja wa Afrika"
                 ]
             }
@@ -18853,14 +19077,15 @@ const List<Map<String, dynamic>> countriesData = [
             "br":"Togo",
             "de":"Togo",
             "es":"Togo",
-            "fa":"\u062a\u0648\u06af\u0648",
+            "fa":"توگو",
             "fr":"Togo",
             "hr":"Togo",
             "it":"Togo",
-            "ja":"\u30c8\u30fc\u30b4",
+            "ja":"トーゴ",
             "nl":"Togo",
             "pt":"Togo",
-            "hu":"Togo"
+            "hu":"Togo",
+            "ar":"توجو"
         },
         "cioc":"TOG"
     },
@@ -18922,14 +19147,15 @@ const List<Map<String, dynamic>> countriesData = [
             "br":"Tokelau",
             "de":"Tokelau",
             "es":"Islas Tokelau",
-            "fa":"\u062a\u0648\u06a9\u0644\u0627\u0626\u0648",
+            "fa":"توکلائو",
             "fr":"Tokelau",
             "hr":"Tokelau",
             "it":"Isole Tokelau",
-            "ja":"\u30c8\u30b1\u30e9\u30a6",
+            "ja":"トケラウ",
             "nl":"Tokelau",
             "pt":"Toquelau",
-            "hu":"Tokelau-szigetek"
+            "hu":"Tokelau-szigetek",
+            "ar":"توكيلو"
         },
         "cioc":""
     },
@@ -18950,7 +19176,7 @@ const List<Map<String, dynamic>> countriesData = [
         "currencies":[
             {
                 "code":"TOP",
-                "name":"Tongan pa\u02bbanga",
+                "name":"Tongan paʻanga",
                 "symbol":"T\$"
             }
         ],
@@ -18997,14 +19223,15 @@ const List<Map<String, dynamic>> countriesData = [
             "br":"Tonga",
             "de":"Tonga",
             "es":"Tonga",
-            "fa":"\u062a\u0648\u0646\u06af\u0627",
+            "fa":"تونگا",
             "fr":"Tonga",
             "hr":"Tonga",
             "it":"Tonga",
-            "ja":"\u30c8\u30f3\u30ac",
+            "ja":"トンガ",
             "nl":"Tonga",
             "pt":"Tonga",
-            "hu":"Tonga"
+            "hu":"Tonga",
+            "ar":"تونجا"
         },
         "cioc":"TGA"
     },
@@ -19060,7 +19287,7 @@ const List<Map<String, dynamic>> countriesData = [
                 "name":"Caribbean Community",
                 "otherNames":[
                     "Comunidad del Caribe",
-                    "Communaut\u00e9 Carib\u00e9enne",
+                    "Communauté Caribéenne",
                     "Caribische Gemeenschap"
                 ]
             }
@@ -19076,14 +19303,15 @@ const List<Map<String, dynamic>> countriesData = [
             "br":"Trinidad e Tobago",
             "de":"Trinidad und Tobago",
             "es":"Trinidad y Tobago",
-            "fa":"\u062a\u0631\u06cc\u0646\u06cc\u062f\u0627\u062f \u0648 \u062a\u0648\u0628\u0627\u06af\u0648",
-            "fr":"Trinit\u00e9 et Tobago",
+            "fa":"ترینیداد و توباگو",
+            "fr":"Trinité et Tobago",
             "hr":"Trinidad i Tobago",
             "it":"Trinidad e Tobago",
-            "ja":"\u30c8\u30ea\u30cb\u30c0\u30fc\u30c9\u30fb\u30c8\u30d0\u30b4",
+            "ja":"トリニダード・トバゴ",
             "nl":"Trinidad en Tobago",
             "pt":"Trindade e Tobago",
-            "hu":"Trinidad \u00eds Tobago"
+            "hu":"Trinidad ís Tobago",
+            "ar":"ترينيداد وتوباغو"
         },
         "cioc":"TTO"
     },
@@ -19093,7 +19321,7 @@ const List<Map<String, dynamic>> countriesData = [
         "altSpellings":[
             "TN",
             "Republic of Tunisia",
-            "al-Jumh\u016briyyah at-T\u016bnisiyyah"
+            "al-Jumhūriyyah at-Tūnisiyyah"
         ],
         "area":163610,
         "borders":[
@@ -19108,7 +19336,7 @@ const List<Map<String, dynamic>> countriesData = [
             {
                 "code":"TND",
                 "name":"Tunisian dinar",
-                "symbol":"\u062f.\u062a"
+                "symbol":"د.ت"
             }
         ],
         "demonym":"Tunisian",
@@ -19123,7 +19351,7 @@ const List<Map<String, dynamic>> countriesData = [
                 "iso639_1":"ar",
                 "iso639_2":"ara",
                 "name":"Arabic",
-                "nativeName":"\u0627\u0644\u0639\u0631\u0628\u064a\u0629"
+                "nativeName":"العربية"
             }
         ],
         "latlng":[
@@ -19131,7 +19359,7 @@ const List<Map<String, dynamic>> countriesData = [
             9
         ],
         "name":"Tunisia",
-        "nativeName":"\u062a\u0648\u0646\u0633",
+        "nativeName":"تونس",
         "numericCode":"788",
         "population":11154400,
         "continent":"Africa",
@@ -19140,10 +19368,10 @@ const List<Map<String, dynamic>> countriesData = [
                 "acronym":"AU",
                 "name":"African Union",
                 "otherNames":[
-                    "\u0627\u0644\u0627\u062a\u062d\u0627\u062f \u0627\u0644\u0623\u0641\u0631\u064a\u0642\u064a",
+                    "الاتحاد الأفريقي",
                     "Union africaine",
-                    "Uni\u00e3o Africana",
-                    "Uni\u00f3n Africana",
+                    "União Africana",
+                    "Unión Africana",
                     "Umoja wa Afrika"
                 ]
             },
@@ -19151,8 +19379,8 @@ const List<Map<String, dynamic>> countriesData = [
                 "acronym":"AL",
                 "name":"Arab League",
                 "otherNames":[
-                    "\u062c\u0627\u0645\u0639\u0629 \u0627\u0644\u062f\u0648\u0644 \u0627\u0644\u0639\u0631\u0628\u064a\u0629",
-                    "J\u0101mi\u02bbat ad-Duwal al-\u02bbArab\u012byah",
+                    "جامعة الدول العربية",
+                    "Jāmiʻat ad-Duwal al-ʻArabīyah",
                     "League of Arab States"
                 ]
             }
@@ -19165,17 +19393,18 @@ const List<Map<String, dynamic>> countriesData = [
             ".tn"
         ],
         "translations":{
-            "br":"Tun\u00edsia",
+            "br":"Tunísia",
             "de":"Tunesien",
-            "es":"T\u00fanez",
-            "fa":"\u062a\u0648\u0646\u0633",
+            "es":"Túnez",
+            "fa":"تونس",
             "fr":"Tunisie",
             "hr":"Tunis",
             "it":"Tunisia",
-            "ja":"\u30c1\u30e5\u30cb\u30b8\u30a2",
-            "nl":"Tunesi\u00eb",
-            "pt":"Tun\u00edsia",
-            "hu":"Tun\u00edzia"
+            "ja":"チュニジア",
+            "nl":"Tunesië",
+            "pt":"Tunísia",
+            "hu":"Tunízia",
+            "ar":"تونس"
         },
         "cioc":"TUN"
     },
@@ -19186,7 +19415,7 @@ const List<Map<String, dynamic>> countriesData = [
             "TR",
             "Turkiye",
             "Republic of Turkey",
-            "T\u00fcrkiye Cumhuriyeti"
+            "Türkiye Cumhuriyeti"
         ],
         "area":783562,
         "borders":[
@@ -19207,7 +19436,7 @@ const List<Map<String, dynamic>> countriesData = [
             {
                 "code":"TRY",
                 "name":"Turkish lira",
-                "symbol":"\u058f"
+                "symbol":"֏"
             }
         ],
         ",demonym":"Turkish",
@@ -19221,7 +19450,7 @@ const List<Map<String, dynamic>> countriesData = [
                 "iso639_1":"tr",
                 "iso639_2":"tur",
                 "name":"Turkish",
-                "nativeName":"T\u00fcrk\u00e7e"
+                "nativeName":"Türkçe"
             }
         ],
         "latlng":[
@@ -19229,7 +19458,7 @@ const List<Map<String, dynamic>> countriesData = [
             35
         ],
         "name":"Turkey",
-        "nativeName":"T\u00fcrkiye",
+        "nativeName":"Türkiye",
         "numericCode":"792",
         "population":78741053,
         "continent":"Asia",
@@ -19245,16 +19474,17 @@ const List<Map<String, dynamic>> countriesData = [
         ],
         "translations":{
             "br":"Turquia",
-            "de":"T\u00fcrkei",
-            "es":"Turqu\u00eda",
-            "fa":"\u062a\u0631\u06a9\u06cc\u0647",
+            "de":"Türkei",
+            "es":"Turquía",
+            "fa":"ترکیه",
             "fr":"Turquie",
             "hr":"Turska",
             "it":"Turchia",
-            "ja":"\u30c8\u30eb\u30b3",
+            "ja":"トルコ",
             "nl":"Turkije",
             "pt":"Turquia",
-            "hu":"T\u00f6r\u00f6korsz\u00e1g"
+            "hu":"Törökország",
+            "ar":"تركيا"
         },
         "cioc":"TUR"
     },
@@ -19294,13 +19524,13 @@ const List<Map<String, dynamic>> countriesData = [
                 "iso639_1":"tk",
                 "iso639_2":"tuk",
                 "name":"Turkmen",
-                "nativeName":"T\u00fcrkmen"
+                "nativeName":"Türkmen"
             },
             {
                 "iso639_1":"ru",
                 "iso639_2":"rus",
                 "name":"Russian",
-                "nativeName":"\u0420\u0443\u0441\u0441\u043a\u0438\u0439"
+                "nativeName":"Русский"
             }
         ],
         "latlng":[
@@ -19308,7 +19538,7 @@ const List<Map<String, dynamic>> countriesData = [
             60
         ],
         "name":"Turkmenistan",
-        "nativeName":"T\u00fcrkmenistan",
+        "nativeName":"Türkmenistan",
         "numericCode":"795",
         "population":4751120,
         "continent":"Asia",
@@ -19323,17 +19553,18 @@ const List<Map<String, dynamic>> countriesData = [
             ".tm"
         ],
         "translations":{
-            "br":"Turcomenist\u00e3o",
+            "br":"Turcomenistão",
             "de":"Turkmenistan",
-            "es":"Turkmenist\u00e1n",
-            "fa":"\u062a\u0631\u06a9\u0645\u0646\u0633\u062a\u0627\u0646",
-            "fr":"Turkm\u00e9nistan",
+            "es":"Turkmenistán",
+            "fa":"ترکمنستان",
+            "fr":"Turkménistan",
             "hr":"Turkmenistan",
             "it":"Turkmenistan",
-            "ja":"\u30c8\u30eb\u30af\u30e1\u30cb\u30b9\u30bf\u30f3",
+            "ja":"トルクメニスタン",
             "nl":"Turkmenistan",
-            "pt":"Turquemenist\u00e3o",
-            "hu":"T\u00fcrkmeniszt\u00e1n"
+            "pt":"Turquemenistão",
+            "hu":"Türkmenisztán",
+            "ar":"تركمانستان"
         },
         "cioc":"TKM"
     },
@@ -19395,14 +19626,15 @@ const List<Map<String, dynamic>> countriesData = [
             "br":"Ilhas Turcas e Caicos",
             "de":"Turks- und Caicosinseln",
             "es":"Islas Turks y Caicos",
-            "fa":"\u062c\u0632\u0627\u06cc\u0631 \u062a\u0648\u0631\u06a9\u0633 \u0648 \u06a9\u0627\u06cc\u06a9\u0648\u0633",
-            "fr":"\u00celes Turques-et-Ca\u00efques",
+            "fa":"جزایر تورکس و کایکوس",
+            "fr":"Îles Turques-et-Caïques",
             "hr":"Otoci Turks i Caicos",
             "it":"Isole Turks e Caicos",
-            "ja":"\u30bf\u30fc\u30af\u30b9\u30fb\u30ab\u30a4\u30b3\u30b9\u8af8\u5cf6",
+            "ja":"タークス・カイコス諸島",
             "nl":"Turks- en Caicoseilanden",
             "pt":"Ilhas Turcas e Caicos",
-            "hu":"Turks- \u00eds Caicos-szigetek"
+            "hu":"Turks- ís Caicos-szigetek",
+            "ar":"جزر الترك وجايكوس"
         },
         "cioc":""
     },
@@ -19469,14 +19701,15 @@ const List<Map<String, dynamic>> countriesData = [
             "br":"Tuvalu",
             "de":"Tuvalu",
             "es":"Tuvalu",
-            "fa":"\u062a\u0648\u0648\u0627\u0644\u0648",
+            "fa":"تووالو",
             "fr":"Tuvalu",
             "hr":"Tuvalu",
             "it":"Tuvalu",
-            "ja":"\u30c4\u30d0\u30eb",
+            "ja":"ツバル",
             "nl":"Tuvalu",
             "pt":"Tuvalu",
-            "hu":"Tuvalu"
+            "hu":"Tuvalu",
+            "ar":"توفالو"
         },
         "cioc":"TUV"
     },
@@ -19542,10 +19775,10 @@ const List<Map<String, dynamic>> countriesData = [
                 "acronym":"AU",
                 "name":"African Union",
                 "otherNames":[
-                    "\u0627\u0644\u0627\u062a\u062d\u0627\u062f \u0627\u0644\u0623\u0641\u0631\u064a\u0642\u064a",
+                    "الاتحاد الأفريقي",
                     "Union africaine",
-                    "Uni\u00e3o Africana",
-                    "Uni\u00f3n Africana",
+                    "União Africana",
+                    "Unión Africana",
                     "Umoja wa Afrika"
                 ]
             }
@@ -19561,14 +19794,15 @@ const List<Map<String, dynamic>> countriesData = [
             "br":"Uganda",
             "de":"Uganda",
             "es":"Uganda",
-            "fa":"\u0627\u0648\u06af\u0627\u0646\u062f\u0627",
+            "fa":"اوگاندا",
             "fr":"Uganda",
             "hr":"Uganda",
             "it":"Uganda",
-            "ja":"\u30a6\u30ac\u30f3\u30c0",
+            "ja":"ウガンダ",
             "nl":"Oeganda",
             "pt":"Uganda",
-            "hu":"Uganda"
+            "hu":"Uganda",
+            "ar":"أوغندا"
         },
         "cioc":"UGA"
     },
@@ -19597,7 +19831,7 @@ const List<Map<String, dynamic>> countriesData = [
             {
                 "code":"UAH",
                 "name":"Ukrainian hryvnia",
-                "symbol":"\u20b4"
+                "symbol":"₴"
             }
         ],
         "demonym":"Ukrainian",
@@ -19612,7 +19846,7 @@ const List<Map<String, dynamic>> countriesData = [
                 "iso639_1":"uk",
                 "iso639_2":"ukr",
                 "name":"Ukrainian",
-                "nativeName":"\u0423\u043a\u0440\u0430\u0457\u043d\u0441\u044c\u043a\u0430"
+                "nativeName":"Українська"
             }
         ],
         "latlng":[
@@ -19620,7 +19854,7 @@ const List<Map<String, dynamic>> countriesData = [
             32
         ],
         "name":"Ukraine",
-        "nativeName":"\u0423\u043a\u0440\u0430\u0457\u043d\u0430",
+        "nativeName":"Україна",
         "numericCode":"804",
         "population":42692393,
         "continent":"Europe",
@@ -19635,17 +19869,18 @@ const List<Map<String, dynamic>> countriesData = [
             ".ua"
         ],
         "translations":{
-            "br":"Ucr\u00e2nia",
+            "br":"Ucrânia",
             "de":"Ukraine",
             "es":"Ucrania",
-            "fa":"\u0648\u06a9\u0631\u0627\u06cc\u0646",
+            "fa":"وکراین",
             "fr":"Ukraine",
             "hr":"Ukrajina",
             "it":"Ucraina",
-            "ja":"\u30a6\u30af\u30e9\u30a4\u30ca",
-            "nl":"Oekra\u00efne",
-            "pt":"Ucr\u00e2nia",
-            "hu":"Ukrajna"
+            "ja":"ウクライナ",
+            "nl":"Oekraïne",
+            "pt":"Ucrânia",
+            "hu":"Ukrajna",
+            "ar":"أوكرانيا"
         },
         "cioc":"UKR"
     },
@@ -19669,7 +19904,7 @@ const List<Map<String, dynamic>> countriesData = [
             {
                 "code":"AED",
                 "name":"United Arab Emirates dirham",
-                "symbol":"\u062f.\u0625"
+                "symbol":"د.إ"
             }
         ],
         "demonym":"Emirati",
@@ -19684,7 +19919,7 @@ const List<Map<String, dynamic>> countriesData = [
                 "iso639_1":"ar",
                 "iso639_2":"ara",
                 "name":"Arabic",
-                "nativeName":"\u0627\u0644\u0639\u0631\u0628\u064a\u0629"
+                "nativeName":"العربية"
             }
         ],
         "latlng":[
@@ -19692,7 +19927,7 @@ const List<Map<String, dynamic>> countriesData = [
             54
         ],
         "name":"United Arab Emirates",
-        "nativeName":"\u062f\u0648\u0644\u0629 \u0627\u0644\u0625\u0645\u0627\u0631\u0627\u062a \u0627\u0644\u0639\u0631\u0628\u064a\u0629 \u0627\u0644\u0645\u062a\u062d\u062f\u0629",
+        "nativeName":"دولة الإمارات العربية المتحدة",
         "numericCode":"784",
         "population":9856000,
         "continent":"Asia",
@@ -19701,8 +19936,8 @@ const List<Map<String, dynamic>> countriesData = [
                 "acronym":"AL",
                 "name":"Arab League",
                 "otherNames":[
-                    "\u062c\u0627\u0645\u0639\u0629 \u0627\u0644\u062f\u0648\u0644 \u0627\u0644\u0639\u0631\u0628\u064a\u0629",
-                    "J\u0101mi\u02bbat ad-Duwal al-\u02bbArab\u012byah",
+                    "جامعة الدول العربية",
+                    "Jāmiʻat ad-Duwal al-ʻArabīyah",
                     "League of Arab States"
                 ]
             }
@@ -19715,17 +19950,18 @@ const List<Map<String, dynamic>> countriesData = [
             ".ae"
         ],
         "translations":{
-            "br":"Emirados \u00e1rabes Unidos",
+            "br":"Emirados árabes Unidos",
             "de":"Vereinigte Arabische Emirate",
-            "es":"Emiratos \u00c1rabes Unidos",
-            "fa":"\u0627\u0645\u0627\u0631\u0627\u062a \u0645\u062a\u062d\u062f\u0647 \u0639\u0631\u0628\u06cc",
-            "fr":"\u00c9mirats arabes unis",
+            "es":"Emiratos Árabes Unidos",
+            "fa":"امارات متحده عربی",
+            "fr":"Émirats arabes unis",
             "hr":"Ujedinjeni Arapski Emirati",
             "it":"Emirati Arabi Uniti",
-            "ja":"\u30a2\u30e9\u30d6\u9996\u9577\u56fd\u9023\u90a6",
+            "ja":"アラブ首長国連邦",
             "nl":"Verenigde Arabische Emiraten",
-            "pt":"Emirados \u00e1rabes Unidos",
-            "hu":"Egyes\u00fclt Arab Em\u0151rs\u00edgek"
+            "pt":"Emirados árabes Unidos",
+            "hu":"Egyesült Arab Emőrsígek",
+            "ar":"الامارات العربية المتحدة"
         },
         "cioc":"UAE"
     },
@@ -19749,7 +19985,7 @@ const List<Map<String, dynamic>> countriesData = [
             {
                 "code":"GBP",
                 "name":"British pound",
-                "symbol":"\u00a3"
+                "symbol":"£"
             }
         ],
         "demonym":"British",
@@ -19793,16 +20029,17 @@ const List<Map<String, dynamic>> countriesData = [
         ],
         "translations":{
             "br":"Reino Unido",
-            "de":"Vereinigtes K\u00f6nigreich",
+            "de":"Vereinigtes Königreich",
             "es":"Reino Unido",
-            "fa":"\u0628\u0631\u06cc\u062a\u0627\u0646\u06cc\u0627\u06cc \u06a9\u0628\u06cc\u0631 \u0648 \u0627\u06cc\u0631\u0644\u0646\u062f \u0634\u0645\u0627\u0644\u06cc",
+            "fa":"بریتانیای کبیر و ایرلند شمالی",
             "fr":"Royaume-Uni",
             "hr":"Ujedinjeno Kraljevstvo",
             "it":"Regno Unito",
-            "ja":"\u30a4\u30ae\u30ea\u30b9",
+            "ja":"イギリス",
             "nl":"Verenigd Koninkrijk",
             "pt":"Reino Unido",
-            "hu":"Nagy-Britannia"
+            "hu":"Nagy-Britannia",
+            "ar":"المملكة المتحدة"
         },
         "cioc":"GBR"
     },
@@ -19859,8 +20096,8 @@ const List<Map<String, dynamic>> countriesData = [
                 "acronym":"NAFTA",
                 "name":"North American Free Trade Agreement",
                 "otherNames":[
-                    "Tratado de Libre Comercio de Am\u00e9rica del Norte",
-                    "Accord de Libre-\u00e9change Nord-Am\u00e9ricain"
+                    "Tratado de Libre Comercio de América del Norte",
+                    "Accord de Libre-échange Nord-Américain"
                 ]
             }
         ],
@@ -19885,14 +20122,15 @@ const List<Map<String, dynamic>> countriesData = [
             "br":"Estados Unidos",
             "de":"Vereinigte Staaten von Amerika",
             "es":"Estados Unidos",
-            "fa":"\u0627\u06cc\u0627\u0644\u0627\u062a \u0645\u062a\u062d\u062f\u0647 \u0622\u0645\u0631\u06cc\u06a9\u0627",
-            "fr":"\u00c9tats-Unis",
-            "hr":"Sjedinjene Ameri\u010dke Dr\u017eave",
+            "fa":"ایالات متحده آمریکا",
+            "fr":"États-Unis",
+            "hr":"Sjedinjene Američke Države",
             "it":"Stati Uniti D'America",
-            "ja":"\u30a2\u30e1\u30ea\u30ab\u5408\u8846\u56fd",
+            "ja":"アメリカ合衆国",
             "nl":"Verenigde Staten",
             "pt":"Estados Unidos",
-            "hu":"Amerikai Egyes\u00fclt \u00c1llamok"
+            "hu":"Amerikai Egyesült Államok",
+            "ar":"الولايات المتحدة الأمريكية"
         },
         "cioc":"USA"
     },
@@ -19902,7 +20140,7 @@ const List<Map<String, dynamic>> countriesData = [
         "altSpellings":[
             "UY",
             "Oriental Republic of Uruguay",
-            "Rep\u00fablica Oriental del Uruguay"
+            "República Oriental del Uruguay"
         ],
         "area":181034,
         "borders":[
@@ -19932,7 +20170,7 @@ const List<Map<String, dynamic>> countriesData = [
                 "iso639_1":"es",
                 "iso639_2":"spa",
                 "name":"Spanish",
-                "nativeName":"Espa\u00f1ol"
+                "nativeName":"Español"
             }
         ],
         "latlng":[
@@ -19954,8 +20192,8 @@ const List<Map<String, dynamic>> countriesData = [
                     "UZAN"
                 ],
                 "otherNames":[
-                    "Uni\u00f3n de Naciones Suramericanas",
-                    "Uni\u00e3o de Na\u00e7\u00f5es Sul-Americanas",
+                    "Unión de Naciones Suramericanas",
+                    "União de Nações Sul-Americanas",
                     "Unie van Zuid-Amerikaanse Naties",
                     "South American Union"
                 ]
@@ -19972,14 +20210,15 @@ const List<Map<String, dynamic>> countriesData = [
             "br":"Uruguai",
             "de":"Uruguay",
             "es":"Uruguay",
-            "fa":"\u0627\u0631\u0648\u06af\u0648\u0626\u0647",
+            "fa":"اروگوئه",
             "fr":"Uruguay",
             "hr":"Urugvaj",
             "it":"Uruguay",
-            "ja":"\u30a6\u30eb\u30b0\u30a2\u30a4",
+            "ja":"ウルグアイ",
             "nl":"Uruguay",
             "pt":"Uruguai",
-            "hu":"Uruguay"
+            "hu":"Uruguay",
+            "ar":"أورجواي"
         },
         "cioc":"URU"
     },
@@ -19989,8 +20228,8 @@ const List<Map<String, dynamic>> countriesData = [
         "altSpellings":[
             "UZ",
             "Republic of Uzbekistan",
-            "O\u2018zbekiston Respublikasi",
-            "\u040e\u0437\u0431\u0435\u043a\u0438\u0441\u0442\u043e\u043d \u0420\u0435\u0441\u043f\u0443\u0431\u043b\u0438\u043a\u0430\u0441\u0438"
+            "O‘zbekiston Respublikasi",
+            "Ўзбекистон Республикаси"
         ],
         "area":447400,
         "borders":[
@@ -20022,13 +20261,13 @@ const List<Map<String, dynamic>> countriesData = [
                 "iso639_1":"uz",
                 "iso639_2":"uzb",
                 "name":"Uzbek",
-                "nativeName":"O\u02bbzbek"
+                "nativeName":"Oʻzbek"
             },
             {
                 "iso639_1":"ru",
                 "iso639_2":"rus",
                 "name":"Russian",
-                "nativeName":"\u0420\u0443\u0441\u0441\u043a\u0438\u0439"
+                "nativeName":"Русский"
             }
         ],
         "latlng":[
@@ -20036,7 +20275,7 @@ const List<Map<String, dynamic>> countriesData = [
             64
         ],
         "name":"Uzbekistan",
-        "nativeName":"O\u2018zbekiston",
+        "nativeName":"O‘zbekiston",
         "numericCode":"860",
         "population":31576400,
         "continent":"Asia",
@@ -20051,17 +20290,18 @@ const List<Map<String, dynamic>> countriesData = [
             ".uz"
         ],
         "translations":{
-            "br":"Uzbequist\u00e3o",
+            "br":"Uzbequistão",
             "de":"Usbekistan",
-            "es":"Uzbekist\u00e1n",
-            "fa":"\u0627\u0632\u0628\u06a9\u0633\u062a\u0627\u0646",
-            "fr":"Ouzb\u00e9kistan",
+            "es":"Uzbekistán",
+            "fa":"ازبکستان",
+            "fr":"Ouzbékistan",
             "hr":"Uzbekistan",
             "it":"Uzbekistan",
-            "ja":"\u30a6\u30ba\u30d9\u30ad\u30b9\u30bf\u30f3",
+            "ja":"ウズベキスタン",
             "nl":"Oezbekistan",
-            "pt":"Usbequist\u00e3o",
-            "hu":"\u00dczbegiszt\u00e1n"
+            "pt":"Usbequistão",
+            "hu":"Üzbegisztán",
+            "ar":"أوزبكستان"
         },
         "cioc":"UZB"
     },
@@ -20072,7 +20312,7 @@ const List<Map<String, dynamic>> countriesData = [
             "VU",
             "Republic of Vanuatu",
             "Ripablik blong Vanuatu",
-            "R\u00e9publique de Vanuatu"
+            "République de Vanuatu"
         ],
         "area":12189,
         "borders":[
@@ -20112,7 +20352,7 @@ const List<Map<String, dynamic>> countriesData = [
                 "iso639_1":"fr",
                 "iso639_2":"fra",
                 "name":"French",
-                "nativeName":"fran\u00e7ais"
+                "nativeName":"français"
             }
         ],
         "latlng":[
@@ -20138,14 +20378,15 @@ const List<Map<String, dynamic>> countriesData = [
             "br":"Vanuatu",
             "de":"Vanuatu",
             "es":"Vanuatu",
-            "fa":"\u0648\u0627\u0646\u0648\u0627\u062a\u0648",
+            "fa":"وانواتو",
             "fr":"Vanuatu",
             "hr":"Vanuatu",
             "it":"Vanuatu",
-            "ja":"\u30d0\u30cc\u30a2\u30c4",
+            "ja":"バヌアツ",
             "nl":"Vanuatu",
             "pt":"Vanuatu",
-            "hu":"Vanuatu"
+            "hu":"Vanuatu",
+            "ar":"فانواتو"
         },
         "cioc":"VAN"
     },
@@ -20155,7 +20396,7 @@ const List<Map<String, dynamic>> countriesData = [
         "altSpellings":[
             "VE",
             "Bolivarian Republic of Venezuela",
-            "Rep\u00fablica Bolivariana de Venezuela"
+            "República Bolivariana de Venezuela"
         ],
         "area":916445,
         "borders":[
@@ -20170,7 +20411,7 @@ const List<Map<String, dynamic>> countriesData = [
         "currencies":[
             {
                 "code":"VEF",
-                "name":"Venezuelan bol\u00edvar",
+                "name":"Venezuelan bolívar",
                 "symbol":"Bs S"
             }
         ],
@@ -20186,7 +20427,7 @@ const List<Map<String, dynamic>> countriesData = [
                 "iso639_1":"es",
                 "iso639_2":"spa",
                 "name":"Spanish",
-                "nativeName":"Espa\u00f1ol"
+                "nativeName":"Español"
             }
         ],
         "latlng":[
@@ -20208,8 +20449,8 @@ const List<Map<String, dynamic>> countriesData = [
                     "UZAN"
                 ],
                 "otherNames":[
-                    "Uni\u00f3n de Naciones Suramericanas",
-                    "Uni\u00e3o de Na\u00e7\u00f5es Sul-Americanas",
+                    "Unión de Naciones Suramericanas",
+                    "União de Nações Sul-Americanas",
                     "Unie van Zuid-Amerikaanse Naties",
                     "South American Union"
                 ]
@@ -20226,14 +20467,15 @@ const List<Map<String, dynamic>> countriesData = [
             "br":"Venezuela",
             "de":"Venezuela",
             "es":"Venezuela",
-            "fa":"\u0648\u0646\u0632\u0648\u0626\u0644\u0627",
+            "fa":"ونزوئلا",
             "fr":"Venezuela",
             "hr":"Venezuela",
             "it":"Venezuela",
-            "ja":"\u30d9\u30cd\u30ba\u30a8\u30e9\u30fb\u30dc\u30ea\u30d0\u30eb\u5171\u548c\u56fd",
+            "ja":"ベネズエラ・ボリバル共和国",
             "nl":"Venezuela",
             "pt":"Venezuela",
-            "hu":"Venezuela"
+            "hu":"Venezuela",
+            "ar":"فنزويلا"
         },
         "cioc":"VEN"
     },
@@ -20243,7 +20485,7 @@ const List<Map<String, dynamic>> countriesData = [
         "altSpellings":[
             "VN",
             "Socialist Republic of Vietnam",
-            "C\u1ed9ng h\u00f2a X\u00e3 h\u1ed9i ch\u1ee7 ngh\u0129a Vi\u1ec7t Nam"
+            "Cộng hòa Xã hội chủ nghĩa Việt Nam"
         ],
         "area":331212,
         "borders":[
@@ -20258,8 +20500,8 @@ const List<Map<String, dynamic>> countriesData = [
         "currencies":[
             {
                 "code":"VND",
-                "name":"Vietnamese \u0111\u1ed3ng",
-                "symbol":"\u20ab"
+                "name":"Vietnamese đồng",
+                "symbol":"₫"
             }
         ],
         "demonym":"Vietnamese",
@@ -20274,7 +20516,7 @@ const List<Map<String, dynamic>> countriesData = [
                 "iso639_1":"vi",
                 "iso639_2":"vie",
                 "name":"Vietnamese",
-                "nativeName":"Ti\u1ebfng Vi\u1ec7t"
+                "nativeName":"Tiếng Việt"
             }
         ],
         "latlng":[
@@ -20282,7 +20524,7 @@ const List<Map<String, dynamic>> countriesData = [
             107.83333333
         ],
         "name":"Vietnam",
-        "nativeName":"Vi\u1ec7t Nam",
+        "nativeName":"Việt Nam",
         "numericCode":"704",
         "population":92700000,
         "continent":"Asia",
@@ -20300,17 +20542,18 @@ const List<Map<String, dynamic>> countriesData = [
             ".vn"
         ],
         "translations":{
-            "br":"Vietn\u00e3",
+            "br":"Vietnã",
             "de":"Vietnam",
             "es":"Vietnam",
-            "fa":"\u0648\u06cc\u062a\u0646\u0627\u0645",
-            "fr":"Vi\u00eat Nam",
+            "fa":"ویتنام",
+            "fr":"Viêt Nam",
             "hr":"Vijetnam",
             "it":"Vietnam",
-            "ja":"\u30d9\u30c8\u30ca\u30e0",
+            "ja":"ベトナム",
             "nl":"Vietnam",
             "pt":"Vietname",
-            "hu":"Vietn\u00e1m"
+            "hu":"Vietnám",
+            "ar":"فيتنام"
         },
         "cioc":"VIE"
     },
@@ -20320,7 +20563,7 @@ const List<Map<String, dynamic>> countriesData = [
         "altSpellings":[
             "WF",
             "Territory of the Wallis and Futuna Islands",
-            "Territoire des \u00eeles Wallis et Futuna"
+            "Territoire des îles Wallis et Futuna"
         ],
         "area":142,
         "borders":[
@@ -20348,7 +20591,7 @@ const List<Map<String, dynamic>> countriesData = [
                 "iso639_1":"fr",
                 "iso639_2":"fra",
                 "name":"French",
-                "nativeName":"fran\u00e7ais"
+                "nativeName":"français"
             }
         ],
         "latlng":[
@@ -20374,14 +20617,15 @@ const List<Map<String, dynamic>> countriesData = [
             "br":"Wallis e Futuna",
             "de":"Wallis und Futuna",
             "es":"Wallis y Futuna",
-            "fa":"\u0648\u0627\u0644\u06cc\u0633 \u0648 \u0641\u0648\u062a\u0648\u0646\u0627",
+            "fa":"والیس و فوتونا",
             "fr":"Wallis-et-Futuna",
             "hr":"Wallis i Fortuna",
             "it":"Wallis e Futuna",
-            "ja":"\u30a6\u30a9\u30ea\u30b9\u30fb\u30d5\u30c4\u30ca",
+            "ja":"ウォリス・フツナ",
             "nl":"Wallis en Futuna",
             "pt":"Wallis e Futuna",
-            "hu":"Wallis \u00e9s Futuna"
+            "hu":"Wallis és Futuna",
+            "ar":"جزر والس وفوتونا"
         },
         "cioc":""
     },
@@ -20390,7 +20634,7 @@ const List<Map<String, dynamic>> countriesData = [
         "alpha3Code":"ESH",
         "altSpellings":[
             "EH",
-            "Tane\u1e93roft Tutrimt"
+            "Taneẓroft Tutrimt"
         ],
         "area":266000,
         "borders":[
@@ -20401,17 +20645,17 @@ const List<Map<String, dynamic>> countriesData = [
         "callingCodes":[
             "212"
         ],
-        "capital":"El Aai\u00fan",
+        "capital":"El Aaiún",
         "currencies":[
             {
                 "code":"MAD",
                 "name":"Moroccan dirham",
-                "symbol":"\u062f.\u0645."
+                "symbol":"د.م."
             },
             {
                 "code":"DZD",
                 "name":"Algerian dinar",
-                "symbol":"\u062f.\u062c"
+                "symbol":"د.ج"
             }
         ],
         "demonym":"Sahrawi",
@@ -20425,7 +20669,7 @@ const List<Map<String, dynamic>> countriesData = [
                 "iso639_1":"es",
                 "iso639_2":"spa",
                 "name":"Spanish",
-                "nativeName":"Espa\u00f1ol"
+                "nativeName":"Español"
             }
         ],
         "latlng":[
@@ -20433,7 +20677,7 @@ const List<Map<String, dynamic>> countriesData = [
             -13
         ],
         "name":"Western Sahara",
-        "nativeName":"\u0627\u0644\u0635\u062d\u0631\u0627\u0621 \u0627\u0644\u063a\u0631\u0628\u064a\u0629",
+        "nativeName":"الصحراء الغربية",
         "numericCode":"732",
         "population":510713,
         "continent":"Africa",
@@ -20442,10 +20686,10 @@ const List<Map<String, dynamic>> countriesData = [
                 "acronym":"AU",
                 "name":"African Union",
                 "otherNames":[
-                    "\u0627\u0644\u0627\u062a\u062d\u0627\u062f \u0627\u0644\u0623\u0641\u0631\u064a\u0642\u064a",
+                    "الاتحاد الأفريقي",
                     "Union africaine",
-                    "Uni\u00e3o Africana",
-                    "Uni\u00f3n Africana",
+                    "União Africana",
+                    "Unión Africana",
                     "Umoja wa Afrika"
                 ]
             }
@@ -20461,14 +20705,15 @@ const List<Map<String, dynamic>> countriesData = [
             "br":"Saara Ocidental",
             "de":"Westsahara",
             "es":"Sahara Occidental",
-            "fa":"\u062c\u0645\u0647\u0648\u0631\u06cc \u062f\u0645\u0648\u06a9\u0631\u0627\u062a\u06cc\u06a9 \u0639\u0631\u0628\u06cc \u0635\u062d\u0631\u0627",
+            "fa":"جمهوری دموکراتیک عربی صحرا",
             "fr":"Sahara Occidental",
             "hr":"Zapadna Sahara",
             "it":"Sahara Occidentale",
-            "ja":"\u897f\u30b5\u30cf\u30e9",
+            "ja":"西サハラ",
             "nl":"Westelijke Sahara",
             "pt":"Saara Ocidental",
-            "hu":"Nyugat-Szahara"
+            "hu":"Nyugat-Szahara",
+            "ar":"الصحراء الغربية"
         },
         "cioc":""
     },
@@ -20478,7 +20723,7 @@ const List<Map<String, dynamic>> countriesData = [
         "altSpellings":[
             "YE",
             "Yemeni Republic",
-            "al-Jumh\u016briyyah al-Yamaniyyah"
+            "al-Jumhūriyyah al-Yamaniyyah"
         ],
         "area":527968,
         "borders":[
@@ -20493,7 +20738,7 @@ const List<Map<String, dynamic>> countriesData = [
             {
                 "code":"YER",
                 "name":"Yemeni rial",
-                "symbol":"\ufdfc"
+                "symbol":"﷼"
             }
         ],
         "demonym":"Yemeni",
@@ -20508,7 +20753,7 @@ const List<Map<String, dynamic>> countriesData = [
                 "iso639_1":"ar",
                 "iso639_2":"ara",
                 "name":"Arabic",
-                "nativeName":"\u0627\u0644\u0639\u0631\u0628\u064a\u0629"
+                "nativeName":"العربية"
             }
         ],
         "latlng":[
@@ -20516,7 +20761,7 @@ const List<Map<String, dynamic>> countriesData = [
             48
         ],
         "name":"Yemen",
-        "nativeName":"\u0627\u0644\u064a\u064e\u0645\u064e\u0646",
+        "nativeName":"اليَمَن",
         "numericCode":"887",
         "population":27478000,
         "continent":"Asia",
@@ -20525,8 +20770,8 @@ const List<Map<String, dynamic>> countriesData = [
                 "acronym":"AL",
                 "name":"Arab League",
                 "otherNames":[
-                    "\u062c\u0627\u0645\u0639\u0629 \u0627\u0644\u062f\u0648\u0644 \u0627\u0644\u0639\u0631\u0628\u064a\u0629",
-                    "J\u0101mi\u02bbat ad-Duwal al-\u02bbArab\u012byah",
+                    "جامعة الدول العربية",
+                    "Jāmiʻat ad-Duwal al-ʻArabīyah",
                     "League of Arab States"
                 ]
             }
@@ -20539,17 +20784,18 @@ const List<Map<String, dynamic>> countriesData = [
             ".ye"
         ],
         "translations":{
-            "br":"I\u00eamen",
+            "br":"Iêmen",
             "de":"Jemen",
             "es":"Yemen",
-            "fa":"\u06cc\u0645\u0646",
-            "fr":"Y\u00e9men",
+            "fa":"یمن",
+            "fr":"Yémen",
             "hr":"Jemen",
             "it":"Yemen",
-            "ja":"\u30a4\u30a8\u30e1\u30f3",
+            "ja":"イエメン",
             "nl":"Jemen",
-            "pt":"I\u00e9men",
-            "hu":"Jemen"
+            "pt":"Iémen",
+            "hu":"Jemen",
+            "ar":"اليمن"
         },
         "cioc":"YEM"
     },
@@ -20611,10 +20857,10 @@ const List<Map<String, dynamic>> countriesData = [
                 "acronym":"AU",
                 "name":"African Union",
                 "otherNames":[
-                    "\u0627\u0644\u0627\u062a\u062d\u0627\u062f \u0627\u0644\u0623\u0641\u0631\u064a\u0642\u064a",
+                    "الاتحاد الأفريقي",
                     "Union africaine",
-                    "Uni\u00e3o Africana",
-                    "Uni\u00f3n Africana",
+                    "União Africana",
+                    "Unión Africana",
                     "Umoja wa Afrika"
                 ]
             }
@@ -20627,17 +20873,18 @@ const List<Map<String, dynamic>> countriesData = [
             ".zm"
         ],
         "translations":{
-            "br":"Z\u00e2mbia",
+            "br":"Zâmbia",
             "de":"Sambia",
             "es":"Zambia",
-            "fa":"\u0632\u0627\u0645\u0628\u06cc\u0627",
+            "fa":"زامبیا",
             "fr":"Zambie",
             "hr":"Zambija",
             "it":"Zambia",
-            "ja":"\u30b6\u30f3\u30d3\u30a2",
+            "ja":"ザンビア",
             "nl":"Zambia",
-            "pt":"Z\u00e2mbia",
-            "hu":"Zambia"
+            "pt":"Zâmbia",
+            "hu":"Zambia",
+            "ar":"زامبيا"
         },
         "cioc":"ZAM"
     },
@@ -20707,10 +20954,10 @@ const List<Map<String, dynamic>> countriesData = [
                 "acronym":"AU",
                 "name":"African Union",
                 "otherNames":[
-                    "\u0627\u0644\u0627\u062a\u062d\u0627\u062f \u0627\u0644\u0623\u0641\u0631\u064a\u0642\u064a",
+                    "الاتحاد الأفريقي",
                     "Union africaine",
-                    "Uni\u00e3o Africana",
-                    "Uni\u00f3n Africana",
+                    "União Africana",
+                    "Unión Africana",
                     "Umoja wa Afrika"
                 ]
             }
@@ -20726,14 +20973,15 @@ const List<Map<String, dynamic>> countriesData = [
             "br":"Zimbabwe",
             "de":"Simbabwe",
             "es":"Zimbabue",
-            "fa":"\u0632\u06cc\u0645\u0628\u0627\u0648\u0647",
+            "fa":"زیمباوه",
             "fr":"Zimbabwe",
             "hr":"Zimbabve",
             "it":"Zimbabwe",
-            "ja":"\u30b8\u30f3\u30d0\u30d6\u30a8",
+            "ja":"ジンバブエ",
             "nl":"Zimbabwe",
-            "pt":"Zimbabu\u00e9",
-            "hu":"Zimbabwe"
+            "pt":"Zimbabué",
+            "hu":"Zimbabwe",
+            "ar":"زيمبابوي"
         },
         "cioc":"ZIM"
     }

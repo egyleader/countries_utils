@@ -10,12 +10,7 @@ A lite flutter package for providing World Country Data without internet connect
 
 ##  Installation
 
-depend on the package in your pubspec.yaml :
-
-```yaml
- dependencies:
-    flutter_country: ^0.1.0
-```
+depend on the package in your pubspec.yaml
 
 get the packages :
 

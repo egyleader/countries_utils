@@ -1,13 +1,12 @@
 import 'package:flutter_country/flutter_country.dart';
 import 'package:flutter_country/helpers/flag_string.dart';
 import 'package:flutter_country/models/currency_list.dart';
-import 'package:flutter_country/models/translation_list.dart';
 
 class Country {
   final String name;
   final String officialName;
   final String nativeName;
-  final TranslationList translations;
+  final Map<String,String> translations;
   final String demonym;
   final List<String> altSpellings;
   final String alpha2Code;
@@ -106,14 +105,13 @@ class Country {
         topLevelDomain: json['topLevelDomain'].cast<String>(),
         translations: json['translations'].toString() == '{}'
             ? null
-            : TranslationList.fromJson(json['translations']),
+            : json['translations'] as Map<String,String>,
         // cioc  geos here
         //countries that share borders with this country
         //? timestaps is not added yet
       );
 
-  String traslatedOfficialName(String code) =>
-      translations.translate(code).name;
-  String traslatedCommonName(String code) =>
-      translations.translate(code).name ?? translations.translate(code).name;
+
+  String translate(String code) =>
+      translations.containsKey(code) ? translations[code] : '';
 }

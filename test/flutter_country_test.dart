@@ -25,7 +25,7 @@ void main() {
       'get country all currnecies', () => Countries.byName('Egypt').currnecies);
 
   test('get country name translated to one language ',
-      () => Countries.byName('Egypt').traslatedOfficialName('fra'));
+      () => Countries.byName('Egypt').translate('ar'));
 
   test('get country by alpha2Code', () => Countries.byCode('EG'));
 

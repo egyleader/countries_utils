@@ -1,4 +1,10 @@
 ## [0.1.1] - 2 March 2021.
+* added Arabic Country names
+* added new translate() method
+* added timeZone() method 
+* added byTimeStamp method and test
+* updated documentation 
+## [0.1.1] - 2 March 2021.
 * added timeStamp to country object
 * added byTimeStamp method and test
 
