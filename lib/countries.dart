@@ -9,7 +9,7 @@ class Countries {
   // This class is not meant to be instantiated or extended; this constructor
   // prevents instantiation and extension.
   Countries._();
-  static CountryList _countriesList;
+  static CountryList? _countriesList;
 
   static final CountryList _countryData = _getCountries();
 
@@ -45,15 +45,14 @@ class Countries {
   }
 
   static Country byCallingCode(String code) {
-    Country country = _countryData.countries
-        .where((c) => c.callingCodes.contains(code))
+    Country country = _countryData.countries.where((c) => c.callingCodes!.contains(code))
         .first;
     return country;
   }
 
   static Country byCapital(String capital) {
     Country country =
-        _countryData.countries.where((c) => c.capital.contains(capital)).first;
+        _countryData.countries.where((c) => c.capital!.contains(capital)).first;
     return country;
   }
 
@@ -91,7 +90,7 @@ class Countries {
 
   static List<Country> byRegion(String region) {
     List<Country> countries =
-        _countryData.countries.where((c) => c.region.contains(region)).toList();
+        _countryData.countries.where((c) => c.region!.contains(region)).toList();
     return countries;
   }
 
@@ -102,24 +101,21 @@ class Countries {
   }
 
   static List<Country> areaBiggerThan(double area) {
-    List<Country> countries = _countryData.countries
-        .where((c) => c.area != null && c.area > area)
+    List<Country> countries = _countryData.countries.where((c) => c.area != null && c.area! > area)
         .toList();
     return countries;
   }
 
   static CountryList areaSmallerThan(double area) {
-    List<Country> countries = _countryData.countries
-        .where((c) => c.area != null && c.area < area)
+    List<Country> countries = _countryData.countries.where((c) => c.area != null && c.area! < area)
         .toList();
     return CountryList(countries: countries);
   }
 
   static CountryList byTimeZone(TimeZone timeZone) {
-    List<Country> countries = _countryData.countries
-        .where((c) => c.timeZones.timeZones == null
+    List<Country> countries = _countryData.countries.where((c) => c.timeZones!.timeZones == null
             ? false
-            : c.timeZones.timeZones.contains(timeZone))
+            : c.timeZones!.timeZones!.contains(timeZone))
         .toList();
     return CountryList(countries: countries);
   }

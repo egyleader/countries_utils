@@ -1,7 +1,7 @@
 import 'package:flutter_country/models/currency.dart';
 
 class CurrencyList {
-  final List<Currency> currencies;
+  final List<Currency>? currencies;
 
   CurrencyList({this.currencies});
 

@@ -1,6 +1,8 @@
 name: country_picker
 description: new flutter project for copertino country picker
 
+publish_to: none #prevent publishing of example app 
+
 version: 1.0.0+1
 
 environment:
@@ -9,8 +11,9 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  flutter_localizations:
-    sdk: flutter
+  flutter_country: 
+    path: ../
+
     
 dev_dependencies:
   flutter_lints: ^1.0.4

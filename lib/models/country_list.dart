@@ -3,7 +3,7 @@ import 'package:flutter_country/models/country.dart';
 class CountryList {
   final List<Country> countries;
 
-  CountryList({this.countries});
+  CountryList({required this.countries});
 
   factory CountryList.fromJson(List<dynamic> parsedJson) {
     var countries = <Country>[];

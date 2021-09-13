@@ -1,6 +1,6 @@
 class TimeZone {
-  Duration offset;
-  String offsetType;
+  Duration? offset;
+  String? offsetType;
 
   TimeZone({this.offset, this.offsetType});
 

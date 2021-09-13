@@ -1,11 +1,11 @@
 import 'package:flutter_country/models/timezone.dart';
 
 class TimeZoneList {
-  final List<TimeZone> timeZones;
+  final List<TimeZone>? timeZones;
 
   TimeZoneList({this.timeZones});
 
-  factory TimeZoneList.fromJson(List<String> parsedJson) {
+  factory TimeZoneList.fromJson(List<String>? parsedJson) {
     var timeZones = <TimeZone>[];
     if ( parsedJson == null ||  parsedJson.isEmpty) return TimeZoneList();
     parsedJson.forEach((timeZone) {
