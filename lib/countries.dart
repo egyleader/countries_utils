@@ -1,5 +1,5 @@
 import 'package:flutter_country/models/country.dart';
-import 'package:flutter_country/assets/countries_data.dart';
+import 'package:flutter_country/countries_data.dart';
 import 'package:flutter_country/models/country_list.dart';
 import 'package:flutter_country/models/timezone.dart';
 import 'models/country.dart';
@@ -11,15 +11,16 @@ class Countries {
   Countries._();
   static CountryList _countriesList;
 
-  static final CountryList _countryData = getCountries();
+  static final CountryList _countryData = _getCountries();
 
-  static CountryList getCountries() =>
+  static CountryList _getCountries() =>
       _countriesList ?? CountryList.fromJson(countriesData);
 
+  /// getting all the countries as a List of [Country]
   static List<Country> all() {
     return _countryData.countries;
   }
-
+/// get country by Name Example:
   static Country byName(String name) {
     Country country = _countryData.countries.where((c) => c.name == name).first;
     return country;

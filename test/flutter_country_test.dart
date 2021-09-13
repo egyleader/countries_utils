@@ -31,6 +31,7 @@ void main() {
 
   test('get country by timeZone ',
       () =>print(Countries.byTimeZone(TimeZone(offset: Duration(hours:02 , minutes:00) , offsetType:'+')).countries.length));
+      
   test('get country by alpha2Code', () => Countries.byCode('EG'));
 
   test('get country by alpha3Code', () => Countries.byAlpha3Code('EGY'));
