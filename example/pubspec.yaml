@@ -6,19 +6,18 @@ publish_to: none #prevent publishing of example app
 version: 1.0.0+1
 
 environment:
-  sdk: ">=2.14.0 <3.0.0"
+  sdk: ">=2.12.0 <3.0.0"
 
 dependencies:
   flutter:
     sdk: flutter
-  flutter_country: 
+  countries_utils: 
     path: ../
 
     
 dev_dependencies:
   flutter_lints: ^1.0.4
-  flutter_test:
-    sdk: flutter
+  lints: ^1.0.1
 
 flutter:
 

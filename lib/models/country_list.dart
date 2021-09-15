@@ -1,4 +1,4 @@
-import 'package:flutter_country/models/country.dart';
+import 'package:countries_utils/models/country.dart';
 
 class CountryList {
   final List<Country> countries;

@@ -1,4 +1,4 @@
-library flutter_country;
+library countries;
 
 export 'models/country.dart';
 export 'models/country_list.dart';

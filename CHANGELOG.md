@@ -1,3 +1,10 @@
+## [1.0.0] - 15 September 2021.
+* migrated to null safety 🥳
+* fixed typos and imporved stability
+* migrated from old package *flutter_country* to  **countries_utils** for better convention 
+*made the package pure dart with no flutter dependencies
+* lowered the sdk version required 
+* fixed typos and imporved stability
 ## [0.1.1] - 2 March 2021.
 * added Arabic Country names
 * added new translate() method

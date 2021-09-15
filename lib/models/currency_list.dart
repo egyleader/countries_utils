@@ -1,4 +1,4 @@
-import 'package:flutter_country/models/currency.dart';
+import 'package:countries_utils/models/currency.dart';
 
 class CurrencyList {
   final List<Currency>? currencies;

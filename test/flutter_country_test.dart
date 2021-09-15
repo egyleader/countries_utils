@@ -1,5 +1,5 @@
-import 'package:flutter_country/flutter_country.dart';
-import 'package:flutter_country/models/timezone.dart';
+import 'package:countries_utils/countries.dart';
+import 'package:countries_utils/models/timezone.dart';
 import 'package:test/test.dart';
 
 void main() {
@@ -28,10 +28,13 @@ void main() {
   test('get country name translated to one language ',
       () => Countries.byName('Egypt').translate('ar'));
 
+  test(
+      'get country by timeZone ',
+      () => print(Countries.byTimeZone(TimeZone(
+              offset: Duration(hours: 02, minutes: 00), offsetType: '+'))
+          .countries
+          .length));
 
-  test('get country by timeZone ',
-      () =>print(Countries.byTimeZone(TimeZone(offset: Duration(hours:02 , minutes:00) , offsetType:'+')).countries.length));
-      
   test('get country by alpha2Code', () => Countries.byCode('EG'));
 
   test('get country by alpha3Code', () => Countries.byAlpha3Code('EGY'));
@@ -62,8 +65,6 @@ void main() {
 
   test('get countries Smaller than given area  ',
       () => Countries.areaSmallerThan(1002450));
-
-  
 
   test(
       'test country is landlocked', () => Countries.byName('Egypt').landLocked);

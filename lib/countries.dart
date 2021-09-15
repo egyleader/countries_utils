@@ -1,7 +1,7 @@
-import 'package:flutter_country/models/country.dart';
-import 'package:flutter_country/countries_data.dart';
-import 'package:flutter_country/models/country_list.dart';
-import 'package:flutter_country/models/timezone.dart';
+import 'package:countries_utils/models/country.dart';
+import 'package:countries_utils/countries_data.dart';
+import 'package:countries_utils/models/country_list.dart';
+import 'package:countries_utils/models/timezone.dart';
 import 'models/country.dart';
 import 'models/country_list.dart';
 
@@ -20,7 +20,8 @@ class Countries {
   static List<Country> all() {
     return _countryData.countries;
   }
-/// get country by Name Example:
+
+  /// get country by Name Example:
   static Country byName(String name) {
     Country country = _countryData.countries.where((c) => c.name == name).first;
     return country;
@@ -45,7 +46,8 @@ class Countries {
   }
 
   static Country byCallingCode(String code) {
-    Country country = _countryData.countries.where((c) => c.callingCodes!.contains(code))
+    Country country = _countryData.countries
+        .where((c) => c.callingCodes!.contains(code))
         .first;
     return country;
   }
@@ -89,8 +91,9 @@ class Countries {
   }
 
   static List<Country> byRegion(String region) {
-    List<Country> countries =
-        _countryData.countries.where((c) => c.region!.contains(region)).toList();
+    List<Country> countries = _countryData.countries
+        .where((c) => c.region!.contains(region))
+        .toList();
     return countries;
   }
 
@@ -101,19 +104,22 @@ class Countries {
   }
 
   static List<Country> areaBiggerThan(double area) {
-    List<Country> countries = _countryData.countries.where((c) => c.area != null && c.area! > area)
+    List<Country> countries = _countryData.countries
+        .where((c) => c.area != null && c.area! > area)
         .toList();
     return countries;
   }
 
   static CountryList areaSmallerThan(double area) {
-    List<Country> countries = _countryData.countries.where((c) => c.area != null && c.area! < area)
+    List<Country> countries = _countryData.countries
+        .where((c) => c.area != null && c.area! < area)
         .toList();
     return CountryList(countries: countries);
   }
 
   static CountryList byTimeZone(TimeZone timeZone) {
-    List<Country> countries = _countryData.countries.where((c) => c.timeZones!.timeZones == null
+    List<Country> countries = _countryData.countries
+        .where((c) => c.timeZones!.timeZones == null
             ? false
             : c.timeZones!.timeZones!.contains(timeZone))
         .toList();

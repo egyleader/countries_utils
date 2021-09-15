@@ -1,12 +1,12 @@
-#  flutter_country
+#  countries_utils
 
-![enter image description here](https://img.shields.io/github/issues/egyleader/flutter_country) ![enter image description here](https://img.shields.io/github/forks/egyleader/flutter_country) ![enter image description here](https://img.shields.io/github/stars/egyleader/flutter_country) ![enter image description here](https://img.shields.io/twitter/url?url=https://github.com/egyleader/flutter_country)
-
-
-
-A lite flutter package for providing World Country Data without internet connection
+![enter image description here](https://img.shields.io/github/issues/egyleader/countries) ![enter image description here](https://img.shields.io/github/forks/egyleader/countries) ![enter image description here](https://img.shields.io/github/stars/egyleader/countries) ![enter image description here](https://img.shields.io/twitter/url?url=https://github.com/egyleader/countries)
 
 
+countries is A lite dart  package for providing World Country Data without internet connection to your dart or flutter application 
+
+
+[note] : this packege it migrated from the old ~~*flutter_countries*~~ name to **countries_utils** to make it suitable for all dart projects with no flutter dependecy.
 
 ##  Installation
 

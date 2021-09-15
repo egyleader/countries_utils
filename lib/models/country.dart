@@ -1,13 +1,12 @@
-import 'package:flutter_country/flutter_country.dart';
-import 'package:flutter_country/helpers/flag_string.dart';
-import 'package:flutter_country/models/currency_list.dart';
-import 'package:flutter_country/models/timezone_list.dart';
+import 'package:countries_utils/helpers/flag_string.dart';
+import 'package:countries_utils/models/currency_list.dart';
+import 'package:countries_utils/models/timezone_list.dart';
 
 class Country {
   final String? name;
   final String? officialName;
   final String? nativeName;
-  final Map<String,String>? translations;
+  final Map<String, String>? translations;
   final String? demonym;
   final List<String>? altSpellings;
   final String? alpha2Code;
@@ -60,8 +59,7 @@ class Country {
       this.landLocked,
       this.borders,
       this.demonym,
-      this.timeZones
-      });
+      this.timeZones});
 
   factory Country.fromJosn(Map<String, dynamic> json) => Country(
         alpha2Code: json['alpha2Code'],
@@ -106,11 +104,10 @@ class Country {
         topLevelDomain: json['topLevelDomain'].cast<String>(),
         translations: json['translations'].toString() == '{}'
             ? null
-            : json['translations'] as Map<String,String>?,
+            : json['translations'] as Map<String, String>?,
         // cioc  geos here
         //countries that share borders with this country
       );
-
 
   String? translate(String code) =>
       translations!.containsKey(code) ? translations![code] : '';

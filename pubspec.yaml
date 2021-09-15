@@ -1,11 +1,13 @@
-name: flutter_country
+name: countries_utils
 description: 'A lite flutter package for providing world Country Data without
   internet connection, useful for country or language selector '
+  
 version: 1.0.0
-homepage: https://github.com/egyleader/flutter_country.git
+
+homepage: https://github.com/egyleader/countries_utils.git
 
 environment:
-  sdk: '>=2.14.0 <3.0.0'
+  sdk: '>=2.12.0 <3.0.0'
 
 dependencies:
   test: ^1.17.12
