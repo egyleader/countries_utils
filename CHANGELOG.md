@@ -1,17 +1,20 @@
-## [1.0.0] - 15 September 2021.
+## [1.0.1] 
+* 
+* fixed test package in depedencies 
+## [1.0.0]
 * migrated to null safety 🥳
 * fixed typos and imporved stability
+* made the package pure dart with no flutter dependencies
 * migrated from old package *flutter_country* to  **countries_utils** for better convention 
-*made the package pure dart with no flutter dependencies
 * lowered the sdk version required 
 * fixed typos and imporved stability
-## [0.1.1] - 2 March 2021.
+## [0.1.1] 
 * added Arabic Country names
 * added new translate() method
 * added timeZone() method 
 * added byTimeStamp method and test
 * updated documentation 
-## [0.1.1] - 2 March 2021.
+## [0.1.1]
 * added timeStamp to country object
 * added byTimeStamp method and test
 
