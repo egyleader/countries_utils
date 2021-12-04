@@ -8,9 +8,9 @@ class TimeZoneList {
   factory TimeZoneList.fromJson(List<String>? parsedJson) {
     var timeZones = <TimeZone>[];
     if (parsedJson == null || parsedJson.isEmpty) return TimeZoneList();
-    parsedJson.forEach((timeZone) {
+    for (var timeZone in parsedJson) {
       timeZones.add(TimeZone.fromJson(timeZone));
-    });
+    }
     return TimeZoneList(
       timeZones: timeZones,
     );

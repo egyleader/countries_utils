@@ -1,8 +1,8 @@
-import 'package:countries_utils/flutter_country.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/cupertino.dart';
+import 'package:countries_utils/countries_utils.dart';
 
-class HomePage extends StatelessWidget {
+class HomeScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final List<Country> countries = Countries.all();

@@ -1,4 +1,4 @@
-library countries;
+library countries_utils;
 
 export 'models/country.dart';
 export 'models/country_list.dart';

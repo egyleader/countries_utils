@@ -7,9 +7,9 @@ class CurrencyList {
 
   factory CurrencyList.fromJson(List<Map<String, dynamic>> parsedJson) {
     var currencies = <Currency>[];
-    parsedJson.forEach((currency) {
+    for (var currency in parsedJson) {
       currencies.add(Currency.fromJson(currency));
-    });
+    }
     return CurrencyList(
       currencies: currencies,
     );
