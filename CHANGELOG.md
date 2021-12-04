@@ -1,7 +1,7 @@
 ## [1.0.1] 
 * updated library name and file structures
 * added dart docs support and generated docs
-* 
+* enhanced comments for library and functions
 * fixed test package in depedencies [issue](https://github.com/egyleader/countries_utils/issues/3) 
 ## [1.0.0]
 * migrated to null safety 🥳

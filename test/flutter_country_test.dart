@@ -30,10 +30,10 @@ void main() {
 
   test(
       'get country by timeZone ',
-      () => print(Countries.byTimeZone(TimeZone(
+      () => Countries.byTimeZone(TimeZone(
               offset: Duration(hours: 02, minutes: 00), offsetType: '+'))
           .countries
-          .length));
+          .length);
 
   test('get country by alpha2Code', () => Countries.byCode('EG'));
 

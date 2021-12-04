@@ -1,8 +1,7 @@
 name: countries_utils
-description: 'A lite flutter package for providing world Country Data without
-  internet connection, useful for country or language selector '
+description: 'A lite dart package for providing offline World Countires Data with helpful utils to your dart or flutter application'
   
-version: 1.0.0
+version: 1.0.1
 
 HomeScreen: https://github.com/egyleader/countries_utils.git
 

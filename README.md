@@ -3,8 +3,7 @@
 ![enter image description here](https://img.shields.io/github/issues/egyleader/countries) ![enter image description here](https://img.shields.io/github/forks/egyleader/countries) ![enter image description here](https://img.shields.io/github/stars/egyleader/countries) ![enter image description here](https://img.shields.io/twitter/url?url=https://github.com/egyleader/countries)
 
 
-A lite dart  package for providing World Countires Data without internet connection to your dart or flutter application
-with name translation and native names support 
+A lite dart package for providing offline World Countires Data with helpful utils to your dart or flutter application  
 
 [note] : this packege it migrated from the old ~~*flutter_countries*~~ name to **countries_utils** to make it suitable for all dart projects with no flutter dependecy.
 
