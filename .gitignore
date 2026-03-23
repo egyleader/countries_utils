@@ -77,5 +77,5 @@ build/
 *.g.dart
 *.freezed.dart
 
-# Regenerated data file (run: dart tool/fetch_countries.dart)
-lib/countries_data.dart
+# Generated code (rebuild with: dart run build_runner build)
+# lib/countries_data.dart is intentionally tracked — it ships with the package

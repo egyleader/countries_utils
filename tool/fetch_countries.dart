@@ -80,7 +80,7 @@ Future<void> main() async {
   buffer.writeln('// Source: REST Countries API v3.1 (https://restcountries.com)');
   buffer.writeln('// Generated: $timestamp — ${countries.length} countries');
   buffer.writeln();
-  buffer.writeln('// ignore_for_file: lines_longer_than_80_chars, constant_identifier_names');
+  buffer.writeln('// ignore_for_file: lines_longer_than_80_chars, constant_identifier_names, inference_failure_on_collection_literal');
   buffer.writeln();
   buffer.writeln('const List<Map<String, dynamic>> countriesData = [');
 

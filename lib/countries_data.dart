@@ -1,9 +1,9 @@
 // GENERATED — do not edit by hand.
 // Run: dart tool/fetch_countries.dart
 // Source: REST Countries API v3.1 (https://restcountries.com)
-// Generated: 2026-03-23T11:25:38.679299Z — 250 countries
+// Generated: 2026-03-23T11:43:16.895578Z — 250 countries
 
-// ignore_for_file: lines_longer_than_80_chars, constant_identifier_names
+// ignore_for_file: lines_longer_than_80_chars, constant_identifier_names, inference_failure_on_collection_literal
 
 const List<Map<String, dynamic>> countriesData = [
   {
