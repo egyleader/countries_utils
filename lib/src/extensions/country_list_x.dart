@@ -19,22 +19,24 @@ extension CountryListX on List<Country> {
   }
 
   /// Countries using the given ISO 4217 currency code (e.g. `'USD'`).
-  List<Country> withCurrency(String isoCode) => where((c) =>
-      c.currencies.any((cu) => cu.code.toUpperCase() == isoCode.toUpperCase()))
-      .toList();
+  List<Country> withCurrency(String isoCode) {
+    final code = isoCode.toUpperCase();
+    return where((c) => c.currencies.any((cu) => cu.code == code)).toList();
+  }
 
   /// Countries where [isoCode] is an official language (ISO 639-3).
-  List<Country> withLanguage(String isoCode) => where((c) =>
-      c.languages.any((l) => l.code.toLowerCase() == isoCode.toLowerCase()))
-      .toList();
+  List<Country> withLanguage(String isoCode) {
+    final code = isoCode.toLowerCase();
+    return where((c) => c.languages.any((l) => l.code == code)).toList();
+  }
 
   /// Countries whose calling code starts with [prefix] (e.g. `'1'` for +1).
   List<Country> withDialCode(String prefix) =>
       where((c) => c.callingCodes.any((cc) => cc.startsWith(prefix))).toList();
 
-  /// Countries bordering [alpha3Codes] (accepts alpha-3 codes).
+  /// Countries whose alpha-3 code is in [alpha3Codes] (i.e. the actual neighbours).
   List<Country> borderingCountries(List<String> alpha3Codes) =>
-      where((c) => alpha3Codes.any((code) => c.borders.contains(code)))
+      where((c) => c.alpha3Code != null && alpha3Codes.contains(c.alpha3Code))
           .toList();
 
   /// Countries larger than [km2] square kilometres.
