@@ -1,5 +1,4 @@
 import 'package:countries_utils/countries.dart';
-import 'package:countries_utils/models/timezone.dart';
 import 'package:test/test.dart';
 
 void main() {
@@ -11,115 +10,104 @@ void main() {
 
   test('get country by name', () {
     final country = Countries.byName('Afghanistan');
-    expect(country.alpha2Code, equals('AF'));
+    expect(country!.alpha2Code, equals('AF'));
   });
 
   test('get country all  Native name translations', () {
-    final nativeName = Countries.byName('Afghanistan').nativeName;
+    final nativeName = Countries.byName('Afghanistan')!.nativeName;
     expect(nativeName, isNotNull);
     expect(nativeName, isNotEmpty);
   });
 
   test('get country Native name translations', () {
-    final nativeName = Countries.byName('Afghanistan').nativeName;
+    final nativeName = Countries.byName('Afghanistan')!.nativeName;
     expect(nativeName, isNotNull);
     expect(nativeName, isNotEmpty);
   });
 
   test('get country all  name translations', () {
-    final translations = Countries.byName('Afghanistan').translations;
+    final translations = Countries.byName('Afghanistan')!.translations;
     expect(translations, isNotNull);
     expect(translations, isNotEmpty);
   });
 
   test('get country all  name altSpellings', () {
-    final altSpellings = Countries.byName('Afghanistan').altSpellings;
+    final altSpellings = Countries.byName('Afghanistan')!.altSpellings;
     expect(altSpellings, isNotNull);
     expect(altSpellings, isNotEmpty);
   });
 
   test('get country all  name demonym', () {
-    final demonym = Countries.byName('Afghanistan').demonym;
+    final demonym = Countries.byName('Afghanistan')!.demonym;
     expect(demonym, isNotNull);
     expect(demonym, isNotEmpty);
   });
 
-  test('get country all currnecies', () {
-    final currnecies = Countries.byName('Afghanistan').currnecies;
-    expect(currnecies, isNotNull);
+  test('get country all currencies', () {
+    final currencies = Countries.byName('Afghanistan')!.currencies;
+    expect(currencies, isNotNull);
   });
 
   test('get country name translated to one language ', () {
     // v3.1 uses ISO 639-3 codes (3-letter: 'ara') not ISO 639-1 (2-letter: 'ar')
-    final translated = Countries.byName('Afghanistan').translate('ara');
+    final translated = Countries.byName('Afghanistan')!.translate('ara');
     expect(translated, isNotNull);
     expect(translated, isNotEmpty);
   });
 
   test('get country by timeZone ', () {
-    // TimeZone lacks == override so byTimeZone uses reference equality (fixed in v2.0)
-    final result = Countries.byTimeZone(
-            TimeZone(offset: const Duration(hours: 02, minutes: 00), offsetType: '+'))
-        .countries;
-    expect(result, isA<List<dynamic>>());
+    // TimeZone now has value equality via freezed
+    final result = Countries.byTimeZone(const TimeZone(offset: '+04:30'));
+    expect(result, isA<List<Country>>());
+    expect(result, isNotEmpty);
   });
 
   test('get country by alpha2Code', () {
     final country = Countries.byCode('AF');
-    expect(country.name, contains('Afghanistan'));
+    expect(country!.name, contains('Afghanistan'));
     expect(country.alpha2Code, equals('AF'));
   });
 
   test('get country by alpha3Code', () {
     final country = Countries.byAlpha3Code('AFG');
-    expect(country.alpha2Code, equals('AF'));
+    expect(country!.alpha2Code, equals('AF'));
   });
 
   test('get country by byNumericCode', () {
     final country = Countries.byNumericCode('004');
-    expect(country.alpha2Code, equals('AF'));
+    expect(country!.alpha2Code, equals('AF'));
   });
 
-  test('get country by byCallingCode', () {
-    final country = Countries.byCallingCode('93');
-    expect(country.alpha2Code, equals('AF'));
+  test('get country by byDialCode', () {
+    final country = Countries.byDialCode('93');
+    expect(country!.alpha2Code, equals('AF'));
   });
 
   test('get country by capital', () {
     final country = Countries.byCapital('Kabul');
-    expect(country.alpha2Code, equals('AF'));
+    expect(country!.alpha2Code, equals('AF'));
   });
 
   test('get country by flag emoji ', () {
     final country = Countries.byFlag('🇦🇫');
-    expect(country.alpha2Code, equals('AF'));
+    expect(country!.alpha2Code, equals('AF'));
   });
 
-  // test('get country by language  code', () => Countries.byLanguageCode('ara'));
-
-  // test(
-  //     'get country by language name', () => Countries.byLanguageName('Arabic'));
-
   test('get UN Members countries', () {
-    // unMember field not populated in legacy v2 data (fixed after Phase 2 data sync)
     final result = Countries.unMembers();
-    expect(result, isList);
+    expect(result, isNotEmpty);
+    expect(result.length, greaterThan(150));
   });
 
-  test('get UN Members countries', () {
+  test('get independent countries', () {
     final result = Countries.independent();
     expect(result, isNotEmpty);
   });
 
   test('get countries by region ', () {
-    final result = Countries.byRegion('Asia');
+    final result = Countries.byRegion(Region.asia);
     expect(result, isNotEmpty);
-    expect(result.every((c) => c.region!.contains('Asia')), isTrue);
-  });
-
-  test('get countries by area  ', () {
-    final result = Countries.byArea(1002450);
-    expect(result, isNotNull);
+    expect(result.every((c) => c.region == Region.asia), isTrue);
   });
 
   test('get countries Bigger than given area  ', () {
@@ -130,18 +118,55 @@ void main() {
 
   test('get countries Smaller than given area  ', () {
     final result = Countries.areaSmallerThan(1);
-    expect(result.countries, isNotEmpty);
+    expect(result, isNotEmpty);
   });
 
   test('test country is landlocked', () {
-    // landLocked may be null in legacy v2 data; field access must not throw
-    final landLocked = Countries.byName('Afghanistan').landLocked;
-    expect(landLocked, anyOf(isNull, isA<bool>()));
+    final landLocked = Countries.byName('Afghanistan')!.landLocked;
+    expect(landLocked, isTrue);
   });
 
   test('test country border countries', () {
-    final borders = Countries.byName('Afghanistan').borders;
+    final borders = Countries.byName('Afghanistan')!.borders;
     expect(borders, isNotNull);
     expect(borders, isNotEmpty);
+  });
+
+  test('get landlocked countries', () {
+    final result = Countries.landlocked();
+    expect(result, isNotEmpty);
+    expect(result.any((c) => c.alpha2Code == 'AF'), isTrue);
+  });
+
+  test('search countries', () {
+    final result = Countries.search('afgh');
+    expect(result, isNotEmpty);
+    expect(result.any((c) => c.alpha2Code == 'AF'), isTrue);
+  });
+
+  test('get countries with currency', () {
+    final result = Countries.withCurrency('USD');
+    expect(result, isNotEmpty);
+  });
+
+  test('get countries with language', () {
+    final result = Countries.withLanguage('pus');
+    expect(result, isNotEmpty);
+    expect(result.any((c) => c.alpha2Code == 'AF'), isTrue);
+  });
+
+  test('get countries with dial code', () {
+    final result = Countries.withDialCode('1');
+    expect(result, isNotEmpty);
+  });
+
+  test('get all currencies', () {
+    final result = Countries.currencies();
+    expect(result, isNotEmpty);
+  });
+
+  test('get all languages', () {
+    final result = Countries.languages();
+    expect(result, isNotEmpty);
   });
 }

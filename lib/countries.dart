@@ -1,125 +1,136 @@
-import 'package:countries_utils/models/country.dart';
+import 'package:countries_utils/src/models/country.dart';
+import 'package:countries_utils/src/models/currency.dart';
+import 'package:countries_utils/src/models/language.dart';
+import 'package:countries_utils/src/models/region.dart';
+import 'package:countries_utils/src/models/timezone.dart';
 import 'package:countries_utils/countries_data.dart';
-import 'package:countries_utils/models/country_list.dart';
-import 'package:countries_utils/models/timezone.dart';
-import 'models/country.dart';
-import 'models/country_list.dart';
+import 'package:countries_utils/src/extensions/country_list_x.dart';
 
-class Countries {
-  /// This class is not meant to be instantiated or extended; this constructor
-  /// prevents instantiation and extension.
+export 'src/models/country.dart';
+export 'src/models/currency.dart';
+export 'src/models/language.dart';
+export 'src/models/region.dart';
+export 'src/models/timezone.dart';
+export 'src/extensions/country_list_x.dart';
+
+/// Query interface for the offline world countries dataset.
+///
+/// All methods return immutable [Country] value objects.
+/// Single-lookup methods return [Country?] (null when not found).
+final class Countries {
   Countries._();
-  static CountryList? _countriesList;
 
-  static final CountryList _countryData = _getCountries();
+  static final List<Country> _all = List.unmodifiable(
+    countriesData.map(Country.fromJson).toList(),
+  );
 
-  static CountryList _getCountries() => _countriesList ?? CountryList.fromJson(countriesData);
+  // ── Collection queries ─────────────────────────────────────────────────────
 
-  /// gets all the countries as a List of [Country]
-  static List<Country> all() {
-    return _countryData.countries;
+  /// All 250 countries.
+  static List<Country> all() => _all;
+
+  /// Countries in [region].
+  static List<Country> byRegion(Region region) => _all.byRegion(region);
+
+  /// Countries using [isoCode] currency (e.g. `'USD'`).
+  static List<Country> withCurrency(String isoCode) =>
+      _all.withCurrency(isoCode);
+
+  /// Countries with [isoCode] as an official language (ISO 639-3).
+  static List<Country> withLanguage(String isoCode) =>
+      _all.withLanguage(isoCode);
+
+  /// Countries whose calling code starts with [prefix] (e.g. `'1'`).
+  static List<Country> withDialCode(String prefix) =>
+      _all.withDialCode(prefix);
+
+  /// Countries sharing a land border with the country identified by [alpha3].
+  static List<Country> bordersOf(String alpha3) {
+    final country = byAlpha3Code(alpha3);
+    if (country == null) return const [];
+    return _all.borderingCountries(country.borders);
   }
 
-  /// gets country by Name Example
-  static Country byName(String name) {
-    Country country = _countryData.countries.where((c) => c.name == name).first;
-    return country;
+  /// Countries larger than [km2] km².
+  static List<Country> areaBiggerThan(double km2) =>
+      _all.areaBiggerThan(km2);
+
+  /// Countries smaller than [km2] km².
+  static List<Country> areaSmallerThan(double km2) =>
+      _all.areaSmallerThan(km2);
+
+  /// All UN member countries.
+  static List<Country> unMembers() => _all.unMembers;
+
+  /// All independent countries.
+  static List<Country> independent() => _all.independent;
+
+  /// All landlocked countries.
+  static List<Country> landlocked() => _all.landlocked;
+
+  /// Case-insensitive search across name, nativeName, altSpellings, capital.
+  static List<Country> search(String query) => _all.search(query);
+
+  /// All unique currencies across all countries.
+  static List<Currency> currencies() {
+    final seen = <String>{};
+    return [
+      for (final c in _all)
+        for (final cu in c.currencies)
+          if (seen.add(cu.code)) cu,
+    ];
   }
 
-  /// gets country by Alpha2 code
-  /// for more see : https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2
-  static Country byCode(String code) {
-    Country country = _countryData.countries.where((c) => c.alpha2Code == code).first;
-    return country;
+  /// All unique languages across all countries.
+  static List<Language> languages() {
+    final seen = <String>{};
+    return [
+      for (final c in _all)
+        for (final l in c.languages)
+          if (seen.add(l.code)) l,
+    ];
   }
 
-  /// gets country by Alpha3 code
-  /// for more see : https://en.wikipedia.org/wiki/ISO_3166-1_alpha-3
-  static Country byAlpha3Code(String code) {
-    Country country = _countryData.countries.where((c) => c.alpha3Code == code).first;
-    return country;
-  }
+  // ── Single-country lookups (return null when not found) ────────────────────
 
-  /// gets country by Alpha3 code
-  /// for more see : https://en.wikipedia.org/wiki/ISO_3166-1_numeric
-  static Country byNumericCode(String code) {
-    Country country = _countryData.countries.where((c) => c.numericCode == code).first;
-    return country;
-  }
+  /// Country by common name. Returns null if not found.
+  static Country? byName(String name) =>
+      _all.firstWhereOrNull((c) => c.name == name);
 
-  /// gets country by Alpha3 code
-  /// for more see : https://en.wikipedia.org/wiki/ISO_3166-1_numeric
-  static Country byCallingCode(String code) {
-    Country country = _countryData.countries.where((c) => c.callingCodes!.contains(code)).first;
-    return country;
-  }
+  /// Country by ISO 3166-1 alpha-2 code (e.g. `'US'`). Returns null if not found.
+  static Country? byCode(String code) => _all.byCode(code);
 
-  /// gets country by capital name
-  static Country byCapital(String capital) {
-    Country country = _countryData.countries.where((c) => c.capital!.contains(capital)).first;
-    return country;
-  }
+  /// Country by ISO 3166-1 alpha-3 code (e.g. `'USA'`). Returns null if not found.
+  static Country? byAlpha3Code(String code) =>
+      _all.firstWhereOrNull((c) => c.alpha3Code == code);
 
-  /// gets country by flag emoji icon
-  static Country byFlag(String flag) {
-    Country country = _countryData.countries.where((c) => c.flagIcon == flag).first;
-    return country;
-  }
+  /// Country by ISO 3166-1 numeric code (e.g. `'840'`). Returns null if not found.
+  static Country? byNumericCode(String code) =>
+      _all.firstWhereOrNull((c) => c.numericCode == code);
 
-  // static List<Country> byLanguageCode(String language) {
-  //   List<Country> countries = _countryData.countries
-  //       .where((c) => c.languages.containsKey(language))
-  //       .toList();
-  //   return countries;
-  // }
+  /// Country by dial/calling code (e.g. `'1'` for +1). Returns null if not found.
+  static Country? byDialCode(String code) =>
+      _all.firstWhereOrNull((c) => c.callingCodes.contains(code));
 
-  // static List<Country> byLanguageName(String language) {
-  //   List<Country> countries = _countryData.countries
-  //       .where((c) => c.languages.containsValue(language))
-  //       .toList();
-  //   return countries;
-  // }
+  /// Country by capital city name. Returns null if not found.
+  static Country? byCapital(String capital) =>
+      _all.firstWhereOrNull((c) => c.capital == capital);
 
-  static List<Country> unMembers() {
-    List<Country> countries = _countryData.countries.where((c) => c.unMember == true).toList();
-    return countries;
-  }
+  /// Country by flag emoji (e.g. `'🇺🇸'`). Returns null if not found.
+  static Country? byFlag(String flag) =>
+      _all.firstWhereOrNull((c) => c.flagIcon == flag);
 
-  /// gets all independent countries
-  /// TODO: move this in as a check in [Country] model
-  static List<Country> independent() {
-    List<Country> countries = _countryData.countries.where((c) => c.independent == true).toList();
-    return countries;
-  }
+  /// Countries sharing the given [timeZone] offset.
+  static List<Country> byTimeZone(TimeZone timeZone) =>
+      _all.where((c) => c.timeZones.contains(timeZone)).toList();
+}
 
-  /// gets countries by region
-  static List<Country> byRegion(String region) {
-    List<Country> countries = _countryData.countries.where((c) => c.region!.contains(region)).toList();
-    return countries;
-  }
-
-  /// gets country by exact area 
-  /// TODO : test this better 
-  /// 
-  static Country byArea(double area) {
-    Country countries = _countryData.countries.where((c) => c.area == area).first;
-    return countries;
-  }
-  /// gets countries that are bigger than certain area by KM
-  static List<Country> areaBiggerThan(double area) {
-    List<Country> countries = _countryData.countries.where((c) => c.area != null && c.area! > area).toList();
-    return countries;
-  }
-  /// gets countries that are smaller than certain area by KM
-  static CountryList areaSmallerThan(double area) {
-    List<Country> countries = _countryData.countries.where((c) => c.area != null && c.area! < area).toList();
-    return CountryList(countries: countries);
-  }
-  /// gets countries of certain timezone 
-  static CountryList byTimeZone(TimeZone timeZone) {
-    List<Country> countries = _countryData.countries
-        .where((c) => c.timeZones!.timeZones == null ? false : c.timeZones!.timeZones!.contains(timeZone))
-        .toList();
-    return CountryList(countries: countries);
+// Convenience extension used internally.
+extension<T> on List<T> {
+  T? firstWhereOrNull(bool Function(T) test) {
+    for (final e in this) {
+      if (test(e)) return e;
+    }
+    return null;
   }
 }
