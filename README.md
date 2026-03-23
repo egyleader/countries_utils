@@ -13,6 +13,95 @@ A lightweight, pure-Dart package for offline world countries data with a rich qu
 
 ---
 
+## Use Cases
+
+### Phone number input — validate a dial code
+
+```dart
+final country = Countries.byDialCode('20'); // Egypt (+20)
+print('${country?.name} ${country?.flagIcon}'); // Egypt 🇪🇬
+```
+
+### Country picker — build a searchable list
+
+```dart
+// Filter as the user types
+final results = Countries.search(query); // matches name, native name, capital
+```
+
+### Currency selector — show all countries using a currency
+
+```dart
+final euroZone = Countries.withCurrency('EUR');
+// 35 countries — show as a list with flags
+for (final c in euroZone) print('${c.flagIcon} ${c.name}');
+```
+
+### Locale / language detection — find countries by language
+
+```dart
+final arabicCountries = Countries.withLanguage('ara'); // ISO 639-3
+```
+
+### Address form — pre-fill region from a country code
+
+```dart
+final country = Countries.byCode(selectedCode);
+print(country?.region.displayName); // 'Africa', 'Americas', etc.
+print(country?.capital);
+print(country?.callingCodes.first); // '20'
+```
+
+### Map / geo feature — coordinates and neighbors
+
+```dart
+final de = Countries.byCode('DE')!;
+print(de.coordinates); // (lat: 51.0, lng: 9.0)
+
+final neighbors = Countries.bordersOf('DEU'); // List<Country>
+for (final n in neighbors) print('${n.flagIcon} ${n.name}');
+```
+
+### Travel app — timezone lookup
+
+```dart
+final tz = TimeZone(offset: '+09:00');
+final countries = Countries.byTimeZone(tz); // Japan, South Korea, ...
+```
+
+### Flags everywhere — emoji flag from any code
+
+```dart
+Countries.byCode('BR')?.flagIcon  // 🇧🇷
+Countries.byFlag('🇯🇵')?.name     // 'Japan'
+```
+
+### Data export — iterate all countries with full data
+
+```dart
+final all = Countries.all(); // List<Country>, 250 entries, offline
+final landlocked = Countries.landlocked(); // 44 countries
+final unMembers = Countries.unMembers();   // 193 countries
+```
+
+### Sorted lists — for dropdowns and pickers
+
+```dart
+final sorted = Countries.all().sortedByName;
+final largest = Countries.areaBiggerThan(1000000).sortedByArea;
+```
+
+### Translations — show country name in the user's language
+
+```dart
+final country = Countries.byCode('EG')!;
+country.translate('fra'); // 'Égypte'
+country.translate('ara'); // 'مصر'
+country.translate('deu'); // 'Ägypten'
+```
+
+---
+
 ## Installation
 
 ```yaml
