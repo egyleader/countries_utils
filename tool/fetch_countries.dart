@@ -7,30 +7,58 @@
 import 'dart:convert';
 import 'dart:io';
 
-const _apiUrl = 'https://restcountries.com/v3.1/all'
-    '?fields=name,cca2,cca3,ccn3,currencies,languages,capital,region,'
-    'subregion,timezones,borders,area,flags,latlng,altSpellings,translations,'
-    'independent,unMember,landlocked,demonyms,idd,tld,cioc,coatOfArms,maps,'
-    'continents,startOfWeek,status';
+// REST Countries v3.1 requires a fields param and limits to ≤10 fields per request.
+// We make 3 batched requests and merge results by cca2 code.
+const _baseUrl = 'https://restcountries.com/v3.1/all';
+const _batches = [
+  '$_baseUrl?fields=name,cca2,cca3,ccn3,currencies,languages,capital,region,subregion,timezones',
+  '$_baseUrl?fields=cca2,borders,area,flags,latlng,altSpellings,translations,independent,unMember,landlocked',
+  '$_baseUrl?fields=cca2,demonyms,idd,tld,cioc,maps,continents',
+];
 
 const _outputPath = 'lib/countries_data.dart';
 
-Future<void> main() async {
-  // 1. Fetch from API
-  stdout.writeln('Fetching country data from REST Countries v3.1 API...');
-  final client = HttpClient();
-  final request = await client.getUrl(Uri.parse(_apiUrl));
+Future<List<dynamic>> _fetch(HttpClient client, String url) async {
+  final request = await client.getUrl(Uri.parse(url));
   final response = await request.close();
   if (response.statusCode != 200) {
-    stderr.writeln('Error: HTTP ${response.statusCode}');
+    stderr.writeln('Error: HTTP ${response.statusCode} for $url');
     client.close();
     exit(1);
   }
   final body = await response.transform(utf8.decoder).join();
+  return jsonDecode(body) as List<dynamic>;
+}
+
+Future<void> main() async {
+  stdout.writeln('Fetching country data from REST Countries v3.1 API (3 batches)...');
+  final client = HttpClient();
+
+  // 1. Fetch all 3 batches
+  final batch1 = await _fetch(client, _batches[0]);
+  stdout.writeln('  Batch 1: ${batch1.length} countries');
+  final batch2 = await _fetch(client, _batches[1]);
+  stdout.writeln('  Batch 2: ${batch2.length} countries');
+  final batch3 = await _fetch(client, _batches[2]);
+  stdout.writeln('  Batch 3: ${batch3.length} countries');
   client.close();
 
-  // 2. Parse JSON
-  final List<dynamic> raw = jsonDecode(body) as List<dynamic>;
+  // 2. Merge batches by cca2 code
+  final merged = <String, Map<String, dynamic>>{};
+  for (final b in [batch1, batch2, batch3]) {
+    for (final entry in b) {
+      final c = entry as Map<String, dynamic>;
+      final code = c['cca2'] as String? ?? '';
+      if (merged.containsKey(code)) {
+        merged[code]!.addAll(c);
+      } else {
+        merged[code] = Map<String, dynamic>.from(c);
+      }
+    }
+  }
+
+  // 3. Map each merged country to internal schema
+  final List<dynamic> raw = merged.values.toList();
 
   // 3. Map each country to internal schema
   final countries = raw
