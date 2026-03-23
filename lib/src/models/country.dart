@@ -19,6 +19,7 @@ class Country with _$Country {
     String? alpha2Code,
     String? alpha3Code,
     String? numericCode,
+
     /// Olympic/CIOC code.
     String? olympicCode,
     @Default(false) bool independent,
@@ -33,6 +34,7 @@ class Country with _$Country {
     @Default([]) List<String> borders,
     double? area,
     @Default([]) List<String> flags,
+
     /// Flag emoji derived from alpha2Code.
     String? flagIcon,
     @Default([]) List<String> callingCodes,
@@ -82,9 +84,9 @@ class Country with _$Country {
     final translationsRaw = json['translations'];
     final translations = translationsRaw is Map
         ? Map.fromEntries(
-            (translationsRaw as Map).entries.map(
-              (e) => MapEntry(e.key as String, e.value?.toString() ?? ''),
-            ),
+            (translationsRaw).entries.map(
+                  (e) => MapEntry(e.key as String, e.value?.toString() ?? ''),
+                ),
           )
         : <String, String>{};
 
@@ -102,33 +104,29 @@ class Country with _$Country {
       independent: json['independent'] as bool? ?? false,
       unMember: json['unMember'] as bool? ?? false,
       landLocked: json['landLocked'] as bool? ?? false,
-      topLevelDomain: (json['topLevelDomain'] as List<dynamic>?)
-              ?.cast<String>()
-              .toList() ??
-          const [],
+      topLevelDomain:
+          (json['topLevelDomain'] as List<dynamic>?)?.cast<String>().toList() ??
+              const [],
       capital: json['capital'] as String?,
       region: Region.fromString(json['region'] as String?),
       subRegion: json['subRegion'] as String? ?? '',
       currencies: currencies,
       languages: languages,
-      borders:
-          (json['borders'] as List<dynamic>?)?.cast<String>().toList() ??
-              const [],
+      borders: (json['borders'] as List<dynamic>?)?.cast<String>().toList() ??
+          const [],
       area: (json['area'] as num?)?.toDouble(),
       flags: flags,
       flagIcon: alpha2 != null ? _flagEmoji(alpha2) : null,
-      callingCodes: (json['callingCodes'] as List<dynamic>?)
-              ?.cast<String>()
-              .toList() ??
-          const [],
+      callingCodes:
+          (json['callingCodes'] as List<dynamic>?)?.cast<String>().toList() ??
+              const [],
       latitude: lat,
       longitude: lng,
       timeZones: timeZones,
       translations: translations,
-      altSpellings: (json['altSpellings'] as List<dynamic>?)
-              ?.cast<String>()
-              .toList() ??
-          const [],
+      altSpellings:
+          (json['altSpellings'] as List<dynamic>?)?.cast<String>().toList() ??
+              const [],
       demonym: json['demonym'] as String?,
     );
   }

@@ -42,7 +42,8 @@ Future<List<dynamic>> _fetch(HttpClient client, String url) async {
 }
 
 Future<void> main() async {
-  stdout.writeln('Fetching country data from REST Countries v3.1 API (3 batches)...');
+  stdout.writeln(
+      'Fetching country data from REST Countries v3.1 API (3 batches)...');
   final client = HttpClient();
 
   // 1. Fetch all 3 batches
@@ -72,9 +73,8 @@ Future<void> main() async {
   final List<dynamic> raw = merged.values.toList();
 
   // 3. Map each country to internal schema
-  final countries = raw
-      .map((e) => _mapCountry(e as Map<String, dynamic>))
-      .toList();
+  final countries =
+      raw.map((e) => _mapCountry(e as Map<String, dynamic>)).toList();
 
   // 4. Sort countries by name for stable output
   countries.sort((a, b) {
@@ -88,10 +88,12 @@ Future<void> main() async {
   final buffer = StringBuffer();
   buffer.writeln('// GENERATED — do not edit by hand.');
   buffer.writeln('// Run: dart tool/fetch_countries.dart');
-  buffer.writeln('// Source: REST Countries API v3.1 (https://restcountries.com)');
+  buffer.writeln(
+      '// Source: REST Countries API v3.1 (https://restcountries.com)');
   buffer.writeln('// Generated: $timestamp — ${countries.length} countries');
   buffer.writeln();
-  buffer.writeln('// ignore_for_file: lines_longer_than_80_chars, constant_identifier_names, inference_failure_on_collection_literal');
+  buffer.writeln(
+      '// ignore_for_file: lines_longer_than_80_chars, constant_identifier_names, inference_failure_on_collection_literal');
   buffer.writeln();
   buffer.writeln('const List<Map<String, dynamic>> countriesData = [');
 
@@ -222,9 +224,8 @@ Map<String, dynamic> _mapCountry(Map<String, dynamic> c) {
   final independent = c['independent'] as bool? ?? false;
   final unMember = c['unMember'] as bool? ?? false;
   final continentsList = c['continents'] as List<dynamic>? ?? [];
-  final continent = continentsList.isNotEmpty
-      ? continentsList.first as String? ?? ''
-      : '';
+  final continent =
+      continentsList.isNotEmpty ? continentsList.first as String? ?? '' : '';
 
   // maps
   final mapsObj = c['maps'] as Map<String, dynamic>? ?? {};

@@ -41,8 +41,7 @@ final class Countries {
       _all.withLanguage(isoCode);
 
   /// Countries whose calling code starts with [prefix] (e.g. `'1'`).
-  static List<Country> withDialCode(String prefix) =>
-      _all.withDialCode(prefix);
+  static List<Country> withDialCode(String prefix) => _all.withDialCode(prefix);
 
   /// Countries sharing a land border with the country identified by [alpha3].
   static List<Country> bordersOf(String alpha3) {
@@ -52,12 +51,10 @@ final class Countries {
   }
 
   /// Countries larger than [km2] km².
-  static List<Country> areaBiggerThan(double km2) =>
-      _all.areaBiggerThan(km2);
+  static List<Country> areaBiggerThan(double km2) => _all.areaBiggerThan(km2);
 
   /// Countries smaller than [km2] km².
-  static List<Country> areaSmallerThan(double km2) =>
-      _all.areaSmallerThan(km2);
+  static List<Country> areaSmallerThan(double km2) => _all.areaSmallerThan(km2);
 
   /// All UN member countries.
   static List<Country> unMembers() => _all.unMembers;

@@ -8545,7 +8545,8 @@ const List<Map<String, dynamic>> countriesData = [
       'openstreetmap': 'https://www.openstreetmap.org/relation/913110',
     },
     'name': 'Hong Kong',
-    'officialName': 'Hong Kong Special Administrative Region of the People\'s Republic of China',
+    'officialName':
+        'Hong Kong Special Administrative Region of the People\'s Republic of China',
     'nativeName': 'Hong Kong',
     'numericCode': '344',
     'continent': 'Asia',
@@ -11214,7 +11215,8 @@ const List<Map<String, dynamic>> countriesData = [
     ],
     'maps': {
       'gmaps': 'https://goo.gl/maps/L6b2AgndgHprt2Ko9',
-      'openstreetmap': 'https://www.openstreetmap.org/relation/2171347#map=10/49.8167/6.1335',
+      'openstreetmap':
+          'https://www.openstreetmap.org/relation/2171347#map=10/49.8167/6.1335',
     },
     'name': 'Luxembourg',
     'officialName': 'Grand Duchy of Luxembourg',
@@ -11306,7 +11308,8 @@ const List<Map<String, dynamic>> countriesData = [
       'openstreetmap': 'https://www.openstreetmap.org/relation/1867188',
     },
     'name': 'Macau',
-    'officialName': 'Macao Special Administrative Region of the People\'s Republic of China',
+    'officialName':
+        'Macao Special Administrative Region of the People\'s Republic of China',
     'nativeName': 'Macau',
     'numericCode': '446',
     'continent': 'Asia',
@@ -13634,7 +13637,8 @@ const List<Map<String, dynamic>> countriesData = [
     ],
     'maps': {
       'gmaps': 'https://goo.gl/maps/xXiDQo65dwdpw9iu8',
-      'openstreetmap': 'https://www.openstreetmap.org/relation/556706#map=5/-46.710/172.046',
+      'openstreetmap':
+          'https://www.openstreetmap.org/relation/556706#map=5/-46.710/172.046',
     },
     'name': 'New Zealand',
     'officialName': 'New Zealand',
@@ -15941,7 +15945,8 @@ const List<Map<String, dynamic>> countriesData = [
     ],
     'maps': {
       'gmaps': 'https://goo.gl/maps/4F4PpDhGJgVvLby57',
-      'openstreetmap': 'https://www.openstreetmap.org/relation/60189#map=3/65.15/105.29',
+      'openstreetmap':
+          'https://www.openstreetmap.org/relation/60189#map=3/65.15/105.29',
     },
     'name': 'Russia',
     'officialName': 'Russian Federation',
@@ -16295,7 +16300,8 @@ const List<Map<String, dynamic>> countriesData = [
     ],
     'maps': {
       'gmaps': 'https://goo.gl/maps/iv4VxnPzHkjLCJuc6',
-      'openstreetmap': 'https://www.openstreetmap.org/relation/4868269#map=13/-15.9657/-5.7120',
+      'openstreetmap':
+          'https://www.openstreetmap.org/relation/4868269#map=13/-15.9657/-5.7120',
     },
     'name': 'Saint Helena, Ascension and Tristan da Cunha',
     'officialName': 'Saint Helena, Ascension and Tristan da Cunha',
@@ -20674,7 +20680,8 @@ const List<Map<String, dynamic>> countriesData = [
     ],
     'maps': {
       'gmaps': 'https://goo.gl/maps/e8M246zY4BSjkjAv6',
-      'openstreetmap': 'https://www.openstreetmap.org/relation/148838#map=2/20.6/-85.8',
+      'openstreetmap':
+          'https://www.openstreetmap.org/relation/148838#map=2/20.6/-85.8',
     },
     'name': 'United States',
     'officialName': 'United States of America',
