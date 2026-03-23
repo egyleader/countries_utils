@@ -2,7 +2,7 @@ import 'package:countries_utils/countries_utils.dart';
 
 void main() {
   // 1. Total count
-  final all = Countries.all().countries;
+  final all = Countries.all();
   print('Total countries: ${all.length}');
   print('');
 
@@ -22,12 +22,12 @@ void main() {
   print('');
 
   // 4. UN Members
-  final unMembers = Countries.unMembers().countries;
+  final unMembers = Countries.unMembers();
   print('UN Members: ${unMembers.length}');
   print('');
 
   // 5. Largest countries by area
-  final large = Countries.areaBiggerThan(2_000_000);
+  final large = Countries.areaBiggerThan(2000000);
   print('Countries larger than 2,000,000 km²:');
   large.forEach((c) => print('  - ${c.name}: ${c.area} km²'));
   print('');

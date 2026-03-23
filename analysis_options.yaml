@@ -13,7 +13,6 @@ linter:
   rules:
     - always_declare_return_types
     - avoid_dynamic_calls
-    - avoid_returning_null_for_future
     - cancel_subscriptions
     - prefer_const_constructors
     - prefer_final_fields

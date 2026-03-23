@@ -1,12 +1,11 @@
-// To run: dart pub add http --dev && dart tool/fetch_countries.dart
+// To run: dart tool/fetch_countries.dart
+// (No extra dependencies needed — uses dart:io HttpClient)
 
 // GENERATED TOOL — fetches country data and regenerates lib/countries_data.dart
 // Source: REST Countries API v3.1 (https://restcountries.com)
 
 import 'dart:convert';
 import 'dart:io';
-
-import 'package:http/http.dart' as http;
 
 const _apiUrl = 'https://restcountries.com/v3.1/all'
     '?fields=name,cca2,cca3,ccn3,currencies,languages,capital,region,'
@@ -19,14 +18,19 @@ const _outputPath = 'lib/countries_data.dart';
 Future<void> main() async {
   // 1. Fetch from API
   stdout.writeln('Fetching country data from REST Countries v3.1 API...');
-  final response = await http.get(Uri.parse(_apiUrl));
+  final client = HttpClient();
+  final request = await client.getUrl(Uri.parse(_apiUrl));
+  final response = await request.close();
   if (response.statusCode != 200) {
     stderr.writeln('Error: HTTP ${response.statusCode}');
+    client.close();
     exit(1);
   }
+  final body = await response.transform(utf8.decoder).join();
+  client.close();
 
   // 2. Parse JSON
-  final List<dynamic> raw = jsonDecode(response.body) as List<dynamic>;
+  final List<dynamic> raw = jsonDecode(body) as List<dynamic>;
 
   // 3. Map each country to internal schema
   final countries = raw
@@ -175,6 +179,7 @@ Map<String, dynamic> _mapCountry(Map<String, dynamic> c) {
   // region from v3.1 = broad region (Asia, Europe…); subregion = detailed
   final region = c['region'] as String? ?? '';
   final subRegion = c['subregion'] as String? ?? '';
+  // ignore: unused_local_variable — used below in return map
   final independent = c['independent'] as bool? ?? false;
   final unMember = c['unMember'] as bool? ?? false;
   final continentsList = c['continents'] as List<dynamic>? ?? [];
@@ -209,7 +214,7 @@ Map<String, dynamic> _mapCountry(Map<String, dynamic> c) {
     'nativeName': nativeName,
     'numericCode': numericCode,
     'continent': continent,
-    'region': subRegion,
+    'region': region,
     'subRegion': subRegion,
     'timezones': timezones,
     'topLevelDomain': tld,
@@ -252,7 +257,7 @@ String _dartMapLiteral(dynamic value, {String indent = ''}) {
     final sb = StringBuffer();
     sb.writeln('[');
     for (final item in value) {
-      sb.write('$childIndent');
+      sb.write(childIndent);
       sb.write(_dartMapLiteral(item, indent: childIndent));
       sb.writeln(',');
     }
