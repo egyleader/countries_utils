@@ -81,7 +81,11 @@ class Country with _$Country {
     // translations — {lang: name}
     final translationsRaw = json['translations'];
     final translations = translationsRaw is Map
-        ? translationsRaw.cast<String, String>()
+        ? Map.fromEntries(
+            (translationsRaw as Map).entries.map(
+              (e) => MapEntry(e.key as String, e.value?.toString() ?? ''),
+            ),
+          )
         : <String, String>{};
 
     // flag emoji from alpha2Code
@@ -140,8 +144,16 @@ class Country with _$Country {
 }
 
 /// Converts ISO 3166-1 alpha-2 code to its regional-indicator flag emoji.
+/// Returns an empty string if [alpha2] is not exactly two ASCII letters.
 String _flagEmoji(String alpha2) {
+  final upper = alpha2.toUpperCase();
+  if (upper.length != 2 ||
+      upper.codeUnitAt(0) < 0x41 ||
+      upper.codeUnitAt(0) > 0x5A ||
+      upper.codeUnitAt(1) < 0x41 ||
+      upper.codeUnitAt(1) > 0x5A) {
+    return '';
+  }
   const base = 0x1F1E6 - 0x41;
-  return String.fromCharCodes(
-      alpha2.toUpperCase().codeUnits.map((c) => base + c));
+  return String.fromCharCodes(upper.codeUnits.map((c) => base + c));
 }
