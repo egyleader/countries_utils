@@ -17,6 +17,7 @@ const _batches = [
 ];
 
 const _outputPath = 'lib/countries_data.dart';
+const _maxBodyBytes = 20 * 1024 * 1024; // 20 MB guard
 
 Future<List<dynamic>> _fetch(HttpClient client, String url) async {
   final request = await client.getUrl(Uri.parse(url));
@@ -26,8 +27,18 @@ Future<List<dynamic>> _fetch(HttpClient client, String url) async {
     client.close();
     exit(1);
   }
-  final body = await response.transform(utf8.decoder).join();
-  return jsonDecode(body) as List<dynamic>;
+  var bytesRead = 0;
+  final chunks = <String>[];
+  await for (final chunk in response.transform(utf8.decoder)) {
+    bytesRead += chunk.length;
+    if (bytesRead > _maxBodyBytes) {
+      stderr.writeln('Error: response exceeds $_maxBodyBytes bytes for $url');
+      client.close();
+      exit(1);
+    }
+    chunks.add(chunk);
+  }
+  return jsonDecode(chunks.join()) as List<dynamic>;
 }
 
 Future<void> main() async {
@@ -158,7 +169,7 @@ Map<String, dynamic> _mapCountry(Map<String, dynamic> c) {
   final timezonesRaw = c['timezones'] as List<dynamic>? ?? [];
   final timezones = timezonesRaw.map((tz) {
     final s = tz as String;
-    if (s == 'UTC') return '00:00';
+    if (s == 'UTC') return '+00:00';
     return s.startsWith('UTC') ? s.substring(3) : s;
   }).toList();
 
