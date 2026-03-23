@@ -301,6 +301,7 @@ String _dartString(String s) {
   final escaped = s
       .replaceAll(r'\', r'\\')
       .replaceAll("'", r"\'")
+      .replaceAll(r'$', r'\$')
       .replaceAll('\n', r'\n')
       .replaceAll('\r', r'\r')
       .replaceAll('\t', r'\t');

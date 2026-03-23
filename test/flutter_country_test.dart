@@ -50,7 +50,8 @@ void main() {
   });
 
   test('get country name translated to one language ', () {
-    final translated = Countries.byName('Afghanistan').translate('ar');
+    // v3.1 uses ISO 639-3 codes (3-letter: 'ara') not ISO 639-1 (2-letter: 'ar')
+    final translated = Countries.byName('Afghanistan').translate('ara');
     expect(translated, isNotNull);
     expect(translated, isNotEmpty);
   });
@@ -60,7 +61,7 @@ void main() {
     final result = Countries.byTimeZone(
             TimeZone(offset: const Duration(hours: 02, minutes: 00), offsetType: '+'))
         .countries;
-    expect(result, isA<List>());
+    expect(result, isA<List<dynamic>>());
   });
 
   test('get country by alpha2Code', () {
