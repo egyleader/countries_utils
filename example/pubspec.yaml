@@ -1,22 +1,13 @@
-name: country_picker
-description: new flutter project for copertino country picker
+name: countries_utils_example
+description: A pure Dart CLI demo for the countries_utils package.
 
-publish_to: none #prevent publishing of example app 
+publish_to: none
 
-version: 1.0.0+1
+version: 1.0.0
 
 environment:
   sdk: ">=2.12.0 <3.0.0"
 
 dependencies:
-  flutter:
-    sdk: flutter
-  countries_utils: 
+  countries_utils:
     path: ../
-
-dev_dependencies:
-  flutter_lints: ^1.0.4
-
-flutter:
-
-  uses-material-design: true
