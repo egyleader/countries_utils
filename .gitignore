@@ -72,3 +72,10 @@ build/
 !**/ios/**/default.mode2v3
 !**/ios/**/default.pbxuser
 !**/ios/**/default.perspectivev3
+
+# Dart code generation
+*.g.dart
+*.freezed.dart
+
+# Regenerated data file (run: dart tool/fetch_countries.dart)
+lib/countries_data.dart
